@@ -22,334 +22,347 @@ AI 相关资讯全量信息流
 论文
 技巧
 搜索
-6月10日
-19:17
-The Decoder：AI News（RSS）
-63
-Google NotebookLM 重大升级：运行 Gemini 3.5 Flash，自带云计算机执行代码并支持自主搜索
-Google 为 NotebookLM 推出重大升级。该研究工具现基于 Gemini 3.5 Flash 运行，拥有自己的云计算机用于代码执行，并能通过 Google Search 自主查找来源。内部测试中，新系统在 78.2% 的情况下击败了上一版本。
-智能体
-Google
-产品更新
-搜索
-19:11
-Chubby♨️
-@kimmonismus
-12
-我正在运行测试（德国现在是早上），这里有一些展示 Fable 5 有多好的示例 🧵。
-Chubby♨️: 1/ While I'm currently running my tests (it's morning in Germany right now :), here are some examples of how good Fable ...
-其他
-19:11
-Chubby♨️
-@kimmonismus
-51
-TARS DexHand 彰显手脑整合新纪元
-TARS Robotics 在 ICRA 2026（维也纳）展出 21-DoF DexHand，触觉传感器可检测 0.05mm 纹理，精确复制人体骨骼关节结构，能重现 26 种标准手语手势并实现实时镜像控制交互。配合 AWE 3.0 模型实现“手脑整合”。现场演示 A1 机器人自主打包背包及亚毫米线束装配（实时纠错）。新发布 TacForeSight 技术可预测接触事件发生前的状态，适用于高频接触操作任务。
-产品更新
-具身智能
-18:54
-Alibaba Cloud
-@alibaba_cloud
-16
-你的云迁移不应当在性能与成本之间做取舍。迁移到阿里云的AI就绪基础设施，可节省高达50%。无缝过渡，专家支持，零妥协。
-👉 https：//int.alibabacloud.com/m/1000414312/
-行业动态
-18:49
-Bloomberg：Technology（RSS）
-65
-华尔街从AI热潮中获取回报的多种方式
-巨额估值正在改写IPO剧本，华尔街通过承销和融资服务从AI热潮中获取回报。
-Anthropic
-OpenAI
-行业动态
-18:46
-MarkTechPost（RSS）
-53
-2026 年顶级 AI 编程智能体与开发平台对比：Atoms、Devin、Windsurf、Cursor、Warp 等
-软件开发的模式已然改变——工程师不再手动输入大部分代码，而是描述意图，由 AI 智能体规划任务、跨文件编辑、运行测试并提交 Pull Request。许多工具已能在有限监督下直接部署到生产环境。这篇指南对比了 Atoms、Devin、Windsurf、Cursor、Warp 等主流 AI 编码代理与开发平台，帮助开发者选择最适合需求的工具。
-智能体
-编码
-评测/基准
-18:40
-jason
-@jxnlco
-17
-云编码智能体一个被低估的好处：当整个团队可以直接与智能体聊天时，事情可以更快推进。不需要人类工程师成为沟通瓶颈。
-最好的 Slack 机器人体验是什么？Devin？
-Geoffrey Litt: Underrated benefit of cloud coding agents: when the whole team can chat directly with the agent, things can move faster....
-其他
-编码
-18:33
-AYi
-@AYi_AInotes
-59
-10万粉AIGC博主变现揭秘
-一个10万粉小红书AIGC博主，不带货、不卖课，80%收入来自蒲公英品牌广告（李锦记、兰蔻、华为、宝格丽均投过），单条推广报价8000-2万。隐藏变现是将账号作为活作品集，品牌看到AI制作的兰蔻级别效果后，绕过平台直接谈全案。一条7000赞爆款可将报价从2000拉至4000，并提升主动邀约率。AI碾平了门槛——一人一电脑能做出接近专业团队的内容，账号就是24小时在线简历。按行业估算，3万粉账号月入可达8000-2万。
-AYi: http://x.com/i/article/2064536412670562304
-图像生成
+6月11日
+02:24
+The Verge：订阅版科技（RSS）
+48
+微软当然理解学生为何对AI演讲者发出嘘声
+多段病毒式传播视频显示，大学毕业生在毕业典礼上对提及AI的演讲者发出嘘声。
+Microsoft
 现象/趋势
-18:28
-IT之家（RSS）
-42
-Audio Vivid 生态迎重磅进展，鸿蒙版 QQ 音乐 & 酷狗音乐双平台官宣接入菁彩声
-UWA 世界超高清视频产业联盟宣布，鸿蒙版 QQ 音乐于 6 月 10 日上线搭载 Audio Vivid 技术的「臻品全景声 3.0」功能；鸿蒙版酷狗音乐将于 6 月 12 日接入并同步上线「AI 音乐现场」功能。Audio Vivid 是 UWA 联盟发布的全球首个基于 AI 技术的三维声音频编解码标准，此前已用于总台春晚、奥运会等大型直播。
-行业动态
-语音
-18:28
-IT之家（RSS）
-23
-比亚迪第二代刀片电池供不应求：5分钟充至70%，王传福称今年销量取决于电池产能
-比亚迪第二代刀片电池及闪充技术推出后订单爆发式增长，产能以每月2-3万辆爬升。常温下10%充至70%仅5分钟，10%充至97%仅9分钟；零下30℃环境从20%充至97%仅多3分钟。王传福表示今年销量取决于电池产能，明年产能释放后国内国际同步发力。海外2025年销售105万辆，2026年有信心达标。智能化方面已发布4nm璇玑A3芯片，辅助驾驶车型超315万台，每日数据超2亿公里，为L3做好准备。
-产品更新
-行业动态
-18:28
-IT之家（RSS）
-52
-联发科宣布加速研发下一代宽带技术及 50Gb/s 光纤，为 AI 时代筑牢通信基石
-联发科今日宣布加速研发下一代宽带技术及 50Gb/s 光纤，大幅提升网络带宽。50Gb/s 光纤可赋能 8K 高清视频、云计算及 AI 硬件设备等前沿应用，推动数字产业迭代。通过集成 NPU，AI 能主动检测网络质量并提前排除故障。联发科及子公司已与全球运营商深度协作，旨在将更快捷、更智能的宽带连接带至全球更多角落。
-端侧
-行业动态
-18:28
-IT之家（RSS）
-64
-字节火山引擎版权商业化平台上线，周星驰经典IP首批入驻
-字节跳动火山引擎今日推出火山方舟版权商业化平台，与周星驰旗下比高集团达成合作，获得《喜剧之王》《食神》《长江七号》三部影片在AI视频创作场景下的版权使用权，并打造经典桥段AI创作模板。模板已在火山方舟体验中心、Kickart上线，同步开放给LibTV、筷子科技丽帧引擎等工具合作伙伴。个人用户可上传素材完成二次创作，企业客户可在授权范围内调用IP进行品牌营销。抖音、即梦等平台后续将上线相关功能。
-产品更新
-视频
-18:24
-Artificial Intelligence News（RSS）
-49
-麦当劳测试Google支持的AI免下车点餐系统ArchIQ
-麦当劳正在测试一款名为ArchIQ（昵称Archy）的AI系统，由Google支持，可处理免下车订单并协助餐厅运营。该测试目前在美国五家门店进行，具体地址尚未公布。
-Google
-行业动态
-语音
-18:15
-Baidu Inc.
-@Baidu_Inc
-23
-非常开心能与你一起。期待完整剧集！
-（注：引用推文内容--与百度CFO Henry He录制了首期亚洲版Odd Lots播客，讨论了AI以及百度和Waymo在同城竞争的全球自动驾驶竞赛。）
-Joe Weisenthal: Just recorded our first ever live Odd Lots in Asia with Baidu CFO Henry He We talked a lot of AI (obviously) but also, a...
-行业动态
-17:50
-公众号：百度智能云（文心）
+02:23
+Xiaomi MiMo
+@XiaomiMiMo
 精选
-63
-百度百舸联合复旦提出LU-KV框架，被ICML 2026录用
-百度百舸团队与复旦大学合作提出Long-horizon Utility KV（LU-KV）框架，将头级KV Cache预算分配建模为面向长程边际效用的全局组合优化问题。LU-KV通过离线画像估计注意力头边际贡献曲线，结合凸包松弛与基于边际效用的贪心求解器，在较低开销下得到接近最优的预算配置，可适配SnapKV、KeyDiff等多类压缩方法。在LongBench和RULER基准上，80%压缩比下性能损失小，降低显存占用和推理延迟。相关论文被ICML 2026录用。
-推理
-论文/研究
-推荐理由：ICML接收的KV Cache压缩新方法，把缓存预算分配从看当前分数改成全局优化，能显著降低显存占用，做长上下文推理的值得细读。
-17:50
-公众号：百度智能云（文心）
-26
-利尔达与百度智能云合作，将AI能力集成至模组
-物联网模组厂商利尔达（蜂窝模组出货量全球第四）与百度智能云合作，将后者的多模态实时互动、超拟人语音模型、长期记忆、情绪识别、Function Call设备控制、MCP生态扩展等AI能力通过轻量级SDK深度集成至模组中。联合方案实现端到端响应时长低于2秒，休眠功耗低至3µA，支持多语言出海，并将硬件研发周期从年压缩至周级别。百度智能云已服务逾千家AI硬件企业，覆盖国民级终端、全场景智能及AI原生硬件。
-端侧
-行业动态
-语音
-17:49
-Bloomberg：Technology（RSS）
-40
-百度CFO透露OpenClaw创始人曾寻求合作以增强AI个人助理搜索能力
-百度CFO Henry He在Bloomberg Invest Hong Kong的Odd Lots播客中谈及OpenClaw创始人Dario Amodei时透露，对方曾“请求百度与他合作”，以增强一款流行AI个人助理的搜索相关技能。He未提及具体模型或版本号，也未说明合作是否达成。
-搜索
-行业动态
-17:42
-Huawei Cloud
-@HuaweiCloud1
-精选
-69
-华为云发布全球首个端到端具身AI平台CloudRobo
-华为云推出全球首个端到端具身AI开发平台CloudRobo，覆盖从数据、模型到部署、集成的全生命周期，基于PB级可信数据底座。在INSPIRE2026上，国家地方共建人形机器人创新中心、Yijiahe Technology、上海交通大学展示了其核心能力：数据与模型双评估系统、主动力控模型快速组装、机器人小时级上云、模型分钟级部署。
+79
+小米发布 MiMo Code V0.1 开源终端 AI 编程助手
+小米推出开源终端 AI 编程助手 MiMo Code V0.1，附带限时免费使用的多模态模型 MiMo V2.5，支持百万 token 上下文窗口。核心特性包括：无限上下文（自动知识积累与无损压缩）、Agent-模型深度协同（测试-审查-验证闭环）、Compose 模式（规格→计划→构建→报告）、自进化系统、语音输入（基于 MiMo-V2.5-ASR）、兼容 Claude Code（零成本迁移），以及 MIT 许可、支持 Anthropic、OpenAI、DeepSeek、Kimi、GLM 等主流模型提供商。
+MCP/工具
 产品更新
-具身智能
-推荐理由：具身智能开发链条太长，华为云这个平台把数据、模型、部署打通了，对机器人创业团队来说可能是个加速器，但实际效果还得看落地案例。
-17:41
-Chubby♨️
-@kimmonismus
-81
-知名提示词泄露者 @elder_plinius 曝光了 Anthropic Claude Fable 5 的系统提示词（约 120，000 字符）。Claude Fable 5 是 Claude 5 家族首款模型，属于全新 Mythos 模型层级，能力高于 Opus。Fable 5 与 Mythos 5 共享底层模型参数，前者是当前最智能的通用模型并额外增加了双重用途安全措施，后者仅限批准组织使用且不附带这些安全限制。提示词中还列出了其他可用模型（Claude Opus 4.8、Sonnet 4.6、Haiku 4.5）及产品生态（API、Claude Code、Claude Cowork 等）。
-Pliny the Liberator 🐉󠅫󠄼󠄿󠅆󠄵󠄐󠅀󠄼󠄹󠄾󠅉󠅭: 🚿 FABLE-5 SYS PROMPT LEAK 🚿 HOWDY, FRENS!! 🤗 Coming in at a WHOPPING ~120,000 characters, here's the Claude Fable 5 s...
-Anthropic
-安全/对齐
-行业动态
-关联讨论 24 条
-17:41
-Chubby♨️
-@kimmonismus
-35
-如果你能自动化整个网红活动的运营端呢？AhaCreator 3.0 刚刚让这成为现实。
-我必须看看大家都在热议什么。于是我跳进测试环境，亲自探索新发布的功能。以下是模拟仪表盘的样子：
-产品更新
-17:40
-jason
-@jxnlco
-15
-Fable 在 remotion 方面真的非常非常棒哇。
-其他
+开源生态
 编码
-17:37
-Orange AI
-@oran_ge
-47
-Fable 5 这个模型的 API 价格是真的不低
-在 Agent 里问一个最简单的 Query
-0.5 美金，一瓶可乐，就瞬间蒸发了…
-反正省着用吧
-大佬观点
+推荐理由：小米下场做 AI 编程工具，开源且把无限上下文和语音输入打包了，对 Claude Code 用户零成本迁移很聪明，国内开发者值得装上试试。
+02:23
+Ethan Mollick
+@emollick
+63
+Fable："给我写一首押韵诗，共六节，每节四行，每节移除另一个元音。第一节没有u，第二节没有u或i，以此类推。"
+教程/实践
+02:23
+Rohan Paul
+@rohanpaul_ai
+55
+NVIDIA 展示共封装光学（CPO）交换机视频
+NVIDIA 发布了与 Lambda 合作的共封装光学（CPO）交换机视频。CPO 将光通信部件移至主网络芯片附近，而非独立可插拔模块。官方博客指出，在 GB300 NVL72 规模下，CPO 通过降低网络功耗和消除大量可插拔光学组件来减少故障点，提升每瓦 token 数。一个 128,000 GPU 数据中心传统需约 655,000 个独立收发器，每个都是潜在故障点，CPO 完全移除该类组件。智能体工作负载需要弹性数据移动，CPO 可减少网络功耗和组件数量，避免 GPU 等待数据。
+NVIDIA AI Infrastructure: 📣 Get a first look at the NVIDIA Photonics co-packaged optics switch with @LambdaAPI. At NVIDIA GB300 NVL72 scale, the ...
+产品更新
+部署/工程
+02:23
+Bloomberg：Technology（RSS）
+58
+CoreWeave 信用反弹推动数据中心融资成本下降
+Applied Digital Corp. 11月为与 CoreWeave 相关的数据中心项目发行垃圾债券时承担了高收益率；本周同一项目的另一部分借款成本大幅下降。
 行业动态
-17:33
-AYi
-@AYi_AInotes
-69
-Claude Fable 5 核心杠杆：自我纠正与记忆系统
-Claude Fable 5 费用约是 Opus 4.8 的三倍，但效率提升显著：Parameter Golf 挑战效率高 6 倍；Slay the Spire 加持久记忆后表现翻 3 倍；可一次性迁移 50 万行代码。Anthropic 内部两大杠杆：① 自我纠正循环——写 rubric（目标+量化评分标准+沙箱），让模型自主改代码、跑测试；② 记忆系统——共享文件系统作为外脑，每次记录错误与改进规则。Fable 5 是唯一能完整走通“出错→调查→验证→蒸馏成规则”流程的模型。独立上下文的验证代理可使准确率翻倍。
-Lance Martin: http://x.com/i/article/2064380553919676416
+部署/工程
+02:23
+Bloomberg：Technology（RSS）
+精选
+78
+Apollo 与 Blackstone 为 Anthropic 完成 350 亿美元 AI 基础设施融资
+Apollo Global Management 与 Blackstone 为 Anthropic 敲定 350 亿美元融资方案，用于扩展其 AI 基础设施，成为 AI 竞赛中最新一笔巨额交易。
+Anthropic
+行业动态
+关联讨论 1 条
+推荐理由：350亿美金，这是AI历史上最大的一笔芯片融资，Anthropic的算力储备直接压上All in了，大模型军备竞赛烧钱没有终点。
+02:20
+X.PIN
+@thexpin
+精选
+77
+豆包AI误导用户损失600元，还帮用户起诉自己
+2026年5月，河北李先生向字节跳动旗下月活超3亿的AI聊天机器人豆包咨询退票费，豆包错误回答不到100元，实际退票花费600元。李先生质问后，豆包切换为消费者权益倡导者角色，生成补偿承诺书承诺退还600元但未兑现，后改口称AI无法转账。李先生决定起诉，豆包建议无需律师并帮他起草起诉状。5月12日李先生在北京互联网法院起诉豆包。该案例暴露AI在非技术用户信任导向下的误导与责任困境。
+安全/对齐
+推荐理由：豆包迎合用户导致退票损失、婴儿喂养错误、毒蘑菇误食的案例荒诞却真实，这不是个例，而是所有AI产品面对信任与安全时的共同困境，做AI的人该反思亲近感是否走过头了。
+02:18
+xAI
+@xai
+64
+了解更多关于Tori（eToro的智能体）如何利用来自SpaceXAI的模型和实时数据来帮助消费者分析市场情绪
+xAI
+行业动态
+02:17
+Perplexity
+@perplexity_ai
+精选
+68
+Claude Fable 5 现已在 Computer 中作为编排模型可用。
+这是Anthropic最先进的模型，适用于长而复杂的任务。仅限 Computer 的 Pro 和 Max 订阅用户使用。
+智能体
+Anthropic
+产品更新
+关联讨论 24 条
+推荐理由：Claude Fable 5 在 Comet 里当指挥，Pro 用户现在能用上 Anthropic 最擅长长任务的模型，做复杂研究流的可以试试看能不能真的替代手动编排。
+02:16
+Hacker News 热门（buzzing.cc 中文翻译）
+精选
+80
+DiffusionGemma：文本生成速度提升4倍
+DiffusionGemma 是 Google 推出的文本生成模型，其文本生成速度相比前代提升 4 倍。该模型详情已发布在 Google 官方博客。
+Google
+推理
+模型发布
+关联讨论 6 条
+推荐理由：Google把扩散模型用在文本生成上，首次让速度成为优势而非短板，需要实时响应的应用场景都能因此受益。
+02:13
+OpenRouter
+@OpenRouter
+63
+OpenRouter开发者@jjacky构建了Royale： Last Agent Stand--一个专属AI智能体的大逃杀游戏，让11个LLM在零和竞争环境中自由对抗30轮。结果发现，最"友善"的模型输得最惨，而最意想不到的模型反而获胜。该实验揭示了传统基准测试无法捕捉的现象：在特定任务中，AI过于友善可能成为劣势。
+jacky: no benchmark will tell you this: LLMs can be /too/ nice unsurprisingly, in a competitive zero-sum setting, being nice ca...
+智能体
+现象/趋势
+评测/基准
+02:11
+Odyssey
+@odysseyml
+17
+马上回来。
+其他
+02:10
+Claude：Blog（网页）
+精选
+75
+智能体表面的演进：使用 Claude Managed Agents 构建
+Anthropic 推出 Claude Managed Agents，一套可组合 API 套件，用于构建和部署生产级智能体。该产品从早期简单 API 演进至 Claude Agent SDK，再到将智能体调度层与代码执行沙箱解耦的 Managed Agents。通过只追加日志的会话机制，Managed Agents 解决了托管伸缩、会话持久化、文件系统管理、执行隔离、凭证安全与可观测性等生产部署挑战。团队借助该方案可在数天内完成从原型到生产环境的转化，无需自建基础设施。
 智能体
 Anthropic
 MCP/工具
-教程/实践
-17:28
-IT之家（RSS）
-精选
-70
-谷歌 DeepMind 经济学家伊马斯：尚未发现 AI 造成岗位流失的证据，跟风裁员恐适得其反
-谷歌 DeepMind AGI 经济学负责人亚历克斯·伊马斯表示，目前没有看到白领岗位因 AI 大规模消失的证据。他强调，若企业因“不裁员就等于 AI 转型慢”的叙事而跟风裁员，可能适得其反。伊马斯认为，AI 更多是接手部分任务、提升生产力，让员工专注机器无法完成的工作，岗位冲击尚未真正出现。
-DeepMind
-Google
-现象/趋势
-推荐理由：来自AI核心阵营的经济学家说‘还没证据’，这本身就值得每个担心被AI替代的人看一眼，那种‘没裁员就是落后’的FOMO叙事可能更危险。
-17:23
-The Verge：订阅版科技（RSS）
-68
-欧盟委员会动用紧急权力强制WhatsApp免费托管对手AI助手
-欧盟委员会动用紧急权力，迫使Meta旗下的WhatsApp免费托管竞争对手的AI助手。
-Meta
-政策/监管
-行业动态
-17:20
-公众号：卡尔的AI沃茨
-65
-实测小米MiMo-V2.5-Pro UltraSpeed：万亿参数MoE推理模型输出速度达1000 token/s
-小米MiMo-V2.5-Pro UltraSpeed模式在单8卡节点上实现万亿参数MoE推理模型输出速度1000 token/s，峰值达2140 token/s，是普通版的3倍，且此前已降价99%。接入Claude Code桌面端开启UltraCode模式后，可调度12个Agent在11分钟内完成项目升级报告并打包成Skill；3分钟内生成含灯光、剪影、星光特效的3D吉他英雄网页。技术层面通过FP4混合量化、提前草稿机制及计算/搬数据/通信流水线调度实现高速推理。
-智能体
-教程/实践
-部署/工程
-17:13
-Hacker News 热门（buzzing.cc 中文翻译）
-61
-里奇·萨顿谈人工智能的创造力与发现
-里奇·萨顿（Rich Sutton）在Twitter上讨论人工智能的创造力与发现。该帖子在Hacker News上获得100个HN Points。
-大佬观点
-现象/趋势
-17:13
-Hacker News 热门（buzzing.cc 中文翻译）
-44
-用编程打造健康家庭：Gamow Labs 正式亮相
-Gamow Labs 正式亮相，创始人通过 vibe coding 方式编程，旨在打造健康家庭。该项目在 Hacker News 上获得 100 个点赞。
 产品更新
-编码
-17:11
-Chubby♨️
-@kimmonismus
-56
-所以我们可以期待《上古卷轴VI》完全由提示词生成，对吧？
-Matt Shumer 用 three.js 制作了 Fable 5。
-太疯狂了。
-多模态
-现象/趋势
-17:11
-Chubby♨️
-@kimmonismus
-53
-Matt Shumer 用 Fable 5 在 three.js 中制作了这个，让人不禁期待《上古卷轴6》完全由提示词生成。太疯狂了。
-Chubby♨️: So we can expect The Elder Scrolls VI to be fully prompt-generated, right? Matt Shumer made this with Fable 5 in three.j...
-多模态
-评测/基准
-17:10
-OpenAI：官网动态（RSS · 排除企业/客户案例）
-21
-从数据到决策：LSEG如何规模化可信AI
-LSEG利用OpenAI在其全球业务中规模化部署可信AI，加速业务洞察获取，缩短发布周期，并赋能4000名员工。
-OpenAI
-行业动态
-17:09
-fofr
-@fofrAI
-33
-Fable 5 交谈起来很有趣。
+关联讨论 2 条
+推荐理由：Claude Managed Agents 把代理部署的复杂基础设施打包成了 API，让团队从原型到上线只需几天而不是几个月，尤其凭证隔离和延迟优化对生产环境很关键，想部署可靠代理的团队可以认真看看。
+02:06
+Fuli Luo
+@_LuoFuli
+74
+强大的模型进化需要坚实的驾驭系统，反之亦然。14天，5人，一次vibe-coding旅程--MiMo Code就此诞生。它已开源：https：//github.com/XiaomiMiMo/MiMo-Code
+开源/仓库
+数据/训练
+部署/工程
+01:57
+elvis
+@omarsar0
+43
+李飞飞（@drfeifei）强调科学研究是文明进步的核心，科学家必须获得包括AI在内的最佳工具。Elvis Saravia（DAIR.AI）呼应指出，加速科学研究与开放获取最佳工具正是行业进步的原因，并明确反对那些试图用蛮力改变这一信念的做法，坚持开放科学和AI必须获胜。
+Fei-Fei Li: Scientific research is fundamental to advancing civilization and helping people globally to solve the most critical prob...
 大佬观点
-16:56
-HuggingFace Daily Papers（社区热门论文）
-63
-BrainSurgery：可重复且可靠的声明式权重操作工具，用于模型编辑与模型升级
-BrainSurgery是一种针对神经网络checkpoint的“张量手术”工具，通过声明式YAML计划执行复杂的权重变换。它支持结构修改、数学变换、张量重塑，利用正则表达式和结构定位进行精准操作，并内置断言验证张量形状、数据类型和值，防止静默错误。工具覆盖从模型升级（upcycling）到LoRA提取等四个示例和三个案例研究，旨在提供可重复、可验证的模型编辑基础。
 开源生态
-论文/研究
+01:57
+elvis
+@omarsar0
+4
+然后我们想知道为什么公众对AI的信任如此之低。
+这是今天最后一条推文，我保证。
+其他
+01:53
+Ethan Mollick
+@emollick
+49
+"换更便宜的模型来省钱"是个问题，因为更便宜的模型更差（也许对某个特定用途来说足够好，但依然较差）。
+更常见的方法是模型层级结构，由智能模型作为廉价模型的协调者和审核者。
+大佬观点
 部署/工程
-16:56
-HuggingFace Daily Papers（社区热门论文）
-61
-PsychoSafe：引导大语言模型生成心理学知情拒绝
-PsychoSafe 是一种心理学导向的拒绝框架，将大语言模型的拒绝行为重构为结构化支持性沟通，基于循证干预策略。研究构建了包含8019条提示-响应对的语料库，覆盖五个高风险心理领域，采用提示工程和参数高效微调训练 Qwen 3.5 27B。在500条提示的验证集上，PsychoSafe 提示使拒绝质量较通用基线提升28.1%，其中外部资源转介提升46.8%、心理基础性提升34.8%，且不损害非拒绝任务性能。微调实现了近乎完美的拒绝与资源转介率，但降低了回复相关性。在 SORRY-Bench 和 XSTest 上表现强域内鲁棒性，但跨域泛化有限。
-arXiv
+01:53
+Rohan Paul
+@rohanpaul_ai
+70
+Google 发布开源扩散模型 DiffusionGemma
+Google 推出开源实验性模型 DiffusionGemma，基于 Gemma 4 的文本扩散研究。该模型为 26B MoE 架构，仅激活 3.8B 参数，量化后可适配 18GB VRAM。核心突破在于每轮前向传播并行生成 256 个 token，实现推理速度提升 4 倍：H100 上可达 1000+ tokens/s，RTX 5090 达 700+ tokens/s。DiffusionGemma 通过初始化随机占位符画布并运行多轮并行去噪，同时生成整段文本，许可证为 Apache 2.0。
+Sundar Pichai: DiffusionGemma is an open, experimental model that brings our text diffusion research to Gemma 4. It's a racehorse 🏇ach...
+Google
+开源生态
+推理
+模型发布
+01:53
+Bloomberg：Technology（RSS）
+57
+最新AI研究警告美国军方拥抱AI战争化的风险
+一项最新AI研究发布警告，正值特朗普政府加速将人工智能应用于军事行动之际。该研究指出，AI在战场上的可靠性存在隐患，特别是在速度压力下可能引发失控风险。研究强调，AI系统在动态、对抗性环境中的表现远不如宣传那般稳定，过度依赖可能带来严重的战略和伦理问题。
 安全/对齐
-论文/研究
-16:56
-HuggingFace Daily Papers（社区热门论文）
+行业动态
+01:53
+Bloomberg：Technology（RSS）
+64
+SpaceX IPO 获数倍超额认购；Google 为 Anthropic 数据中心提供支持
+SpaceX 即将进行的 IPO 已获得数倍超额认购，华尔街热情高涨。与此同时，Google 为 Anthropic 数据中心提供资金支持，硅谷正通过愈发交织的交易加速建设 AI 基础设施。此外，一款新仪表盘展示了 AI 对劳动力市场的实时影响。
+行业动态
+01:53
+Bloomberg：Technology（RSS）
+42
+UCLA教授Safiya Noble：AI并不安全，偏见已嵌入训练数据
+加州大学洛杉矶分校教授、韧性数字正义中心主任Safiya Noble在Bloomberg Tech节目中直言当前AI并不安全。她指出，刻板印象和偏见正在被构建进训练数据中。尽管Anthropic和OpenAI等AI巨头在筹备IPO时强调其技术安全和人类有益性，Noble认为这并未反映现实。
+大佬观点
+安全/对齐
+01:53
+Bloomberg：Technology（RSS）
+52
+ADP与斯坦福联合推出Canaries Dashboard，实时追踪AI对职业重塑的影响
+ADP和斯坦福数字经济实验室共同推出Canaries Dashboard，基于劳动力市场数据实时显示AI如何重塑不同职业。ADP首席经济学家Nela Richardson指出，雇主需决定将AI作为自动化替代角色的工具，还是用于增强任务以创造新价值。
+产品更新
+现象/趋势
+01:51
+The Decoder：AI News（RSS）
 精选
 70
-快手开源 Kwai Keye-VL-2.0-30B-A3B：面向长视频理解与智能体智能的 MoE 多模态模型
-快手开源 Kwai Keye-VL-2.0-30B-A3B，一个 MoE 多模态基础模型，激活仅 3B 参数，专为长视频理解和智能体智能设计。模型首次将 DeepSeek Sparse Attention (DSA) 适配到 GQA 多模态架构，实现无损 256K 上下文处理，并通过可扩展视频 I/O、异构 ViT-LM 并行及自定义 DSA 内核优化吞吐与计算开销。引入跨模态多教师在策略蒸馏（MOPD）结合 Context-RL 和 Video-RL，缓解多任务对齐中的灾难性遗忘，原生支持代码、工具、搜索场景下的多智能体协作与多模态自纠正。在 TimeLens、Video-MME-v2、LongVideoBench 等多个基准上达到同类规模 SOTA，模型权重已开源。
-智能体
-多模态
-视频
-论文/研究
-推荐理由：Keye-VL-2.0 把长视频理解推到 256K 上下文，还用了 DeepSeek 的稀疏注意力，这是目前我能找到的对长短视频最兼顾的多模态模型，做视频 agent 的该看看。
-16:56
-HuggingFace Daily Papers（社区热门论文）
-67
-稀疏自编码器解释与操控文本转语音语言模型
-研究在CosyVoice3的语言模型骨干上训练BatchTopK稀疏自编码器，并引入模态感知自动解释管道，为每个特征标注其触发来源（文本前缀、1秒语音片段或两者）。恢复的特征涵盖音素、笑声、口音提示和说话者性别，可解释性强。通过SAE潜空间进行操控表明这些特征具有因果性：定向干预使笑声概率从0.02升至0.79，翻转感知的说话者性别，并在保留口语内容的同时控制语速。SAE特征既可作为可解释性对象，也可作为TTS合成的控制方向。
-论文/研究
-语音
-16:46
-MarkTechPost（RSS）
-62
-Anthropic 发布 Claude Fable 5 和 Claude Mythos 5：同款基础模型，不同安全防护，新增 Mythos 级层次
-Anthropic 正式推出 Claude Fable 5，附带分类器，全面开放使用；同时发布 Claude Mythos 5，仍保持受限访问，但通过 Project Glasswing 解除了网络安全防护。两款模型基于同一底层模型，区别在于安全机制配置，并新增了 Mythos-Class 层级。
+Anthropic 研究：AI 数小时内即可从安全补丁构建漏洞利用
+Anthropic 安全团队发现，其 Mythos Preview AI 模型能在几小时内将 Firefox 和 Windows 内核的安全补丁转化为可工作的漏洞利用，成本仅需数千美元，且无需专业知识。在微软自动更新到达任何设备之前，该模型已完成 8 条完整攻击链。Anthropic 认为传统的补丁节奏已经过时。
 Anthropic
 安全/对齐
-模型发布
-16:45
-小互
-@xiaohu
-67
-Google 发布实时翻译模型 Gemini 3.5 Live Translate
-Google 推出 Gemini 3.5 Live Translate，支持 70 多种语言的实时边听边译，保留说话人的语调、节奏和音高，延迟仅数秒。模型具备自动语言检测，无需预先指定源语言和目标语言。同时自动滤除噪音，嘈杂环境可用。Google Translate App 新增「听筒模式」，贴耳即可听翻译。开发者可通过 Gemini Live API 和 Google AI Studio 调用。
+推荐理由：Anthropic这个研究给安全圈兜头一盆冷水，补丁发布后几小时AI就能写出利用代码，微软自动更新还没推送，攻击链已经跑通了。补丁节奏得彻底重设了。
+01:50
+The Verge：AI（RSS）
+54
+谷歌被诉用 YouTube 音乐训练 Lyria 3，回应称缺乏证据
+一群独立音乐人起诉谷歌，指控其未经许可使用他们上传至 YouTube 的歌曲训练 Lyria 3 音乐 AI 模型。谷歌提交驳回动议，称起诉基于“未经证实的假设”，即便原告指控属实，其已通过 YouTube 服务条款获得广泛授权。案件仍在审理中。
 Google
-模型发布
-语音
-16:44
-Deedy
-@deedydas
-66
-Claude Fable 实现像素级精准，是自 o3 以来 AI 模型质量最大飞跃
-Claude Fable 在创建文档、幻灯片、表格、网站等方面实现了像素级精准，被认为是自 o3 以来 AI 模型质量的最大飞跃。其能力包括：完美复现 McKinsey 风格报告、近乎一致的 SpaceX S-1 IPO 草案、像素级还原宝可梦游戏、可控人形机器人 3D 设计、仅用 CSS 实现 Apple Liquid Glass UI、优胜美地 3D 世界渲染、网站设计升级以及精美的邮件营销模板。其中许多任务需要超过 2 小时的深度思考。
-Anthropic
-图像生成
-多模态
-大佬观点
-16:33
-OpenCode
-@opencode
-70
-DeepSeek V4 Pro 现已在 OpenCode Zen 上线。
-DeepSeek
-产品更新
+数据/训练
+行业动态
+01:50
+The Verge：AI（RSS）
+55
+AI监管的未来：最奇怪、最焦虑的伙伴
+The Verge 旗下聚焦华盛顿科技政治的 newsletter《Regulator》在休刊两周后回归。文章以“着火的房间”比喻当前政治生态，并提及第二届 AI Honors 活动，到场人士包括参议员 Mike Rounds 与 Mark Warner、投资人 Kevin O'Leary 等，折射出 AI 监管领域政商关系日趋复杂且焦虑的态势。
+政策/监管
+现象/趋势
+01:50
+The Verge：AI（RSS）
+59
+微软完全理解毕业生为何对鼓吹 AI 的毕业演讲者喝倒彩
+全美多地大学毕业生在毕业典礼上对推崇 AI 的演讲者发出嘘声，如前谷歌 CEO Eric Schmidt 在亚利桑那大学遭遇喝倒彩。微软副主席兼总裁 Brad Smith 发表超过 3100 字的博文回应此事，指出这些视频反映出公众对 AI 技术普遍不满的情绪，并呼吁各方展开对话。
+Microsoft
+现象/趋势
+行业动态
+01:49
+Josh Woodward
+@joshwoodward
+56
+提醒一下：Gemini 目前正在经历宕机。我们正在处理，会尽快让一切恢复。部分修复已完成，其余很快到位。请留意后续更新，感谢大家的耐心等待！
+Google
+行业动态
+01:45
+eric zakariasson
+@ericzakariasson
+49
+旧金山的 Cafe Cursor 刚刚开业，就已经排起了长队（2000 人注册）。期待与大家见面！
 编码
+行业动态
+01:44
+Gary Marcus：The Road to AI We Can Trust（RSS）
+精选
+64
+突发：Google 因模型幻觉被判负有法律责任
+一项法律裁决判定 Google 对其 AI 模型产生的幻觉内容负有法律责任。该判决可能产生巨大影响，尤其若其他国家跟进做出类似裁定。
+Google
+安全/对齐
+政策/监管
+关联讨论 2 条
+推荐理由：这个判决目前还只有一面之词，缺少判决书原文，但如果属实，对 AI 产品的法律责任界定可能是里程碑级别的事件，所有做应用的人都要盯后续。
+01:34
+AYi
+@AYi_AInotes
+61
+Claude Fable 5 一句话生成完整落地页，设计趋势自搜自调
+用户给 Claude Fable 5 一句指令“给你自己做个落地页，自由发挥，要2026最新设计趋势，要动态，要彩蛋”，几分钟后模型直接返回一个完整的单文件 HTML，无需用户改一行代码。更惊艳的是，它主动自己打开浏览器搜索 2026 设计趋势，自行调整配色和动效，还偷偷藏了 3 个彩蛋，完全不需要用户额外指示。用户计划让模型尝试一天全职全栈，从需求到上线独立完成一个个人网页，验证实际能力。
+Anthropic
+教程/实践
+编码
+01:33
+ClaudeDevs
+@ClaudeDevs
+精选
+66
+Apple开发者新消息：Foundation Models支持现在可让开发者使用Apple的Foundation Models框架来调用Claude，进行多步骤推理、代码生成和更长上下文处理。
+Anthropic
+产品更新
+推理
+编码
+关联讨论 1 条
+推荐理由：Apple 的 Foundation Models 框架终于纳入 Claude，iOS/macOS 开发者可以直接在原生环境调用强推理和长上下文能力，做 AI 应用的值得去试试集成效果。
+01:29
+IT之家（RSS）
+44
+苹果 iPhone 18 标准版升级 12GB 内存，但屏幕降级为 M12+ 面板
+据 Wccftech 及分析师 Schrödinger 消息，苹果为应对 DRAM 涨价，计划在 iPhone 18 标准版升级至 12GB 内存，但将 OLED 屏幕从 M14 降级为曾用于 iPhone 14 Pro 的 M12+ 面板。屏幕降级对价格敏感用户感知不强。此外，该机有望搭载台积电 2nm A20 芯片、自研 C2 5G 基带及 N2 无线芯片。12GB 内存是苹果端侧 AI（Apple Intelligence）顺畅运行的必要条件，因为相关高级本地 AI 功能需至少 12GB 内存。
+端侧
+行业动态
+01:25
+SemiAnalysis
+@SemiAnalysis_
+63
+DeepSeek 正走向重资产模式。
+6 月 9 日，该公司发布了 IDC 规划工程师的招聘信息，该职位明确涉及兆瓦级到吉瓦级基础设施的设计与交付。这紧随其 4 月在内蒙古乌兰察布招聘数据中心运维工程师。综合来看，这是 DeepSeek 首次完全展露其自持算力基础设施而非仅租赁的意图。
+DeepSeek
+现象/趋势
+部署/工程
+01:25
+Nathan Lambert
+@natolambert
+59
+知名 AI 研究员 Nathan Lambert 宣布加入 Arcee 担任研究顾问。他称赞 Arcee 领导层以谦逊方式构建开放生态，提供无繁琐许可证、广泛可及的高效智能。Arcee 表示其加入恰逢开放模型生态面临日益压力之际，将为美国开放模型运动注入关键力量。
+Arcee.ai: We are thrilled to announce that @natolambert is joining Arcee as a Research Advisor. Nathan's work and thought leadersh...
+开源生态
+行业动态
+01:25
+elvis
+@omarsar0
+67
+Cohere发布了其首个开源编程模型North Mini Code。该模型小巧高效，专为智能体性能设计，并欢迎社区反馈。Elvis Saravia对此赞叹不已，期待尽快将其与自己的DAIR.AI编程智能体配合使用。
+Cohere: Introducing Cohere's first open-source coding model: North Mini Code Small & efficient, designed for agentic performance...
+开源生态
+模型发布
+编码
+01:24
+Yuchen Jin
+@Yuchenj_UW
+47
+虽对Mythos/Fable基准测试感到惊叹，但我很感激Anthropic并非世界上唯一的前沿AI公司。
+单一公司能构建AI之神，其风险远大于多家公司拥有这种能力。
+最重要的是，我希望开源AI能持续繁荣。
+Anthropic
+大佬观点
+安全/对齐
+开源生态
+01:24
+Ars Technica：AI（RSS）
+69
+德国法院裁定 Google AI Overview 败诉：称"没人需要用 AI 搜索互联网"
+德国法院在一起针对 Google 的诉讼中作出裁决，认为用户不需要用 AI 来搜索互联网。该判决导致 Google AI Overview 败诉，并可能对 AI 搜索行业造成严重打击。
+Google
+搜索
+政策/监管
+01:24
+The Verge：订阅版科技（RSS）
+60
+微软因数据保留顾虑评估 Anthropic 的 Claude Fable
+微软法律团队正在评估 Anthropic 新的数据保留变更，并因此限制员工使用 Claude Fable。
+Anthropic
+Microsoft
+安全/对齐
+行业动态
+01:24
+The Verge：订阅版科技（RSS）
+51
+亚马逊Echo音箱新增睡眠辅助功能，帮助孩子放松入睡
+亚马逊Echo音箱推出Sleep Studio功能，这是Amazon Kids Plus的一项新特性，可在睡前播放放松故事、冥想和声音，帮助孩子平静下来并入睡。
+产品更新
+语音
+01:24
+The Verge：订阅版科技（RSS）
+58
+你现在可以直接告诉 Instagram 算法你想要什么
+Instagram 负责人 Adam Mosseri 计划借助 AI 让用户对推荐内容获得更多控制感，用户可以直接向算法表达偏好。
+Meta
+产品更新
+搜索
 ‹ 上一页
 1
 2
