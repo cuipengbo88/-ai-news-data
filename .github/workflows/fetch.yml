@@ -1,0 +1,34 @@
+name: Daily AI News Fetch
+
+on:
+  schedule:
+    - cron: '57 15 * * *'  # 23:57 CST (UTC+8)
+  workflow_dispatch:       # manual trigger for testing
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install playwright beautifulsoup4
+          python -m playwright install chromium --with-deps
+
+      - name: Fetch AI news
+        run: python fetch.py
+
+      - name: Commit raw data
+        run: |
+          git config user.name "AI News Bot"
+          git config user.email "bot@ai-news.local"
+          git add raw/
+          git diff --cached --quiet || git commit -m "$(date +%Y-%m-%d) fetch"
+          git push
