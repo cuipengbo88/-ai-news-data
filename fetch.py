@@ -11,9 +11,12 @@ else:
 
 url = f'https://aihot.virxact.com/{date}'
 
-out_dir = os.path.expandvars(r'%USERPROFILE%\ai-news\raw')
+# Use relative path from repo root, fallback to user home on Windows
+import pathlib
+script_dir = pathlib.Path(__file__).parent.resolve()
+out_dir = script_dir / 'raw'
 os.makedirs(out_dir, exist_ok=True)
-out_path = os.path.join(out_dir, f'{date}.txt')
+out_path = out_dir / f'{date}.txt'
 
 with sync_playwright() as p:
     browser = p.chromium.launch(headless=True)

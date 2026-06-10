@@ -5,19 +5,19 @@
 
 ## 自动化流程
 
-### 抓取（Windows 定时任务，无需用户操作）
-- 系统每天 23:57 执行 `fetch.py`，自动抓取 aihot.virxact.com 当日完整内容
-- 数据存到 `raw/YYYY-MM-DD.txt`
-- 定时任务名：`AIHotDailyFetch`
-- 需确保到点电脑开机、网络通畅
+### 抓取（GitHub Actions 云端，无需用户操作）
+- 每天 23:57 CST，GitHub Actions 自动执行 `fetch.py` 抓取 aihot.virxact.com
+- 数据存入仓库 `raw/` 并自动推送
+- 不需要电脑开机，不需要任何操作
 
 ### 生成（用户手动触发）
 用户说触发词后：
-1. 读取 `raw/` 下日期最新的 `.txt` 文件（通常为前一天或当天）
-2. 按模板分析并生成报告
-3. 同时输出到两个位置：
+1. 先执行 `git pull` 拉取 GitHub 上最新的 raw 数据
+2. 读取 `raw/` 下日期最新的 `.txt` 文件
+3. 按模板分析并生成报告
+4. 同时输出到两个位置：
    - `reports/YYYY-MM-DD.md`（内部存档）
-   - `$HOME/Desktop/每日AI热点总结报告/YY.M.DAI热点总结.md`（桌面）
+   - `$HOME/Desktop/每日AI热点总结报告/YY.M.DAI热点总结.md`（桌面交付）
 
 ## 报告模板
 
