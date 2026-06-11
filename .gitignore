@@ -1,4 +1,3 @@
-reports/
 *.html
 extract.py
 __pycache__/

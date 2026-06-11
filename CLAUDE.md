@@ -5,19 +5,26 @@
 
 ## 自动化流程
 
-### 抓取（GitHub Actions 云端，无需用户操作）
-- 每天 23:57 CST，GitHub Actions 自动执行 `fetch.py` 抓取 aihot.virxact.com
-- 数据存入仓库 `raw/` 并自动推送
+### 抓取 + 生成（GitHub Actions 云端全自动）
+- 每天 23:57 CST，GitHub Actions 自动执行：
+  1. `fetch.py` → 抓取 aihot.virxact.com → 存入 `raw/`
+  2. `generate_report.py` → 调 Claude API 按模板生成报告 → 存入 `reports/`
+  3. 自动 commit + push 回仓库
 - 不需要电脑开机，不需要任何操作
+- **前提**：GitHub 仓库已设置 `ANTHROPIC_API_KEY` secret
 
-### 生成（用户手动触发）
+### 同步到桌面（用户手动或定时）
 用户说触发词后：
-1. 先执行 `git pull` 拉取 GitHub 上最新的 raw 数据
-2. 读取 `raw/` 下日期最新的 `.txt` 文件
-3. 按模板分析并生成报告
-4. 同时输出到两个位置：
-   - `reports/YYYY-MM-DD.md`（内部存档）
-   - `$HOME/Desktop/每日AI热点总结报告/YY.M.DAI热点总结.md`（桌面交付）
+1. 执行 `python sync_desktop.py`（git pull + 复制最新报告到桌面）
+2. 报告出现在 `桌面/每日AI热点总结报告/`
+
+或者设置 Windows 定时任务每天自动运行 `sync_desktop.py`。
+
+### 手动生成（兜底）
+如果 Actions 没跑或需要立刻出报告：
+1. `git pull` 拉最新 raw 数据
+2. `python generate_report.py` 本地生成（需本机有 ANTHROPIC_API_KEY 环境变量）
+3. `python sync_desktop.py` 同步到桌面
 
 ## 报告模板
 

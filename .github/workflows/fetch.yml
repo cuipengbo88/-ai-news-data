@@ -19,16 +19,21 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install playwright beautifulsoup4
+          pip install playwright anthropic
           python -m playwright install chromium --with-deps
 
       - name: Fetch AI news
         run: python fetch.py
 
-      - name: Commit raw data
+      - name: Generate report
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python generate_report.py
+
+      - name: Commit raw data and report
         run: |
           git config user.name "AI News Bot"
           git config user.email "bot@ai-news.local"
-          git add raw/
-          git diff --cached --quiet || git commit -m "$(date +%Y-%m-%d) fetch"
+          git add raw/ reports/
+          git diff --cached --quiet || git commit -m "$(date +%Y-%m-%d) fetch+report"
           git push
