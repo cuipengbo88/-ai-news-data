@@ -78,6 +78,26 @@ def generate_report(date_str: str, raw_text: str, api_key: str, model: str = "cl
     return response.content[0].text
 
 
+def generate_report_deepseek(date_str: str, raw_text: str, api_key: str, model: str = "deepseek-chat") -> str:
+    from openai import OpenAI
+
+    base_url = os.environ.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com")
+    client = OpenAI(api_key=api_key, base_url=base_url)
+
+    user_prompt = f"以下是 {date_str} 的AI领域热点新闻原始数据，请按模板生成当日报告：\n\n{raw_text}"
+
+    response = client.chat.completions.create(
+        model=model,
+        max_tokens=8000,
+        messages=[
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": user_prompt},
+        ],
+    )
+
+    return response.choices[0].message.content
+
+
 def save_report(date_str: str, content: str) -> Path:
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
     out_path = REPORTS_DIR / f"{date_str}.md"
@@ -92,10 +112,20 @@ def save_report(date_str: str, content: str) -> Path:
 
 
 def main():
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        print("ERROR: ANTHROPIC_API_KEY environment variable not set.")
-        print("Set it via: export ANTHROPIC_API_KEY=sk-...")
+    deepseek_key = os.environ.get("DEEPSEEK_API_KEY")
+    anthropic_key = os.environ.get("ANTHROPIC_API_KEY")
+
+    if deepseek_key:
+        provider = "deepseek"
+        api_key = deepseek_key
+        model = os.environ.get("DEEPSEEK_MODEL", "deepseek-chat")
+    elif anthropic_key:
+        provider = "anthropic"
+        api_key = anthropic_key
+        model = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-4-6")
+    else:
+        print("ERROR: Neither DEEPSEEK_API_KEY nor ANTHROPIC_API_KEY is set.")
+        print("Set one via: export DEEPSEEK_API_KEY=sk-...")
         sys.exit(1)
 
     if len(sys.argv) > 1:
@@ -115,8 +145,11 @@ def main():
     print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Loading raw: {raw_path}")
     raw_text = load_raw(raw_path)
 
-    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Generating report via Claude API...")
-    report = generate_report(date_str, raw_text, api_key)
+    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Generating report via {provider} ({model})...")
+    if provider == "deepseek":
+        report = generate_report_deepseek(date_str, raw_text, api_key, model)
+    else:
+        report = generate_report(date_str, raw_text, api_key, model)
 
     out_path = save_report(date_str, report)
     print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Report saved: {out_path}")

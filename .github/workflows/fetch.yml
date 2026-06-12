@@ -19,7 +19,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install playwright anthropic
+          pip install playwright anthropic openai
           python -m playwright install chromium --with-deps
 
       - name: Fetch AI news
@@ -27,7 +27,7 @@ jobs:
 
       - name: Generate report
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: python generate_report.py
 
       - name: Commit raw data and report

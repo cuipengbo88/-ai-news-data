@@ -11,7 +11,7 @@
   2. `generate_report.py` → 调 Claude API 按模板生成报告 → 存入 `reports/`
   3. 自动 commit + push 回仓库
 - 不需要电脑开机，不需要任何操作
-- **前提**：GitHub 仓库已设置 `ANTHROPIC_API_KEY` secret
+- **前提**：GitHub 仓库已设置 `DEEPSEEK_API_KEY` secret
 
 ### 同步到桌面（用户手动或定时）
 用户说触发词后：
@@ -23,7 +23,7 @@
 ### 手动生成（兜底）
 如果 Actions 没跑或需要立刻出报告：
 1. `git pull` 拉最新 raw 数据
-2. `python generate_report.py` 本地生成（需本机有 ANTHROPIC_API_KEY 环境变量）
+2. `python generate_report.py` 本地生成（需本机有 DEEPSEEK_API_KEY 或 ANTHROPIC_API_KEY 环境变量）
 3. `python sync_desktop.py` 同步到桌面
 
 ## 报告模板
