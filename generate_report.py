@@ -31,42 +31,121 @@ SYSTEM_PROMPT = """你是AI日报主编，为一位实体行业短视频编导�
 <title>AI 日报 YYYY-MM-DD</title>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
+
   body {
-    font-family: -apple-system, "Microsoft YaHei", "PingFang SC", sans-serif;
-    background: #f5f5f5; color: #333; line-height: 1.8; padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.8;
+    padding: 32px 20px;
+    -webkit-font-smoothing: antialiased;
   }
-  .container { max-width: 780px; margin: 0 auto; }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.02);
+  }
+
+  /* 头部 */
   .header {
-    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-    color: #fff; padding: 32px 28px; border-radius: 12px 12px 0 0;
+    background: #fafafa;
+    color: #1d1d1f;
+    padding: 48px 40px 36px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
   }
-  .header h1 { font-size: 24px; font-weight: 700; }
-  .header .date { font-size: 14px; color: #94a3b8; margin-top: 4px; }
+  .header h1 {
+    font-size: 34px; font-weight: 700; letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #1d1d1f 0%, #555 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header .date {
+    font-size: 14px; color: #86868b; margin-top: 8px;
+    font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+  }
+
+  /* 内容区 */
   .section {
-    background: #fff; padding: 24px 28px;
-    border-bottom: 1px solid #eee;
+    padding: 40px;
+    border-bottom: 1px solid #f5f5f7;
   }
-  .section:last-of-type { border-radius: 0 0 12px 12px; }
-  .section h2 { font-size: 18px; margin-bottom: 14px; padding-left: 10px; border-left: 4px solid #2563EB; }
-  .deep-item { margin-bottom: 24px; }
-  .deep-item h3 { font-size: 16px; color: #1a1a2e; margin-bottom: 8px; }
-  .deep-item p { margin-bottom: 8px; text-indent: 2em; }
-  .quick-list { list-style: none; padding: 0; }
-  .quick-list li { padding: 6px 0; border-bottom: 1px dashed #f0f0f0; }
-  .quick-list li:last-child { border-bottom: none; }
-  .tool-item { margin-bottom: 14px; padding: 12px 16px; background: #fafafa; border-radius: 8px; }
-  .tool-item h4 { font-size: 15px; margin-bottom: 4px; }
-  .tool-item p { font-size: 14px; color: #666; }
+  .section:last-of-type { border-bottom: none; }
+
+  .section h2 {
+    font-size: 22px; font-weight: 700; margin-bottom: 24px;
+    color: #1d1d1f; letter-spacing: -0.3px;
+    display: flex; align-items: center; gap: 10px;
+  }
+
+  /* 深度分析 */
+  .deep-item { margin-bottom: 32px; }
+  .deep-item:last-child { margin-bottom: 0; }
+  .deep-item h3 {
+    font-size: 17px; font-weight: 600; color: #1d1d1f;
+    margin-bottom: 12px; letter-spacing: -0.2px;
+  }
+  .deep-item p {
+    margin-bottom: 12px; text-indent: 2em;
+    font-size: 15px; color: #424245; font-weight: 400;
+  }
+
+  /* 快讯列表 */
+  .quick-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .quick-list li {
+    padding: 14px 18px;
+    background: #fafafa; border-radius: 12px;
+    font-size: 14px; color: #424245;
+    transition: background 0.2s;
+  }
+
+  /* 工具卡片 */
+  .tool-item {
+    margin-bottom: 12px; padding: 20px 24px;
+    background: #fafafa; border-radius: 16px;
+    border: 1px solid #f0f0f0;
+  }
+  .tool-item:last-child { margin-bottom: 0; }
+  .tool-item h4 { font-size: 16px; font-weight: 600; margin-bottom: 6px; color: #1d1d1f; }
+  .tool-item p { font-size: 14px; color: #6e6e73; line-height: 1.7; }
 
   /* === 内联着色类 === */
-  .c-name  { color: #2563EB; font-weight: 600; }   /* 公司/产品名：蓝 */
-  .c-data  { color: #EA580C; font-weight: 700; }    /* 关键数字：橙 */
-  .c-warn  { color: #DC2626; font-weight: 700; }    /* 核心判断/警告：红 */
-  .c-good  { color: #16A34A; font-weight: 600; }    /* 正面信号/机会：绿 */
-  .c-tech  { color: #7C3AED; font-weight: 600; }    /* 技术概念：紫 */
+  .c-name  {
+    color: #0071e3; font-weight: 600;
+    background: #f0f7ff; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-data  {
+    color: #e05a00; font-weight: 700;
+    background: #fff5ee; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-warn  {
+    color: #d12b2b; font-weight: 700;
+    background: #fff0f0; padding: 2px 10px; border-radius: 6px;
+  }
+  .c-good  {
+    color: #1b8a3d; font-weight: 600;
+    background: #edfaf1; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-tech  {
+    color: #894ecc; font-weight: 600;
+    background: #f6f0ff; padding: 2px 8px; border-radius: 6px;
+  }
 
-  .footer { text-align: center; padding: 16px; font-size: 12px; color: #999; }
-  .section .divider { border: none; border-top: 2px dashed #e5e7eb; margin: 20px 0; }
+  /* 分隔线 */
+  hr.divider {
+    border: none; border-top: 1px solid #f0f0f0; margin: 28px 0;
+  }
+
+  /* 页脚 */
+  .footer {
+    text-align: center; padding: 28px;
+    font-size: 12px; color: #aeaeb2; font-weight: 500;
+    letter-spacing: 1px; background: #fafafa;
+  }
 </style>
 </head>
 <body>
@@ -74,25 +153,24 @@ SYSTEM_PROMPT = """你是AI日报主编，为一位实体行业短视频编导�
 
   <!-- 头部 -->
   <div class="header">
-    <h1>AI 日报 YYYY-MM-DD</h1>
-    <div class="date">自动生成 · 每日更新</div>
+    <h1>🔥 AI 日报 YYYY-MM-DD</h1>
+    <div class="date">每日自动生成 · 数据来源 aihot.virxact.com</div>
   </div>
 
   <!-- 🔥 深度分析 -->
   <div class="section">
-    <h2>🔥 深度分析</h2>
+    <h2>📰 深度分析</h2>
     <div class="deep-item">
       <h3>1. 标题</h3>
       <p>正文，对关键词使用着色类：<span class="c-name">公司/产品</span>、
       <span class="c-data">关键数字</span>、<span class="c-warn">核心判断</span>、
       <span class="c-good">正面信号</span>、<span class="c-tech">技术术语</span></p>
     </div>
-    <!-- 如有多条深度分析，用 <hr class="divider"> 分隔 -->
   </div>
 
   <!-- 📋 快讯 -->
   <div class="section">
-    <h2>📋 快讯</h2>
+    <h2>📋 快讯速览</h2>
     <ul class="quick-list">
       <li><span class="c-name">公司/产品</span>：一句话摘要，关键数字用<span class="c-data">数字</span>标注</li>
     </ul>
@@ -110,7 +188,7 @@ SYSTEM_PROMPT = """你是AI日报主编，为一位实体行业短视频编导�
     <div class="tool-item"><h4>工具名称</h4><p>说明</p></div>
   </div>
 
-  <div class="footer">AI 日报 · 每日自动生成 · 数据来源 aihot.virxact.com</div>
+  <div class="footer">AI 日报 · 每日自动生成</div>
 </div>
 </body>
 </html>
