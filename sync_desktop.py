@@ -20,11 +20,11 @@ DESKTOP_DIR = Path.home() / "Desktop" / "每日AI热点总结报告"
 def date_to_desktop_name(date_str: str) -> str:
     """Convert '2026-06-10' to '26.6.10AI热点总结.md'"""
     d = datetime.strptime(date_str, "%Y-%m-%d")
-    return f"{d.year % 100}.{d.month}.{d.day}AI热点总结.md"
+    return f"{d.year % 100}.{d.month}.{d.day}AI热点总结.html"
 
 
 def find_latest_report() -> Path | None:
-    md_files = sorted(REPORTS_DIR.glob("*.md"))
+    md_files = sorted(REPORTS_DIR.glob("*.html"))
     return md_files[-1] if md_files else None
 
 
@@ -46,7 +46,7 @@ def main():
     # 2. Find source report
     if len(sys.argv) > 1:
         date_str = sys.argv[1]
-        src = REPORTS_DIR / f"{date_str}.md"
+        src = REPORTS_DIR / f"{date_str}.html"
     else:
         src = find_latest_report()
         if not src:
