@@ -1,5 +1,3 @@
-以下是您今日的AI日报HTML代码。它聚焦实体行业编导与产品视角，将深度分析、快讯、可用工具与vibe coding灵感整合为一份可直接阅读的日报。
-```html
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -8,143 +6,196 @@
 <title>AI 日报 2026-06-12</title>
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
+
   body {
-    font-family: -apple-system, "Microsoft YaHei", "PingFang SC", sans-serif;
-    background: #f5f5f5; color: #333; line-height: 1.8; padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.8;
+    padding: 32px 20px;
+    -webkit-font-smoothing: antialiased;
   }
-  .container { max-width: 780px; margin: 0 auto; }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.02);
+  }
+
   .header {
-    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-    color: #fff; padding: 32px 28px; border-radius: 12px 12px 0 0;
+    background: #fafafa;
+    color: #1d1d1f;
+    padding: 48px 40px 36px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
   }
-  .header h1 { font-size: 24px; font-weight: 700; }
-  .header .date { font-size: 14px; color: #94a3b8; margin-top: 4px; }
+  .header h1 {
+    font-size: 34px; font-weight: 700; letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #1d1d1f 0%, #555 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header .date {
+    font-size: 14px; color: #86868b; margin-top: 8px;
+    font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+  }
+
   .section {
-    background: #fff; padding: 24px 28px;
-    border-bottom: 1px solid #eee;
+    padding: 40px;
+    border-bottom: 1px solid #f5f5f7;
   }
-  .section:last-of-type { border-radius: 0 0 12px 12px; }
-  .section h2 { font-size: 18px; margin-bottom: 14px; padding-left: 10px; border-left: 4px solid #2563EB; }
-  .deep-item { margin-bottom: 24px; }
-  .deep-item h3 { font-size: 16px; color: #1a1a2e; margin-bottom: 8px; }
-  .deep-item p { margin-bottom: 8px; text-indent: 2em; }
-  .quick-list { list-style: none; padding: 0; }
-  .quick-list li { padding: 6px 0; border-bottom: 1px dashed #f0f0f0; }
-  .quick-list li:last-child { border-bottom: none; }
-  .tool-item { margin-bottom: 14px; padding: 12px 16px; background: #fafafa; border-radius: 8px; }
-  .tool-item h4 { font-size: 15px; margin-bottom: 4px; }
-  .tool-item p { font-size: 14px; color: #666; }
+  .section:last-of-type { border-bottom: none; }
 
-  /* === 内联着色类 === */
-  .c-name  { color: #2563EB; font-weight: 600; }   /* 公司/产品名：蓝 */
-  .c-data  { color: #EA580C; font-weight: 700; }    /* 关键数字：橙 */
-  .c-warn  { color: #DC2626; font-weight: 700; }    /* 核心判断/警告：红 */
-  .c-good  { color: #16A34A; font-weight: 600; }    /* 正面信号/机会：绿 */
-  .c-tech  { color: #7C3AED; font-weight: 600; }    /* 技术概念：紫 */
+  .section h2 {
+    font-size: 22px; font-weight: 700; margin-bottom: 24px;
+    color: #1d1d1f; letter-spacing: -0.3px;
+    display: flex; align-items: center; gap: 10px;
+  }
 
-  .footer { text-align: center; padding: 16px; font-size: 12px; color: #999; }
-  .section .divider { border: none; border-top: 2px dashed #e5e7eb; margin: 20px 0; }
+  .deep-item { margin-bottom: 32px; }
+  .deep-item:last-child { margin-bottom: 0; }
+  .deep-item h3 {
+    font-size: 17px; font-weight: 600; color: #1d1d1f;
+    margin-bottom: 12px; letter-spacing: -0.2px;
+  }
+  .deep-item p {
+    margin-bottom: 12px; text-indent: 2em;
+    font-size: 15px; color: #424245; font-weight: 400;
+  }
+
+  .quick-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .quick-list li {
+    padding: 14px 18px;
+    background: #fafafa; border-radius: 12px;
+    font-size: 14px; color: #424245;
+    transition: background 0.2s;
+  }
+
+  .tool-item {
+    margin-bottom: 12px; padding: 20px 24px;
+    background: #fafafa; border-radius: 16px;
+    border: 1px solid #f0f0f0;
+  }
+  .tool-item:last-child { margin-bottom: 0; }
+  .tool-item h4 { font-size: 16px; font-weight: 600; margin-bottom: 6px; color: #1d1d1f; }
+  .tool-item p { font-size: 14px; color: #6e6e73; line-height: 1.7; }
+
+  .c-name  {
+    color: #0071e3; font-weight: 600;
+    background: #f0f7ff; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-data  {
+    color: #e05a00; font-weight: 700;
+    background: #fff5ee; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-warn  {
+    color: #d12b2b; font-weight: 700;
+    background: #fff0f0; padding: 2px 10px; border-radius: 6px;
+  }
+  .c-good  {
+    color: #1b8a3d; font-weight: 600;
+    background: #edfaf1; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-tech  {
+    color: #894ecc; font-weight: 600;
+    background: #f6f0ff; padding: 2px 8px; border-radius: 6px;
+  }
+
+  hr.divider {
+    border: none; border-top: 1px solid #f0f0f0; margin: 28px 0;
+  }
+
+  .footer {
+    text-align: center; padding: 28px;
+    font-size: 12px; color: #aeaeb2; font-weight: 500;
+    letter-spacing: 1px; background: #fafafa;
+  }
 </style>
 </head>
 <body>
 <div class="container">
 
-  <!-- 头部 -->
   <div class="header">
-    <h1>AI 日报 2026-06-12</h1>
-    <div class="date">自动生成 · 每日更新</div>
+    <h1>🔥 AI 日报 2026-06-12</h1>
+    <div class="date">每日自动生成 · 数据来源 aihot.virxact.com</div>
   </div>
 
-  <!-- 🔥 深度分析 -->
   <div class="section">
-    <h2>🔥 深度分析</h2>
-    
+    <h2>📰 深度分析</h2>
     <div class="deep-item">
-      <h3>1. 小互开源「公众号排版+封面+草稿箱」一键技能：实体老板短视频团队该抄作业了</h3>
-      <p><span class="c-name">小互</span>发布了一个<span class="c-tech">开源技能组合</span>，把微信公众号排版、封面生成、发送到草稿箱全链路用一句话搞定。它内置<span class="c-data">20种</span>主题颜色，能自动分析内容语义做排版。操作极简单：在<span class="c-name">Claude Code</span>、<span class="c-name">Codex</span> 或 <span class="c-name">OpenClaw</span> 中丢一个文章链接或文档位置，就生成可视化预览，点下发布即完成。</p>
-      <p><span class="c-warn">核心判断</span>：对于每天要同时处理短视频脚本、公众号图文、朋友圈文案的编导来说，这是一种「重复劳动终结器」。以往排版＋封面至少占用<span class="c-data">15-30分钟</span>，现在压缩到几秒。更重要的是，它展示了<span class="c-good">AI Agent 进入内容生产管线的真实路径</span>——不是替代人，而是把“脏活”自动化，让编导聚焦在选题和情绪上。建议团队立刻部署，尤其适合实体品牌矩阵号运营。</p>
+      <h3>1. “自证预言”失灵？王坚提 AI 替代悖论，编导反而该松口气</h3>
+      <p>阿里云创始人王坚今天在北京智源大会上直言：<span class="c-warn">“我坚定不相信 AI 会替代人”</span>，并引用“狗的鼻子比人灵，但不会伤害人”作为比喻。站在编导视角，这其实点破了一个长期焦虑——内容创作领域，AI 能批量产出现成文案、数字人，但 <span class="c-name">实体老板</span> 面对镜头时的真实感、生意场上的即兴反应，才是观众买单的根因。王坚指出的“AI 改变的是数据理解方式，而非替代判断”，对短视频行业尤其重要：AI 可以帮你分析完播率、点出最佳口播节奏，但老板拍板“这个版本我就觉得味不对”的直觉，恰恰是机器无法复制的。</p>
+      <p>从 <span class="c-tech">多模态数据</span> 角度看，王坚还提到 AI 能区分“语言文本”和“代码文本”，这意味着未来 AI 能更精准地理解视频里的字幕、BGM 情绪和画面构图。编导完全可以把选题测试、文案 A/B 测试丢给 AI，自己腾出手去搞定老板的 IP 人设打磨、门店实拍细节。一句话：<span class="c-good">别怕被替代，学会把数据分析外包，把“人味”留给自己。</span></p>
     </div>
-    
-    <hr class="divider">
-
     <div class="deep-item">
-      <h3>2. EurekAgent：不到11美元就做出新科学发现，内容创业者该关注什么？</h3>
-      <p><span class="c-name">EurekAgent</span> 是一个环境工程化的<span class="c-tech">LLM智能体系统</span>，专为自主科学发现设计。它用权限、产物、预算和人在回路四层工程，让智能体以极低成本探索数学问题。成果包括<span class="c-data">不到11美元</span> API 成本找到一个新的 <span class="c-data">26圆填充结果</span>。代码和结果已开源。</p>
-      <p><span class="c-warn">从编导/产品角度</span>：这东西离短视频很远，但释放了一个信号——<span class="c-good">AI自主研究成本已降至个人可承受范围</span>。实体老板的商业决策（选品、定价、选址）未来可能被类似“低成本智能体实验”支持。比如：用<span class="c-name">EurekAgent</span> 架构做本地消费趋势分析、原材料组合优化。虽然今天还是科研场景，但半年内很可能出现面向商业的轻量化版本。编导可储备“AI辅助决策”的选题角度。</p>
+      <h3>2. MiniMax-M3 数学证明超人类金牌：复杂推理对编导意味着什么？</h3>
+      <p><span class="c-name">MiniMax-M3</span> 团队发布的 <span class="c-tech">MaxProof</span> 框架在 <span class="c-data">IMO 2025</span> 拿到 <span class="c-data">35/42</span> 分，在 <span class="c-data">USAMO 2026</span> 拿到 <span class="c-data">36/42</span>，均超过人类金牌线。从技术上看，核心是“生成-验证-群体搜索”管线——模型自己写证明、自己当裁判挑错、再在候选池里锦标赛式筛选。这个路子对内容创作的启发很直接：<span class="c-warn">你不需要一次性写出完美的脚本</span>，而是让 AI 批量生成 10 个口播版本，用数据（完播率、互动率）当“验证器”，最后选出冠军脚本。</p>
+      <p>对于做 <span class="c-name">实体老板</span> 短视频的编导，这意味着你可以把“脚本评审”这件事部分自动化：先让 AI 按套路生成几个开局钩子，你只负责挑一个最顺口的。M3 告诉我们，<span class="c-good">与其追求一次到位，不如建立快速试错和筛选的流程</span>。<span class="c-tech">RLHF</span> 对普通团队太远，但“多版本 + 数据验证”的 MVP 循环，每个编导今天就能用起来。</p>
     </div>
-
-    <hr class="divider">
-
     <div class="deep-item">
-      <h3>3. MiniMax-M3 数学证明已达人类金牌水平：对教育赛道和知识类短视频的影响</h3>
-      <p><span class="c-name">MiniMax-M3</span> 提出 <span class="c-tech">MaxProof</span> 群体测试时扩展框架，让模型在<span class="c-name">IMO 2025</span>拿到<span class="c-data">35/42</span>，<span class="c-name">USAMO 2026</span>拿到<span class="c-data">36/42</span>，均超过人类金牌阈值。核心技术路线是生成-验证器-修复-群体搜索。</p>
-      <p><span class="c-warn">对编导的直接影响</span>：数学证明类内容将迎来 AI 辅助创作爆发。以前“AI讲题”常出错，现在金牌级推理能力意味着知识类短视频可以调用 <span class="c-name">MiniMax-M3</span> 生成逻辑严密的脚本，尤其是理科、培训、考证类内容。<span class="c-good">实体老板做教育品牌（比如餐饮培训、汽修教学）可以用它生成标准答案级别的教学内容脚本</span>，再配合真人出镜背书，效率和可信度双赢。但要注意<span class="c-warn">风险：群体搜索可能产生反直觉但正确的解法，需人工审核后再出镜。</span></p>
+      <h3>3. EurekAgent：不到 11 美元做出新科研成果，“自动科研”如何溢出到视频制作？</h3>
+      <p>今天 <span class="c-name">EurekAgent</span> 刷屏了。它本质上是一个环境工程化的 LLM 智能体系统，在数学和内核工程上取得新 SOTA，而且发现了新的 <span class="c-data">26 圆填充结果</span>，总 API 成本不到 <span class="c-data">11 美元</span>。它强调“把环境搭好，让智能体自己去探索”——权限控制、产物管理、预算限制加人肉监管。这跟编导日常“养素材库”的思路一模一样：你不可能每次都从零构思一个爆款选题。</p>
+      <p>如果把这个思路翻译成短视频工作流，就是：建一个结构化的选题库（环境），给 AI 设定预算（每天最多生成 <span class="c-data">20</span> 个标题），让它跑一周，你每周花 <span class="c-data">2</span> 小时筛选。EurekAgent 证明，<span class="c-good">自主探索 + 轻量监督，可以用极低成本产出意想不到的好东西</span>。对实体老板来说，这意味着编导可以用 AI 批量测试不同口播节奏、不同门店展示角度，而不用每个视频都亲力亲为。</p>
+      <p><span class="c-warn">请注意：效率翻倍的前提是你要给出清晰的方向边界</span>，就像 EurekAgent 里“人在回路”的设计——AI 出初稿，你来拍板“这个梗能要”。</p>
     </div>
   </div>
 
-  <!-- 📋 快讯 -->
   <div class="section">
-    <h2>📋 快讯</h2>
+    <h2>📋 快讯速览</h2>
     <ul class="quick-list">
-      <li><span class="c-name">Agent Reach</span>（26.4k stars）让 AI Agent 零 API 费用访问网页和社交媒体，但<span class="c-warn">抓取有封号风险</span>，Cookie 会过期。</li>
-      <li><span class="c-name">Alibaba Cloud</span> 提出 <span class="c-tech">NLAH</span>，用可执行自然语言替代代码框架，token 减少 <span class="c-data">95%</span>（60k→2.9k）。</li>
-      <li><span class="c-name">Analog Tech</span> 发布 5L 边缘 AI PC，内置 <span class="c-data">214 TOPS</span> dNPU，可同时处理 <span class="c-data">24</span> 条视频流（YOLOv5）。</li>
-      <li><span class="c-name">阿里云创始人王坚</span>：坚定不相信 AI 会替代人，批评被AI概念限制思维。</li>
-      <li><span class="c-name">鸿蒙智行问界M9</span> 明日首交，搭载华为六激光雷达矩阵和 <span class="c-tech">ADS 5</span>，<span class="c-data">40</span> 个智驾传感器。</li>
-      <li><span class="c-name">Deezer</span> 推出免费工具，可检测 <span class="c-name">Spotify</span>、<span class="c-name">Apple Music</span> 播放列表中是否包含 AI 音乐。</li>
-      <li><span class="c-name">微软</span> 发布 Bing AI Search Choice 扩展，一键关闭搜索结果中的 AI 回答。</li>
-      <li><span class="c-name">AWS Graviton5</span> 全面可用，性能提升 <span class="c-data">25%</span>，基于 <span class="c-data">3nm</span> 工艺。<span class="c-tech">192</span> 核，L3 缓存为上代 <span class="c-data">5倍</span>。</li>
-      <li><span class="c-name">OpenAI</span> 推广 Codex：未来2周邀请好友可重置 AI 使用量。</li>
-      <li><span class="c-name">人形机器人 EngineAI</span> 据称已秘密提交香港 IPO。</li>
-      <li><span class="c-name">FlashMemory</span> 把 <span class="c-name">DeepSeek-V4</span> 上下文显存压缩至 <span class="c-data">1.3GB</span>，长文本准确率提升 <span class="c-data">0.6%</span>。</li>
-      <li><span class="c-name">Vista</span> 发布 AI 专用 PRD 文档生成 Prompt <span class="c-tech">qiaomu-ai-prd</span>，提升 AI 开发功能完整度。</li>
+      <li><span class="c-name">Agent Reach</span>（<span class="c-data">26.4k</span> stars）零配置访问 YouTube、GitHub 等，<span class="c-warn">Cookie 过期需手动更新</span>，适合 agent 低成本抓社交媒体数据。</li>
+      <li><span class="c-name">阿里云</span> 论文 <span class="c-tech">NLAH</span>：token 减少 <span class="c-data">95%</span>（<span class="c-data">60k→2.9k</span>），性能持平，用可执行自然语言替代胶水代码。</li>
+      <li><span class="c-name">Analog Tech</span> 发布 <span class="c-data">5L</span> 边缘 AI PC，内置 <span class="c-data">214 TOPS</span> dNPU 加速卡，可同时处理 <span class="c-data">24</span> 路视频流。</li>
+      <li><span class="c-name">鸿蒙智行</span> 全新问界 M9 明日首交，<span class="c-data">47.98</span> 万元起，首搭华为六激光雷达矩阵与 <span class="c-tech">ADS 5</span>。</li>
+      <li><span class="c-name">Deezer</span> 推出免费工具，可检测 <span class="c-name">Spotify</span> / <span class="c-name">Apple Music</span> 等平台 AI 音乐，<span class="c-good">支持用户自助扫描</span>。</li>
+      <li><span class="c-name">微软</span> 发布 <span class="c-name">Bing</span> 一键关闭 AI 回答扩展 <span class="c-name">Microsoft Bing AI Search Choice</span>。</li>
+      <li><span class="c-name">亚马逊 AWS Graviton5</span> 全面可用，<span class="c-data">192</span> 核，ML 性能提升 <span class="c-data">35%</span>。</li>
+      <li><span class="c-name">OpenAI</span> 推广 <span class="c-name">Codex</span>：未来 <span class="c-data">2</span> 周邀请好友可重置速率限制。</li>
+      <li><span class="c-name">人形机器人 EngineAI</span> 据报秘密提交香港 IPO 申请。</li>
+      <li><span class="c-name">Claude Code v2.1.175</span> 新增 <span class="c-tech">enforceAvailableModels</span> 管理设置。</li>
     </ul>
   </div>
 
-  <!-- 🎬 编导可用的 -->
   <div class="section">
     <h2>🎬 编导可用的</h2>
     <div class="tool-item">
-      <h4>公众号排版+封面生成技能（小互开源）</h4>
-      <p>一句话完成排版、封面、发送草稿箱。支持20种主题颜色，自动分析内容排版。编导团队可用于实体品牌公众号批量产出，<span class="c-good">每天节省半小时重复工作</span>。安装指令：<code>npx skills add xiaohu/wechat-publisher</code>（需 Claude Code / Codex 环境）。</p>
+      <h4>小互公众号排版技能</h4>
+      <p>一句话搞定排版＋封面生成＋自动发送到公众号草稿箱。已开源，<span class="c-data">20</span> 种主题颜色，自动分析内容排版。编导在 <span class="c-name">Claude Code</span> 或 <span class="c-name">Codex</span> 里给个链接就能用，省掉和设计师来回沟通封面的时间。<span class="c-good">适合实体老板日更公众号，无需手动排版。</span></p>
     </div>
     <div class="tool-item">
-      <h4>AI 专用 PRD 生成 Prompt（qiaomu-ai-prd）</h4>
-      <p>先用这个 Prompt 生成结构化开发文档，再丢给 AI 写代码，功能完整度大幅提升。适合编导自建小工具（如批量切片、标题生成器）。<span class="c-good">直接减少返工</span>，尤其适合不懂技术的短视频团队。安装：<code>npx skills add joeseesun/qiaomu-ai-prd</code>。</p>
+      <h4>向阳乔木 qiaomu-ai-prd：面向 AI 的 PRD 生成 Prompt</h4>
+      <p>先让 AI 生成标准 PRD 文档，再交给代码工具开发，功能完整度大幅提升。编导可以把这个流程改造成“脚本 Brief 生成器”——给 AI 一段产品介绍 + 目标人群，自动输出结构化的视频大纲。<span class="c-good">减少漏关键卖点，老板过稿更快。</span></p>
     </div>
     <div class="tool-item">
-      <h4>MoVerse：单图生成可漫游视频世界</h4>
-      <p>从一张狭窄视野照片生成 <span class="c-data">8 FPS</span> 实时交互式3D场景。虽然目前需要高端显卡（RTX4090），但效果可用来做<span class="c-good">探店预告、空间展示型短视频</span>的素材。实体老板可用它生成店面3D漫游，配合口播。</p>
-    </div>
-    <div class="tool-item">
-      <h4>Deezer AI音乐检测工具</h4>
-      <p>免费扫描 <span class="c-name">Spotify</span>、<span class="c-name">Apple Music</span> 播放列表，标注 AI 生成歌曲。编导做音乐类选题时，可快速验证歌曲是否AI，<span class="c-good">避免侵权风险</span>，也适合做“AI音乐 vs 真人”对比视频。</p>
+      <h4>MoVerse：单图生成可漫游的实时视频世界模型</h4>
+      <p>一张窄视野图片就能生成 <span class="c-data">8 FPS</span> 可交互 3D 场景。对实体探店、样板间展示类短视频是神器——<span class="c-good">一张门店照片就能生成 360° 环绕视频，客户躺着看全景</span>，互动感直接拉满。</p>
     </div>
   </div>
 
-  <!-- 🛠️ Vibe Coding 可玩的 -->
   <div class="section">
     <h2>🛠️ Vibe Coding 可玩的</h2>
     <div class="tool-item">
-      <h4>Agent Reach（零API费用网页/社交媒体访问）</h4>
-      <p>让 <span class="c-name">Claude Code</span>、<span class="c-name">Cursor</span> 等 Agent 直接抓取网页、YouTube、GitHub、B站内容。一条命令安装，零配置。vibe coding 时可快速获取实时数据做原型，比如抓取竞品价格、热门评论。注意<span class="c-warn">封号风险</span>，建议用小号测试。项目地址：github.com/AgentReach/agent-reach </p>
+      <h4>Agent Reach（26.4k stars）</h4>
+      <p>一行命令让你的 agent 能访问 YouTube、B站、GitHub 甚至小红书。对于玩 vibe coding 的编导，可以写个脚本让 agent 每天自动拉取竞品视频的标题和评论区，<span class="c-warn">注意小号操作防封</span>，分析话题标签规律。</p>
     </div>
     <div class="tool-item">
-      <h4>FlashMemory：把 DeepSeek-V4 显存压到 1.3GB</h4>
-      <p>基于神经内存索引器，按需加载历史片段，在长文本任务上准确率提升。<span class="c-good">vibe coding 时可在消费级显卡上跑大上下文</span>，适合做文档分析、长对话总结。快速部署：<code>git clone https://github.com/libertywing/FlashMemory-Deepseek-V4</code>。</p>
+      <h4>EurekAgent 环境工程框架</h4>
+      <p>虽然论文是科学发现，但代码已开源。核心思维是“搭环境 + 给预算 + 让 agent 跑”。你可以用这个思路搭一个“短视频选题自动探索器”，设定每天消耗 <span class="c-data">0.5</span> 美元 API 成本，自动生成 <span class="c-data">50</span> 个口播标题并打分，你每周挑 <span class="c-data">5</span> 个拍。<span class="c-good">本质是低成本快速试错。</span></p>
     </div>
     <div class="tool-item">
-      <h4>LabVLA：科学实验室 VLA 模型（可迁移到产品原型）</h4>
-      <p>两阶段训练：FAST动作token预训练 + 流匹配后训练。虽然是具身智能场景，但代码生成动作的思路可迁移到<span class="c-tech">自动化 UI 操作</span>。vibe coding 时可以用来做<span class="c-good">“AI 自动填表/操作软件”原型</span>，适合实体老板的订单管理、数据录入自动化。</p>
+      <h4>FlashMemory：把 DeepSeek-V4 上下文显存压缩到 1.3GB</h4>
+      <p>开源项目，长文本准确率反而提升 <span class="c-data">0.6%</span>。如果你用 vibe coding 做 AI 客服或剧情脚本整理，本地部署 1M 上下文不再是梦。<span class="c-techn">神经内存索引器</span> 原理，普通 M2 Mac 就能跑，适合需要长记忆的交互式视频脚本工具。</p>
     </div>
     <div class="tool-item">
-      <h4>SWITCH：可切换潜在推理框架</h4>
-      <p>利用边界token让隐藏状态递归与GRPO兼容。vibe coding 时可试着把它的思路引入到<span class="c-tech">长链推理</span>类产品，比如自动写短视频分镜分析、用户评论情绪推演。<span class="c-good">机制分析显示入口token是学习到的局部策略</span>，有研究价值。</p>
+      <h4>SWITCH 可切换潜在推理框架</h4>
+      <p>利用显式边界 token 让隐藏状态推理兼容 GRPO。虽然偏研究，但 vibe coder 可以复现其“课程学习”机制——对视频理解模型做渐进式训练，让 AI 先学 30 秒片头结构，再学全片叙事，适合做自动化拆脚本工具。</p>
     </div>
   </div>
 
-  <div class="footer">AI 日报 · 每日自动生成 · 数据来源 aihot.virxact.com</div>
+  <div class="footer">AI 日报 · 每日自动生成</div>
 </div>
 </body>
 </html>
-```
