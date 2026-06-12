@@ -167,7 +167,7 @@ def generate_report(date_str: str, raw_text: str, api_key: str, model: str = "cl
 def generate_report_deepseek(date_str: str, raw_text: str, api_key: str, model: str = "deepseek-chat") -> str:
     from openai import OpenAI
 
-    base_url = os.environ.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com")
+    base_url = os.environ.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com/v1")
     client = OpenAI(api_key=api_key, base_url=base_url)
 
     user_prompt = f"以下是 {date_str} 的AI领域热点新闻原始数据，请按模板生成当日报告：\n\n{raw_text}"
