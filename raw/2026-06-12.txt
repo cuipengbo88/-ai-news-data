@@ -22,351 +22,349 @@ AI 相关资讯全量信息流
 论文
 技巧
 搜索
-6月12日
-12:47
-jason
-@jxnlco
-17
-导出 YouTube Studio 元数据的最佳方式是什么？@OfficialLoganK 作为创作者，你们有 WebMCP 或 YouTube 连接器的计划吗？
-MCP/工具
-其他
-12:38
-AYi
-@AYi_AInotes
-70
-Agent Reach：让AI Agent零API费用访问网页和社交媒体
-Agent Reach（26.4k stars）让Claude Code、Cursor等AI Agent低成本访问网页、社交媒体。它整合yt-dlp、gh CLI等成熟工具，零配置即可用YouTube、GitHub、B站、V2EX；Twitter、小红书等需手动配Cookie。安装一条命令，Agent自动装依赖并注册skill，运行`agent-reach doctor`检查连通性。注意：Cookie会过期需手动更新；抓数据有封号风险（建议用小号）；仅对跑命令的Agent有价值。作者持续维护。
-AYi: http://x.com/i/article/2060717603987791878
-智能体
-开源/仓库
-开源生态
-12:37
-Alibaba Cloud
-@alibaba_cloud
-66
-🚀 驯服智能体混乱？
-论文揭示NLAH：用可执行自然语言替代刚性代码框架。
-✅ 性能与代码持平，token减少95%（60k→2.9k）
-✅ 模块化设计实现精准价值归因
-✅ 识别"负资产"如多候选搜索
-从胶水代码转向科学策略。
-💡https：//int.alibabacloud.com/m/1000414388/
-#AgentHarness #NLAH #LLMEngineering
-智能体
-MCP/工具
-论文/研究
-12:34
+6月13日
+00:36
 IT之家（RSS）
-38
-Analog Tech 推出 5L 边缘 AI PC，内置 214 TOPS dNPU 加速卡
-日本 Analog Tech 发布紧凑型边缘 AI PC 系统 AironiA AIR-AD-AI-001，体积约 5L（200×250×95mm）。该机型基于酷睿 Ultra 5 处理器 225，通过 PCIe 扩展一颗 INT8 算力 214 TOPS 的 dNPU 加速卡（AxeleraAI Metis AIPU，三星 5nm，8~15W）。运行 YOLOv5 模型可同时处理 24 条视频流，支持升级至 AxeleraAI Europa。标配 32GB DDR5 5600MT/s 内存、512GB M.2 NVMe SSD，配备 2.5GbE+1GbE 双网卡、HDMI 2.1/2.0、DP 1.4a 及 4 个 USB 3.X 接口。
+45
+苹果发布 Core Image RAW 9 处理管线
+苹果在 WWDC26 发布 Core Image RAW 9 处理管线及 API，为 2017 年 RAW 8 以来首次重大更新。去马赛克与降噪通过新 CoreML 模型同步进行，处理相机 RAW 文件时效果显著优于 RAW 8。目前已支持 784 款相机 RAW 文件，针对富士 X-Trans CMOS 传感器改进了伪色与细节问题。新 API 利用神经网络引擎提升图像锐度与色彩；CIRAWFilter API 可调整曝光、降噪等参数；CIImageProcessor API 通过精细控制图块与缓冲区优化性能。
 产品更新
-推理
-端侧
-12:34
-IT之家（RSS）
-64
-阿里云创始人王坚：我坚定地不相信 AI 会替代人
-在今日举办的2026第八届北京智源大会上，之江实验室主任、阿里云创始人王坚明确表示，他坚定不相信人工智能会替代人。他以“狗的鼻子比人灵很多，但这并不会对我们造成伤害”作比喻，批评人们被AI概念限制思维，不应盲从。王坚今年3月还曾指出，每天通勤40分钟是在浪费生命，AI应解决这类难题，把人最宝贵的资源利用好。
-大佬观点
-安全/对齐
-12:34
-IT之家（RSS）
-26
-鸿蒙智行全新一代问界M9明日开启全国首交，47.98万元起
-6月13日，全新一代问界M9开启全国首交，首批车主将走进赛力斯超级工厂。新车提供标准尺寸及Ultimate领世加长版，带来超140项新技术的、超40项行业首创。价格：Max+阔五座增程47.98万、纯电49.98万；Max+享六座增程48.98万、纯电50.98万；Ultra享六座54.98万；Ultimate领世加长版阔五座64.98万、享六座65.98万。搭载新一代鸿蒙座舱、一体式寰宇双联屏，整车40个智驾传感器，首搭华为六激光雷达矩阵（前向双冗余+全向4固态）和华为乾崑智驾ADS 5，升级全维防碰撞5.0，配备双焦面AR-HUD、智慧大灯及激光雷达清洗系统。
-其他
-具身智能
-12:34
-IT之家（RSS）
-66
-阿里云创始人王坚：AI 对科研的影响，与对程序员的冲击逻辑一致
-2026 第八届北京智源大会上，之江实验室主任、阿里云创始人王坚指出，人工智能对科学研究的影响已发生质变。核心在于 AI 从只能理解文本发展到能理解多模态数据和代码，具备了区分语言文本与代码文本的能力。他认为，AI 改变程序员工作方式后，所有科学数据都会因 AI 被重新理解，科研人员受到冲击的逻辑与程序员一致。
-多模态
-大佬观点
-12:25
-Claude Code：GitHub Releases（RSS）
+00:34
+Tibo
+@thsottiaux
+50
+听到了你们（有趣的）反馈，说有时在毫无预警的情况下收到 Codex 用量重置让人烦心。
+下次我们按按钮时，你可以选择它实际何时生效。祝编程愉快。
+OpenAI: We heard you wanted to use Codex rate limit resets on your own time. Starting today, we're rolling out the ability to sa...
+OpenAI
+产品更新
+编码
+00:23
+TechCrunch：AI（RSS）
 52
-Claude Code v2.1.175 发布：新增 enforceAvailableModels 管理设置
-Claude Code v2.1.175 新增 enforceAvailableModels 管理设置。启用该设置后，availableModels 允许列表也会约束 Default 模型——若 Default 模型解析到被禁用的模型，则自动回退至第一个允许的模型；用户或项目设置无法再扩大受管理的 availableModels 列表。
+SpaceX、Anthropic 和 OpenAI 的 IPO 火热夏季
+IPO 市场回暖，新缩写 MANGOS 取代 FAANG 成为领头羊——涵盖 Meta（或 Microsoft）、Anthropic、Nvidia、Google、OpenAI 和 SpaceX。其中半数公司将在同一窗口期上市，这对投资者、估值和市场承受力构成压力测试。
 Anthropic
-产品更新
-编码
-部署/工程
-12:02
-Deedy
-@deedydas
-63
-Deedy Das：小型团队用AI模型运营量化基金，资本数月翻倍
-Deedy Das观察到新兴现象：小型团队利用AI模型运营量化基金，数月内实现资本翻倍。传闻SSI也是量化对冲基金。知名对冲基金（如Jane Street）正用GPU集群测试LLM交易；同时大量散户向Claude/GPT咨询股票建议或“vibe code”交易引擎。这引发对市场影响的思考：有效市场假说可能被“相关性模型假说”取代；美联储小规模研究显示不稳定效应；交易集中化易受“投毒”攻击；模型alpha会随时间衰减，需开发抗AI交易策略。最终能否参与取决于token成本承受能力。
-大佬观点
-12:00
-HuggingFace Daily Papers（社区热门论文）
-67
-EvoArena：面向动态环境的LLM智能体记忆演化基准与EvoMem记忆范式
-EvoArena是一个基准套件，将环境变化建模为终端、软件和社交领域的渐进更新序列，用于评估LLM智能体在动态环境中的表现。实验显示，当前智能体在EvoArena上的平均准确率仅为39.6%。EvoMem是一种基于补丁的记忆范式，通过结构化更新历史记录记忆演化，使智能体根据记忆变化推理环境演变。EvoMem在EvoArena上带来平均1.5%的性能提升，在GAIA和LoCoMo上分别提升6.1%和4.8%，并将EvoArena链级准确率提升3.7%。机制分析表明，EvoMem改善了记忆中的证据捕获，更完整地保留演化环境状态。
-智能体
-论文/研究
-评测/基准
-12:00
-HuggingFace Daily Papers（社区热门论文）
-69
-EvoBrowseComp：基于动态知识的搜索智能体评测基准
-EvoBrowseComp 提出包含 400 英文和 400 中文无污染复杂问题的动态基准，问题通过实时网络遍历合成。其采用三智能体协作框架：QA 合成智能体从实时网页检索知识生成问答对；信息过滤智能体按可信度和流行度过滤以阻止参数捷径；高层指导智能体将问题形式化为推理图减少逻辑冗余。该框架支持自动合成与定期更新，防止污染并保持时效性。实验表明该基准难度极高，需广泛横向搜索能力，为可自动更新的高难度评测建立了可扩展范式。
-智能体
-arXiv
-论文/研究
-评测/基准
-11:54
-小互
-@xiaohu
-精选
-75
-小互（@xiaohu）升级了公众号排版技能组合，实现一句话完成排版、封面生成并一键发送到公众号草稿箱。该工具已开源，提供20种主题颜色可选，可自动分析内容进行排版，支持非Markdown文件。用户只需在Claude Code、Codex或OpenClaw中提供文章链接或文档位置，即可获得可视化预览界面进行选择，全程无需手动操作。
-小互: 一句话搞定公众号排版、封面生成、发布 我做了个技能组合,可以一句话搞定公众号排版、封面生成,和一键发送到公众号草稿箱,你只需点下发布即可。 已经开源了 有20种主题颜色可选 最重要的是它会自动分析你的内容,进行自动排版,不是Markdown...
-Anthropic
-图像生成
-开源/仓库
-教程/实践
-推荐理由：小互把公众号排版全流程做成一个开源技能，一句话就能从内容生成到草稿箱，做公众号的可以直接用，这种自动化程度很少见。
-11:47
+OpenAI
+行业动态
+00:17
 jason
 @jxnlco
-9
-我们不需要 IPO 也能去购物
-（引用推文问：OpenAI/Anthropic 的员工 IPO 后都去哪儿买衣服？）
-Max Zeff: where are openai/anthropic employees buying clothes from post IPO
+46
+"Codex 为开源项目免费开放新一批授权"
+Codex 为开源项目提供免费授权，最新一批包括 TensorFlow、Next.js、Kubernetes、Angular、Swift、Spring Boot、Playwright、Vim、Bitcoin、n8n、Bootstrap、酷狗（30-seconds-of-code）等大量知名开源仓库，列表涵盖机器学习、前端框架、基础设施、游戏开发、数据库等众多领域。具体授权范围和细则未在推文中说明。
 OpenAI
-其他
-11:37
-karminski-牙医
-@karminski3
-64
-作者谈模型编程能力取决于"代码直觉"--以GPT-5.5-pro-xhigh修复路网断裂bug为例
-作者认为模型编程能力取决于“代码直觉”，由海量开发经验堆出，极难训练。他以路网断裂bug为例：GPT-5.5-pro-xhigh错误认为矩形每条边只需1个tile，实际需2个tile，多模态截图也无法纠正。作者费4小时，让模型给tile编ID并质问“两个tile之间能容纳几个tile”才暴露缺陷，随后告知每个tile对应单位长度并应用规则，修复变简单。不同模型表现：有的开始不犯错，有的迭代修复，有的怎么都修不好。
-OpenAI
-大佬观点
-编码
-11:34
-IT之家（RSS）
-48
-可检测 AI 音乐，Deezer 为 Spotify、Apple Music 等第三方平台推出免费工具
-法国音乐流媒体平台 Deezer 昨日推出一款免费工具，可扫描 Apple Music、Spotify 等第三方平台的播放列表，检测是否包含 AI 生成音乐。Deezer 是首批标注 AI 音乐的平台之一，此前曾向其他平台推销该识别技术但未获回应。CEO Alexis Lanternier 表示，既然没有平台跟进，就让所有用户自行检测。使用方法：访问 Deezer 检测网站，选择流媒体服务并授权账户即可完成分析。
 产品更新
-语音
-11:34
-IT之家（RSS）
-55
-微软发布 Chrome / Edge 浏览器扩展，一键关闭 Bing 搜索结果 AI 回答内容
-微软搜索部门负责人 Jordi Ribas 于 6 月 6 日在 X 平台宣布，推出浏览器扩展 Microsoft Bing AI Search Choice，已上架谷歌 Chrome 和微软 Edge 应用商店。用户安装启用后，可在 Bing 搜索结果中一键移除 Copilot 生成的 AI 回答。微软表示该功能为预览版，目的是让用户掌控搜索体验，并非所有用户都希望在所有场景默认使用 AI。
-Microsoft
-产品更新
-搜索
-11:34
-IT之家（RSS）
-50
-亚马逊 AWS Graviton5 处理器全面可用
-亚马逊 AWS 宣布去年发布的 Graviton5 处理器全面可用，基于其的 EC2 M9g 实例较上代 M8g 提供 25% 计算性能提升；数据库性能提升 30%，Web 应用性能提升 35%，ML 工作负载性能提升 35%。Graviton5 拥有 192 个内核，支持 DDR5-8800 内存与 PCIe Gen6，L3 缓存是 Graviton4 的 5 倍，每核心 L2 缓存是 Graviton4 的 2.6 倍。采用台积电 3nm 工艺，基于 Arm Neoverse V3，每核心 1MB L3，支持 12 通道内存、96 条 PCIe 通道，D2D 互联带宽 420GB/s。
-产品更新
-部署/工程
-11:34
-IT之家（RSS）
-10
-小米15手机12+512G版京东清仓：叠加多重补贴到手2234元
-小米15手机12+512GB版京东自营直降至3099元，PLUS会员立减15.49元，叠加9折优惠券、国补立减394.28元及微信9.5折补贴券后，到手价2234.28元（上市价4499元）。该机搭载骁龙8至尊版处理器，6.36英寸1~120Hz LTPO直屏，5400mAh电池+90W有线+50W无线快充，后置徕卡三摄（50MP主摄+50MP超广角+50MP长焦），支持IP68、超声波指纹，有丁香紫、浅草绿、黑、白四色。
-其他
-11:32
-AK
-@_akhaliq
-67
-智能体的最后考试
-智能体
-评测/基准
-11:32
-AK
-@_akhaliq
-62
-CHORUS
-去中心化多本体协作，基于单一VLA策略。
-智能体
-具身智能
-论文/研究
-11:30
-向阳乔木
-@vista8
-76
-Vista 编写了 AI 专用 PRD 文档生成 Prompt，先用它生成文档再交给 AI 开发，以提升功能完整度。Fable 5 项目开发在线 Photoshop 正是使用此方法。安装指令：`npx skills add joeseesun/qiaomu-ai-prd`，开源地址和 Prompt 见评论。
-向阳乔木: 现在都是 AI Agent做开发,人喜欢的 PRD 和 AI 喜欢的是不一样的。 为了精准高效开发,写了个专门服务于 AI 的PRD文档生成Prompt。 先有这个文档,再给AI开发,功能完整度和丰富性会远远比自己想的全面、好用。 Skil...
-智能体
-开源/仓库
-教程/实践
-编码
-11:30
-向阳乔木
-@vista8
-37
-Youmind两周年，CEO玉伯获赞坦诚独立
-Vista 分享近期多次用 Youmind 制作 PPT，祝贺 Youmind 已成立两年。他评价 Youmind 创始人玉伯是身边朋友中的“异类”，持续独立思考，线上线下反差大。玉伯以真实为原则，坦诚到让人感到“可怕”，这种 CEO 非常稀缺。
-nene: http://x.com/i/article/2065074380431081472
-MCP/工具
-大佬观点
-11:30
-向阳乔木
-@vista8
-44
-AI First 原则就是，一切都要先试试 AI 能不能帮搞定。
-正在试着用 Codex 的 Computer Use 帮填写 Word 合同。
-智能体
-教程/实践
-11:17
-Hacker News 热门（buzzing.cc 中文翻译）
-57
-克劳德·法布尔始终积极进取
-Hacker News 上的一篇文章指出，Claude Fable 被描述为始终积极进取（relentlessly proactive）。该文发布在 simonwillison.net，标题为“Claude Fable is relentlessly proactive”，在 HN 上获得 119 个点赞。
-智能体
-Anthropic
-编码
-评测/基准
-11:03
-SemiAnalysis
-@SemiAnalysis_
-50
-Amazon Bedrock 可能在年底前占据大部分AI业务。Token即服务模式正在重塑超大规模云服务商的定位，速度超预期。
-现象/趋势
-部署/工程
-11:00
-HuggingFace Daily Papers（社区热门论文）
-65
-MoVerse： 基于全景高斯支架的实时视频世界模型
-MoVerse 能从单张窄视野图像生成可交互漫游的实时视频世界模型。它将世界构建与观察渲染分离：先用拓扑感知扩散将输入扩展为重力对齐的 360° 全景图，再通过全景几何感知残差预测将其提升为持久 3D Gaussian scaffold，最后由 Gaussian 条件视频渲染器沿用户指定相机轨迹输出逼真视频。渲染器采用双向扩散教师蒸馏为因果自回归学生，实现有限延迟流式输出。在单个 NVIDIA RTX 4090 GPU 上支持 8 FPS 的实时场景漫游。
-图像生成
-视频
-论文/研究
-11:00
-HuggingFace Daily Papers（社区热门论文）
-58
-SpatialClaw：重新思考智能体空间推理的动作接口
-SpatialClaw 是无需训练的空间推理框架，采用代码作为动作接口，维护预加载输入帧和感知几何原语的状态化 Python 内核，让 VLM 驱动的智能体逐步编写可执行代码单元，灵活组合分析感知结果。在 20 个静态和动态 3D/4D 空间推理基准上平均准确率达 59.9%，比近期空间智能体提升 11.2 个百分点，且在不做基准或模型适配的情况下，在六个 VLM 骨干上均取得一致提升。
-智能体
-多模态
-推理
-论文/研究
-11:00
-HuggingFace Daily Papers（社区热门论文）
-59
-Surflo： 具有全局状态的一致3D曲面流模型
-Surflo将可变数量的未定位RGB视图压缩成K个潜在token（全局状态），通过流匹配独立地将噪声点传输到曲面，解码出定向3D表面点。输出不受固定网格或token预算限制：同一潜在状态可在单次前向传播中生成数千到百万个点。推理时通过ODE积分注入光度梯度，关联邻近点以抑制局部不一致。在表面指标上匹配或超越前馈基线，比需数百视图的优化方法快一个数量级，是唯一结合全局潜在与任意分辨率解码的前馈方法。
-图像生成
-论文/研究
-11:00
-HuggingFace Daily Papers（社区热门论文）
-55
-VideoMDM： Towards 3D Human Motion Generation From 2D Supervision
-VideoMDM是一个基于扩散的框架，从单目视频的精确2D姿态训练3D人体运动先验，无需3D真值。它利用预训练的2D-to-3D提升器提供近似3D序列作为噪声教师，经扩散和去噪后重投影到2D并与准确关键点对比以监督训练。理论证明深度加权的2D重投影损失在期望上等价于直接3D监督。在HumanML3D基准上，VideoMDM几乎缩小了与完全3D监督MDM的差距（FID 0.88 vs 0.54）；在真实视频数据集Fit3D和NBA上，生成的运动获得人类一致偏好。
-多模态
-视频
-论文/研究
-11:00
-HuggingFace Daily Papers（社区热门论文）
-60
-LabVLA：面向科学实验室的视觉-语言-动作模型
-科学实验室的机器人操作需要VLA模型，但现有模型多训练于家居场景，缺少实验室专用数据和多形态机器人支持。研究者构建仿真数据引擎RoboGenesis，从原子技能组合生成结构化演示；并提出LabVLA模型，采用两阶段训练：先用FAST动作token预训练使Qwen3-VL-4B-Instruct骨干具备动作感知能力，再通过流匹配后训练附加知识隔离的DiT动作专家。在LabUtopia基准上，LabVLA在分布内和分布外设置下均取得所有基线中最高的平均成功率。
-具身智能
-数据/训练
-论文/研究
-11:00
-HuggingFace Daily Papers（社区热门论文）
-精选
-79
-MaxProof：面向数学证明的群体级别测试时扩展框架（MiniMax-M3）
-MaxProof 是为 MiniMax-M3 系列设计的群体级别测试时扩展框架，用于竞赛级数学证明。M3 模型训练了证明生成、证明验证和基于 critique 的证明修复三种能力，验证器采用低假阳性率的深度防御生成式架构。这些能力合并到单个 M3 模型。测试时，MaxProof 将模型用作生成器、验证器、精炼器和排序器，在候选证明群体中搜索并通过锦标赛选择返回最终证明。M3 模型在 IMO 2025 达 35/42，USAMO 2026 达 36/42，均超过人类金牌阈值。
-推理
-论文/研究
-关联讨论 1 条
-推荐理由：MiniMax-M3用生成-验证器RL把数学证明推到了人类金牌水平，IMO 2025 35/42，USAMO 2026 36/42。这篇的意义不只分数，而在于验证-修复-群体搜索的技术路线跑通了最难的人类竞赛。
-11:00
-HuggingFace Daily Papers（社区热门论文）
-63
-InterleaveThinker：强化智能体交错生成管线
-InterleaveThinker 提出多智能体管线，通过规划智能体组织图像-文本输入序列、批评智能体评估生成结果并修正指令，使任意现有图像生成器具备交错生成能力。构建 Interleave-Planner-SFT-80k 和 Interleave-Critic-SFT-112k 数据集进行冷启动，并利用 GRPO 在 Interleave-Critic-RL-13k 上强化批评智能体的逐步指令修正。提出 accuracy reward 和 step-wise reward，使单步强化学习有效引导整个生成轨迹。在交错生成基准上性能与 Nano Banana 和 GPT-5 相当；在 4-step FLUX.2-klein 推理基准上，WISE 和 RISE 指标显著提升。
-智能体
-图像生成
-多模态
-推理
-11:00
-HuggingFace Daily Papers（社区热门论文）
-精选
-70
-EurekAgent：环境工程化实现自主科学发现
-EurekAgent 是一个环境工程化的大语言模型智能体系统，专为度量驱动的自主科学发现设计。它从权限工程（可控执行与隔离评估）、产物工程（文件系统与 Git 协作）、预算工程（成本感知探索）和人在回路工程（简便监督干预）四个维度构建执行环境。EurekAgent 在数学、内核工程和机器学习任务上取得新 SOTA，包括以不到 11 美元总 API 成本发现新的 26 圆填充结果。代码与结果已开源。
-智能体
-arXiv
 开源生态
-论文/研究
-推荐理由：EurekAgent 把科学发现的目光从设计智能体流程转向环境工程，用不到 11 美元就找到了新的圆打包纪录，这可能是低成本自主科研的转折点。
-11:00
-HuggingFace Daily Papers（社区热门论文）
+编码
+00:14
+Anthropic：Newsroom（网页）
 精选
-75
-WEAVER：一种更优、更快、更长的机器人操作世界模型
-WEAVER是一种多视图世界模型架构，通过流匹配损失训练预测未来潜变量和奖励值，满足保真度、一致性和效率三个要求。在机器人操作任务上，WEAVER在政策评估中与真实成功率的相关系数ρ=0.870，在π₀.₅基础模型基础上实现政策改进成功率提升38%，测试时规划成功率提升14%，且速度比先前世界模型快5–10倍。在分布外场景下表现也优于先前世界模型。代码、模型和视频已开源。
-arXiv
-具身智能
-数据/训练
-论文/研究
-推荐理由：世界模型在机器人操控上第一次同时跑通了「高保真、长时一致、高推理效率」这三个硬指标，真机实验把成功率拉高38%，代码模型全开源，搞具身智能的值得认真读。
-11:00
-HuggingFace Daily Papers（社区热门论文）
-59
-SWITCH：可切换潜在推理框架
-SWITCH利用一对显式边界token（<swi>入口和</swi>出口）将隐藏状态递归块与标准同策略RL（GRPO）兼容。模型通过可见到潜在的课程学习和Switch-GRPO目标训练，在类似规模下一致优于先前隐藏状态递归潜在推理方法。机制分析通过边界token揭示三个发现：入口token是学习到的局部切换策略而非风格化伪影；打开的潜在步骤执行问题特定且因果重要的计算；该计算集中在进入时的单个隐藏状态转换上。表明隐藏状态递归潜在推理既可同策略RL训练也可进行直接机制分析。
-arXiv
-推理
-论文/研究
-11:00
-向阳乔木
-@vista8
-精选
-75
-qiaomu-ai-prd：面向AI的PRD生成Prompt
-推文提出AI Agent开发中人类与AI对PRD的需求不同，为此发布了一个专门服务于AI的PRD文档生成Prompt（命名为qiaomu-ai-prd）。开发者先使用该Prompt生成文档，再交给AI开发，可显著提升功能完整度和丰富性。安装指令为：`npx skills add joeseesun/qiaomu-ai-prd`，开源地址及Prompt见评论区。
+73
+Anthropic首次公众调查：近半美国人盼AI治愈疾病，超六成担忧失业
+Anthropic对近5.2万美国人调查显示：48%将治愈癌症等疾病列为首要期望，36%希望AI帮助残障人士。64%担忧AI导致失业，56%担忧认知依赖，52%担忧信息误导。超70%支持政府监管，最关注隐私（56%）、儿童安全（52%）和责任归属（49%）。仅15%信任AI公司决策。多数议题上观点不因党派或地域严重分裂。调查于2025年11-12月由YouGov线上执行并加权至人口普查基准。
+Anthropic
+政策/监管
+现象/趋势
+推荐理由：Anthropic发布了一份覆盖5.2万美国人的AI民意调查，首次系统揭示了公众的恐惧排名——失业第一、认知依赖第二。虽然他们借数据推广自家政策框架的意图明显，但这两组数字对产品人理解用户心态极有价值。
+00:14
+Replit ⠕
+@Replit
+31
+Agent 超能力：技能 + 自定义指令 https：//x.com/i/broadcasts/1kJzDDnMvrWKv
 智能体
-MCP/工具
-教程/实践
-推荐理由：如果你用 AI 做开发，这个 PRD 生成 Prompt 比你自己瞎写强一个量级，功能完整度翻倍，还不容易漏掉边界情况。装个 skill 就能用，算是个顺手小升级。
-10:59
-Bloomberg：Technology（RSS）
-56
-人形机器人制造商 EngineAI 据称已秘密提交香港 IPO 申请
-中国机器人初创公司 EngineAI 已以保密方式向港交所提交上市申请，成为该行业寻求融资的又一家企业。知情人士透露了这一消息，但尚未披露具体募资规模和时间表。
+产品更新
+编码
+00:00
+Hugging Face：Blog（RSS）
+精选
+74
+olmo-eval：面向模型开发循环的评估工作台
+olmo-eval 是基于 OLMES 标准构建的评估工作台，专为 LLM 持续开发中的反复评测场景设计。相比 OLMES，它减少了新增评测的实现工作量，支持 agentic 和多轮评测作为一等用例，并允许根据基准需求选择轻量直接运行或容器化隔离运行。采用模块化架构，模型、工具、容器环境、辅助模型均可独立替换。评测结果同时报告分数、标准误差和最小可检测效应。与 Harbor 侧重于发布不同，olmo-eval 聚焦开发阶段快速迭代，可逐问题对比检查点输出以区分真实改进与噪声。
+Hugging Face
+产品更新
+开源生态
+评测/基准
+推荐理由：做模型训练的人会感谢这个工具，它把评估从一次性打分变成能持续对比的流程，按题对比两个 checkpoint 的功能很实用，但如果你不训模型，这篇可以跳过。
+6月12日
+23:54
+Claude
+@claudeai
+40
+Claude Fable 5 已经发布几天了。人们已经用它构建的一些项目：
+Anthropic
+模型发布
+编码
+23:40
+Emad
+@EMostaque
+55
+人形机器人初创EngineAI秘密提交港股IPO，成为继宇树、优必选后第三家冲刺公开市场的中国公司。该公司2023年成立，最新估值超100亿元，苹果代工厂立讯精密为股东。2025年出货约400台，目标2026年4000-5000台。对比之下，宇树2025年出货5500台，智元5200台，优必选全尺寸1079台。EngineAI PM01定价2.55万美元起。创始人赵同阳原为小鹏机器人团队负责人。主推文观点认为机器人市场将增长数千倍，最终超过整个人类劳动力市场。
+Michelle: Shenzhen humanoid startup EngineAI @engineairobot filed confidentially for a HK IPO today. This is the 3rd major Chinese...
 具身智能
 行业动态
-10:52
-swyx
-@swyx
-46
-swyx自建vibecoding平台：吐槽现有平台未闭环错误处理
-开发者swyx抱怨Vercel、Cloudflare、Netlify等现有平台未能真正闭环：在你出错或项目失败时，它们不会主动引导你纠正或发送通知。此外，每个项目都需要重复设置大量“网站管理员”基础设施，比如执行npx posthog wizard、npx arize skills等。swyx表示厌倦了这种零散配置，希望将所有功能整合到一个平台中，一次搞定。
-大佬观点
-部署/工程
-10:37
-karminski-牙医
-@karminski3
-50
-FlashMemory： 将DeepSeek-V4上下文显存压缩至1.3GB并提升准确率
-DeepSeek-V4支持1M上下文，显存约10GB（对比DeepSeek-V3.2约84GB）。FlashMemory论文进一步将显存压至1.3GB，并在LongBench-v2等长文本评测上准确率平均提升0.6%。核心是神经内存索引器（小模型），通过预测所需历史片段按需加载，实现注意力降噪。训练采用解耦双编码器架构，无需加载DeepSeek-V4基座模型，训练成本大幅下降。论文：arxiv.org/abs/2606.09079；项目：github.com/libertywing/FlashMemory-Deepseek-V4。
-DeepSeek
-推理
-教程/实践
-部署/工程
-10:34
+23:36
 IT之家（RSS）
-54
-OpenAI 推广 Codex：未来 2 周邀请好友可重置 AI 使用量
-OpenAI 6 月 12 日在 X 平台宣布启动 Codex 推广活动，用户未来 2 周内邀请好友加入 Codex 并发送第一条消息后，可获得一次速率限制重置，可在任意时间使用。
-OpenAI
+57
+高盛总裁沃尔德伦：SpaceX 创纪录 IPO 表明投资者愿为 AI、太空基建买单
+SpaceX上市首日高开29%，募资750亿美元创全球最大IPO纪录，跻身全球第6大上市公司，马斯克成首位万亿富豪。高盛总裁沃尔德伦称，这表明投资者愿为AI和太空基建买单，预示IPO浪潮，Anthropic和OpenAI均可能今年上市。他还预计2026年并购交易将创纪录，全球并购规模达3.1万亿美元，同比增35.2%。
+行业动态
+部署/工程
+23:36
+IT之家（RSS）
+55
+苹果 Siri AI 仅限较新设备：iPhone 15 Pro 起，端侧模型门槛更高
+苹果在 WWDC 26 发布 iOS 27 等系统，深度集成 Apple Intelligence 的 Siri AI 仅限较新设备。iPhone 需 15 Pro/Pro Max 及 16 全系，iPad 需 M1 或更新芯片或 A17 Pro，Mac 需 M1 及以上，Apple Watch 需 Series 9/Ultra 2 等且搭配兼容 iPhone。高阶端侧 AI 模型（个性化语音语速、情感、语调）要求 12GB 统一内存，仅限 iPhone 17 Pro/Pro Max/Air、M4 12GB iPad、M3 12GB Mac、M5 Vision Pro；iPhone 17 标准版因 8GB 被排除。Siri AI 形成三级准入门槛。
 产品更新
+端侧
+23:36
+IT之家（RSS）
+40
+Meta CEO 扎克伯格：十几二十人团队就能推动AI进步
+Meta CEO 扎克伯格称，推动AI进步不需要成百上千名研究人员，一个十几至二十几人的团队即可取得进展。他谈及与妻子创办的非营利医学研究组织Biohub时表示，该组织结合AI与生物学，目标在21世纪末前治愈、预防或管理所有疾病。AI研究人员虽抢手，但Biohub的前沿生物学与AI结合的工作独特且难以替代。AI进展让扎克伯格对Biohub提早完成使命感到乐观，但算力获取仍受限。
+Meta
+大佬观点
+23:36
+IT之家（RSS）
+精选
+74
+字节豆包上线"任务模式"：支持定时执行与文件生成，"思考模式"升级为"专家模式"
+6月12日，字节跳动旗下AI应用豆包大范围上线“任务模式”，支持定时执行、零代码网页生成、一键PPT生成、数据可视化分析等全链路Agent执行。原“思考模式”升级为“专家模式”，调用豆包大模型2.0 Pro版本，强化深度推理能力。App顶部模式切换改为“快速、专家、任务”。基础功能免费，高阶服务付费，专业版三档：标准版68元/月或688元/年，加强版200元/月或2048元/年，专业版500元/月或5088元/年。
+智能体
+MCP/工具
+产品更新
+推荐理由：豆包从对话助手转向能自主规划执行的任务模式，这是国产 AI 应用向 Agent 演进的一个明确信号，产品人该看看它如何用「快速、专家、任务」三种模式重塑用户预期。
+23:35
+Artificial Intelligence News（RSS）
+46
+Coinbase for Agents：用AI自动化投资组合交易
+Coinbase for Agents 将 AI 连接到金融执行通道，实现从用户投资组合自动进行交易和支付。大语言模型虽能处理海量数据，但缺乏与活跃金融投资组合的直接集成。个人常利用这些模型评估市场动向或研究投资机会，而这些软件工具具备处理复杂任务的能力。
+智能体
+产品更新
+23:32
+Deedy
+@deedydas
+72
+Claude 5 Fable （Ultracode）
+"在日出时制作一个可玩的高山冰川山谷"
+没有网格或模型。你所看到的一切都是数学。Fable 截取了自己作品的屏幕截图并进行了迭代。
+耗时约 30 分钟，约 500k tokens，约 2500 行代码，约 25 美元。极其令人印象深刻。
+Anthropic
+多模态
+模型发布
 编码
+23:25
+The Verge：AI（RSS）
+58
+SpaceX 大规模 IPO：最新消息汇总
+SpaceX 于周五进行首次公开募股（IPO），公众首次可以购买这家融合火箭、AI 和社交媒体业务的公司股票。此次融资规模巨大，可能使埃隆·马斯克成为首位万亿富翁，其估值基于将 AI 数据中心发射到太空的业务前景。此外，SpaceX 还获得了一份价值 40 亿美元的合同，用于建造导弹追踪卫星“金穹”。
+行业动态
+部署/工程
+23:02
+Ethan Mollick
+@emollick
+72
+一项发表在Nature Medicine的研究显示，通用前沿大语言模型（Google、OpenAI、Anthropic）在医学信息评估中全面优于专门的临床AI工具（OpenEvidence和UpToDate）。12名美国临床医生进行随机盲测，Frontier LLMs在三项评估中均胜出。临床AI工具的表现与自动启用的Google Search AI Overview在RCQ测试中相当。
+Eric Topol: For medical information, general AI frontier models (Google, OpenAI, Anthropic) outperformed specialized @EvidenceOpen a...
+Anthropic
+Google
+OpenAI
+论文/研究
+22:48
+OpenRouter
+@OpenRouter
+31
+OpenRouter宣布本月为"成本降低月"，计划每周至少发布一项降低推理成本的功能。据WSJ报道，OpenRouter提供一系列降本策略，帮助客户应对AI模型突破后常见的成本压力。引用数据显示，过去三年里重大技术突破后往往伴随成本飙升。首批功能已在本周上线，后续清单将持续更新。OpenRouter旨在通过持续优化推理开销，缓解OpenAI、Anthropic等大模型厂商的定价压力。
+OpenRouter: This month is, unsurprisingly, Cost Reduction Month. In our data from the last 3 yrs, we commonly see major cost crunche...
+产品更新
+部署/工程
+22:46
+Gary Marcus：The Road to AI We Can Trust（RSS）
+24
+Gary Marcus：今日幻觉速报
+Gary Marcus 在一篇题为“You can’t get more 2026 than that”的短文中仅写出一句：“Hallucination of the day:”。该文未披露具体模型、版本号或任何数字细节，仅以简短方式指出现阶段AI仍存在模型幻觉现象。
+其他
+大佬观点
+22:41
+🚨 AI News | TestingCatalog
+@testingcatalog
+53
+SPACEX 🔥：$SPCX 今日上市，市值1.77万亿美元，股价135美元！
+考虑到xAI现在是它的一部分，这正在成为今年最大的AI事件之一。
+谁参与？👀
+SpaceX: Follow today's $SPCX events → http://x.com/i/events/2062294933059334145
+xAI
+行业动态
+22:40
+Emad
+@EMostaque
+38
+如果你觉得AI估值疯狂，那就等到SpaceX、OpenAI和Anthropic都变得流通起来。
+希望一些疯狂但有影响力的想法能得到资助，尤其是很多股东认为AGI即将到来，所以要么利用它要么失去它。
+Anthropic
+OpenAI
+大佬观点
+22:40
+AYi
+@AYi_AInotes
+56
+阿易AI Notes评Garry Tan：AI编码工具加速官僚而非解放创始人
+Garry Tan指出AI编码工具并未解放创始人，反而让人更快搭建规则、审批、流程、层级——同一座牢笼装配更快。以前加一层审批需两周，成本本身是免疫系统；现在AI一个下午就能完成，复杂度无限繁殖，构建速度即僵化速度。AI放大已有心智模型：控制型团队用它堆官僚，创造型团队用它创造新体验。提醒不要用AI把旧流程跑得更快，而应删掉整个旧流程，创造前所未有的事，否则赢了效率输了方向。
+Garry Tan: Everyone thinks AI coding tools set founders free. Watch what people actually build with them: rules, approvals, process...
+大佬观点
+现象/趋势
+编码
+22:34
+SenseTime
+@SenseTime_AI
+61
+商汤SenseNova-U1-8B-MoT-Interleaved发布
+商汤推出SenseNova-U1-8B-MoT-Interleaved模型，专门用于交错文本与图像生成。核心升级包括：叙事连续性增强，支持多页连贯故事；角色一致性改进，人物身份与艺术风格保持稳定；视觉质量提升，文字渲染更清晰、布局更可靠、伪影减少。模型已在HuggingFace开放体验。
+图像生成
+多模态
+开源/仓库
+模型发布
+22:32
+Rohan Paul
+@rohanpaul_ai
+64
+Anthropic 的 Dario Amodei 最新访谈：关于 Claude 在美国军事中的使用。
+他表示可能会犯下"可怕的"错误。并主张 Anthropic 一直试图为其模型的使用设定限制/"红线"，即使这样做会危及公司的未来。
+Anthropic
+大佬观点
+安全/对齐
+22:28
+The Decoder：AI News（RSS）
+60
+Mistral AI 寻求30亿欧元融资以推动欧洲AI发展
+法国AI初创公司Mistral AI正在谈判新一轮约30亿欧元的融资，估值约为200亿欧元。此次融资旨在支持其欧洲人工智能业务的拓展。
+开源生态
+行业动态
+22:28
+The Decoder：AI News（RSS）
+67
+Google与FBI联合起诉中国AI诈骗网络，OpenAI屏蔽中国影响力集群
+Google首次与FBI联合提起诉讼，针对一个涉嫌源自中国的AI诈骗网络；OpenAI同时屏蔽了多个来自中国的隐蔽影响力集群。两家公司均表示，这些操作的目标是美国基础设施和政治辩论。
+Google
+OpenAI
+安全/对齐
+行业动态
+22:28
+The Verge：订阅版科技（RSS）
+64
+贝佐斯AI创业公司Prometheus目标打造"人工通用工程师"
+Prometheus是Jeff Bezos的AI初创公司，旨在打造“artificial general engineer”（人工通用工程师）。该公司将开发AI驱动的工程工具，应用于机器人、药物设计、制造等领域。
+行业动态
+部署/工程
+22:25
+The Verge：AI（RSS）
+66
+贝佐斯AI初创公司Prometheus瞄准"人工通用工程师"
+亚马逊创始人杰夫·贝佐斯透露其新AI初创公司Prometheus的目标是开发“人工通用工程师”，即用于辅助物理产品设计的AI工程工具。Prometheus在完成120亿美元融资后估值达410亿美元，贝佐斯与Verily联合创始人Vik Bajaj共同担任CEO，目前团队约150人。
+现象/趋势
+行业动态
+22:12
+MiniMax (official)
+@MiniMax_AI
+精选
+81
+MiniMax 发布开源权重模型 M3，约 428B 总参数、23B 激活参数，已上传 HuggingFace。该模型融合三种前沿能力：编码与智能体方面达 59.0% SWE-Bench Pro、66.0% Terminal Bench 2.1、34.8% SWE-fficiency、28.8% KernelBench Hard、74.2% MCP Atlas；采用 MiniMax 稀疏注意力将上下文窗口扩展至 1M token；原生多模态。同步上线 MiniMax Code 工具及 API 平台。权重与技术报告预计约 10 天后发布。
+MiniMax (official): Introducing MiniMax M3: The First Open-Weights Model to Combine Three Frontier Capabilities - Coding & Agentic Frontier:...
+Hugging Face
+多模态
+推理
+模型发布
+推荐理由：开放权重模型首次把编码 Agent 和多模态拉满，SWE-bench Pro 59% 逼近专有前沿，附带稀疏注意力 1M 上下文。做代码工具和 Agent 的团队应该都盯上它了。
+22:11
+Kling AI
+@Kling_ai
+27
+可灵Kling AI两周年：全球创作者分享体验与代表作
+可灵Kling AI迎来上线两周年，多位全球创作者分享使用体验。代表作包括获奖广告《MagicMirror AI》（获WAIFF Seoul 2026广告奖）、短剧《Call in the Sandstorm》和《A Heartbreaking Story Under the Full Moon》（基于Kling 2.6）。关键功能涵盖运动控制与一致性、开始和结束帧工作流、4K细节、微表情与衣物纹理生成，以及同时生成语音、音效和背景音乐。平台持续升级，助力独立创作者和小团队实现电影级视频制作，推动AI创意从实验走向实际生产。
+其他
+视频
+22:02
+meng shao
+@shao__meng
+31
+阿里宫斗：创业公司的另类竞争力
+邵猛发推文指出，近期阿里（通义、钉钉等）高层变动频繁，引发对创业公司面对大厂竞争时差异化优势的思考。他认为，创业公司的核心竞争力在于“不会宫斗”——大厂内部斗争消耗精力，反而让创业者有了被忽视的空间。这一观点基于阿里实际的组织动态，并非抽象讨论。
+大佬观点
+行业动态
+21:50
+Chubby♨️
+@kimmonismus
+56
+自主武器时代：人类道德仲裁角色转向AI
+推文指出，无论战争的政治立场如何，一个显著趋势正在形成：战争日益由机器自主进行。作者回顾学生时代讨论的电车难题等伦理问题，认为这些决策正越来越多地由机器做出。Anthropic已声明不希望其模型用于自主武器，但可能只是例外。人类士兵在战场上会基于道德拒绝违心命令，而机器则不会。因此，基于预先训练的价值观体系运作的AI将取代人类成为道德仲裁者，带来全新战争形态与道德争议。自主武器将成为常态而非例外。
+大佬观点
+安全/对齐
+21:41
+🚨 AI News | TestingCatalog
+@testingcatalog
+57
+KIMI AI🔥： 一个新的开源"Kimi K2.7 Code"模型已在 API 和 Huggingface 上发布！
+> 相比 K2.6，编码与智能体性能提升
+> 推理效率
+> 长时域编码
+测试时间 👀
+Kimi.ai: 🔗 Weights & code: https://huggingface.co/moonshotai/Kimi-K2.7-Code
+Hugging Face
+开源生态
+推理
+模型发布
+21:41
+🚨 AI News | TestingCatalog
+@testingcatalog
+32
+Meta 正准备为 Meta AI 新增三种模式：深度研究、演示文稿和社交。
+所有这些功能已在运行，但用户现在可以明确选择他们想要的了。
+正在缩小差距 👀
+Meta
+产品更新
+21:36
+IT之家（RSS）
+51
+印度为自动驾驶和安全汽车技术扫清频谱障碍，以减少事故伤亡
+印度取消77-81GHz频段雷达传感器的许可证要求，并放开5.9GHz频段用于V2X通信，使该国与美欧标准接轨。车企可直接使用标准化现成硬件，降低开发成本。奔驰、宝马、马鲁蒂铃木、塔塔汽车和马恒达将更容易导入ADAS系统，实现紧急制动、自适应巡航控制、盲点警告等功能；博世、大陆、高通等供应商也将受益。2024年印度发生近50万起交通事故，超17.7万人死亡。
+政策/监管
+行业动态
+21:36
+IT之家（RSS）
+26
+广汽昊铂 S600 上市：权益价 17.99 万-19.99 万元，定位新豪华智慧运动 SUV
+广汽昊铂 S600 于 6 月 12 日上市，推出纯电与增程双动力共 4 款车型，权益价 17.99 万-19.99 万元。车身尺寸 5015/1933/1700mm，轴距 2936mm。全系标配高通 8295P 芯片、17.3 英寸 3K 中控屏、27 英寸 W-HUD，搭载 ADiGO Intelligence 端云一体架构与 11 个 AI 智能体，配备激光雷达及 ADiGO GSD 3.0，融合 Momenta R6 强化学习大模型。增程版零百加速 4.3 秒，采用 12 合 1 碳化硅电驱和广汽星源增程技术（持续发电 85kW）。纯电版基于 AEP 3.0 平台，标配 800V 快充，CLTC 续航 660km。
+智能体
+其他
+21:35
+SemiAnalysis
+@SemiAnalysis_
+44
+伴随着我们的H100 1-Click租赁指数的发布，我们撰写了2026年初GPU租赁市场的实际状况，标题是：计算现货市场从十月的"终于冷却"到大约五个月后再次出现硬性挤压。（1/4） 🧵
+现象/趋势
+部署/工程
+21:32
+Rohan Paul
+@rohanpaul_ai
+35
+前谷歌高管Mo Gawdat去年预测：2030年前将因AI投资诞生首位万亿富翁，届时机器人和AI将包办一切，人类彻底失业。其引用推文指出，SpaceX上市募资750亿美元、估值1.77万亿美元，使Elon Musk成为世界首个万亿富翁，印证该趋势。
+Rohan Paul: There are IPOs that list companies, and then there are moments that list the future. @SpaceX goes public carrying a civi...
+大佬观点
+行业动态
+21:29
+Bloomberg：Technology（RSS）
+24
+台湾拟斥资2亿美元在巴拉圭建设数据中心，巩固南美唯一邦交国
+台湾计划帮助巴拉圭建设一座价值2亿美元的数据中心，这是其罕见的基础设施投资，旨在深化与南美唯一邦交国的外交关系，该计划得到华盛顿方面的支持。
+其他
+行业动态
+21:29
+Bloomberg：Technology（RSS）
+65
+法国 AI 初创公司 Mistral AI 估值约 200 亿欧元，正洽谈 30 亿欧元融资
+法国 AI 公司 Mistral AI 正在谈判融资约 30 亿欧元（合 35 亿美元），估值约 200 亿欧元。这笔资金将为这家欧洲人工智能领军企业提供现金支持，以应对与美国和中国竞争对手在昂贵计算竞赛中的竞争。
+开源生态
+行业动态
 ‹ 上一页
 1
 2
