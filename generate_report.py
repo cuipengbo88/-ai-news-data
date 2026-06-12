@@ -151,14 +151,17 @@ def generate_report(date_str: str, raw_text: str, api_key: str, model: str = "cl
 
     user_prompt = f"以下是 {date_str} 的AI领域热点新闻原始数据，请按模板生成当日报告：\n\n{raw_text}"
 
-    response = client.messages.create(
-        model=model,
-        max_tokens=8000,
-        system=SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": user_prompt}],
-    )
-
-    return response.content[0].text
+    try:
+        response = client.messages.create(
+            model=model,
+            max_tokens=16000,
+            system=SYSTEM_PROMPT,
+            messages=[{"role": "user", "content": user_prompt}],
+        )
+        return response.content[0].text
+    except Exception as e:
+        print(f"[ERROR] Anthropic API call failed: {e}")
+        raise
 
 
 def generate_report_deepseek(date_str: str, raw_text: str, api_key: str, model: str = "deepseek-chat") -> str:
@@ -169,16 +172,19 @@ def generate_report_deepseek(date_str: str, raw_text: str, api_key: str, model: 
 
     user_prompt = f"以下是 {date_str} 的AI领域热点新闻原始数据，请按模板生成当日报告：\n\n{raw_text}"
 
-    response = client.chat.completions.create(
-        model=model,
-        max_tokens=8000,
-        messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": user_prompt},
-        ],
-    )
-
-    return response.choices[0].message.content
+    try:
+        response = client.chat.completions.create(
+            model=model,
+            max_tokens=16000,
+            messages=[
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": user_prompt},
+            ],
+        )
+        return response.choices[0].message.content
+    except Exception as e:
+        print(f"[ERROR] DeepSeek API call failed: {e}")
+        raise
 
 
 def save_report(date_str: str, content: str) -> Path:
