@@ -2,7 +2,7 @@ name: Daily AI News Fetch
 
 on:
   schedule:
-    - cron: '0 15 * * *'  # 23:00 CST (UTC+8)
+    - cron: '0 14 * * *'  # 22:00 CST (UTC+8)
   workflow_dispatch:
 
 jobs:
