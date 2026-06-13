@@ -1,0 +1,361 @@
+AI
+HOT
+精选
+全部 AI 动态
+AI 日报
+Agent 接入
+关于
+更新日志
+反馈
+信源提报
+登录
+全部 AI 动态
+AI 相关资讯全量信息流
+全部
+一手信源
+资讯
+推文
+全部
+模型
+产品
+行业
+论文
+技巧
+搜索
+6月13日
+23:21
+Hacker News 热门（buzzing.cc 中文翻译）
+60
+AI开源工具仓库在完成730万美元种子轮融资后，一夜之间被归档
+一个未公开名称的AI开源工具仓库在获得730万美元种子轮融资后，一夜之间被归档。该仓库托管于GitHub，目前处于只读状态，具体归档原因及后续计划尚未披露。
+开源生态
+行业动态
+23:18
+Kling AI
+@Kling_ai
+26
+兄弟忘了自己本应吓人
+其他
+23:07
+Rohan Paul
+@rohanpaul_ai
+67
+Meta AI转型过快 扎克伯格承认组织难消化
+路透社报道，Meta在重建AI团队时动作过快。10%员工被裁，7000人转入AI工作流岗位，扎克伯格在内部备忘录中承认部分安排不匹配，可能需将部分员工调回。新成立的Applied AI Engineering单元管理跨度达50:1。Meta仍在大力投入，年度资本支出上调至$125B-$145B，主要用于算力、数据中心、网络和电力。
+Meta
+行业动态
+22:37
+Rohan Paul
+@rohanpaul_ai
+52
+Sony AI 的 Ace 机器人在官方 ITTF 规则下击败了专业选手 Miyuu Kihara
+Nature 论文--"用自主机器人超越精英乒乓球选手"
+具身智能
+论文/研究
+22:37
+向阳乔木
+@vista8
+13
+世界杯来了！用Goal Skill 一句话生成观赛日程订阅站。
+让Codex开发一个2026世界杯日程信息网，方便自己看，也方便身边朋友订阅。
+现在开始执行，看什么时候能开发好。
+智能体
+其他
+22:27
+Chubby♨️
+@kimmonismus
+70
+Kim指出，封禁Fable 5成为开源模型和公司最大的公关助推。智谱（Zhipu）随即宣布完全开源其最强模型GLM-5.2，支持实际可用的1M上下文窗口，在长程任务独立完成上保持领先，可为复杂智能体应用提供基础支持，并继续作为最强国产编程模型的主引擎。今晚5：21起，GLM-5.2将向所有GLM编程计划用户（Lite/Pro/Max）开放，API下周上线。
+jietang: GLM-5.2 is Fully Open, Frontier Intelligence Belongs to Everyone Today, the sudden restriction of certain frontier model...
+开源生态
+模型发布
+编码
+22:21
+Hacker News 热门（buzzing.cc 中文翻译）
+45
+Google Research 利用旧手机打造低碳计算平台
+Google Research 提出通过复用淘汰的旧手机来搭建低碳计算平台，相关研究细节已在 research.google 发布。该项目旨在降低计算过程的碳排放，属于可持续硬件利用方向的探索。
+Google
+开源生态
+教程/实践
+端侧
+22:19
+Lee Robinson
+@leerob
+20
+下周二旧金山Cursor Compile见！我将与@levelsio讨论复古计算、构建创意、举重、完美牛排等等。
+行业动态
+22:11
+Nathan Lambert
+@natolambert
+13
+我们一起进入虚空。
+其他
+安全/对齐
+22:07
+Rohan Paul
+@rohanpaul_ai
+51
+Higgsfield 推出 Higgsfield Games：从提示词到多人游戏
+Higgsfield 近日宣布推出 Higgsfield Games，这是一款可从一条提示词直接构建并部署任意类型 2D 或 3D 多人游戏的产品，自动生成角色、道具和场景。该产品由 Claude Fable 5 推理游戏创意，并通过 Higgsfield MCP 调用工具完成资产和物理逻辑构建，将创意转化为代码、资产、多人游戏和发布的全流程压缩为单次提示词操作。用户可通过 Claude 的 MCP 界面或 Higgsfield 超级计算机体验。
+Higgsfield AI 🧩: Meet Higgsfield Games. For the first time, build and deploy multiplayer games from one prompt, in any genre, 2D or 3D, w...
+Anthropic
+MCP/工具
+产品更新
+多模态
+22:07
+Rohan Paul
+@rohanpaul_ai
+68
+Nvidia 推出 Cosmos 3：全模态世界模型，让物理AI实现理解、模拟与行动
+Nvidia发布Cosmos 3——一种全模态世界模型，将语言、图像、视频、音频和动作整合到同一系统，使物理AI能跨越“理解、模拟、行动”三大任务。它把动作视为世界的第一类语言，通过动作token设计，让模型可基于视频推断动作，或同时生成未来场景及对应运动。这使机器人从“识别物体”升级为预测“移动、抓取、滑动”等交互后果。相关论文《Cosmos 3: Omnimodal World Models for Physical AI》已发布于arXiv。
+arXiv
+具身智能
+多模态
+模型发布
+22:07
+向阳乔木
+@vista8
+35
+Codex 小说创作 Skill 生成《炉灰命》
+Codex 生成的小说创作 Skill 测试，随机生成了小说《炉灰命》。作者读后感觉还行，计划在迭代优化后开源。
+开源/仓库
+教程/实践
+编码
+21:58
+The Verge：AI（RSS）
+57
+我用 Gemini 一个提示词就建好了浇花应用--连 Bug 都是它自己修的
+用户向 Gemini 提交一个长提示词，五分钟后返回一个功能完整的预览窗口和一条“信道不可恢复损坏”的 Bug 消息。Gemini 提供“修复 Bug”按钮，用户点击后，233 秒内模型自行诊断并解决了“阻塞”和“竞态条件”问题，用户完全无需理解技术细节。整个过程只靠单次提示词驱动。
+Google
+现象/趋势
+编码
+21:47
+数字生命卡兹克
+@Khazix0918
+71
+实测GLM-5.2：国产Coding模型新高峰
+美国商务部以国家安全为由要求Anthropic限制外国公民访问Fable 5和Mythos 5，Anthropic直接关停两模型。同日智谱发布GLM 5.2并开源，推出需抢购的Coding Plan，下周上线API。实测：上下文窗口扩至1M，400-500k长度准确性和指令遵循与Claude差距不大；代码工程能力极稳、幻觉低；小型任务21分钟结果与Opus 4.8相同但速度慢约两倍。缺憾：纯文本、无多模态、推理慢。作者认为这是国产Coding模型新高峰，推荐GLM 5.2 + Claude Code框架。
+开源生态
+编码
+评测/基准
+21:41
+Nathan Lambert
+@natolambert
+23
+是时候让Anthropic把一个略差一点的检查点重命名为Claude Fable/Mythos 5.1，并声称它因安全原因被削弱了，然后重新推出。
+Anthropic
+大佬观点
+21:38
+Ethan Mollick
+@emollick
+50
+Ethan Mollick认为，随着Mythos级模型被视作高风险，中国也将监管其发布，且建造该类模型需要大量可监管的计算资源，因此持续开源Mythos级模型并不现实。开源权重（open weights）未来仍会存在，但仅限于非前沿模型。
+Ethan Mollick: I honestly don't understand the assumption that there will be continued open weights models. At some point, China will r...
+大佬观点
+开源生态
+21:36
+IT之家（RSS）
+62
+华为发布 DevEco Code 鸿蒙开发 AI Agent 工具
+华为在 HDC 2026 期间发布 DevEco Code，这是一款面向 HarmonyOS 开发场景的 AI Agent 工具，支持代码编写、编译构建、设备运行、文档查阅、运行时调试及 ArkTS 问题修复。DevEco Code 基于开源项目 OpenCode 扩展，保留了其终端交互、配置体系、Provider / MCP / Skill / Plugin 等能力，并针对 HarmonyOS 工程新增了 DevEco Studio、Hvigor、HDC、Skill、HarmonyOS 知识库、ArkTS 检查和设备调试集成。集成的工具包括 build_project、start_app、hdc_log、verify_ui、check_ets_files、arkts_knowledge_search、switch_cwd 等。
+智能体
+产品更新
+开源生态
+编码
+21:33
+The Decoder：AI News（RSS）
+46
+微软CEO Satya Nadella承认自己也是"token-maxer"："这很上瘾"
+微软CEO Satya Nadella警告“token-maxing”现象——即对每件事都调用最强AI模型。他认为前沿模型不应浪费在日常任务上，生产力提升的边际成本必须与token成本匹配。但Nadella也坦承自己同样沉迷于此：“I'm like a token-maxer too. So it is addictive.”
+Microsoft
+大佬观点
+21:30
+公众号：面壁智能（MiniCPM）
+50
+面壁智能李大海：全栈突破×场景落地，端侧AI加速AGI征程
+面壁智能李大海在智源大会上表示，端侧智能是实现物理世界AGI的必由之路。MiniCPM端侧模型已落地汽车（长安马自达、吉利等）、手机、AIPC、具身智能、智能家居等领域。公司开源发布周展示全栈技术：UltraData数据治理体系、MiniCPM5-1B模型以1/200参数逼近两年前GPT-4o、ForgeTrain框架对比英伟达Megatron节省10%资源、BitCPM-CANN在国产算力跑通三值训练（推理节省6倍内存）、开源PilotDeck多智能体操作系统。面壁选择全栈开源，共建端侧生态。
+具身智能
+大佬观点
+开源生态
+端侧
+21:30
+公众号：数字生命卡兹克
+59
+实测GLM-5.2，国产Coding模型的又一座新高峰。
+在Anthropic的Fable 5因美国商务部要求全面关停当日，智谱发布GLM 5.2并宣布继续开源。该模型上下文长度增至1M，在编码和智能体任务上表现突出：10万行代码的监控BUG排查耗时21分钟，结果与Claude Opus 4.8一致（后者fast模式仅需6分钟）；400-500k长上下文下准确性和指令遵循接近Claude。GLM 5.2为纯文本模型，无多模态能力，已通过Coding Plan订阅开放（限额需抢），下周将提供API并开源。
+智能体
+Anthropic
+DeepSeek
+编码
+21:28
+ginobefun
+@hongming731
+65
+Claude Fable 5与Mythos 5事件：发布、争议与被叫停
+BestBlogs推出新专题「Claude Fable 5与Mythos 5：发布、争议与被叫停」，梳理了该模型从惊艳发布，到被社区发现隐形降级，Anthropic道歉并撤回，美国政府出手叫停，最终模型全球下线的完整过程。
+Anthropic
+安全/对齐
+政策/监管
+行业动态
+21:19
+gabriel
+@gabriel1
+32
+美国在一年或两年内撤销对一个发达国家的AI访问，可能使其变成一个发展中国家
+开源似乎越来越落后，差距6-12个月
+大多数工作将通过AI完成，许多公司在模型token上的花费将超过员工
+开源生态
+现象/趋势
+21:17
+Berryxia.AI
+@berryxia
+23
+用户 Berry Xia 称赞 YouMind 产品驱动成长
+Berry Xia 在推文中回顾从 YouMind 0.x 版本开始的长期使用体验，认为产品迭代进步明显，团队认真听取用户需求并做出合理取舍。他强调产品驱动应优于营销套路，肯定 YouMind 在这方面表现良好，并期待 2.0、3.0 版本带来更多可能，最后向 YouMind 及创始人玉伯表示祝贺。
+Frank Wang 玉伯: http://x.com/i/article/2065773400698880000
+大佬观点
+21:08
+Ethan Mollick
+@emollick
+41
+我几个月前写的，就在Anthropic/DoW冲突和Citrini & Block事件之后："但我认为那一周很好地说明了近未来的感觉……随着风险增加，事情可能会感觉更加不稳定.." https：//www.oneusefulthing.org/p/the-shape-of-the-thing
+大佬观点
+现象/趋势
+21:08
+meng shao
+@shao__meng
+65
+邵猛更新 infocard-skills，优化多比例布局
+邵猛（@shao__meng）更新开源项目 infocard-skills，提升不同比例下的布局合理性，避免空白或截断，保留瑞士国际主义风格。支持 16/9、4/3、1/1 等常见信息卡比例及封面比例，默认 4/3。用户输入内容和比例，AI Agent 使用该 Skill 生成 HTML 并截图输出 PNG。项目开源于 GitHub。
+meng shao: 信息卡制作完整方法我做成了 Skill「infocard-skills」,开源在这里了: https://github.com/shaom/infocard-skills 支持 16/9、4/3、1/1、3/4、9/16 几种常见比例信息卡...
+智能体
+GitHub
+MCP/工具
+开源/仓库
+20:58
+The Verge：AI（RSS）
+82
+Anthropic 应政府要求切断 Fable 5 和 Mythos 5 模型访问
+上周五晚，美国政府以国家安全为由要求 Anthropic 封禁 Fable 5 和 Mythos 5 对所有外国国家（包括美国境内外的用户及 Anthropic 员工）的访问。Anthropic 已完全切断这两个模型对所有客户的服务。该公司在声明中表示遵守命令，但政府未提供国家安全关切的具体细节，仅口头声称存在潜在的越狱漏洞，且 Anthropic 认为这些漏洞轻微、其他模型同样存在。
+Anthropic
+安全/对齐
+行业动态
+关联讨论 36 条
+20:57
+Chubby♨️
+@kimmonismus
+82
+美国商务部下令Anthropic全球关闭Fable 5和Mythos 5
+2026年6月12日，美国商务部依据国家安全法，要求Anthropic立即停止向外国人提供其最强模型Fable 5和Mythos 5。因无法实时区分用户国籍，Anthropic被迫在全球范围内关闭这两款模型。Fable 5于6月9日发布，定价$10/M输入token、$50/M输出token，号称经1000+小时红队测试无通用越狱，95%会话未触发降级。Axios报道称，商务部因其他公司演示越狱方式而行动，政府此前曾试图劝阻发布未果。模型需保持关闭直到政府安全基础设施"加固完毕"（未来几周内）。Anthropic已上五角大楼黑名单。
+Anthropic
+安全/对齐
+政策/监管
+关联讨论 36 条
+20:51
+Hacker News 热门（buzzing.cc 中文翻译）
+18
+书呆子们到底怎么了
+一篇 Hacker News 热门帖子以“What the fuck happened to nerds”为题，对当前社会中的书呆子群体提出直接质疑，引发读者对技术文化变迁的思考。
+开源生态
+现象/趋势
+20:33
+The Decoder：AI News（RSS）
+45
+微软 SkillOpt 仅凭一个训练好的 Markdown 文件即可提升 GPT-5.5 性能
+微软与三所中国大学联合开发了 SkillOpt 方法，利用传统模型训练原理优化 AI 智能体的指令文档。仅需一个简单的 Markdown 文件，即可让 GPT-5.5 在程序化任务上提升约 23 分，且该文件能够跨模型和跨 Agent 环境（如 Codex 和 Claude Code）迁移。
+智能体
+Microsoft
+OpenAI
+教程/实践
+20:33
+The Decoder：AI News（RSS）
+50
+Google Research 的 Gemini-SQL2 在 text-to-SQL 基准测试中以大幅优势领先
+Google Research 推出 Gemini-SQL2，基于 Gemini 3.1 Pro，可将自然语言转换为可执行 SQL 查询。该模型在 BIRD 基准上达到 80.04% 准确率，大幅领先 OpenAI 和 Anthropic。Google 表示该技术将改进其数据服务的自然语言功能。
+Google
+推理
+模型发布
+20:30
+The Verge：订阅版科技（RSS）
+43
+苹果新AI照片编辑工具大体可用，利弊并存
+苹果在iOS 27中推出AI照片编辑工具，效果有好有坏，并提出了“什么是照片”这一核心问题。
+图像生成
+评测/基准
+20:30
+The Verge：订阅版科技（RSS）
+30
+本周 Installer：斯皮尔伯格新片、Anthropic 最新模型、群聊新方式等
+本周 Installer 介绍了斯皮尔伯格的最新电影、Anthropic 的最新模型，以及一种新的群聊方式等内容。
+Anthropic
+行业动态
+20:27
+The Verge：AI（RSS）
+60
+苹果新 AI 照片编辑工具大体可用，有利有弊
+iOS 27 开发者测试版为 iPhone 带来首批原生 AI 照片编辑功能。相比谷歌 Pixel 手机的同类工具，新功能显得较为温和，但标志着 iPhone 原生照片应用在编辑能力上的转折点。苹果可能将在面向公众发布前继续调整这些功能。
+图像生成
+评测/基准
+20:26
+Chubby♨️
+@kimmonismus
+64
+智谱 AI 发布旗舰模型 GLM-5.2，面向所有 GLM Coding Plan 用户（Lite/Pro/Max/Team）。模型具备强大编码能力、可用 1M 上下文支持及长任务优势。API 和聊天机器人服务将于下周上线，模型也将于下周在 MIT 许可证下正式开源。该发布正值美国政府决策被视为开源最大 PR，中国开源模型可借此定位为自由软件。
+Z.ai: Intelligence should be open, accessible, and ready to build with, empowering every developer, everywhere. GLM-5.2 is now...
+开源生态
+模型发布
+20:21
+Hacker News 热门（buzzing.cc 中文翻译）
+57
+牧羊犬：由最危险的AI模型打造的游戏
+游戏《牧羊犬》（Shepherd's Dog）由被称为“最危险的AI模型”所创作，在Hacker News获得101个HN积分，发布在 koenvangilst.nl 上。
+Anthropic
+安全/对齐
+19:56
+Chubby♨️
+@kimmonismus
+16
+更新了 Fable 评估分数。
+banteg: updated fable eval scores
+其他
+大佬观点
+19:42
+AYi
+@AYi_AInotes
+71
+Fable5下架真相：亚马逊研究员举报漏洞致商务部出口管制
+Anthropic顶级模型Fable5全球下架并非此前猜测的防中国，而是美国本土竞争对手所为。亚马逊AI研究员向美国政府提交越狱演示，声称可攻破Fable5和Mythos5安全护栏，美国商务部随即下达出口管制指令，迫使Anthropic切断所有用户访问。Anthropic事后复测称该漏洞狭窄且非通用，其他公开模型也普遍存在，属过度反应。但行政命令已生效，所有用户不分国籍均受影响。事件显示前沿AI竞争已跳出代码和算力战场，规则制定权成为不可抗力。
+AYi: 很多人都以为Fable5下架是为了防中国,但其实真正触发管制的,是美国本土的竞争对手, 大家都被官方的国家安全话术带偏了,默认下架是防范技术外流的常规操作。 实际上真正触发这次管制的,是美国本土一家公司提交的越狱演示,他们证明Mythos的...
+Anthropic
+安全/对齐
+政策/监管
+19:38
+meng shao
+@shao__meng
+23
+虽然 Claude Fable 5 被禁，但也挡不住古法编程真的很快要退出历史舞台了，想想这十几年，还是用过一些非主流编程语言的：Cobol、Fortran、Flex、Silverlight…
+大佬观点
+编码
+19:36
+IT之家（RSS）
+33
+荣耀 Robot Phone 机器人手机上海电影节实拍画面公布，将于三季度上市
+荣耀 Robot Phone 机器人手机在上海电影节发布实拍画面，融合荣耀移动影像与阿莱 ARRI 电影摄影技术。该机顶部三轴云台相机搭载 2 亿像素传感器，可向前/向后翻转，支持 AI 物体追踪、AI 视频剪辑与智能拍摄，具备实时感知与补偿以稳定画面。荣耀 CEO 李健透露该机将于三季度上市，研发历经 5 版修改、一年打磨。
+产品更新
+端侧
+19:36
+IT之家（RSS）
+45
+长安汽车发布"天枢领航"自研辅助驾驶系统：长安启源 Q06 将全系搭载、9月上市
+长安汽车在重庆车展发布自研辅助驾驶系统“天枢领航”，分Pro、Max、Ultra三个版本。Pro版全系标配激光雷达，弱光场景比人眼提前2秒识别障碍物，系统响应速度提升150毫秒。Max版基于超2000万条人驾数据切片训练，高频通勤场景通行效率提升20%。Ultra版搭载VLM视觉语言大模型，实现可交互辅助驾驶，未来还将推出驾驶员失能主动守护功能。长安启源Q06将全系搭载该系统，计划今年9月上市。
+产品更新
+多模态
+端侧
+‹ 上一页
+1
+2
+3
+…
+50
+下一页 ›
