@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 2026-06-14</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.8;
+    padding: 32px 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.02);
+  }
+
+  .header {
+    background: #fafafa;
+    color: #1d1d1f;
+    padding: 48px 40px 36px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .header h1 {
+    font-size: 34px; font-weight: 700; letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #1d1d1f 0%, #555 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header .date {
+    font-size: 14px; color: #86868b; margin-top: 8px;
+    font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+  }
+
+  .section {
+    padding: 40px;
+    border-bottom: 1px solid #f5f5f7;
+  }
+  .section:last-of-type { border-bottom: none; }
+
+  .section h2 {
+    font-size: 22px; font-weight: 700; margin-bottom: 24px;
+    color: #1d1d1f; letter-spacing: -0.3px;
+    display: flex; align-items: center; gap: 10px;
+  }
+
+  .deep-item { margin-bottom: 32px; }
+  .deep-item:last-child { margin-bottom: 0; }
+  .deep-item h3 {
+    font-size: 17px; font-weight: 600; color: #1d1d1f;
+    margin-bottom: 12px; letter-spacing: -0.2px;
+  }
+  .deep-item p {
+    margin-bottom: 12px; text-indent: 2em;
+    font-size: 15px; color: #424245; font-weight: 400;
+  }
+
+  .quick-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .quick-list li {
+    padding: 14px 18px;
+    background: #fafafa; border-radius: 12px;
+    font-size: 14px; color: #424245;
+    transition: background 0.2s;
+  }
+
+  .tool-item {
+    margin-bottom: 12px; padding: 20px 24px;
+    background: #fafafa; border-radius: 16px;
+    border: 1px solid #f0f0f0;
+  }
+  .tool-item:last-child { margin-bottom: 0; }
+  .tool-item h4 { font-size: 16px; font-weight: 600; margin-bottom: 6px; color: #1d1d1f; }
+  .tool-item p { font-size: 14px; color: #6e6e73; line-height: 1.7; }
+
+  .c-name  {
+    color: #0071e3; font-weight: 600;
+    background: #f0f7ff; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-data  {
+    color: #e05a00; font-weight: 700;
+    background: #fff5ee; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-warn  {
+    color: #d12b2b; font-weight: 700;
+    background: #fff0f0; padding: 2px 10px; border-radius: 6px;
+  }
+  .c-good  {
+    color: #1b8a3d; font-weight: 600;
+    background: #edfaf1; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-tech  {
+    color: #894ecc; font-weight: 600;
+    background: #f6f0ff; padding: 2px 8px; border-radius: 6px;
+  }
+
+  hr.divider {
+    border: none; border-top: 1px solid #f0f0f0; margin: 28px 0;
+  }
+
+  .footer {
+    text-align: center; padding: 28px;
+    font-size: 12px; color: #aeaeb2; font-weight: 500;
+    letter-spacing: 1px; background: #fafafa;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="header">
+    <h1>🔥 AI 日报 2026-06-14</h1>
+    <div class="date">每日自动生成 · 数据来源 aihot.virxact.com</div>
+  </div>
+
+  <!-- 深度分析 -->
+  <div class="section">
+    <h2>📰 深度分析</h2>
+    <div class="deep-item">
+      <h3>1. Anthropic Fable 5 出口管制：AI 安全从承诺走向铁腕</h3>
+      <p>一夜之间，<span class="c-name">Anthropic</span> 的旗舰模型 <span class="c-name">Fable 5</span>（以及 Mythos 5）被美国政府以“国家安全”实施出口管制，直接暂停供应。事件爆发前 24 小时内，Amazon CEO 向白宫报告 guardrails 可被绕过，白宫与 Anthropic CEO <span class="c-name">Dario Amodei</span> 三次通话要求撤下模型并配合修复，谈判破裂后特朗普政府动用出口管制。这标志着 <span class="c-warn">AI 安全治理从企业自愿承诺走向政府强制干预</span>。</p>
+      <p>对实体经济老板意味着什么？如果你的业务依赖于 <span class="c-name">Anthropic</span> 或同类前沿模型（比如做智能客服、内容生成），需要开始考虑供应链风险——明天模型可能突然断供。好消息是 <span class="c-good">中国本土模型如DeepSeek、阿里千问正在快速补位</span>，未来可能会有更多“国产替代”选项。同时注意 <span class="c-data">1999 年苹果G4被禁</span> 的历史重演：当时乔布斯借势营销，今天你也可以用“国产可控”作为短视频选题，引发用户对数据安全的共鸣。</p>
+      <p><span class="c-warn">编导实操建议</span>：制作一条“美国限制AI模型出口，对普通老板是利空还是利好？”的 60s 观点类短视频，点出“依赖外部模型有断供风险，国产AI工具反而迎来红利”。既能蹭热点，又能植入你为客户提供的本地化AI解决方案。</p>
+    </div>
+    <div class="deep-item">
+      <h3>2. 效率幻觉：AI 让你感觉更快，实测只快 7.5 秒</h3>
+      <p><span class="c-name">MIT、Stanford、New York Univ、Princeton</span> 联合论文揭示了一个扎心现象：<span class="c-warn">AI带来的“效率幻觉”</span>。在涉及 <span class="c-data">2691</span> 人的实验中，用户预期使用AI平均节省 <span class="c-data">55.7秒</span>，实测仅 <span class="c-data">7.5秒</span>。原因在于简单任务的操作摩擦——写提示、等待、阅读、检查、判断。并且越用越倾向于继续用，逐步丧失对“自己何时更快”的判断力。</p>
+      <p>这条信息对做短视频编导的你极其关键：<span class="c-warn">不要让老板客户盲目迷信“AI全能”</span>。很多实体老板看到AI生成文案、脚本觉得神奇，但你清楚现实——AI改的脚本往往需要人工再调，总时间并没省多少。你可以拿这个点做一期“AI不是万能药”的干货视频，讲清楚什么场景值得用（大批量文案、数据整理）、什么场景人更快（创意策划、情绪表达），树立专业顾问形象。</p>
+      <p><span class="c-good">正面信号</span>：论文也指出AI在复杂、重复、结构化任务中仍有价值，只是切忌无脑吹。对于你的vibe coding 产品，这个研究提醒你：在工具里加入“实际节省时间”的对比提示，让用户自己判断成本收益，反而增加信任感。</p>
+    </div>
+    <div class="deep-item">
+      <h3>3. 语言模型需要“睡眠”：长程推理的新解法，智能体设计必须看</h3>
+      <p>一篇新论文提出<span class="c-tech">“睡眠阶段”</span>：让语言模型暂停，多次重读近期上下文，将有用信息通过<span class="c-tech">状态空间块的 fast weights</span>写入固定大小的记忆层，然后清空注意力缓存。在<span class="c-tech">元胞自动机、图查找、GSM-Infinite</span>等测试中，<span class="c-good">更长的睡眠持续提升性能</span>，尤其需要深入推理的难题。核心启示：<span class="c-warn">长程agent无需无限扩大上下文，而需要巩固重要部分、遗忘原始token</span>。</p>
+      <p>落实到你的编导工作流：如果你用AI做长视频脚本或复杂用户分析（比如AppStore评论挖掘），这提示你可以把AI的长对话拆成“思考-暂停-总结”的循环，而不是一股脑塞满上下文。可以设计一个<span class="c-tech">“AI编剧工作流”</span>：第一轮生成框架→第二轮让AI自己复盘缺失点→第三轮输出终稿，模拟“睡眠”强化记忆，结果通常更扎实。</p>
+      <p><span class="c-good">Vibe Coding 启发</span>：实现一个简单的“记忆巩固”脚本——调用API后，将之前的对话摘要强制写入系统提示，再清空历史记录，降低Token消耗的同时保持一致性。这可能是优化你个人工具的好方向。</p>
+    </div>
+  </div>
+
+  <!-- 快讯 -->
+  <div class="section">
+    <h2>📋 快讯速览</h2>
+    <ul class="quick-list">
+      <li><span class="c-name">Anthropic</span> 内幕：Claude Code 团队 <span class="c-data">6个月</span> 代码 <span class="c-data">100% AI编写</span>；Cowork 发布致单日 <span class="c-data">2850亿美元</span> 软件股市值蒸发；Dario 认为 <span class="c-data">1-5年</span> 内消除 <span class="c-data">约50%</span> 初级白领岗位，文明崩溃概率 <span class="c-data">10-25%</span>。</li>
+      <li><span class="c-name">Google Cloud</span> 推出 <span class="c-tech">Open Knowledge Format (OKF)</span>，将散乱文档标准化为 Markdown，供 AI 智能体直接使用，正式化了 <span class="c-tech">LLM Wiki</span> 模式。</li>
+      <li><span class="c-name">字节跳动 Dreamina</span> 将于 <span class="c-data">6月15日</span> 发布 <span class="c-name">Seedance 2.0 mini</span>，质量接近原版但价格大幅降低，利好创作者。</li>
+      <li><span class="c-name">昆仑万维</span> 公布 <span class="c-tech">Matrix-Game 3.5</span>：状态与动作联合训练，<span class="c-data">5B</span> 参数实现 <span class="c-data">720P/40FPS</span> 实时生成，<span class="c-data">7月</span> 发布。</li>
+      <li><span class="c-name">微软研究院</span> 视频世界模型 <span class="c-tech">Mirage</span>：持久空间记忆，长镜头移动保持场景一致性，降低计算开销。</li>
+      <li><span class="c-name">Zcash 加密货币</span> 遭 AI 黑客攻击，价格 <span class="c-warn">腰斩 50%</span>，暴露AI安全新威胁。</li>
+      <li><span class="c-name">蚂蚁集团</span> 为支付宝引入 AI 助手“阿宝”，支持点咖啡、买基金等指令，<span class="c-good">AI Agent 落地支付场景</span>。</li>
+      <li>MIT 等联合研究：AI 带来 <span class="c-warn">“效率幻觉”</span>，用户预期节省 <span class="c-data">55.7秒</span>，实测仅 <span class="c-data">7.5秒</span>。</li>
+      <li><span class="c-name">小马智行</span> 第七代 Robotaxi 亮相重庆车展，<span class="c-data">2027</span> 版整车成本下探至 <span class="c-data">23万元</span> 以内，目标部署千台以上。</li>
+      <li><span class="c-name">韩国</span> 启动 <span class="c-data">5000亿韩元</span> 研发计划，攻关 <span class="c-tech">SiC/GaN</span> 功率半导体，支撑AI数据中心能效。</li>
+    </ul>
+  </div>
+
+  <!-- 编导可用的 -->
+  <div class="section">
+    <h2>🎬 编导可用的</h2>
+    <div class="tool-item">
+      <h4>🍜 乔木小说创作 Skill（开源）</h4>
+      <p>只需说“我想写一个小说”，AI自动生成剧情梗概、人物设定、钩子、经典桥段、冲突升级和结尾。可直接套用到短视频脚本结构——先定“钩子”再写“冲突”，避免流水账。安装命令：<code>npx skills add joeseesun/qiaomu-novel-generator</code>。适合给老板做品牌故事或口播脚本的快速框架。</p>
+    </div>
+    <div class="tool-item">
+      <h4>📱 免费在线 IPTV 网站（开源自建）</h4>
+      <p>基于开源IPTV库搭建，国内外影视一键换台。海外频道多数无字幕，可用于“英语听力”或“海外文化”类视频素材。地址：iptv.qiaomu.ai，代码已开源。编导可以穿插使用海外片段做背景，增强视频质感。</p>
+    </div>
+    <div class="tool-item">
+      <h4>🤖 DeepSeek 驱动的 AppStore 评论分析工具</h4>
+      <p>输入App名称，自动抓取用户评价，借助<span class="c-name">DeepSeek</span>生成“夸与骂”“版本问题”“机会点”“可视化”。对于做本地生活、连锁店的编导，可以用来分析自家店铺的差评，输出“客户最在乎什么”的洞察类短视频，建立专家背书。下周开源。</p>
+    </div>
+  </div>
+
+  <!-- Vibe Coding 可玩的 -->
+  <div class="section">
+    <h2>🛠️ Vibe Coding 可玩的</h2>
+    <div class="tool-item">
+      <h4>🏎️ headroom：不改代码降低 AI API 账单 90%</h4>
+      <p>开源项目，专注于在不修改代码的前提下将AI API成本降低 <span class="c-data">90%</span>。适合vibe coding爱好者——如果你想做个AI产品原型又怕烧钱，先用headroom做中间层，自动缓存与优化请求。搭配本地模型测试，极大降低试错成本。</p>
+    </div>
+    <div class="tool-item">
+      <h4>🧠 open-notebook：本地版 NotebookLM</h4>
+      <p>离线运行的知识整理与生成工具，类似 <span class="c-name">NotebookLM</span> 但完全本地。你可以把实体老板的行业资料（比如门店SOP、产品手册）导入，生成FAQ、培训脚本，且数据不出本机。对于注重隐私的客户（如医疗、教育）是很好的卖点。</p>
+    </div>
+    <div class="tool-item">
+      <h4>🔍 /last30days：新搜索引擎，聚焦最近事件</h4>
+      <p>专门搜索最近30天信息的新引擎，适合做热点追踪。你可以把它集成到个人日报系统，自动抓取“各行业AI应用”最新案例，减少手动浏览时间。</p>
+    </div>
+    <div class="tool-item">
+      <h4>🌌 “睡眠”机制原型：长上下文记忆巩固</h4>
+      <p>受论文“语言模型需要睡眠”启发，写一个简单的中间件：每次对话达到一定长度后，让AI自己总结关键信息并压缩到系统提示中，然后清空聊天记录。可以用 <span class="c-name">OpenAI</span> 或 <span class="c-name">DeepSeek</span> API 实现，适合做长剧本生成或客户分析报告。</p>
+    </div>
+  </div>
+
+  <div class="footer">AI 日报 · 每日自动生成</div>
+</div>
+</body>
+</html>
