@@ -1,0 +1,383 @@
+AI
+HOT
+精选
+全部 AI 动态
+AI 日报
+Agent 接入
+关于
+更新日志
+反馈
+信源提报
+登录
+全部 AI 动态
+AI 相关资讯全量信息流
+全部
+一手信源
+资讯
+推文
+全部
+模型
+产品
+行业
+论文
+技巧
+搜索
+6月16日
+02:19
+The Decoder：AI News（RSS）
+61
+美国政府指责Anthropic，安全专家称不可破解的LLM不现实
+美国政府官员指责Anthropic无视特朗普网络安全行政令，未等指定审查机构设立就擅自发布Fable 5，并指控其明知存在jailbreak风险却未披露。但安全专家指出，任何LLM都可以被破解，OpenAI也曾警告提示注入可能永远无法完全解决。超过100名安全专家和高管联名致信商务部，要求解除对Fable和Mythos的出口管制，称其他模型如GPT-5.5、Opus、Sonnet以及中国的Kimi 2.7也能完成类似的安全漏洞检测任务。专家警告，出口管制只会剥夺防御方的最佳工具，而中国开源权重模型仅落后美国顶级模型几个月。
+Anthropic
+安全/对齐
+政策/监管
+02:16
+Ethan Mollick
+@emollick
+21
+小胖猫迷因正在泄漏到外界，我预计在下一次与企业领导人的会议上，会被问及Mistral那款拥有无限基准分数的新巨型猫模型。
+我想这总比被问及"MIT飞行员AI研究"要好。
+现象/趋势
+02:02
+Bloomberg：Technology（RSS）
+62
+Salesforce 以约36亿美元收购AI客户服务公司Fin
+Salesforce宣布以约36亿美元收购Fin，后者是一家开发AI驱动的客户服务智能体的公司。Fin的旗舰产品AI Agent可通过聊天、邮件、WhatsApp、短信、电话和Slack处理客户查询。此次收购旨在助力Salesforce拓展企业级AI业务。
+智能体
+行业动态
+02:01
+The Verge：AI（RSS）
+66
+科技巨头在AI监管上的最后绝望推动
+随着中期选举临近，科技巨头游说团体正试图推动联邦AI预占法，以统一全美标准取代各州分散监管。白宫透露将支持参议员Blackburn的《儿童在线安全法案》（KOSA）作为整体预装包的一部分，但众议院共和党人和民主党人均质疑，且参众两院的KOSA版本分歧巨大——参议院要求科技公司承担“注意义务”，众议院已弱化该条款。特朗普盟友Mike Davis坚持预占法必须满足“四C”（儿童、保守派、创造者、社区）。立法日程仅剩一个半月，随后进入休会期和选举季，加之FISA续期、移民打击等更紧迫事项，市场对法案年内通过普遍悲观。
+政策/监管
+行业动态
+02:00
+AYi
+@AYi_AInotes
+65
+Anthropic与特朗普政府因Fable 5和Mythos 5越狱问题爆发沟通危机
+Anthropic于6月9日发布Fable 5和Mythos 5，政府未阻拦。6月12日政府突然要求禁止外国人访问，Anthropic无法实时区分国籍，6月13日全球下架。据Axios爆料，政府指责Anthropic“说两种不同语言”，原本支持给机会的官员全部倒戈。此前亚马逊举报模型可被越狱，政府三通电话要求主动下架，CEO硬刚拒绝，政府随即祭出出口管制。Anthropic请来被政府视为“激进民主党”的安全专家驳斥，彻底丧失信任。目前高管正飞往华盛顿救火，但信任修复远比技术问题复杂。
+AYi: 怀念Fable 5的第二天😭 最新消息看下来,Fable 5下架这事,好像也不是什么技术安全事件。 更像是Anthropic一顿操作把政府彻底得罪,活生生演成了政治闹剧。 导火索本来只是亚马逊举报模型可被越狱, 特朗普政府三通电话打过去,...
+Anthropic
+安全/对齐
+政策/监管
+行业动态
+01:58
+The Verge：订阅版科技（RSS）
+56
+科技巨头在AI监管上的最后绝望推动
+随着中期选举临近，白宫提议将儿童安全议题与AI促进强行捆绑，试图在监管与产业利益之间寻找平衡点。此举被视作科技巨头在AI监管博弈中的最后一搏。
+安全/对齐
+政策/监管
+01:30
+eric zakariasson
+@ericzakariasson
+52
+mcp > cli
+开发者比较 MCP 与 CLI 在 AI 工作流中的用途：CLI 处理模型已掌握的任务（git、gh、npm、docker、文件操作），基于 man 手册，本地登录即用，上下文成本极低；MCP 用于集成 Slack、Notion、Linear、Twitter 等外部服务。作为统一协议，MCP 让团队在 Cursor 中添加一个服务器即可全员使用，一次认证持久保存且本地与云端一致，在 Cursor 中提供丰富图标和可追踪性。结论：CLI 用于个人场景，MCP 用于团队协作。
+MCP/工具
+大佬观点
+01:25
+LMSYS：Blog（Chatbot Arena 团队）
+精选
+67
+下一代投机解码：DFlash 与 Spec V2
+Z Lab、Modal 与 SGLang 团队联合发布 DFlash 投机解码模型和 SGLang 的默认 Spec V2 引擎。DFlash 采用块扩散+KV 注入并行生成整块 draft token，在 Qwen 3.5 397B-A17B（BF16）的 HumanEval 数据集上、并发 1 时吞吐量达到基线的 4.3
+Hugging Face
+推理
+模型发布
+部署/工程
+推荐理由：DFlash 用并行起草和 KV 注入实现了实测 4.3 倍吞吐，再加上 SGLang Spec V2 引擎优化，推理加速不再是纸上谈兵。做 LLM 部署和推理服务的人，可以直接用这个组合试试。
+01:15
+Ethan Mollick
+@emollick
+39
+非常巧妙。而且符合我的预期：模型在视觉方面弱于其他一切，因此可视化步骤是工作流中错误积累最多的地方。
+Josh Tycko: Can AI find the monkey business in your dataset?
+多模态
+大佬观点
+00:59
+Andrew Milich
+@milichab
+54
+在Warp中使用你的SuperGrok或X Premium订阅
+Warp: You can now use the latest Grok models through your SuperGrok subscription directly in Warp. Grok Build 0.1 moves quickl...
+MCP/工具
+xAI
+产品更新
+编码
+00:59
+凡人小北
+@frxiaobei
+56
+Google 探索退休手机集群计算
+Google 正实验将退休手机组成计算集群，以减少碳排放——淘汰手机的芯片、内存等仍可正常工作，无需生产新服务器。此举类比于 SETI@home 利用闲置电脑贡献算力，以及 Google 用廉价服务器组建超级计算机的经典思路。在 AI 时代算力紧张、能源成瓶颈的背景下，重新利用抽屉里的旧手机或成创新方向。
+Google Research: Today on the blog, we discuss a pathway for the second life of phones through the exploration of "phone cluster computin...
+Google
+大佬观点
+端侧
+部署/工程
+00:59
+凡人小北
+@frxiaobei
+51
+YC 新项目 Hub：全人类正成为 AI 世界模型的数据生产者
+Y Combinator 发布的新项目 Hub（@hubxyz）为前沿 AI 实验室和机器人提供真实世界训练数据。Hub 指出：人类劳动力占全球 GDP 一半，但几乎从未被记录；它通过全球贡献者网络捕获难以访问的数据。主推文引用印度工厂工人头戴摄像头工作的视频，调侃这是在训练自己的 AI 替代者，现在看 Hub 可能是更大规模的开端——全人类正在成为世界模型的数据生产者。
+Y Combinator: Hub (@hubxyz) provides real-world training data to frontier AI labs and robotics. Human labor is half of global GDP. Alm...
+数据/训练
+现象/趋势
+00:59
+AYi
+@AYi_AInotes
+68
+用户对比Seedance 2.0与Grok的视频生成效果，发现Seedance 2.0价格贵近4倍，质量却不相上下；仅用一句话提示词测试Grok对中国古装风格理解，结果超预期。引用推文指出，GPT Image 2加Grok的混合工作流性价比极高：SuperGrok月费30美元，目前有3个月67%优惠，单条短片几乎零边际成本。角色风格一致性由GPT Image 2把控，出图后丢进Grok做动态效果即可。
+AYi: GPT Image 2 加 Grok简直是目前玩AI视频的性价比之王,而且grok还能给你加字幕,真的厉害,@grok bro你还藏了多少我不知道的? 自从Seedance一直涨价我就没续订会员了, 本来以为 Seedance 2.0 是当...
+OpenAI
+xAI
+多模态
+视频
+00:50
+郭明錤｜Ming-Chi Kuo
+@mingchikuo
+56
+联发科AI事业策略升级至系统级设计，锁定Google TPU PCBA及Musk公司AI机柜
+郭明錤产业调查显示，联发科将AI事业从IC/ASIC设计提升至系统级设计，首目标为Google TPU的PCBA（L6）及Musk公司自研AI芯片的L10机柜。此为长期规划，2年内对基本面影响可忽略。机会源于服务器机柜复杂度和更新速度提升，风险为ASIC设计动能2-3年后或因Semi-COT模式趋缓。联发科拟以“主导设计与验证”轻资产模式（制造外包）确保毛利率40-50%。具体：Google TPU目标自v10（Icefish）开始并争取导入自家CPO；Musk公司目前主要用Nvidia方案，自家芯片机柜生态未完备，联发科有机会但缺时程，关键在利用台湾供应链与Terafab合作获L10订单。
+Google
+大佬观点
+部署/工程
+00:50
+郭明錤｜Ming-Chi Kuo
+@mingchikuo
+55
+郭明錤：联发科AI业务升级为系统级设计，锁定Google TPU v10及马斯克AI芯片机架
+郭明錤最新调查显示，联发科将AI业务从“IC/ASIC设计”升级为“系统级设计”，初期目标Google TPU v10的PCBA（L6）及马斯克关联公司自研AI芯片的L10机架。此举旨在抓住服务器机架复杂度提升（CPO、800V HVDC）带来的增值机会，并应对2-3年后Semi-COT对ASIC设计的冲击。联发科将采用轻资产模式，主导设计验证并外包制造，以维持40-50%毛利率。Google TPU L10中选几率低；马斯克AI芯片机架生态尚未成熟，联发科可借台湾供应链和Terafab合作争取订单，但时间表不明确。该战略对近两年基本面影响有限，旨在捕捉长期新增长。
+Google
+xAI
+行业动态
+00:47
+Tomer Tunguz 博客（VC 分析）
+精选
+61
+AI 应用黄金时代已至：Fable 被禁、Nadella 的护城河论点与 Salesforce 收购 Fin
+美国政府关闭 Anthropic 的 Fable 访问，开源和本地模型成必备；Satya Nadella 主张 AI 生态护城河应是人类专业知识和模型外围系统；Salesforce 以 36 亿美元收购 Fin（前 Intercom），Fin 利用开源模型实现性价比。这三件事标志 AI 应用进入黄金时代。构建 AI 应用的难点：在 Kimi K2.6、Qwen 3.6 27b、GLM 5.1 等不同特性模型中选择；设计智能体系统的 hill-climbing 循环；持续评估模型+循环性能以最大化 token 预算中的智能。掌握这三项技能的公司将主导这一时代。
+智能体
+大佬观点
+开源生态
+推荐理由：Tunguz 认为模型不再是护城河，系统设计才是，他提的三个新学科，选模型、设计循环、评估性能，对做 Agent 的团队是实用的框架，值得一读。
+00:44
+elvis
+@omarsar0
+44
+拥有智能，不要外包。
+这一决策未来的重要性和影响力再明显不过了。
+我们都需要制定策略，掌握智能栈中的决策部分。
+作为一名AI工程师/研究员，Fireworks让我更容易拥抱"拥有我的AI"。
+Lin Qiao: http://x.com/i/article/2066399704347463680
+大佬观点
+现象/趋势
+00:44
+Ethan Mollick
+@emollick
+33
+明亮的AI监管线本质上是复杂的，因为模型只是拼图的一部分：辅助工具可以让模型能力更强，一个能力较弱但开放的系统可能比一个能力更强但封闭的系统风险更高或更低，技能/连接的系统会改变风险水平，等等。
+大佬观点
+政策/监管
+00:27
+xAI：News（网页）
+精选
+73
+Grok Build 推出 Agent Dashboard 管理多个编码会话
+xAI 为 Grok Build 推出 Agent Dashboard，提供单一屏幕管理多个编码会话。仪表板按状态分组（等待输入、工作中、空闲），每行显示状态标记、名称、分支、权限模式和当前操作。选中会话可打开 peek 面板查看最新输出并直接回复，等待输入的会话支持用箭头键或数字键选择选项。底部输入框用于分派新会话，支持设置模型、启动计划模式或自动批准编辑。通过 `grok dashboard`、`/dashboard` 或 `Ctrl+\` 打开，关闭后会话继续运行，重新打开即可恢复。
+智能体
+xAI
+产品更新
+编码
+推荐理由：xAI给Grok Build加了一个类似终端的仪表盘，可以并行管理多个编码代理，对重度用户来说能省下频繁切换窗口的心智负担。功能本身不颠覆，但标志着AI编程工具在往多会话编排走。
+00:27
+Bloomberg：Technology（RSS）
+47
+Chainguard与网络安全公司利用AI搜寻开源漏洞
+包括摩根大通在内的二十多家企业与多家网络安全公司展开合作，利用尖端AI模型识别并修复开源软件中的安全漏洞。
+安全/对齐
+行业动态
+00:27
+Bloomberg：Technology（RSS）
+62
+Anthropic 将就 AI 安全限制问题与特朗普政府官员会面
+Anthropic 高管计划于周一与特朗普政府官员会面，讨论一项前所未有的美国政府指令。该指令禁止外国实体访问 Anthropic 最先进的 AI 模型，旨在限制敏感技术的外流。具体禁令细节及模型范围尚未披露。
+Anthropic
+安全/对齐
+政策/监管
+00:26
+Microsoft Research
+@MSFTResearch
+27
+30倍更快的分析，从SQL自动生成的GPU内核，AI与实验室培育的肿瘤模型匹配用于癌症治疗，以及无需重新训练即可跨任务学习的大语言模型。深入探索最新一期Research Focus：https：//msft.it/6010vcYZ4
+Microsoft
+数据/训练
+论文/研究
+00:13
+elvis
+@omarsar0
+73
+DAIR AI 开源 /learn skill，用 Agent 学习任何主题
+DAIR AI 创始人 Elvis Saravia 开源 /learn skill，允许用户通过 AI 智能体和 HTML artifacts 学习任意主题。该 skill 可安装后与任何 Agent 交互，生成视觉化、交互式的 artifact，帮助深入理解或生成知识检测（如测验）。支持 DAIR Academy pro 会员在 AI Builder 中使用。GitHub 链接及试用平台已开放。
+智能体
+GitHub
+开源/仓库
+开源生态
+00:13
+elvis
+@omarsar0
+30
+这是我放在自己工作中用过的最强大的AI。
+我在Slack里添加了一个AI员工，让它运行本周的DAIR Academy，它就去做了，并准备好发布。
+以下是具体经过：
+智能体
+大佬观点
+00:13
+François Chollet
+@fchollet
+37
+即使你支持AI监管，你也应该认识到，不透明且任意的监管打击对整个行业是适得其反的。
+大佬观点
+安全/对齐
+00:13
+The Decoder：AI News（RSS）
+精选
+72
+Nvidia 加入 AI 债务热潮，发行 200 亿美元债券
+Nvidia 计划通过自 2021 年以来的首次债券发行筹集至少 200 亿美元，消息援引知情人士透露。此举标志着 Nvidia 加入 AI 领域的债务融资热潮。
+行业动态
+部署/工程
+推荐理由：Nvidia发债200亿美元加入AI债务潮，这是自2021年来的首次，显示AI基建的烧钱速度在加速，属于行业层面的重要信号，但对开发者日常无直接影响。
+00:13
+Rohan Paul
+@rohanpaul_ai
+54
+Heidi Evidence 小模型匹配 Sonnet 4.6 临床搜索质量
+临床搜索工具 Heidi Evidence 表示，六周前其自研小模型在临床搜索任务中匹配了前沿规模模型 Sonnet 4.6 的质量。方法是通过临床医生的偏好反馈训练，而非单纯扩大模型规模。在匿名测试中，医生面对同一医学问题、两个匿名答案，选择 Heidi 小模型答案的概率为 49.9%。Heidi 指出，医学领域的关键难点在于知道何时搜索、引用什么、说多少，以及模糊答案何时比不回答更糟。
+Tom Kelly: There's been debate in the last couple days about whether general models beat specialized medical AI. It's the wrong que...
+Anthropic
+数据/训练
+评测/基准
+6月15日
+23:57
+Bloomberg：Technology（RSS）
+44
+Nuveen Private Bond首席Laura Parrott押注AI"平淡无奇"的基础设施
+全球信用市场追捧数据中心和计算芯片，但Nuveen Private Bond首席Laura Parrott更青睐AI外围的“平淡无奇”基础设施，认为无论AI技术最终如何发展，这些资产都将受益。
+现象/趋势
+部署/工程
+23:56
+TechCrunch：AI（RSS）
+70
+76位网络安全专家联名要求撤销美国政府对Anthropic最强模型的出口禁令
+76名网络安全专家联名致信美国政府，要求撤销对Anthropic的Fable和Mythos模型的出口管制令，称此举将最强模型从防御者手中夺走，在对手快速进步时非常危险。美国政府近日以国家安全为由要求Anthropic限制出口，Anthropic已暂停全球用户访问。Mythos预览时仅约50家公司可用，后扩展至15国约150组织；其公开版Fable设有严格防护栏，几乎阻止所有网络安全提示。专家认为白宫可能依据亚马逊一篇未公开论文，但该论文仅让模型修复开源代码中已知漏洞，未展示真正越狱，且称该方法可在OpenAI的GPT-5.5、Anthropic的Claude Opus 4.8和Sonnet、以及月之暗面的Kimi 2.7上复现。
+Anthropic
+安全/对齐
+政策/监管
+关联讨论 8 条
+23:56
+OpenRouter
+@OpenRouter
+32
+新多模态排名页面的预览 👀
+Google 的 Veo 3.1 正在视频排行榜上攀升
+Google
+产品更新
+多模态
+视频
+23:56
+jason
+@jxnlco
+28
+如果你使用 Codex 的计算机使用工具
+你用它在做什么最疯狂最随心所欲的事？
+我先来，Codex 已经：
+1. 帮我找到了传真病历的网站
+2. 用 DocuSign 替我签了东西
+3. 正在谈判卖一块手表
+4. 搞定 5/5 派对的嘉宾名单
+你呢？
+智能体
+OpenAI
+其他
+23:52
+AYi
+@AYi_AInotes
+51
+微软CEO Nadella：AI时代公司护城河是"学习循环"，非大模型
+微软CEO Satya Nadella撰文称，AI时代公司真正护城河是“学习循环”——将工作流程、领域知识和多年判断经验喂给AI，形成独有的“机构记忆”。他提出“人类资本”（人的判断力、创造力）和“token资本”（公司持续改进的AI能力），强调人类价值不会因AI变强而降低，反而更重要。他警告：若少数大模型吸走所有行业知识，普通公司只剩调用权限，失去价值。
+Satya Nadella: http://x.com/i/article/2065582894790365184
+Microsoft
+大佬观点
+现象/趋势
+23:51
+🚨 AI News | TestingCatalog
+@testingcatalog
+32
+Google正在为个人智能开发新控制功能，允许用户管理Gemini从他们那里学习的内容。
+Google
+产品更新
+安全/对齐
+23:49
+IT之家（RSS）
+66
+巴西Rio-3.5-Open-397B被指套壳阿里千问与Nex N2 Pro，IplanRIO致歉称误上传基线版
+巴西里约市政府旗下IplanRIO推出的开源模型Rio-3.5-Open-397B在多项基准测试取得SOTA，被称为拉美AI新势力。不到24小时，上海创智学院Nex团队指控其套壳阿里千问Qwen3.5和Nex N2 Pro的权重混合版本。Nex展示证据：不提供初始系统提示时模型自称“Nex N2 Pro”并提及“上海创智学院”。IplanRIO在Hugging Face致歉，称因操作失误上传了合并基线版本，将重新上传蒸馏与后训练的正式版。
+开源生态
+行业动态
+23:49
+IT之家（RSS）
+69
+MiniMax M3 模型正式开源：原生多模态、百万上下文
+MiniMax 于 6 月 12 日开源 MiniMax M3 模型权重并发布 MSA 技术论文。M3 是原生多模态旗舰模型，总参数 428B，激活参数 23B，为首个从 Step 0 开始多模态混合训练的开源模型。在 Artificial Analysis 综合智能指数上获全球开源最高排名。输出速度从约 30 TPS 提升至约 80 TPS，后续还将提速 30-40%。M3 在编码与智能体评测中达行业顶尖水平，具备自主任务拆解、工具调用与多步推理能力，上下文支持百万级别。
+arXiv
+Hugging Face
+多模态
+开源生态
+23:49
+IT之家（RSS）
+51
+美国消费者指控 Claude Max 订阅套餐额度"虚标"，拟对 Anthropic 发起集体诉讼
+华盛顿用户 Karl Kahn 指控 Anthropic 的 Claude Max 订阅套餐存在虚假宣传，100 美元/月的 Max 5x 和 200 美元/月的 Max 20x 套餐宣称相比基础套餐（17-20 美元/月）提供 5 倍至 20 倍使用额度，但实际额度远未达标且用户难以自行验证。Kahn 请求法院下令退款并计划升级为集体诉讼，Anthropic 拒绝就本案置评。
+Anthropic
+行业动态
+23:49
+IT之家（RSS）
+49
+消息称英伟达时隔五年重返债市：拟发债筹集200亿美元
+6月15日消息，英伟达计划通过在美国发行债券筹集200亿美元（约1353.83亿元人民币）。该公司上一次进入投资级债券市场是在2021年6月，当时融资50亿美元。本次拟发行七档债券，最晚于2056年到期。募资将用于一般公司用途，包括偿还及再融资现有票据。摩根大通、摩根士丹利和高盛担任联席承销商。截至2026年4月季度末，英伟达持有132.4亿美元（约896.23亿元人民币）现金及现金等价物。
+行业动态
+23:47
+Simon Willison 博客
+59
+Anthropic Claude模型Mythos/Fable因出口管制离线，报道称存在"性格冲突"
+Axios报道援引知情人士称，Anthropic的Claude模型（代号Mythos和Fable）因美国政府出口管制而离线，背后存在“性格冲突”与“态度问题”。当前方案之一是确保模型无法被越狱，但完美越狱防护可能不可行。此外，Anthropic是否成功防御了2023年论文《Universal and Transferable Adversarial Attacks on Aligned Language Models》所述的一类对抗攻击仍不确定。
+Anthropic
+安全/对齐
+政策/监管
+23:43
+elvis
+@omarsar0
+40
+当前主流的AI叙事对人类的潜力过于悲观，而对AI过于乐观。
+这是有缺陷的！
+我们需要在加速AI的同时也加速我们自己的潜力。
+不同形式的智能可以共存。
+大佬观点
+现象/趋势
+23:42
+Nathan Lambert
+@natolambert
+54
+Nathan Lambert 驳斥 API 蒸馏不可能论
+Lambert 指出，美国实验室用“蒸馏”一词掩盖了 API 劫持问题。中国实验室通过破解 API 获取推理痕迹，帮助在新领域引导推理行为。他认为 API 提供者很难完全防止劫持，因为推理模型本身倾向于输出推理痕迹，完全修补会降低模型智能。他呼吁实验室更透明地说明这一过程，以便开展知情政策讨论。
+antirez: Another important thing: Chinese models are not strong because they distill US models. Distillation of models via API is...
+Anthropic
+安全/对齐
+推理
+‹ 上一页
+下一页 ›
