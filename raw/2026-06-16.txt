@@ -1,0 +1,408 @@
+AI
+HOT
+精选
+全部 AI 动态
+AI 日报
+Agent 接入
+关于
+更新日志
+反馈
+信源提报
+登录
+全部 AI 动态
+AI 相关资讯全量信息流
+全部
+一手信源
+资讯
+推文
+全部
+模型
+产品
+行业
+论文
+技巧
+搜索
+6月17日
+02:24
+Chubby♨️
+@kimmonismus
+精选
+75
+微软考虑为 Copilot Cowork 集成 DeepSeek V4
+微软正考虑为 Copilot Cowork 提供微软托管的 DeepSeek V4 版本，作为更便宜的模型选项。Copilot Cowork 将放弃无限定价，转向按使用量计费，原因是成本过高（用户每周执行数百项任务导致费用激增）。若采用 DeepSeek，该模型将是可选的、经过微调与安全防护，并完全托管于 Azure。Axios 报道称微软已微调了一个可用模型，最终决定待定。
+Ina Fried: New @axios: Microsoft eyes DeepSeek for Copilot Cowork as it also joins the shift to usage based pricing. Says final dec...
+DeepSeek
+Microsoft
+开源生态
+行业动态
+推荐理由：微软考虑在 Copilot Cowork 中引入 DeepSeek V4 作为便宜选项，同时转向按用量计价。如果落地，这不仅是成本策略的转向，更可能打破企业 AI 对开源模型的信任壁垒，定价变革也会给全行业施加压力。
+02:24
+Chubby♨️
+@kimmonismus
+精选
+83
+GLM-5.2 作为开放权重模型发布，采用 MIT 许可，拥有 1M 上下文窗口。提供两种推理模式：max（极限推理）和 high（平衡性能与 token 效率）。在编码和智能体任务上有显著提升，专为大规模实现、自动化研究、性能优化和复杂调试训练。API 定价与 GLM-5.1 保持一致。
+Z.ai: Introducing GLM-5.2: Frontier Intelligence, Open Weights - Significant improvements in coding and agentic tasks - Strong...
+Hugging Face
+开源生态
+推理
+模型发布
+推荐理由：GLM-5.2 以 MIT 许可开放权重，1M 上下文窗口和双推理等级让它成为开源界新标杆，编码与代理任务提升显著，想做长文本应用的团队现在有了不输闭源的选型。
+02:23
+TechCrunch：AI（RSS）
+57
+Android 17 正式版发布，新增多任务工具并扩展 Gemini 功能
+Google 近日发布 Android 17 正式版及 Wear OS 7，率先登陆 Pixel 设备。Pixel Drop 新增 AI 模型支持：音乐生成模型 Lyria 3、多模态 Gemini Omni 及基于 AudioLM 的语音翻译工具（Pixel 10a）。Quick Share 文件分享兼容 Apple AirDrop。Android 17 引入“气泡栏”多任务界面、自拍屏幕录制、折叠游戏模式（50/50 布局与动态手柄）以及“标记为丢失”等安全与家长控制功能。Pixel Watch 新增车祸/跌落/无脉搏自动紧急呼叫。Wear OS 电池续航提升最高 10%，并将在夏季推出更多 Gemini 智能功能。
+Google
+产品更新
+多模态
+语音
+02:16
+🚨 AI News | TestingCatalog
+@testingcatalog
+77
+ZAI 在 Hugging Face 上发布 GLM-5.2，采用 MIT 开源许可，API 定价与 GLM-5.1 相同。模型支持 1M 上下文窗口，提供两种推理努力级别：max（极致性能）和 high（平衡性能与 token 效率）。在编程和 AI 智能体任务上有显著提升，具备长程任务能力。DeepSWE 基准得分 46.2%，创下开源权重模型的 SOTA 纪录。
+Z.ai: Introducing GLM-5.2: Frontier Intelligence, Open Weights - Significant improvements in coding and agentic tasks - Strong...
+Hugging Face
+开源生态
+推理
+模型发布
+关联讨论 4 条
+02:04
+AYi
+@AYi_AInotes
+28
+仿人机器人无需像人。Eno 是 Genesis 的首款通用机器人--不是假装成人的机器，而是赋予身体的智能。它冷静、能干、乐于助人，将于今年 Q4 面市。
+Genesis AI: Humanoid robots don't need to look human. Meet Eno, our first general-purpose robot. Not a machine pretending to be huma...
+产品更新
+具身智能
+02:03
+OpenRouter：Announcements（RSS）
+精选
+62
+OpenRouter Presets：当模型下线时保持 AI 智能体运行
+Anthropic 在 Claude Fable 5 发布仅数天后便对其进行了限制。如果代码硬编码模型 slug，该限制也会导致服务中断。OpenRouter 的 Presets 功能将模型选择移至服务器端，使用户无需重新部署即可切换模型、设置回退策略并强制执行数据策略。
+智能体
+教程/实践
+部署/工程
+推荐理由：给 Agent 开发者的实用提醒，硬编码模型名会在供应商限制时塌方，用 Presets 换模型、设降级方案比现改代码省心。
+02:03
+Z.ai
+@Zai_org
+精选
+73
+智谱发布GLM-5.2：开源权重与1M上下文
+智谱（Z.ai）正式发布GLM-5.2，采用MIT开源协议开放模型权重。相比前代，在编码和智能体任务上有显著提升，支持1M上下文窗口。提供两种推理努力级别：GLM-5.2（max）追求极致性能，GLM-5.2（high）在效果与token效率间取得平衡。API定价与GLM-5.1保持一致。技术博客、权重及API文档均已上线。
+开源生态
+模型发布
+编码
+关联讨论 4 条
+推荐理由：GLM-5.2 把 coding 和 agentic 任务拉到了新高度，MIT 开源权重意味着开发者可以立刻上手。1M 上下文和两种推理模式也给了产品落地很大的灵活性，值得看技术博客。
+02:03
+SemiAnalysis
+@SemiAnalysis_
+51
+RL系统 注意差距：匹配训练器与生成器吞吐量
+RL训练基础设施，GRPO，
+PipelineRL，异步RL，策略陈旧性，
+RL沙箱基础设施，CPU需求，
+TCO分析，思考机器修补
+数据/训练
+现象/趋势
+部署/工程
+02:03
+Google Research：Blog（网页）
+45
+从像素到规划：Google Research 发布 Vectorized Farmscapes 2020 数据集
+Google Research 发布 Vectorized Farmscapes 2020 向量化数据集，将英格兰超 130,000 km² 高分辨率栅格地图转化为树篱、石墙、小树林等精细生态特征量化清单。该数据集基于 RSF 的 Vision-Transformer Backbone（在超 3 亿张卫星图像上预训练）微调，融合亚米级影像与 1 米 LiDAR 数据实现双层标注。为突破 247 km² 标注数据限制，采用 Polsby–Popper 紧凑性评分对几何形状功能分类，区分林地、连接廊道与孤立树丛。旨在不侵占农业用地提升碳汇与生物多样性。
+Google
+产品更新
+数据/训练
+02:03
+Ethan Mollick
+@emollick
+34
+假设开源模型持续落后闭源约8-12个月（至少在编程方面），加强IT系统以防御Mythos级模型的倒计时现在为4-8个月。
+拥有今天公开可用且相对安全的防御性Mythos级模型很重要。
+大佬观点
+安全/对齐
+02:02
+Rohan Paul
+@rohanpaul_ai
+65
+Rohan Paul 指出，基于规则的混乱工作流正是 AI Agent 的领地。引用 Okara 官方消息，其发布全球首个网红营销 Agent：用户只需告知推广目标，该 Agent 即可自动发现创作者、联系沟通、管理活动、处理付款并上线内容，将机构工作转化为软件工作。访问 okara.ai/influencer 即可体验。
+Okara: Today we're introducing the world's first influencer Agent. Tell it what you want to promote and it finds creators, reac...
+智能体
+产品更新
+02:02
+Rohan Paul
+@rohanpaul_ai
+精选
+82
+美国拒给G7盟国Anthropic Mythos 5与Fable 5特殊访问
+美国拒绝向G7盟国提供Anthropic的Mythos 5和Fable 5模型的特殊访问权限。华盛顿方面称，存在jailbreak可能绕过Fable 5的安全层，导致用户触及危险漏洞发现行为。Anthropic回应称该问题范围窄且并非其模型独有。英国曾希望为英国用户争取豁免，但美方官员表示，若风险与模型本身相关，逐盟国豁免并无意义。
+Anthropic
+安全/对齐
+政策/监管
+关联讨论 36 条
+推荐理由：美国以越狱风险为由拒绝向G7盟国开放Anthropic高端模型访问权限，这标志着AI安全正从技术问题升级为地缘政治筹码。政策制定者和做海外市场的厂商都该盯紧这一动向。
+01:53
+OpenRouter
+@OpenRouter
+53
+来自 @Zai_org 的 GLM-5.2 已在 OpenRouter 上线！
+Z.ai 的旗舰模型，专为长期任务设计，现在拥有 1M token 上下文窗口，能够在冗长杂乱的编码智能体工作中保持可靠。
+推理
+模型发布
+编码
+01:32
+SemiAnalysis
+@SemiAnalysis_
+54
+警报：OpenAI的首席财务官声称他们的下一次重大训练运行将在2026年秋季在Vera Rubin上进行，但这说不通。Rubin NVL72集群届时可能还不够稳定，软件栈也不足以支持真正的"重大训练运行"。Rubin或许已准备好用于生产推理和小规模训练实验，但无法在2026年秋季支持前沿规模的训练。
+OpenAI
+大佬观点
+数据/训练
+01:32
+OpenAI
+@OpenAI
+31
+我们来聊聊评估。
+我们一直在寻找更好的方法来衡量和预测模型进展，尤其是在基准测试逐渐饱和或被钻空子的时候。
+领导我们前沿评估团队的 @tejalpatwardhan 与 @andrewmayne 谈到了评估为何重要，以及接下来模型需要被评判的标准。
+OpenAI
+大佬观点
+评测/基准
+01:32
+Rohan Paul
+@rohanpaul_ai
+54
+今天，我们宣布完成 C 轮融资，筹集 1 亿美元，继续自动化世界上最复杂的电话呼叫。我们找了一个叫 Paul 的家伙来谈论这件事，因为办公室里没人愿意干。
+主推文称赞这是一个出色的发布视频，并指出这家公司专注于受监管行业的高风险电话呼叫。
+Bland: Today, we're announcing that we've closed our Series C and raised $100M to continue automating the world's most complex ...
+行业动态
+语音
+01:27
+歸藏(guizang.ai)
+@op7418
+精选
+83
+SpaceX 600亿美元收购Cursor
+Space X 用股票交易，600 亿美元收购了 Cursor 考虑到 Cursor 只有几十个人这个人效太猛了，同时 Cursor 除了软件也还有自己基于开源模型训练的编码模型 感觉新的 Grok 有戏了啊
+SpaceX: SpaceX has exercised the option to acquire @cursor_ai in an all-stock transaction with the goal of building the world's ...
+xAI
+编码
+行业动态
+关联讨论 2 条
+推荐理由：几十人团队换600亿美元，人效炸裂。SpaceX+AI的联姻可能催生更强的AI编程工具，但太空公司做IDE，整合是最大看点。
+01:24
+swyx
+@swyx
+54
+Cursor/Graphite 的 @TomasReimers 刚刚宣布了 Origin，这是 @cursor_ai 期待已久的 Git 竞争对手，可扩展用于 AI 智能体工作负载，可通过 API 和 MCP 扩展，并内置了合并冲突和协作失败智能体解决方案。
+MCP/工具
+产品更新
+编码
+01:23
+Chubby♨️
+@kimmonismus
+68
+英国首相请求对Anthropic前沿模型豁免遭拒
+据报道，英国首相Keir Starmer请求特朗普政府给予豁免，允许英国国民和公司重新访问Anthropic最先进的AI模型Mythos和Fable，但遭拒绝。白宫官员表示，即使对G7盟友给予豁免也“完全不合逻辑”，并称“不能让前沿模型失控”。这标志着前沿AI模型正被视作战略国家安全资产，即使是美国最亲密的盟友也可能无法获得。美国仍在与Anthropic和Dario Amodei直接谈判解决禁令，但对外释放信号：前沿模型访问权可能从商业问题变为地缘政治特权。
+Andrew Curran: Keir Starmer requested a carveout from the embargo on Anthropic's Mythos and Fable models for British nationals and comp...
+Anthropic
+政策/监管
+行业动态
+01:23
+TechCrunch：AI（RSS）
+69
+ChatGPT 市场份额首次跌破 50%
+2026 年 5 月底，ChatGPT 市场份额降至 46.4%，为发布以来首次低于 50%。Gemini 以 27.7% 紧随其后，Claude 占 10.3%。ChatGPT 仍以超 11 亿月活跃用户领先，Gemini 和 Claude 分别拥有 6.62 亿和 2.45 亿用户。用户在不同助手间切换意愿增强，OpenAI 与美国国防部的合作曾引发卸载高峰。Claude 订阅转化率达 13%，领先行业。OpenAI 已在 ChatGPT 中试验广告，5 月日均 17% 用户看到广告，软件与购物为主要广告类别。ChatGPT 正向 Target、Walmart 等零售商导流，Amazon 因封锁爬虫错失流量。
+Anthropic
+Google
+OpenAI
+现象/趋势
+01:23
+The Verge：AI（RSS）
+58
+高通发布 Snapdragon Reality Elite 芯片，强化智能眼镜性能
+高通向下一代 XR 设备推出 Snapdragon Reality Elite 芯片，GPU 性能提升 60%，CPU 提升 30%，NPU 最高提升 160%，支持每眼 4.4K @ 90fps 分辨率及更低延迟。电池续航提升最高 20%，高负载下芯片温度比上代低 12°C。该芯片将率先搭载于 Xreal 的 Project Aura Android XR 眼镜，今年秋季上市。高通此前在 MWC 发布的 Snapdragon Wear Elite 芯片同样用于智能眼镜，两款芯片均增强 AI 性能，预示可穿戴设备将融入更多大语言模型及 AI 功能。
+多模态
+端侧
+行业动态
+01:23
+jason
+@jxnlco
+18
+脑内AI图像生成：人类的新能力？
+作者Jason Liu发现自己在脑海中就可以进行类似AI图像生成的体验，无需打开应用写提示词。他举例：看到咖啡店窗边的橙猫和牛角面包后，直接想象出暖光、浅景深、胶片颗粒等电影感画面，甚至“脑补”了猫戴贝雷帽。他猜测AI的Codex使用图像生成时可能也是类似的内部感受。
+其他
+01:01
+Ars Technica：AI（RSS）
+精选
+77
+SpaceX 以 600 亿美元全股票收购 AI 编码工具 Cursor
+SpaceX 宣布以 600 亿美元全股票交易收购 AI 编码工具 Cursor，预计第三季度完成。收购发生在 SpaceX 史无前例的 IPO 两天后及 SpaceX 与 xAI 合并数月后。Cursor 曾最早将大语言模型深度集成到 Visual Studio Code 分支 IDE，但市场份额因 Anthropic 的 Claude Code 主导而下滑，且难以收支平衡。此前 Cursor 增长受限于算力，xAI 曾向其提供算力并共同训练编码模型 Grok Build。此次收购被视为两家在 AI 竞赛中落后公司的抱团——SpaceX 有算力但缺产品，Cursor 有产品但缺算力。
+编码
+行业动态
+关联讨论 8 条
+推荐理由：SpaceX收购Cursor是AI coding领域一次算力与产品的硬整合，直接回应了双方各自缺模型的窘境。即便交易金额惊人，能否在Claude Code统治下突围仍存疑。
+01:01
+Simon Willison 博客
+42
+Georgi Gerganov：Qwen3.6-27B 是强大的本地编码模型
+Georgi Gerganov 在 Hacker News 评论中表示，Qwen3.6-27B 是 100% 胜任的本地编码模型。过去一个半月他几乎每天在 M2 Ultra 或 RTX 5090 上使用该模型处理 ggml-org 的日常小任务。目前他采用轻量级 harness —— 精简版 pi agent（`pi -nc --offline`），配合简短系统提示来对齐个人编码风格。
+大佬观点
+端侧
+编码
+01:00
+AK
+@_akhaliq
+24
+JoyAI-VL-Interaction
+实时视觉语言交互智能
+多模态
+论文/研究
+01:00
+AK
+@_akhaliq
+38
+World Tracing
+超越可见的生成式像素对齐几何
+图像生成
+论文/研究
+01:00
+AK
+@_akhaliq
+34
+μ_0
+一个可扩展的3D交互追踪世界模型
+具身智能
+论文/研究
+00:58
+Deedy
+@deedydas
+74
+今天，Cursor 以 600 亿美元出色退出给 SpaceX！
+400 亿美元年化收入，同比增长 7 倍。
+4 位 25 岁的 MIT 创始人在 4 年内将获得约 27 亿美元，前 50 名员工每人约 2000 万到 5 亿美元。
+这证明了为什么你应该加入早期初创公司，以及在 AI 模型之上构建应用能带来巨大成果。
+编码
+行业动态
+00:53
+宝玉
+@dotey
+80
+SpaceX 上市后首笔收购：600 亿美元全股票收购 Cursor 母公司 Anysphere
+SpaceX 宣布以 600 亿美元全股票收购 AI 代码编辑器 Cursor 母公司 Anysphere，这是其上市数天后的首笔大型收购。此前 4 月 SpaceX 已获选择权：100 亿美元合作或 600 亿美元直接收购。过去数月，SpaceXAI 团队与 Cursor 在 xAI 超算 Colossus 上联合训练模型，近期将同时上线 Cursor 和 Grok Build。Cursor 2022 年成立，年化收入 26 亿美元，此前估值 293 亿美元，此次溢价一倍。交易仅稀释 IPO 估值 3.4%，消息后 SpaceX 股价涨约 16%。收购旨在补齐 Grok 在开发者工具短板，进入 AI 编程工具赛道（当前 Anthropic Claude Code 和 OpenAI Codex 两强格局）。交易预计 Q3 完成，分手费含 15 亿美元现金及 85 亿美元算力资源。
+SpaceX: SpaceX has exercised the option to acquire @cursor_ai in an all-stock transaction with the goal of building the world's ...
+xAI
+编码
+行业动态
+关联讨论 2 条
+00:53
+MarkTechPost（RSS）
+精选
+76
+Qwen团队发布三个具身AI模型套件 Qwen-RobotSuite
+Qwen团队发布三个具身AI模型组成的套件Qwen-RobotSuite：Qwen-RobotManip（基于Qwen3.5-4B的VLA模型，通过统一对齐框架和3800小时开源数据（含24708小时合成）实现跨本体操作，在LIBERO-Plus OOD基准上达91.4%，跨本体迁移性能为π0.5的3.2倍）、Qwen-RobotWorld（60层MMDiT+冻结Qwen2.5-VL编码器的语言条件视频世界模型，以自然语言为统一动作接口预测未来视频）和Qwen-RobotNav（基于Qwen3-VL的导航模型，2B/4B/8B，输出航点轨迹）。RobotManip与RobotNav已开源GitHub。
+具身智能
+多模态
+开源/仓库
+模型发布
+关联讨论 3 条
+推荐理由：Qwen-RobotSuite 一次性放出三个具身模型，用统一对齐策略解决了机器人数据碎片化问题，多个 SOTA 结果加上两个开源仓库，做具身智能的值得认真看一下。
+00:53
+TechCrunch：AI（RSS）
+69
+调查：60%美国消费者反感品牌消息中使用"AI"一词
+WordPress VIP基于2000名受访者的调查显示，60%美国消费者认为品牌消息中出现“AI”会令人反感，86%不完全信任AI并仍想查看原始来源。42%表示缺乏明确归属的AI生成答案比航空公司费用、隐私政策和医疗账单更不可信。近四分之三受访者认为互联网比十年前更不人性化。33%将点击查看原始来源视为首要信任信号，80%认为网络信息应保持开放可访问。企业方面，60%受访企业称来自AI搜索引擎和答案平台的流量在过去一年增加，74%企业决策者将AI可发现性和归属列为主要或重要优先级。
+搜索
+现象/趋势
+00:53
+Hacker News 热门（buzzing.cc 中文翻译）
+64
+Fable 遭美国政府封禁，TechCrunch 质疑真正原因并非模型越狱
+美国政府对 Anthropic 的模型 Fable 实施封禁，但 TechCrunch 发文质疑，实际原因可能并非此前认为的“模型越狱”问题。该文章在 Hacker News 引发讨论，获得 103 个点赞。
+Anthropic
+安全/对齐
+政策/监管
+00:53
+eric zakariasson
+@ericzakariasson
+43
+非常兴奋能加入这个才华横溢的团队。很多工作正在进行中！
+（引用推文要点：Cursor宣布与SpaceX联手，推动实用AI前沿，预计Cursor将很快迎来重大改进。）
+Cursor: We're excited to join forces with @SpaceX to advance the frontier of useful AI. Expect significant improvements to Curso...
+开源生态
+行业动态
+00:53
+jason
+@jxnlco
+51
+codex 欧盟用户们！
+Chrome、电脑使用现在都在欧盟可用。
+codex 现在可以跨你的 Mac 使用应用、在 Chrome
+OpenAI
+产品更新
+编码
+00:52
+Jim Fan
+@DrJimFan
+64
+NVIDIA GEAR 实验室推出 ENPIRE：首次在物理世界启用 AutoResearch
+NVIDIA GEAR 实验室首次在物理世界启用 AutoResearch，推出 ENPIRE 项目。给 8 个 Codex 智能体分配机器人舰队、GPU 和 token 预算，目标快速安全完成任务。人类退出后，机器人舰队自主学会寻找视觉线索、重置场景、练习新技能、调整控制栈、阅读论文、辩论反思。ENPIRE 能高精度完成扎带、整理细针、安装 GPU 等任务。发现物理扩展：8 机器人并行探索比少机器人效率显著提升。实验室部分可整夜自我改进，早上读取报告。所有内容将开源。
+智能体
+产品更新
+具身智能
+开源生态
+00:52
+ClaudeDevs
+@ClaudeDevs
+56
+团队如何让 AI 智能体投入生产？
+我们 Applied AI 团队的新博客文章，关于 Claude Managed Agents 及其解决的挑战（凭证、沙箱、可观测性等）…
+智能体
+Anthropic
+产品更新
+00:46
+🚨 AI News | TestingCatalog
+@testingcatalog
+34
+OPENAI 🔥： ChatGPT 即将迎来语音模式升级，新模型 "gpt-bidi-1" 已被发现，同时还有公告更新。
+敬请期待 👀
+鸣谢 @M1Astra 来自 DevMode
+Chetaslua: 🚨 OpenAI is planning to release GPT-Bidi-1 very soon Their next-generation voice model for more natural conversations [...
+OpenAI
+模型发布
+语音
+00:46
+🚨 AI News | TestingCatalog
+@testingcatalog
+41
+Mistral预告今夏推出新"fat"开源模型系列
+Mistral 预告将在今年夏季推出一个新的“fat”模型系列，模型为 open-weight，7 月面向研究、政府和行业关键合作伙伴开放早期访问。官方称该系列“fat indeed, but sparse”（大但稀疏），并强调开放权重对客户信任和开发者社区至关重要。后续模型也将保持开源。此外，推文还提及了“Le Chaton Fat”的代号。
+Arthur Mensch: We somehow got put in the spotlight the last few days! First we'd like to thank the organizers of the AI show for that, ...
+开源生态
+模型发布
+00:31
+Ars Technica：AI（RSS）
+精选
+78
+OpenAI财报泄露：2025年收入130亿美元，净亏损达390亿美元
+OpenAI提交SEC文件准备IPO，泄露的审计财报显示其2025年收入130.7亿美元，但研发费用高达191.8亿美元（含向微软支付的105.9亿），营收成本75亿美元，销售与营销支出57.3亿美元。2025年运营亏损209.2亿美元，净亏损近390亿美元，其中包含约300亿美元因公司向营利制转型产生的一次性会计费用，剔除后净亏损约80亿美元。ChatGPT周活用户超9亿，仅约5000万付费。公司计划2030年实现盈利，正削减“副线项目”并聚焦核心编码与商业用户。
+OpenAI
+行业动态
+关联讨论 1 条
+推荐理由：一年研发烧掉191.8亿美元，其中过半数给微软，OpenAI的财务黑洞第一次有审计数字佐证。这些泄漏数据可能让IPO定价重估。
+00:28
+Rohan Paul
+@rohanpaul_ai
+55
+Charlotte Xia谈Jim Fan"Great Parallel"：机器人缺乏数据与基准瓶颈
+Rohan Paul引用Charlotte Xia的博客，讨论Jim Fan的“Great Parallel”论点：具身AI将像LLM一样扩展。与语言不同，文本是压缩共享接口，物理行动分散于不同实体。尽管已有$5B+投资世界模型、$18B投入机器人，领域仍缺乏共享基准、架构收敛，且存在10万年的数据差距。世界模型能预测行动结果，但无法解决数据收集、评估、实时控制和部署可靠性。真正的创业机会在于数据循环、评估系统、记忆层、推理栈和垂直部署引擎等瓶颈。
+Charlotte Xia: Jim Fan's "Great Parallel" thesis: embodied AI will scale like LLMs did. $5B+ is already betting on #worldmodels. $18B i...
+具身智能
+现象/趋势
+‹ 上一页
+下一页 ›
