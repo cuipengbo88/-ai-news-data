@@ -1,0 +1,393 @@
+AI
+HOT
+精选
+全部 AI 动态
+AI 日报
+Agent 接入
+关于
+更新日志
+反馈
+信源提报
+登录
+全部 AI 动态
+AI 相关资讯全量信息流
+全部
+一手信源
+资讯
+推文
+全部
+模型
+产品
+行业
+论文
+技巧
+搜索
+6月18日
+00:49
+向阳乔木
+@vista8
+58
+NotebookLM：跨国小团队沟通对齐妙用
+分享一个跨国小团队用 NotebookLM 高效沟通对齐的方法：将公司关键文档上传至 NotebookLM，生成播客，自己听无误后转成所需语种让对方收听；沟通不清晰时还可通过文本问答澄清。该方法在小团队中效果很好，但对内容安全要求不高时适用。
+Google
+教程/实践
+语音
+00:45
+elvis
+@omarsar0
+60
+Rahul 指出，fable+ 类模型本质是英语→代码解释器，Fable 5 最差。diff 大小按风险管控：高风险区（身份/数据/网络/资金）用小 diff，可经验验证代码用大 diff。软件交付速度取决于审查/合并能力而非 PR 生成，瓶颈在 lint、测试、CI、影子验证。智能体需深度理解全栈，风险优先级为安全>正确性>性能。复杂性成本变化，可能值得多维护 50% 代码换 5% 性能提升。低风险时将代码块作黑盒仅做经验验证。逻辑逐行审查成本高，只用于关键处。更快迭代需借助权限 opt-in、影子模式等护栏。
+rahul: 1. as a mental model it is more correct to think of fable+ class models as english -> code interpreters - converts your ...
+智能体
+大佬观点
+编码
+部署/工程
+00:43
+Hugging Face：Blog（RSS）
+精选
+71
+ARD 规范发布：让智能体搜索工具、技能与其他智能体
+微软、谷歌、GoDaddy、Hugging Face 等联合起草的 Agentic Resource Discovery (ARD) 规范发布。该开放标准定义静态清单 `ai-catalog.json` 和动态注册表 API（`POST /search`），使智能体运行时通过自然语言搜索发现能力，无需预装。Hugging Face 推出参考实现 Discover Tool，集成 Hub 语义搜索与 Agent Skills，覆盖数千个 Skills、ML 应用和 MCP 服务器；支持 CLI（`hf discover search`）、REST API 或 MCP Server 按 media type 筛选运行时状态为 RUNNING 的 Space 或 MCP 标签条目。
+Hugging Face
+MCP/工具
+产品更新
+开源生态
+推荐理由：ARD把Agent从“安装即用”推进到“意图搜索”，Hugging Face的Discover实现已可用，直接搜Skills和MCP，Agent开发者现在就能试。
+00:35
+Jim Fan
+@DrJimFan
+精选
+81
+NVIDIA GEAR实验室发布ENPIRE：8个Codex智能体自主控制机器人完成物理实验
+NVIDIA GEAR实验室推出ENPIRE系统，首次实现物理世界自主研究。系统让8个Codex智能体控制8台机器人，配备GPU和token预算。安全方面采用硬运动极限切断和扭矩受限夹爪两层硬件保障，支持通宵无人运行。奖励函数通过视觉分类器离线固定并冻结，防止智能体作弊。实时监测机器人利用率（MRU）、token利用率（MTU）和GPU利用率，以Tokens-to-Success和Time-to-Success评估效率。ENPIRE自主完成扎带、整理细针、安装GPU等高精度任务，发现8机器人并行探索显著更快。系统将开源。
+Jim Fan: Today, we enable AutoResearch in the physical world for the first time! Introducing ENPIRE: we give 8 Codex agents a fle...
+智能体
+具身智能
+论文/研究
+推荐理由：Jim Fan团队让8个机器人在真实世界自主研究，从安装GPU到发现物理扩展定律，这是具身智能第一次真正脱离人类监督探索物理任务，比任何虚拟环境的Agent实验都更接近AGI的物理锚点，做机器人的必须关注。
+00:35
+MiniMax (official)
+@MiniMax_AI
+15
+与 @MiniMax_AI 联合举办的 CyOps Arena 进入最后一天，提交项目即可竞争 $5，000 奖金池。提示。构建。迭代。交付。
+Cysic: Our CyOps Arena, co-hosted with @MiniMax_AI, is heating up. You have one more day to submit your project and compete for...
+行业动态
+00:33
+Odyssey
+@odysseyml
+58
+我们已筹集 3.1 亿美元 B 轮融资，以加速世界模型！
+我们相信，能够理解和模拟世界的 AI 将成为我们时代最重要的技术之一。
+我们很高兴与 Natural Capital、Amazon、GV、AMD、IQT 等合作，将这一愿景变为现实。
+多模态
+行业动态
+视频
+00:32
+Hacker News 热门（buzzing.cc 中文翻译）
+61
+GLM-5.2 （max） 性能、价格与开源发布
+智谱AI于2026年6月发布开源推理模型GLM-5.2 (max)，总参数753B，活跃参数40B，支持文本输入输出，上下文窗口1M tokens。在Artificial Analysis Intelligence Index上以51分位居同类92款模型第一。输出速度111 tokens/s（第15/92）。价格输入$1.40/百万tokens、输出$4.40/百万tokens，属较贵一档；缓存命中$0.26/百万tokens（便宜81%）。模型权重以MIT协议开源发布于HuggingFace。
+开源/仓库
+推理
+评测/基准
+00:32
+Hacker News 热门（buzzing.cc 中文翻译）
+62
+人工智能需要更多的工程纪律，而不是更少。
+Opus 4.5 发布后，AI 能生成与中位数软件工程师同等质量的代码，且更快更便宜。2025 年，智能体框架、工具调用和 MCP 协议等迭代让代码生产从昂贵耗时变为免费即时，代码变得可丢弃和可重新生成。软件团队真正产品是共享理解，而非代码本身。作者认为，面对 AI 带来的变革，需要更多而非更少的工程纪律，以维持对系统的可控和共识。
+大佬观点
+编码
+部署/工程
+00:32
+TechCrunch：AI（RSS）
+精选
+76
+Google发布99美元Gemini智能音箱
+Google推出首款专为Gemini打造的智能音箱Google Home Speaker，售价99.99美元。支持自然语言请求和多步指令，可在说话中途纠正，并具备连续对话功能。内置10种新声音。高级AI功能需订阅Google Home Premium（月费10美元或年费100美元），包括Gemini Live自由对话、Nest摄像头活动摘要等。即日起预售，本月发货。
+Google
+产品更新
+语音
+推荐理由：Google 终于把 Gemini 塞进了音箱，多步指令和自然纠错是亮点，但高级功能要订阅 Home Premium。普通用户会觉得方便，智能家居玩家可以观望，AI 从业者不会有多大惊喜。
+00:32
+The Verge：AI（RSS）
+64
+Snap 售价 2195 美元的 Specs 智能眼镜：设计张扬难以低调
+Snapshot 发布售价 2195 美元的智能眼镜 Specs，47mm 版重 132 克，52mm 版重 136 克，远高于传统眼镜（15-25 克）和主流智能眼镜（40-70 克）。CEO Evan Spiegel 称其旨在帮人摆脱屏幕、更融入世界，但镜头反光暴露了内置显示屏。厚重镜框和夸张镜腿设计醒目，无法低调。文章对比认为 Meta Ray-Ban 因外观普通更易成功，而 Snap 将 Specs 定位为高端时尚设备，由时尚摄影师 Steven Meisel 拍摄广告，模特包括 Kaia Gerber、Hoyeon 等，目标用户为早期采用者而非大众市场。
+端侧
+评测/基准
+00:32
+The Verge：AI（RSS）
+精选
+71
+解读白宫与Anthropic围绕Fable模型的政治角力
+上周五晚，白宫对Anthropic最新发布的Mythos 5和Fable 5模型实施出口管制，迫使Anthropic关闭访问。白宫方面称，亚马逊CEO Andy Jassy等人报告模型可被越狱，危及国家安全；Anthropic则认为担忧夸大。文章指出，在缺乏联邦监管法的背景下，AI监管完全依赖政治氛围，而Anthropic因公开反对特朗普政府成为政治敌人，其行动被华盛顿视为对抗性。
+Anthropic
+安全/对齐
+政策/监管
+行业动态
+关联讨论 4 条
+推荐理由：这是政府首次以国家安全为由强制关闭 AI 模型，背后是派系斗争和 Anthropic 的倔强——全行业都该明白，在无法律时代，政治站队比技术更重要。
+00:28
+Chubby♨️
+@kimmonismus
+65
+纽约时报获得并报道了Anthropic内部聊天记录，显示员工感到"被不公平针对"，认为美国政府"不希望我们存在"。但报道忽略了Anthropic此前曾反复强调自身模型安全风险的事实。引用推文指出，这些员工正是此前声称有能力带来网络安全"清算"的同一批人，如今却怀疑自己被政府"找茬、霸凌、不公平针对"，并向媒体泄露内部聊天。
+Susan Zhang: the nytimes really didn't hold back on getting internal chat messages from anthropic where the "same people" who previou...
+Anthropic
+安全/对齐
+政策/监管
+00:28
+Chubby♨️
+@kimmonismus
+30
+1987年苹果展示的Knowledge Navigator--能看见用户、控制电脑、外观和声音都像人类的AI助手，近40年后被Tavus在Cerebras支持下变为现实。新推出的Dom具备computer use、语音模型和数字人形象，用户可与之在PC上协作操作。推文作者称这如同科幻成真，像《星际迷航》中的未来。
+Hassaan Raza: Last week Apple previewed the future of Siri. In 1987 though, Apple showcased a far more advanced AI assistant that woul...
+智能体
+产品更新
+多模态
+00:16
+Ars Technica：AI（RSS）
+47
+谷歌 Home Speaker 开启预售，6 月 25 日开售
+谷歌去年八月发布的新款智能音箱 Google Home Speaker 现已开启预售，售价 $99.99，6 月 25 日正式开售。扁球体织物外观有淡褐、瓷白、翠绿和浆果红四色。支持 360 度声场，底部环形灯带在语音交互时亮起，配备三个远场麦克风和静音开关。内部搭载四核 A55 处理器及专用 NPU，运行本地 AI 模型提升降噪。仅有一个 58mm 全频驱动单元，音质介于 Nest Audio 与 Nest Mini 之间。可与 Google TV Streamer 配对实现沉浸式音频，兼容其他 Nest 设备。购买附赠六个月 Google Home Premium，启用 Gemini Live 支持连续对话。
+Google
+产品更新
+语音
+00:16
+DogeDesigner
+@cb_doge
+48
+"我最喜欢的企业 AI 服务是 Cursor。它是一个 AI 编程器，我们的每一位工程师，100% 现在都由 AI 编程器辅助，我们的生产力有了难以置信的提升。这些公司是全世界增长最快的公司之一，而且它们解决企业需求。"
+--黄仁勋（Jensen Huang）
+大佬观点
+编码
+00:08
+Google Developers Blog（RSS）
+精选
+63
+谷歌发布Agentic Resource Discovery（ARD）开放规范
+Agentic Resource Discovery（ARD）是一项开放规范，用于在Web上发布、发现和验证AI工具、技能与智能体。它基于两个原语：组织在其自有域名下托管catalog描述可用能力，registry作为搜索引擎索引catalog并响应发现请求。ARD支持加密验证，使客户端与端点连接前确认发布者身份，然后直接通过原生协议调用能力。Google Cloud的Gemini Enterprise Agent Platform通过Agent Registry提供企业级支持，包括URN命名、出站策略、工具固定和基于Agent Identity的信任验证。该规范现已发布，开发者可通过托管`ai-catalog.json`文件使其服务可发现。
+智能体
+Google
+MCP/工具
+行业动态
+推荐理由：虽然才刚发布，但 ARD 有可能成为代理网络的“robots.txt”，做 agent 开发的都该看一眼，它解决的是跨组织发现和信任这个真问题。
+00:07
+IT之家（RSS）
+7
+23.99万元起，王朝网首款D级旗舰SUV比亚迪大唐EV正式上市
+比亚迪大唐EV上市，指导价23.99万元起，提供800km、850km、950km三种CLTC续航版本。该车为王朝网首款D级旗舰SUV，搭载第二代刀片电池与全域1000V高压架构，四驱版零百加速3.9秒。支持5分钟从10%充至70%，9分钟充至97%。全系标配车顶激光雷达与天神之眼5.0智驾系统，支持无图城市NOA与高速NOA。座舱搭载3nm车规芯片与多屏交互，标配云辇-A智能空气车身控制及后轮转向。预售订单已突破15万辆。
+其他
+6月17日
+23:58
+Chubby♨️
+@kimmonismus
+45
+1/ .@TensordyneInc 刚刚发布了他们的 Napier gen.
+声称效率比分解方法（Nvidia/AWS + Groq/Cerebras）好10倍，同时在用户速度上超越它们。
+新芯片已流片。在数学和芯片间扩展互连方面有根本性创新。
+一个帖子 🧵：
+产品更新
+部署/工程
+23:49
+Yuchen Jin
+@Yuchenj_UW
+精选
+77
+编程的未来不是单一智能体，而是一个完整的AI团队。
+Omnigent让你在一个实时会话中运行一个智能体团队：Claude Code、Codex、Cursor、Pi，以及你自己的智能体。
+它是一个面向AI智能体的元框架，基于我们内部的Databricks开发工具构建，现已开源给所有人。
+由传奇人物@matei_zaharia和Databricks AI团队打造。没错，Matei仍然编写大量代码，包括Omnigent和我们产品的前端代码。
+智能体
+开源/仓库
+编码
+推荐理由：Databricks 把内部用来协调多个 AI 编码代理的工具开源了，集合了 Claude Code、Cursor 等，做 agentic coding 的开发者值得上手试试，可能会改变我们组合使用 AI 工具的方式。
+23:48
+OpenCode
+@opencode
+26
+GLM-5.2 的需求量正在增长 3 倍
+如果你遇到一些问题，我们正在积极处理中
+OpenCode: GLM-5.2 now available in Go text · 1M context · same pricing as 5.1
+行业动态
+部署/工程
+23:45
+elvis
+@omarsar0
+42
+eve 看起来是一个非常值得期待的智能体框架。
+内置：
+- 持久执行
+- 沙箱计算
+- 人工介入审批
+- 子智能体
+- 评估（Evals）
+- 以及更多
+我很欣赏它一开始就强调评估。
+我是否应该做个教程？
+Vercel: Introducing eve, an agent framework. agent/ agent.ts instructions.md tools/ skills/ sandbox/ schedules/ Like Next.js, fo...
+智能体
+MCP/工具
+产品更新
+23:45
+elvis
+@omarsar0
+29
+将任务外包给AI，但不要忘记继续学习。
+我发现这个/teach技能对于学习任何东西都非常有用。
+非常适合初学者或高级学习者。
+大佬观点
+23:43
+Hugging Face：Blog（RSS）
+精选
+69
+MolmoMotion：语言引导的3D运动预测模型
+MolmoMotion基于Molmo 2骨干网络，输入视频帧、物体上的3D点标记及文字动作指令（如“移动并旋转桌上放水果的木碗”），预测未来数秒内这些点的3D轨迹。提供两个变体：自回归的MolmoMotion-AR逐步预测坐标，流匹配的MolmoMotion-FM通过连续空间变换处理多可能性运动。同时发布MolmoMotion-1M数据集（含116万视频的3D点轨迹及动作描述）和PointMotionBench基准测试（2700个人工验证视频片段）。模型权重、数据集和基准测试均已开源。
+Hugging Face
+具身智能
+多模态
+模型发布
+推荐理由：MolmoMotion把3D运动预测从模板化推到任意物体，百万级数据集和基准让研究门槛大降，做机器人和视频生成的值得认真看，但目前仍是研究阶段，离落地还有距离。
+23:36
+OpenRouter
+@OpenRouter
+63
+新实验室：成本模拟器
+一个简单的工具，用于查看你的真实流量并估算使用不同模型时的成本节省，使用中位数端点定价。
+产品更新
+部署/工程
+23:34
+Andrew Milich
+@milichab
+47
+AWS 开发者现可使用 Grok 4.3 构建应用，该模型在幻觉率和工具调用方面行业领先，由 Bedrock 的安全推理引擎驱动。
+xAI: Grok is now available on Amazon Bedrock. AWS developers can now build with Grok 4.3, the industry leader in hallucinatio...
+xAI
+行业动态
+部署/工程
+23:32
+Kling AI
+@Kling_ai
+19
+是时候来一场激动人心的、毫无保留的对决了！⚔️
+产品更新
+23:32
+Google Blog：AI（RSS）
+精选
+55
+Google 医学推理 AI 系统 AMIE 新研究：从诊断迈向长期疾病管理
+今日发表在《自然》杂志上的研究展示了 Google 的医学推理 AI 系统 AMIE（Articulate Medical Intelligence Explorer）从单次诊断对话演进到长期疾病管理的能力。AMIE 利用 Gemini 模型的长上下文能力，整合共情对话智能体和深度思考管理推理智能体，可交叉引用数百页临床指南。在盲测中，AMIE 与 21 名初级保健医生相比，在整体管理推理上匹配临床医生，在计划精确性和指南一致性上得分显著更高。
+Google
+推理
+论文/研究
+推荐理由：Google 把医疗 AI 从一次诊断推到了长期疾病管理，Nature 上的对照实验显示它在计划精确性上甚至优于初级保健医生，做数字健康的人值得认真读一下。
+23:28
+Anthropic：Newsroom（网页）
+50
+Anthropic 在首尔开设办公室并宣布多项韩国AI生态合作
+Anthropic 正式启用首尔办公室，并宣布与韩国AI生态的多项合作。NAVER 在全公司部署 Claude Code，数千工程师用于提升编码效率；Nexon 工程团队用 Claude Code 编写游戏代码。LG CNS 将 Claude 推广至数千员工并计划覆盖整个 LG 集团；Hanwha Solutions 通过 AWS Bedrock 部署 Claude 满足数据驻留与安全要求；Samsung SDS 向三星电子员工部署 Claude（包括 Claude Cowork 和 Claude Code）。初创公司 Channel Corp 用 Claude 驱动客户AI平台 Channel Talk。Anthropic 与韩国国家AI研究实验室合作，向至多60名研究员提供 Claude 用于AI安全等研究。非营利组织 Good Neighbors Korea 部署 Claude 减轻行政工作。Claude for Startups 已在韩国上线，并计划与 Replit 等合办黑客马拉松。
+Anthropic
+行业动态
+部署/工程
+23:25
+🚨 AI News | TestingCatalog
+@testingcatalog
+53
+OpenAI 🔥：根据最新网页构建，一个针对科学的新ChatGPT计划正在开发中。
+OpenAI
+行业动态
+23:16
+Rohan Paul
+@rohanpaul_ai
+61
+Nitrosend：AI智能体一键自动化品牌邮件
+Nitrosend 推出基于 AI 智能体的邮件自动化工具。它允许 Codex、ChatGPT、Claude、Cursor、Gemini 或任何 MCP 智能体通过一个提示词构建和发送品牌邮件活动。系统会持续从发送数据中学习，自动优化主题行、发送时机和内容，而非依赖通用建议。引用@gthartley 称，传统邮件仪表盘运行了二十年，但仪表盘本身就是瓶颈——Nitrosend 移除了它。
+George Hartley ☄️: Email dashboards had a good run. Two decades. Billions of emails. I built two companies on them. But the dashboard was n...
+智能体
+MCP/工具
+产品更新
+23:16
+The Decoder：AI News（RSS）
+50
+Nvidia 研究：AI 编程智能体让机器人自我训练
+Nvidia、卡内基梅隆大学和 UC Berkeley 联合开发的 ENPIRE 项目，利用 AI 编程智能体让机器人在现实世界中自主进行灵巧抓取训练。8 台双臂 YAM 机器人通过 Git 共享试验结果，智能体自主编写奖励函数、阅读论文并编辑训练代码。在 Push-T 测试、插针和剪扎带等任务上最高达 99% 成功率；从 1 个智能体扩展到 8 个后，Push-T 完成时间从约 5 小时降至 2 小时，插针从 90 分钟降至约 40 分钟。测试了 Codex（GPT-5.5）、Claude Code（Opus 4.7）和 Kimi Code（Kimi K2.6），Codex 表现最佳。现实环境仍比模拟困难，但该方法为机器人自主改进提供了可行路径。
+具身智能
+论文/研究
+23:15
+Ethan Mollick
+@emollick
+59
+如果泄露的财务数据正确，OpenAI 在服务客户方面实现盈利，毛利率达 40% 以上。但训练成本仍然极其高昂。
+自动化 AI 研究也可能是一种提高训练效率的策略：超人类研究员可以用更少资源做更多事。
+OpenAI
+数据/训练
+行业动态
+23:15
+Artificial Analysis
+@ArtificialAnlys
+65
+Soniox v5 Real-Time 发布：低延迟流式语音转文本模型
+Soniox 发布 v5 Real-Time 流式 STT 模型，在 AA-WER Streaming 基准上处于准确率与延迟的帕累托前沿。First Final 转录 WER 4.5%（延迟 0.05s），比 Deepgram Flux (7.4%, 0.02s) 和 Nova-3 Realtime (6.7%, 0.06s) 更准确，比 Cartesia Ink-2 (3.7%, 0.09s) 和 ElevenLabs Scribe v2 Realtime (3.6%, 0.14s) 更快。First Partial 转录 WER 4.7%（延迟 0.05s），准确率仅次于上述两款模型但速度更快。价格 $2/1000 分钟，为所有测试专有流式模型最低。支持 60+ 语言及实时翻译。
+模型发布
+语音
+23:15
+meng shao
+@shao__meng
+60
+邵猛推荐 @Jason_Young1231 的开源项目 CC Switch，GitHub 获 103K 星。该项目解决 OpenAI Codex Responses API 与多数第三方 API Chat Completions 接口不兼容的问题，使更多模型可在 Codex 中直接使用，完全开源免费。
+Jason Young: Love this direction from OpenAI. That's what we call being open. In practice, though, many third-party APIs are still Ch...
+GitHub
+MCP/工具
+开源/仓库
+编码
+23:14
+xAI
+@xai
+48
+Grok 现已登陆 Amazon Bedrock。AWS 开发者现在可以使用 Grok 4.3 进行构建，该模型在模型幻觉率和工具调用方面处于行业领先地位，并由 Bedrock 的安全推理引擎提供支持。
+xAI
+行业动态
+23:13
+AYi
+@AYi_AInotes
+37
+近日，Grok推出PPT生成能力，用户可直接通过提示词创建演示文稿。同时，引用推文展示了其AI图像生成效果：Grok完美复刻《黑客帝国》经典场景--Neo在雨中后仰躲子弹，保留标志性绿色调、皮风衣、墨镜及Bullet Time旋转镜头，审美水准在线。
+AYi: Grok做的《黑客帝国》经典的Neo躲子弹,完美复刻! Prompt: 《黑客帝国》Neo躲子弹, Bullet Time 躲子弹瞬间,Neo 在雨中 hallway 或 rooftop,子弹以极慢速度飞来,他做出标志性后仰躲避动作,镜头围...
+xAI
+产品更新
+图像生成
+23:07
+IT之家（RSS）
+0
+我国平陆运河进入通航倒计时，首艘 5000 吨级绿色智能示范船顺利完成试航
+平陆运河已全线通水，进入通航倒计时决胜阶段。内河示范船“北港运河 002”在指定水域完成试航，是“两型四艘”示范船中首艘完成试航的船舶。该船为广西首条配备智能化系统的内河船舶，集成智能辅助航行、能效管理、安全监测等模块。试航严格对标内河船舶检验规范，历经6小时，所有测试项目参数稳定、运行正常。平陆运河全长134.2公里，将于今年9月通航，可通航5000吨级船舶。
+其他
+安全/对齐
+23:07
+IT之家（RSS）
+精选
+74
+DeepSeek 以 4000 亿元估值完成首轮外部融资：510 亿元到账，投资方含梁文锋、腾讯、宁德时代等
+企查查数据显示，DeepSeek 于 2026 年 6 月 16 日完成首轮外部融资，规模约 510 亿元，估值近 4000 亿元。投资方包括创始人梁文锋、腾讯、宁德时代、网易、京东、Monolith 砺思资本、IDG 资本、正心谷投资、拾象科技及国家人工智能产业投资基金。DeepSeek 成立于 2023 年 7 月，主营大语言模型及多模态 AI 技术研发，此前由幻方量化全资支持。本轮融资将用于扩展 AI 基础设施、加强研发、提供股权激励及加快商业化。国家人工智能产业投资基金直接入股并享有投票权，其余投资者均不享有投票权且设有五年锁定期。
+DeepSeek
+开源生态
+行业动态
+关联讨论 1 条
+推荐理由：DeepSeek 首轮融资估值 4000 亿，腾讯、宁德时代、京东及国资等入局，但梁文锋设了五年锁定期且不给投票权，这种资本条款在头部 AI 公司里很少见，值得一看。
+23:07
+Nathan Lambert：Interconnects（RSS）
+51
+博客现状，2026年中
+Nathan Lambert 在 Interconnects 博客创办约三年后更新规划。他当前三大目标：为前沿模型演进提供清晰度、创建开放模型生态、建立支撑机构。博客定位为原始、高辨识度的独立声音，避免成为全职分析平台。已披露与 Arcee AI 和 Mercor 签署咨询协议，以深入后训练领域并推动透明评测与开放生态。订阅者突破 7 万，付费约 900 人；运营实体 Interconnects AI, LLC 已成立，但银行账户数月余额接近零，收入再投入业务，近期不打算全职运营。
+大佬观点
+开源生态
+23:02
+TechCrunch：AI（RSS）
+60
+XDOF获7000万美元融资，构建机器人训练数据基础设施
+机器人训练数据初创公司XDOF结束隐身，获Thrive Capital、a16z等7000万美元投资。公司为AI实验室和机器人公司构建数据管道、采集工具和标注系统，填补物理交互训练数据缺口。XDOF联合UC Berkeley发布ABC数据集，含13万条机器人操作轨迹、300小时仿真数据及100小时评估数据，号称迄今最大高质量机器人训练数据集。公司计划通过三层数据金字塔采集数据，已与20家客户合作。
+具身智能
+数据/训练
+行业动态
+‹ 上一页
+下一页 ›
