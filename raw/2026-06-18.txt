@@ -1,0 +1,378 @@
+AI
+HOT
+精选
+全部 AI 动态
+AI 日报
+Agent 接入
+关于
+更新日志
+反馈
+信源提报
+登录
+全部 AI 动态
+AI 相关资讯全量信息流
+全部
+一手信源
+资讯
+推文
+全部
+模型
+产品
+行业
+论文
+技巧
+搜索
+6月19日
+00:51
+Greg Brockman
+@gdb
+51
+OpenAI 与波士顿儿童医院、哈佛大学合作，在 NEJM AI 发表研究，使用 o3 Deep Research 重新审视 376 例此前未解的罕见儿科疾病案例，帮助找到 18 种新诊断。其中包含一例 Kyra 自 9 岁起出现肌无力的罕见肌原纤维肌病，在她 28 岁生日前不久得到确诊，为等待多年的家庭提供了答案。
+OpenAI: Together with researchers at Boston Children's Hospital and Harvard, we published a study in NEJM AI showing how o3 Deep...
+OpenAI
+推理
+搜索
+论文/研究
+00:50
+🚨 AI News | TestingCatalog
+@testingcatalog
+45
+OPENAI 🔥：GPT-5.6 模型系列正在为即将到来的发布做准备，因为 GPT-5.6-Pro 已在测试中被发现。
+很快 👀
+Chetaslua: 🚨 GPT 5.6 Pro first output on the same prompt we are getting started > frontend/ webdev is not solved or improved yet >...
+OpenAI
+推理
+模型发布
+00:50
+Elon Musk
+@elonmusk
+50
+Grok模型现已在Databricks Agent Bricks上可用，可将xAI最新模型引入企业数据以构建强大的AI智能体。Elon Musk宣布了这一消息。
+xAI: Grok models are now available on Databricks Agent Bricks. Bring SpaceXAI's latest models to your enterprise data to powe...
+xAI
+产品更新
+部署/工程
+00:47
+Chubby♨️
+@kimmonismus
+69
+Transformer架构发明者Noam Shazeer加入OpenAI
+Noam Shazeer（Transformer架构共同发明者）在离开Google创办CharacterAI、通过27亿美元交易回归DeepMind并参与Gemini后，现加入OpenAI。据称他将专注于新模型架构和Transformer的演进。这对OpenAI是重大胜利，尤其是在去年底和今年初失去一些重要研究者给Meta等公司之后。当前舆论风向似乎明显转向有利于OpenAI。
+DeepMind
+Google
+OpenAI
+行业动态
+00:47
+Chubby♨️
+@kimmonismus
+54
+OpenAI 挖角特朗普 AI 政策核心人物 Dean Ball
+特朗普 AI 政策关键塑造者 Dean Ball 将加入 OpenAI（据 Axios 报道）。此举凸显 OpenAI 通过吸纳与政府关系紧密的政策制定者，提前布局潜在监管冲突并打通政府渠道。与此同时，其最大竞争对手 Anthropic 正面临美国政府关系困境。分析认为，除开源因素外，OpenAI 是 Anthropic 当前挣扎的最大受益方。
+OpenAI
+行业动态
+00:26
+SemiAnalysis
+@SemiAnalysis_
+65
+停止说2026年美国数据中心一半容量被取消：
+不要相信那些Vibecoded Estimates，
+而是逐一审查每个申报文件。
+https：//newsletter.semianalysis.com/p/stop-saying-half-of-2026-us-datacenter
+行业动态
+部署/工程
+00:25
+xAI：News（网页）
+45
+Grok 现集成 Databricks Agent Bricks
+Grok 模型现已原生集成到 Databricks Agent Bricks 平台。在 2026 年 Data + AI Summit 上，Databricks 宣布与 SpaceXAI 合作，使 Grok 与其他前沿及开源模型在同一受控平台中可用。Agent Bricks 结合 Lakehouse 数据上下文与控制和选择，帮助工程团队构建处理大规模数据的 AI 智能体。此外，企业也可在 Amazon Bedrock 上运行 Grok 模型。
+xAI
+行业动态
+部署/工程
+00:25
+Noam Brown
+@polynoamial
+61
+Dean Ball宣布，他将于7月6日加入OpenAI，领导名为Strategic Futures的新团队，负责帮助公司制定前沿AI政策。Noam Brown表示，没有比他更合适的人选来协助塑造前沿AI政策，并期待与他合作。
+Dean W. Ball: I am pleased and honored to announce that, on July 6, I'll be joining @OpenAI as leader of a new team called Strategic F...
+OpenAI
+安全/对齐
+行业动态
+00:25
+Noam Brown
+@polynoamial
+20
+Kevin 是报道 AI 的最佳记者之一。我特别欣赏他花时间*使用*前沿 AI，深入了解其能力与局限。我期待他接下来的工作！
+Kevin Roose: http://x.com/i/article/2067617306394370048
+OpenAI
+大佬观点
+00:25
+Microsoft Research
+@MSFTResearch
+39
+你能在听完五个小时的故事后记住一个新密码吗？
+Transformer 可以。
+AI 研究员 Subutai Ahmad 和 Nicolò Fusi 与微软 CVP Doug Burger 一起探讨人类记忆与机器智能之间的根本差异。https：//msft.it/6016vllRa
+Microsoft
+现象/趋势
+00:25
+Deedy
+@deedydas
+66
+只改一个URL就能复现和迭代AI论文，甚至无需自备GPU，这相当不错。
+alphaXiv: Introducing autoresearch for arXiv papers Change 'arxiv' to 'autoarxiv' in any paper URL An agent deploys to resolve set...
+智能体
+arXiv
+产品更新
+论文/研究
+00:24
+Nathan Lambert
+@natolambert
+57
+我为Dean感到非常高兴，但同时也很遗憾又一位极其聪明、有独立见解的人加入了实验室。
+至少OpenAI更愿意让人们自由发言。我希望这一点能够持续下去。
+Dean W. Ball: I am pleased and honored to announce that, on July 6, I'll be joining @OpenAI as leader of a new team called Strategic F...
+OpenAI
+行业动态
+00:22
+Anthropic：Research（发表成果 · 网页）
+精选
+77
+Anthropic Project Fetch 第二阶段：Claude Opus 4.7 自主完成任务，速度比人类团队快约20倍
+Anthropic 发布 Project Fetch 实验第二阶段结果。在2024年8月原始实验中，配备 Claude Opus 4.1 的人类团队在操控四足机器人时显著超越无 AI 团队。新实验中，Claude Opus 4.7 无需人类协助即完成所有任务，速度比最快人类团队快约20倍，比无 Claude 团队快37倍以上，编码量减少近10倍。模型在传感器连接、路径规划等环节表现出色，但在精确移动沙滩球等闭环控制任务上仍存在困难。这些进展源于通用模型规模化，而非针对机器人领域的专项优化。
+智能体
+Anthropic
+具身智能
+论文/研究
+推荐理由：Anthropic 用 Claude Opus 4.7 自主操作机器狗，比当初的人类志愿者快 18-37 倍，代码量却少了十倍。这让「语言模型上手物理工具」从假想变成了可视的进度条，做具身智能和 agent 的人都该看一眼。
+00:22
+Artificial Intelligence News（RSS）
+37
+计算机视觉货架跟踪推动零售业生产力提升
+计算机视觉自动跟踪货架正帮助零售商应对利润侵蚀。行业低效消耗6.4%总销售额，2026年损失将达1964亿美元（同比增21%），远超3%的销售增速。九成零售商面临管理困难，全面部署商店智能平台的企业占60%（同比升18个百分点）；年收入超50亿美元的公司中73%已规模化部署，低于10亿美元的仅42%。BJ's Wholesale Club部署Simbe机器人监测库存与价格，生成数字孪生后在线拣货效率年提升40%。Albertsons计划通过AI优化定价与品类管理，三个财年内实现15亿美元生产力提升。但部署顺序失衡：仅33%投资货架数字化硬件，2026年错误定价率将达13%（较2024年升4个百分点）。
+现象/趋势
+部署/工程
+00:21
+Ethan Mollick
+@emollick
+26
+在各大实验室近期大规模招聘的背景下，且由于偶尔有人问起，或许值得重申：我不从任何AI实验室拿钱。我也不为任何我写的内容接受企业赞助，无论是在这里还是Substack等平台。
+大佬观点
+现象/趋势
+00:21
+xAI
+@xai
+38
+Grok 模型现已可在 Databricks Agent Bricks 上使用。
+将 SpaceXAI 的最新模型引入您的企业数据，以驱动强大的 AI 智能体。
+https：//x.ai/news/grok-databricks
+智能体
+xAI
+行业动态
+部署/工程
+00:20
+Perplexity
+@perplexity_ai
+60
+Introducing Brain in Computer.
+Brain是一个持续学习的记忆系统。Computer上的每个任务都会接入由Brain构建的上下文图。
+它让Computer在每次运行时更具状态性。
+现作为研究预览版面向所有Perplexity Max订阅者开放。
+产品更新
+搜索
+00:20
+Replit ⠕
+@Replit
+31
+在Claude中设计，在Replit中构建。https：//x.com/i/broadcasts/1rGmqqgkEMLGy
+产品更新
+编码
+00:19
+Lee Robinson
+@leerob
+37
+Cursor Slack 中有机器人解决客户问题，然后其他机器人复现并确认修复。全部基于我们的 SDK 构建！
+智能体
+行业动态
+00:19
+The Verge：AI（RSS）
+55
+亚马逊员工因支持数据中心限制面临解雇风险
+三名亚马逊软件工程师于6月10日被叫入员工关系面谈，公司正调查他们，可能采取包括解雇在内的纪律处分。此前他们本月初在西雅图市议会就数据中心监管作证，并引用该市禁止因政治言论歧视雇员的法规。三人已向民权办公室投诉，指控亚马逊违反该法律。西雅图市议会刚通过一项为期一年的大型数据中心暂停令。
+数据/训练
+行业动态
+00:17
+AYi
+@AYi_AInotes
+69
+Codex 前置 Review 三层级与因果 AI 四代演进：Aether AI 融资信号
+用 Codex 写代码时，将 Review 前置可显著降低返工率。作者总结三个层级：零成本版（粘贴提示要求先复述任务再执行）、官方内置版（/plan 或 Shift+Tab 触发计划）、持久化版（AGENTS.md 写入前置规则）。UCSD 黄碧薇教授深耕因果 AI 12 年，提出 AI 四代演进：相关性小模型→因果小模型→相关性大模型（LLM）→因果大模型。其团队开发的 causal-learn 入选 Apple Scholar。今日 Aether AI 完成首轮融资，被视为从堆参数转向下一代 AI 范式的信号。
+AYi: 人类到今天都写不出一颗煎蛋的物理方程, 一颗鸡蛋打进热油锅,它怎么凝固、怎么摊开、边缘怎么变焦, 没有任何一个公式能描述清楚,这种例子在物理世界里多到数不过来。 而这恰恰是当下通用 AI 范式的天花板,视频生成、VLA 学的都是像素层面的统...
+智能体
+教程/实践
+编码
+00:17
+AYi
+@AYi_AInotes
+74
+GLM-5.2 发布开源权重，MIT 许可。原 1.5TB 模型经 84% 压缩至 238GB，可在 256GB Mac 或同档硬件本地运行，保留 82% 性能。拥有 1M 上下文窗口，编码和智能体任务显著提升。提供两种推理力度：GLM-5.2 （max） 极限推理，GLM-5.2 （high） 平衡性能与 token 效率。API 定价与 GLM-5.1 相同。
+Z.ai: Introducing GLM-5.2: Frontier Intelligence, Open Weights - Significant improvements in coding and agentic tasks - Strong...
+Hugging Face
+开源生态
+推理
+模型发布
+00:16
+fofr
+@fofrAI
+9
+进入新的Midjourney spa
+其他
+图像生成
+6月18日
+23:55
+AK
+@_akhaliq
+41
+GLM-5.2 在 Hugging Face Inference Providers 上通过 Zai、Together AI、Novita、Fireworks、DeepInfra 免费提供，持续 6 小时
+可搭配 Pi、opencode、Codex、Claude Code 或任何编码智能体进行设置。
+Hugging Face
+产品更新
+部署/工程
+23:54
+Deedy
+@deedydas
+36
+Midjourney的路线图一直都是公开的。
+图像生成
+大佬观点
+23:51
+elvis
+@omarsar0
+64
+OpenAI 推出 LifeSciBench，用于衡量 AI 支持真实世界生命科学研究的能力。该基准与 173 位生物技术与制药科学家共同开发，包含 750 个专家编写任务，覆盖七种生物研究流程。DAIR.AI 的 Elvis Saravia 推荐阅读，并指出通用模型在处理复杂结构时仍然失败，而面向科学研究的专用模型表现显著更优。
+OpenAI: Introducing LifeSciBench, a benchmark for measuring and improving how well AI supports real-world life science research....
+OpenAI
+评测/基准
+23:49
+TechCrunch：AI（RSS）
+56
+General Intuition 洽谈约3亿美元融资，估值超20亿美元
+从游戏剪辑平台Medal剥离的AI初创公司General Intuition正洽谈约3亿美元融资，估值超20亿美元。本轮距其1.34亿美元种子轮仅8个月，投资方包括Jeff Bezos、Eric Schmidt及现有投资者Khosla Ventures、General Catalyst。公司利用Medal每年20亿条视频（来自1000万月活用户）训练具身AI与世界模型，通过第一人称交互数据实现空间-时间推理。OpenAI曾试图收购Medal。资金将用于扩大算力，计划夏末或初秋发布新产品。
+OpenAI
+具身智能
+行业动态
+23:47
+Hugging Face：Blog（RSS）
+精选
+70
+超越 LoRA：如何选择最佳参数高效微调技术？
+参数高效微调（PEFT）技术中，LoRA 占据绝对主导：Hugging Face Hub 上 20,834 张提及单一 PEFT 技术的模型卡中 20,509 张指向 LoRA（98.4%）；外部站点 10,000 个检查点中 95.0% 是 LoRA；GitHub 搜索 `from peft import` 代码片段的 71.3% 结果为 LoRA。但研究者宣称其他技术超越 LoRA 的论文结果具备偏向性——调整学习率即可让 LoRA 匹配更优技术。Hugging Face 的 PEFT 库提供统一 API 实现 40 余种 PEFT 技术，并开始建立基准测试：在数学数据集上对 LLM 进行思维链推理微调，以帮助用户做出更优选择。
+Hugging Face
+教程/实践
+数据/训练
+推荐理由：HuggingFace 的 PEFT 团队用公平基准把 LoRA 拉下神坛，图像生成任务上 OFT 表现更好，而且切换只需改一行配置。对微调选型有实打实的参考价值，但数据集有限，别全信。
+23:45
+HuggingFace Daily Papers（社区热门论文）
+55
+Discriminator-Guided RL：用数据自身奖励修正流匹配模型
+针对流匹配模型匹配损失与生成质量的结构不匹配，提出Discriminator-Guided RL（DRL）。在预训练表示空间中训练判别器区分真实数据与基模型样本，将其logit作为KL正则化RL的奖励——该奖励近似数据与模型的对数似然比，直接优化数据分布。在SiT、JiT、REPA、RAE上，DRL一致降低无引导FID（SiT从9.38降至2.62）和语义空间FD（SiT在DINOv3上从88.2降至19.3），且在不依赖人类偏好数据的情况下提升人类偏好奖励。偏好微调中，DRL改善偏好奖励与图像保真度的帕累托前沿，减少过饱和等低层次伪影。
+arXiv
+图像生成
+数据/训练
+论文/研究
+23:22
+宝玉
+@dotey
+18
+@jietang 回复 @elonmusk 和 @teortaxesTex："不会花那么久。" 主推文期待早日看到 Mythos 级别的开源模型👍
+jietang: @elonmusk @teortaxesTex won't take that long
+大佬观点
+开源生态
+23:21
+OpenAI
+@OpenAI
+46
+与波士顿儿童医院和哈佛的研究人员合作，我们在NEJM AI上发表了一项研究，展示了o3 Deep Research如何帮助临床医生重新审视此前未解决的罕见儿科疾病案例，并为等待多年的家庭找到答案。
+OpenAI
+推理
+论文/研究
+23:21
+Hacker News 热门（buzzing.cc 中文翻译）
+52
+MAME Power Macintosh仿真取得进展：Claude Code协助修复多项Bug
+开发者使用Claude Code控制并调试MAME的Power Macintosh仿真。Claude通过生成Lua脚本和修改日志，发现了6522 VIA仿真故障、PowerPC DRC缓存值未覆盖实际状态的反模式、PowerPC 601的两处Bug，以及原子加载/存储指令模拟错误。修复后，Pippin播放启动音并显示Logo、鼠标可移动；PowerMac 7200显示启动磁盘搜索画面；PowerMac 6100成功启动System 7.5.3和7.5.5。此外，GPT 5.5 Pro（经Codex）在固件逆向中能快速给出内存映射和子程序猜测。
+Anthropic
+OpenAI
+大佬观点
+推理
+23:20
+🚨 AI News | TestingCatalog
+@testingcatalog
+67
+微软正评估GLM、MiniMax、Kimi等多款开源模型用于Copilot Cowork，旨在降低推理成本。据Axios报道，微软考虑托管DeepSeek V4作为更便宜选项，同时将Copilot Cowork从无限定价转为按使用量计费。微软称用户每周执行数百任务，成本可能很高。若采用DeepSeek，模型将是可选、经微调和安全防护，并完全托管在Azure上。微软推动模型"可互换"策略，未来部分任务可能移至本地执行。
+Chubby♨️: Axios reports that Microsoft is considering a Microsoft-hosted version of DeepSeek V4 as a cheaper model option for Copi...
+DeepSeek
+Microsoft
+开源生态
+行业动态
+23:20
+Epoch AI
+@EpochAIResearch
+23
+Help shape how the world understands AI. We're hiring two designers at Epoch AI to turn complex research into dashboards and visualizations researchers and policymakers can easily use.
+帮助塑造世界理解 AI 的方式。Epoch AI 正在招聘两名设计师，将复杂研究转化为研究人员和政策制定者易于使用的仪表盘和可视化。
+数据/训练
+行业动态
+23:19
+TechCrunch：AI（RSS）
+49
+科技工作者支持的超级 PAC Guardrails Alliance 成立，瞄准 AI 立法
+新超级政治行动委员会 Guardrails Alliance 周四由民主党活动人士 Shaunna Thomas 和 Leah Hunt-Hendrix 发起，获科技员工、工会等支持。该 PAC 现有约 500 万美元，计划本周期募资 1500 万，而对手 Leading the Future 获 OpenAI 总裁 Greg Brockman 等支持，资金超 1 亿美元。Guardrails 将投放广告支持纽约国会候选人 Alex Bores，后者因青少年 Adam Raine 与 ChatGPT 长期对话后自杀事件受关注，并获 Anthropic 支持的 PAC Public First Action 背书。科技工作者还要求公司终止与 ICE 合同，敦促五角大楼撤销将 Anthropic 列为供应链风险的决定。
+政策/监管
+行业动态
+23:17
+AYi
+@AYi_AInotes
+43
+Grok imagine 1.5 动作生成效果测试
+推文测试了 Grok imagine 1.5 的动作生成效果，认为其相比 seedance2.0 稍弱，但进步明显、潜力较大，并归因于 Elon 收购 Cursor 后的效益最先在 Grok 显现。
+xAI
+图像生成
+视频
+评测/基准
+23:14
+IT之家（RSS）
+53
+杨立昆警告：OpenAI、Anthropic 若不降本，AI 泡沫可能破裂
+杨立昆接受 CNBC 采访时指出，当前 AI 模型和服务价格持续上涨，运营公司仍在亏损，低价依赖投资人补贴，尚未建立可持续商业模式。他称 OpenAI 和 Anthropic 要么提高价格要么降低运营成本，否则巨大泡沫可能破裂。他还评价马斯克的 xAI 是“某种意义的失败案例”，创始团队多人出走，难以吸引新鲜血液，无法与 OpenAI、Anthropic 正面竞争。杨立昆主张发展世界模型概念，而非依赖海量语料库的大语言模型（LLM）路线。
+Anthropic
+OpenAI
+大佬观点
+23:14
+IT之家（RSS）
+68
+盖洛普最新研究：不经常使用 AI 的员工更容易成为被裁员对象
+盖洛普今年2月对超2.3万名美国劳动者的调查显示，经常使用AI的员工被裁员风险更低。在美国科技行业，每月至少使用一次AI的员工预计被裁概率约6%，使用较少的达18%。科技行业外也存在类似趋势但差距较小。排除年龄、学历等因素后关联仍然存在。AI正形成新的职业分水岭，企业招聘已考察AI熟练程度。仅约1%被裁员工认为AI是直接原因，更多人归因于组织重组，但研究人员认为AI可能间接影响。
+数据/训练
+现象/趋势
+23:14
+IT之家（RSS）
+精选
+76
+我国首部L3/L4自动驾驶强制性国标公示：2027年7月起实施
+工信部6月16日就《智能网联汽车自动驾驶系统安全要求》等2项强制性国标公开征求意见，公示至6月24日，建议2027年7月1日起实施。该标准系我国首部针对L3/L4的强制性国标，要求系统安全水平至少达到“合格且专注驾驶人”，引入Safety Case机制。L3重点规范人机交接，L4强调自身风险处置、不得依赖远程协助。新申请车型实施日起执行，已获批车型有约一年过渡期。
+具身智能
+政策/监管
+推荐理由：首部 L3/L4 强制国标公示，意味着自动驾驶从推荐性标准升级为强制性安全底线，车企靠模糊宣传抢市场的阶段正式结束，行业竞争逻辑从此由功能展示转向安全实证。
+23:05
+OpenAI：官网动态（RSS · 排除企业/客户案例）
+精选
+72
+OpenAI与哈佛等合作研究：o3 Deep Research模型辅助诊断儿童罕见病，额外诊断率4.8%
+波士顿儿童医院、哈佛大学与OpenAI合作，在《NEJM AI》发表研究。团队使用OpenAI o3 Deep Research推理模型重新分析376例此前未确诊的罕见病案例，产出基于证据的候选解释。经专家评审、额外检测和临床确认，医生在18例中建立诊断，额外诊断率达4.8%。研究显示，AI辅助工作流可帮助专家在未解病例中生成可检验假设，使定期再分析更具可扩展性。模型不直接诊断或做临床决策，仅提供证据链供专家审查。
+OpenAI
+推理
+数据/训练
+论文/研究
+推荐理由：这是AI辅助罕见病诊断的严肃实证，4.8%的新诊断率在专家反复分析过的病例里相当扎实。虽然离临床落地还很远，但证明推理模型能帮专家从旧数据里挖出新线索。
+‹ 上一页
+下一页 ›
