@@ -1,0 +1,381 @@
+AI
+HOT
+精选
+全部 AI 动态
+AI 日报
+Agent 接入
+关于
+更新日志
+反馈
+信源提报
+登录
+全部 AI 动态
+AI 相关资讯全量信息流
+全部
+一手信源
+资讯
+推文
+全部
+模型
+产品
+行业
+论文
+技巧
+搜索
+6月20日
+00:24
+Yuchen Jin
+@Yuchenj_UW
+69
+2024年诺贝尔奖得主John Jumper宣布离开效力近9年的Google DeepMind，加入Anthropic（先休息一段时间）。他因与Demis Hassabis共同领导AlphaFold团队获奖，此次离职紧随Noam Shazeer之后。推主Yuchen Jin对此表示惋惜，并质疑Google DeepMind人才流失现状，称原本对Gemini寄予厚望。
+John Jumper: A bit of news: After nearly 9 years, I have decided to leave Google DeepMind and join Anthropic (after taking some time ...
+Anthropic
+DeepMind
+行业动态
+00:23
+DogeDesigner
+@cb_doge
+44
+NEWS： 德州交通局执行主任马可·威廉姆斯表示，特斯拉的Cybercab证明了交通的未来已经到来。
+他还表示，Cybercab将在未来几个月帮助"大幅扩展"特斯拉Robotaxi的运营。
+• 没有方向盘。
+• 没有油门。
+• 没有刹车踏板。
+• 完全通过触摸屏控制。
+特斯拉Cybercab将改变道路的面貌。
+具身智能
+行业动态
+00:21
+Replit ⠕
+@Replit
+48
+随着你的工作不断发展，你的信誉也随之提升。
+我们很自豪能成为LinkedIn连接应用启动的特邀合作伙伴。你在Replit上实际构建的作品可以直接显示在你的LinkedIn个人资料中。
+连接Replit，让你的作品自己说话。
+编码
+行业动态
+00:21
+Demis Hassabis
+@demishassabis
+精选
+72
+AlphaFold 团队负责人 John Jumper 宣布，在 Google DeepMind 工作近 9 年后决定离职，将加入 Anthropic（先休整一段时间）。DeepMind CEO Demis Hassabis 表示，过去 9 年与 Jumper 的非凡合作改变了世界，AlphaFold 展示了 AI 在科学与医学领域的巨大潜力，并为 AI 造福人类指明了方向。Jumper 回忆，Hassabis 在他博士毕业仅 6 个月后就大胆让他领导 AlphaFold 团队，感谢团队教会他如何做伟大的科学。
+John Jumper: A bit of news: After nearly 9 years, I have decided to leave Google DeepMind and join Anthropic (after taking some time ...
+Anthropic
+Google
+行业动态
+推荐理由：John Jumper 是 AlphaFold 背后的关键科学家，他离开 DeepMind 转投 Anthropic，是个不大不小的信号，顶级 AI 人才正在重新站队，对安全和对齐的重视可能成为新一轮人才争夺的核心。
+00:20
+TechCrunch：AI（RSS）
+60
+美国禁止Anthropic的Fable 5发布，但数字并不在意
+美国政府在上周末前强制Anthropic撤回两个最新模型Fable 5和Mythos 5，理由是国家安全担忧，起因是Amazon研究人员据称找到绕过Fable 5防护栏的方法。网络安全研究人员随后签署公开信批评此举危险，Anthropic指出同样越狱方法也存在于其他模型。该禁令引发对Anthropic平台开发者及IPO前景的讨论。
+Anthropic
+安全/对齐
+政策/监管
+00:20
+TechCrunch：AI（RSS）
+34
+美国政府禁止Anthropic新模型，是否意外帮了其品牌？
+美国政府上周以国家安全为由迫使Anthropic撤下其最新模型Fable 5和Mythos 5，起因是亚马逊研究人员发现可绕过Fable 5护栏的方法。网络安全研究者签署公开信批评此举危险，Anthropic则指出其他模型也存在相同越狱。TechCrunch的Equity播客探讨该禁令对开发者和Anthropic IPO的影响，并指出可能意外有利于其品牌。
+Anthropic
+安全/对齐
+行业动态
+00:03
+Berryxia.AI
+@berryxia
+57
+搭建AI Agent团队有多难：从玩具到员工跨越四道门槛
+搭AI Agent团队远非“5分钟教程”那么简单。环境配置（Python 3.10+等）劝退八成新手。Agent编排面临从众效应、角色不一致等缺陷，Anthropic采用Subagents模式，Cognition甚至发文称“不要构建多Agent”。上下文管理是最大隐性杀手，同一模型因上下文工程不同分差36个百分点。工具接入缺乏行为合约，API调用失败频发。低代码平台、单Agent SDK正降低门槛，但多Agent自由协作仍是难题。
+智能体
+Anthropic
+现象/趋势
+00:01
+AYi
+@AYi_AInotes
+53
+Claude Code上线Artifacts功能
+Claude Code新增Artifacts功能，可将整个工作会话（代码、上下文、工具调用）打包成独立网页，后台持续迭代时页面自动同步更新。生成的私密链接可共享给团队成员，支持切换历史版本，适用于PR走查、系统架构图、交互式数据分析仪表盘等场景。目前以beta版面向Team和Enterprise计划开放。作者认为，该功能的核心价值在于将AI产出从静态文本升级为可共享、可实时更新的数字资产，降低技术方案向非技术人员解释的成本，让AI更顺畅地融入团队协作流程。
+Claude: New in Claude Code: Artifacts. Interactive pages built from your session, like a PR walkthrough or a living project dash...
+Anthropic
+产品更新
+编码
+6月19日
+23:59
+IT之家（RSS）
+42
+印度首富安巴尼：印度必须成为 AI 的创造者和全球领导者
+信实工业在年度股东大会上发布 AI 通话助手 Jio Call Agent，直接嵌入 Jio 电信网络，可转录对话、生成摘要，并帮助用户叫车、点餐和预订，用户通过“Hey Jio”唤醒，预计今年晚些上线，覆盖超 5 亿用户。同时推出 AI 版 MyJio，支持自然语言指令完成开通 eSIM、选漫游套餐等操作；TeleFrame 可利用 AI 智能体主动显示天气预警、日程和家庭提醒。信实还通过 Reliance Intelligence 为消费者、企业和政府开发支持印度 22 种语言的 AI 基础设施。安巴尼强调印度不能只做 AI 消费者，而应成为创造者和全球领导者。
+产品更新
+行业动态
+语音
+23:50
+TechCrunch：AI（RSS）
+45
+信实工业推出多款AI服务，涵盖通话、应用与家居
+印度信实工业在年度股东大会上发布AI服务：Jio Call Agent可加入电话会议转录、总结并执行叫车、订餐等任务，通过“Hey Jio”激活，今年晚些时候面向超5亿用户上线；MyJio应用新增AI版，支持自然语言激活eSIM、选择漫游套餐；家庭显示设备TeleFrame利用AI智能体推送天气、日程提醒；还推出医疗、教育、农业和中小企业AI套件，支持22种印度语言。公司计划投资1100亿美元建设AI基础设施，并与Google、Meta、Nvidia合作。此外，Jio Platforms董事会批准IPO草案，拟发行最多2.7亿股新股。
+智能体
+产品更新
+语音
+23:24
+SenseTime
+@SenseTime_AI
+45
+商汤 SenseNova U1 实现文本-图像交错生成
+商汤 SenseNova U1 具备行业首创的文本-图像交错生成能力。用户上传客厅照片后，U1 可瞬间将其风格转变为温馨阅读角。该演示由 @eigi_and_ai 完成。U1 现已通过 SenseNova Studio、HuggingFace 模型库、GitHub 源码及 Discord 社区开放体验。
+GitHub
+Hugging Face
+其他
+图像生成
+23:23
+向阳乔木
+@vista8
+14
+准备睡觉，让AI开发一个钓点和渔获记录App。
+设定 Goal 让 Codex 执行，看明天钓鱼能不能用上自己的App。
+教程/实践
+编码
+23:23
+Rohan Paul
+@rohanpaul_ai
+68
+美国担忧顶级EUV光刻机流入中国，ASML否认
+美国商务部长Lutnick向ASML高层提出担忧，指一台顶级EUV光刻机可能已流入中国，违反出口管制。ASML否认向中国出售EUV设备。EUV每台约2.5亿美元，全球运行314台，据彭博中国为零。若违规属实将是美国对华芯片管制重大突破。ASML股价早盘跌约2.6%。路透曾报道深圳用ASML前员工搭建原型机但离量产有差距。美国可强制ASML切断与中国客户合作，荷兰已限制EUV及部分DUV出口，进一步收紧可能影响ASML约20%的2026年中国区收入。
+政策/监管
+部署/工程
+23:22
+Ethan Mollick
+@emollick
+59
+更多证据，来自中国一项大规模研究，表明如果使用AI削弱了心理努力，就会损害学习。当使用AI导致做作业时间减少时，考试成绩也会下降。
+综合各项研究，一个主题：AI辅导辅助课堂教学是好的，使用AI"帮助"做作业则是有害的。
+大佬观点
+数据/训练
+23:22
+elvis
+@omarsar0
+51
+自动化SKILL.md生成：三阶段流水线论文
+关键要点：OpenAI昨日为Codex推出了从交互中打包技能的类似功能；论文提出三阶段流水线（GUI轨迹分割→聚类候选技能→训练技能感知策略）。聚类纯度优异（5/8簇达0.95以上），但可读性未迁移：GRPO仅将技能步骤准确率从18.5%提至20.5%，在BrowseComp+上无改善，甚至输给简单频率先验。作者指出三个缺陷：弱边界检测器、无序片段表示、离线奖励模型。
+智能体
+arXiv
+数据/训练
+论文/研究
+23:02
+HuggingFace Daily Papers（社区热门论文）
+67
+FID彩票：量化生成式模型评估中的隐藏随机性
+FID是图像生成的事实标准评估指标，但大多数论文仅报告单一种子下的单个数值。本研究将FID视为训练种子和生成种子两个轴上的随机变量，在数百个SiT网络上直接测量方差。发现：重新训练模型使FID变化幅度是固定网络重新采样的3.2倍，差距来自随机初始化、数据顺序和流匹配损失的高斯噪声；增加计算或模型大小几乎不缩小分散度，FID变异系数稳定在1-2%；每格无分类器引导调优使分散度减半，但重新洗牌最优种子。建议：在每格最优引导下评估，将低于~1.3% CoV的FID差距视为无结论，报告多个训练种子的误差条。
+图像生成
+论文/研究
+评测/基准
+23:00
+AYi
+@AYi_AInotes
+64
+普通人一个月工资可开一家互联网公司，AI时代创业成本降至每月$20
+推文指出，普通人一个月工资足以启动一家跑通商业闭环的互联网公司，每月固定成本约$20，主要来自Claude Pro或OpenAI Codex辅助开发。其余后端数据库、部署、认证、分析、监控、缓存、邮件、支付等全链路基建均有免费起步额度，域名约$1/月。同时，引用指出当前AI范式（视频生成、VLA）仅学习统计相关性，缺乏因果理解；UCSD黄碧薇教授提出四代AI划分（相关性小模型→因果小模型→相关性大模型/LLM→因果大模型），其团队Aether AI今日完成首轮融资。
+AYi: 人类到今天都写不出一颗煎蛋的物理方程, 一颗鸡蛋打进热油锅,它怎么凝固、怎么摊开、边缘怎么变焦, 没有任何一个公式能描述清楚,这种例子在物理世界里多到数不过来。 而这恰恰是当下通用 AI 范式的天花板,视频生成、VLA 学的都是像素层面的统...
+OpenAI
+大佬观点
+部署/工程
+23:00
+CMU：Machine Learning Blog
+51
+医疗保健基准测试的质量取决于其隐含假设
+LLM在作为医疗助手时，评估与部署场景下的性能存在显著差距——Bean等人（2025）发现准确率相差61个百分点。这一差距并非源于基准测试设计缺陷，而是因为评估协议中嵌入的隐含假设在部署时不再成立。研究提出将假设分为任务假设和结果假设两类，用以诊断差距成因并明确弥合路径：需将假设显式化、检验哪些假设在部署中成立，并据此更新评估协议。
+现象/趋势
+部署/工程
+22:59
+IT之家（RSS）
+55
+应对 AI 耗电激增，美联邦能源监管委员会令 6 家电网运营商加速数据中心接入
+美国联邦能源监管委员会当地时间周四要求 6 家区域电网运营商，加快大型用电设施接入输电系统，以应对 AI 数据中心急剧增长的耗电需求。能源部长赖特此前敦促委员会采取行动，增强美在 AI 领域与中国竞争的能力。委员会一致通过新命令，确保 AI 数据中心“及时、有序”接入。6 家运营商为约 2 亿美国人服务，覆盖约三分之二人口。数据显示，数据中心目前占美国用电需求约 5%，到 2035 年可能增至三倍。
+政策/监管
+行业动态
+22:53
+Hacker News 热门（buzzing.cc 中文翻译）
+66
+前OpenAI研究员搭建紧邻办公桌的机器人研究平台
+一位前OpenAI机器人研究员用不到€5,000搭建了一套桌面机器人操控实验平台，包括UFACTORY xArm Lite 6工业级机械臂、Intel RealSense D405腕部摄像头、Logitech C920桌面摄像头和3Dconnexion SpaceMouse无线遥操作设备。整套系统置于办公桌旁，通过自研Python软件栈控制。作者计划在未来数月开展独立研究，并以公开研究日志形式记录实验过程、失败与经验，不预设产出论文或开源代码。
+OpenAI
+具身智能
+教程/实践
+22:53
+Nathan Lambert
+@natolambert
+52
+归根结底，如果美国实验室不想被蒸馏，他们就不该提供API。看起来他们最终会对某些模型这么做，这是他们的选择。
+更严格的监管实际上不会奏效，反而会伤害美国的初创公司。
+xlr8harder: I completely believe Chinese labs are "distilling" US models at scale, and I have no problem with it whatsoever and thin...
+大佬观点
+政策/监管
+数据/训练
+22:53
+Nathan Lambert
+@natolambert
+49
+Nathan Lambert 评论称 RL speedrun 终将成为常态，当前最大瓶颈是价格--单次 RL 实验因不稳定导致噪声大，多次种子运行成本约 100 美元。@jeankaddour 随后推出 Sokoban Speedrun 项目：基于 Karpathy 的 nanochat 流水线修改，用 RL 训练 Qwen3-4B-Instruct 解决 Sokoban 谜题，GRPO 基线在 8×H100 上仅需 87 分钟。该尝试展示低成本快速验证 RL 方法的潜力。
+Jean Kaddour: With RSI around the corner, it's time for an RL speedrun. Introducing Sokoban Speedrun: training Qwen3-4B-Instruct with ...
+大佬观点
+数据/训练
+22:52
+The Decoder：AI News（RSS）
+64
+路透研究所报告：AI聊天机器人新闻使用率升至10%，但信任度仍低
+路透研究所2026年数字新闻报告显示，全球每周用AI聊天机器人获取新闻的比例从7%升至10%，仅1%将其视为主要来源。44%活跃用户信任AI生成的新闻，但仅4%经常点击原始来源。用户主要用途为追问（42%）、获取当前新闻（35%）和摘要（34%）。18-24岁年龄段使用率达17%，自称“新闻爱好者”的用户达18%。报告指出，聊天机器人存在强化已有偏见和分裂公共话语的风险，但也能简化复杂话题、翻译内容并提供多源整合，拓宽用户视角。
+搜索
+现象/趋势
+行业动态
+22:40
+Chubby♨️
+@kimmonismus
+36
+我们仍有许多工作要做。公众情绪正日益转向反对AI。
+现在出现了反对数据中心、乃至整体AI的运动；怨恨情绪正在增长。
+虽然其中无疑存在合理的担忧--比如对失业和能源价格上涨的恐惧--但其中很大一部分只是单纯的怨恨，需要通过教育和提高认知来解决。
+大佬观点
+现象/趋势
+22:23
+Nathan Lambert
+@natolambert
+32
+禁止任何形式的开源AI将是错误。与@kevinsxu共同发布的一则面向公众的公告，阐述为何开源维护美国价值观。
+管理前沿风险是困难的，但通过削弱开放前沿来减少透明度、创新和教育将更糟。
+Kevin S. Xu: http://x.com/i/article/2067652729913114624
+大佬观点
+安全/对齐
+开源生态
+22:22
+Artificial Intelligence News（RSS）
+38
+SAP 与 Google Cloud 部署智能体商务架构
+SAP 与 Google Cloud 联合部署智能体商务架构，通过 Universal Commerce Protocol 标准化零售商、支付网关与自主智能体之间的数据交换，实现从搜索、交易到售后的全序列自动化执行。SAP Commerce Cloud 集成 Google Gemini 能力构建 Shopping Assistant，支持聊天、语音和文本交互，实时查询库存确保推荐可行。该架构基于 SAP Business Data Cloud Connect for Google BigQuery 的双向零拷贝数据链接，融合天气、位置等外部变量与客户画像、交易历史等内部行为数据，由 SAP Engagement Cloud 驱动自主智能体编排个性化互动。SAP 研究显示，78% 的企业认为 AI 对 2026 年保留客户至关重要，但仅 37% 的公司跨客户体验平台共享数据、39% 跨 CRM 共享。
+智能体
+Google
+行业动态
+部署/工程
+22:22
+Orange AI
+@oran_ge
+37
+GLM 5.2 辅助开发安卓 App 体验
+开发者使用 GLM 5.2 从零开始完成第一个安卓 App 开发，包括安装 Android Studio、编写代码到最终生成 APK。GLM 5.2 在大部分问题上能提供有效指导，但遇到疑难杂症时安卓系统仍难处理。作者指出当前 vibe coding 模式在电脑和 Web 端调试最为方便。
+大佬观点
+编码
+22:22
+elvis
+@omarsar0
+52
+正如我之前所说，考虑到成本和性能，我认为 Fable 对于很多 SWE 任务来说并不值得。
+需要说明的是，我认为 Fable 非常出色，它在设计和创意方面明显表现优异。
+等它重新上线后，我会用自己的循环测试它（并衡量前沿效率）。
+Datacurve: Claude Fable 5 debuts at #1 on DeepSWE. It outscores the previous best by 3% and sets a new state-of-the-art on our long...
+Anthropic
+大佬观点
+编码
+22:00
+Cloudflare Blog
+精选
+62
+Cloudflare 为 AI 智能体推出临时账户
+Cloudflare 在 Workers 上推出临时账户（Temporary Accounts），允许 AI 智能体直接运行 `wrangler deploy --temporary`，在数秒内获取一个可用的实时 Worker，无需绕开面向人类设计的部署流程。该功能旨在降低智能体部署门槛。
+智能体
+MCP/工具
+产品更新
+部署/工程
+推荐理由：Cloudflare 给 agent 开临时账号这个功能很聪明，一步解决了身份验证和资源清理的麻烦，做智能体部署的可以认真试试。
+21:59
+IT之家（RSS）
+51
+人形机器人Pemba登顶6200米火山，基于宇树G1改装，目标挑战珠峰
+一台由宇树G1改装、名为Pemba的人形机器人成功抵达厄瓜多尔钦博拉索火山海拔6200米顶峰。这是机器人“三冠”探险计划第一站，未来将挑战珠穆朗玛峰。项目初衷为解决自然保护区固定摄像头覆盖有限、成本高的问题；配备摄像头、传感器、卫星通信和机载AI后，Pemba可自主巡查大范围区域。坡度低于30度时独立行走，冲顶阶段陡峭地形需人员协助。下一阶段将用强化学习提升自主能力。团队为高海拔严寒开发了专用热管理系统。长期目标是在珠峰大本营至四号营地活动，用于垃圾清理、冰川监测、搜救等。
+具身智能
+行业动态
+21:59
+Nathan Lambert：Interconnects（RSS）
+精选
+56
+禁止开源AI将是一个错误
+近期行政命令、国会提案及对Anthropic最先进模型的境外访问限制，可能开启新一轮AI监管。开源软件已支撑全球90%以上软件并创造8万亿美元经济价值，在教育、创新和竞争三方面持续赋能。Anthropic与OpenAI的封闭模型加剧市场集中，开源（尤其开放权重）是初创公司、教育机构和企业获得替代方案的唯一平衡力量。开源透明性使其更安全，更多工程师可剔除不需要的模型行为或修复漏洞。以中国竞争为由监管开源将适得其反，美国初创公司正依赖包括中国在内的开源模型提升效率。
+大佬观点
+开源生态
+政策/监管
+推荐理由：在华盛顿弥漫监管 AI 空气的当下，这篇文章是对‘禁止开源 AI’冲动的清晰反驳。它系统梳理了开源在教育、创新和竞争中不可替代的价值，尤其适合对政策走向摇摆不定的人阅读。
+21:52
+Rohan Paul
+@rohanpaul_ai
+44
+通用智能体必须记住什么？
+该论文指出，通用智能体不能仅依赖当前观测，必须记住隐藏环境规则。当两个隐藏域在相同可见状态下要求相反动作时，仅凭观察无法区分当前场景。作者证明，要在两个域都表现良好的智能体，必须为不同域维持不同的内部记忆状态。核心结论：好的通用智能体不是对当前所见做出反应，而是必须携带来自先前经验的隐藏上下文。
+智能体
+arXiv
+论文/研究
+21:52
+The Decoder：AI News（RSS）
+55
+AA-Briefcase 基准测试：最佳 AI 模型仅完全解决 3% 真实知识工作
+Artificial Analysis 推出的 AA-Briefcase 基准测试将 AI 模型置于包含数千份 Slack 消息、邮件、会议记录等碎片化源文件的多周知识工作项目中。表现最好的 Claude Fable 5 通过率最高，但仅在 3% 的任务中完全达标；91 个任务中有 31 个没有任何模型达到 50% 通过率。弱模型因遗漏相关文件或输出无效结果而失败，强模型则因无法跨来源拼接信息而遗漏细节。任务单价差距超过 800 倍，从 DeepSeek V4 Flash 的约 0.04 美元到 Claude Fable 5 的超过 31 美元。
+推理
+评测/基准
+21:51
+🚨 AI News | TestingCatalog
+@testingcatalog
+56
+Mistral AI 向 Pro 用户发布了 Code on Vibe。桌面应用也已确认。
+很快 👀
+Pini Wietchner: Desktop is coming. Code is available for our Pro users @mistralvibe Hot Eurosummer incoming!
+产品更新
+编码
+21:23
+SemiAnalysis
+@SemiAnalysis_
+46
+100%的AI芯片初创公司都有幻灯片/"模拟性能数据"显示它们的芯片好得多，但99%的定制ASIC失败了。为什么？直到你意识到AI芯片是关于软件的，MATH才算是MATH。构建芯片并把数字放到幻灯片上相对容易；构建出色的软件很难。这就是为什么99%的AI芯片初创公司会失败。
+现象/趋势
+部署/工程
+21:22
+Hacker News 热门（buzzing.cc 中文翻译）
+66
+Datasette 发布插件 datasette-apps：在 Datasette 中托管自定义 HTML 应用
+Datasette 发布新插件 datasette-apps，允许托管自包含 HTML+JavaScript 应用。应用在严格沙箱中运行（sandbox 属性和 CSP 头），无法访问 cookies、localStorage 或外部 HTTP 请求，防止数据泄露。应用可用 JavaScript 对 Datasette 数据执行只读 SQL 查询，若配置存储查询还可写入。应用与父窗口通过 postMessage 或 MessageChannel 通信。灵感来自 Claude Artifacts，为 HTML 前端提供 Datasette 后端。试用需 GitHub 登录 agent.datasette.io 演示实例。
+产品更新
+开源生态
+部署/工程
+21:22
+Rohan Paul
+@rohanpaul_ai
+56
+新研究：最强LLM也无法完全免疫越狱--Fable 5与Opus 4.8自动化红队攻击分析
+新研究对Anthropic Fable 5和Opus 4.8进行自动化红队攻击，持续改写有害提示词直至模型拒绝或生成坏答案。Fable 5最差攻击成功率6.1%，Opus 4.8为11.5%，证明最强LLM也无法完全免疫越狱——即便微小失败率，规模化自动化攻击仍可产生大量有害内容。旧式编码/角色扮演型越狱已非主要威胁，新弱点在于上下文：自适应攻击者在被拒后不断改写请求，寻找模型视为合法而非危险的框架。白宫与Anthropic正转向基于基准的测试框架，通过评分绕过程度、暴露能力、攻击可重复性及实际后果来量化越狱风险，而非追求不现实的完美免疫。
+Rohan Paul: The White House and Anthropic may have found the first serious path to restore Mythos and Fable access without pretendin...
+Anthropic
+arXiv
+安全/对齐
+21:20
+TechCrunch：AI（RSS）
+54
+Allbirds 转型 AI 后更名为 Smartbird，新 CEO 计划部署托管计算集群
+鞋履品牌 Allbirds 4 月宣布转型 AI，以 4300 万美元出售鞋业务并从股市融资 1 亿美元，更名为 Smartbird。前 AWS 高管、工程博士 Nadia Carlsten 昨日起出任 CEO，年薪 70 万美元并获价值约 900 万美元股票。Smartbird 定位 AI 基础设施提供商，为制药、能源、金融、公共部门等需要数据主权和直接控制服务器的客户提供托管计算集群。Carlsten 称客户需求在数百到数千颗芯片，强调集群灵活性而非大规模 GPU。目前她是一人创始人兼唯一员工，正在招募领导团队，预计年底前为多个客户部署计算集群。
+行业动态
+部署/工程
+21:19
+Chubby♨️
+@kimmonismus
+56
+中国若获ASML级EUV技术的潜在影响
+EUV光刻机依赖德国ZEISS光学、ASML整机及台积电组装构成的工业生态系统，中国被禁多年。华为Ascend芯片在部分负载中达H100级60%-80%性能，但软件、内存和训练基建仍落后。近期路透社报道前ASML工程师助中国在深圳逆向建造EUV原型，美政府担忧中国已接触ASML敏感技术，ASML否认。若中国真正掌握EUV，虽不能立即量产，但可能缩短芯片追赶周期、加速华为路线图，削弱西方在AI竞赛中的关键瓶颈。
+Chubby♨️: ASML's EUV machines may have made their way into China, prompting fresh scrutiny from the Trump administration over poss...
+现象/趋势
+端侧
+21:19
+OpenBMB
+@OpenBMB
+54
+社区开发者基于 VoxCPM2 和 ComfyUI 构建 VoiceGate，实现跨语言视频配音
+社区开发者基于 VoxCPM2 与 ComfyUI 构建了 VoiceGate，实现自动语音提取（ASR）、大语言模型翻译、多语言语音合成（支持 30 多种语言和 9 种方言，含语音克隆与音色设计）、时间戳对齐音频以及背景音分离混音。核心创新 VoiceBridge 插件首次在 ComfyUI 中引入 SRT 时间戳驱动的 TTS 对齐，实现字幕级精细控制，解决 AI 配音音视频不同步问题。应用包括中文视频转英/日/韩等多语言，以及全球视频转中文及方言。
+开源/仓库
+视频
+语音
+‹ 上一页
+下一页 ›
