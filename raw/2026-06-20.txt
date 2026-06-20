@@ -1,0 +1,378 @@
+AI
+HOT
+内容
+精选
+全部 AI 动态
+AI 日报
+接入
+Agent 接入
+更多
+关于
+更新日志
+反馈
+登录
+全部 AI 动态
+AI 相关资讯全量信息流
+全部
+一手信源
+资讯
+推文
+全部
+模型
+产品
+行业
+论文
+技巧
+搜索
+6月20日
+23:27
+OpenCode
+@opencode
+48
+GLM 5.2 大受欢迎
+已发布 3 天，便在我们榜单上排到第 6 名
+编码
+评测/基准
+23:24
+Ethan Mollick
+@emollick
+57
+Ethan Mollick 指出 AI 在一般小说写作上较弱，但擅长一种特定风格（隐喻丰富、短句、情节轻），这类作品在现代文学短篇小说比赛中可脱颖而出。@nabeelqu 提及又一篇 AI 生成故事赢得文学奖，评委包括小说家 Ruth Ozeki，进而建议文学奖评选流程应加入全字母句检查（Pangram checks）以识别 AI 文本，或修改规则以接纳 AI 写作。
+Nabeel S. Qureshi: *Another* apparently AI-generated story wins a literary prize, this time judged by a panel including the novelist Ruth O...
+大佬观点
+现象/趋势
+23:21
+Kling AI
+@Kling_ai
+20
+预告片已出！完整MV三天后发布，敬请期待。🔥
+行业动态
+视频
+23:03
+Berryxia.AI
+@berryxia
+19
+GLM-5.2 已达到 Opus 4.6 水平。主推文称"搞的差不多了，过2天就给大家开源玩玩"。
+Berryxia.AI: GLM-5.2 这次真的有Opus 4.6 的水平了,牛逼~~
+图像生成
+开源/仓库
+23:03
+Berryxia.AI
+@berryxia
+53
+这不是直接掀桌子啊！
+搞起来啊，有点舒服啊！
+Codex 与 Excalidraw 结合，实现原生无线画布，无需额外插件。
+Yanhua: 卧槽, 这真的有点东西哈哈~ Codex + Excalidraw = 无线画布,并且原生,无需额外插件👇👇
+OpenAI
+教程/实践
+编码
+23:01
+AYi
+@AYi_AInotes
+14
+阿易 AI Notes 开设社群解读推特创收红利
+白猫股神 Serenity 两周创作者收益 5089 美元，曝光 1 亿，全球付费订阅 5.6 万人（1 美元/月），超过马斯克 4.6 万。阿易 AI Notes 认为算法调整后红利期将收窄，同时宣布开设付费社群：粉丝 5.2 万、6 个月变现十几万，社群 199 元起阶梯涨价，提供 X 增长、AI 实战、商单对接等内容。
+AYi: 被追着问了半年什么时候开社群,今天终于想清楚了 今天粉丝到 5.2万,花了 6 个月,累计变现也有十几个W, 最近几个月在评论区和私信里被问最多的是:怎么涨的、为啥创作者收益这么高、想付费学习、这条为什么火、为啥能连续百万爆款,变现怎么做....
+其他
+现象/趋势
+23:00
+IT之家（RSS）
+44
+NASA 测试新一代探测车原型 ERNEST：AI 强化自主，时速1km/h超毅力号好奇号
+NASA 公布四轮巡视器原型车 ERNEST 最新进展。该车长 1.2 米，采用可升降网状轮组与主动悬挂系统，支持多种运动模式。2026 年 3 月在加州科罗拉多沙漠测试中，以最低人工干预行驶约 26 公里，最高时速约 1 km/h，比毅力号、好奇号高一个数量级。团队引入 AI 强化学习算法，在虚拟环境完成训练后，已在 JPL“火星园”复杂地形自主行驶。项目旨在验证长距离、高自主性月球车可行性。
+具身智能
+行业动态
+23:00
+IT之家（RSS）
+55
+《幻兽帕鲁》发行主管：我们没必要使用生成式 AI，因为玩家不想要
+《幻兽帕鲁》开发商 Pocketpair 发行与传播负责人约翰·伯克利表示，玩家对生成式 AI 的反感是游戏公司不使用它的充分理由。伯克利确认 Pocketpair 完全没有使用生成式 AI，并称内部有足够多的美术人员愿意亲自完成工作，让 AI 接手而裁掉他们没有意义。他还指出，Steam 已开始在一定程度上限制生成式 AI，未来开发者可能需主动声明游戏“100% 由人类制作”。
+图像生成
+大佬观点
+22:54
+Orange AI
+@oran_ge
+69
+OpenAI 针对对齐中的"涌现失调"反向探索：若模型在某领域被强化诚实、认知谦逊、可纠正等特质，好行为是否泛化？他们用 RL 训练模型，仅在健康、教育等部分对话数据中强化这些特质，其余仍用常规数据。结果发现：训练领域内模型更诚实透明；在 44 个未见评测上，欺骗、谄媚、reward hacking、有害建议等全部下降；面对 adversarial prompt 和恶意微调时韧性更强，正常指令不受影响。论文指出 RL 不仅能强化代码，也能强化道德。
+Orange AI: OpenAI 发布的新论文太有趣了,有点探索人性底层原理的意味。 业界研究发现在对齐大模型的时候,有个很糟糕的现象叫 emergent misalignment(涌现失调): 一个模型如果在训练时被教着做一件坏事,比如写不安全的代码,它会自...
+OpenAI
+安全/对齐
+论文/研究
+22:54
+elvis
+@omarsar0
+14
+我正在为此制作实践材料。
+有没有什么需求或话题是你希望我涵盖的？
+elvis: http://x.com/i/article/2068004233849290752
+行业动态
+22:27
+向阳乔木
+@vista8
+56
+Codex 利用其内置浏览器读取能力，无需调用 API 即可直接使用内置的 Imagen 模型进行图像生成。配合画布工具，实现了更直觉、保留修改痕迹的图片标注与调整方式。此外，直接使用 Codex 还能自由调用 GPT Image 2 完成图像生成任务。
+钟二信: Codex + 画布工具,以及尝试一种更直觉、更留痕的图片标注修改方式。 直接用 Codex 的好处是 GPT Image 2 也基本可以自由干。
+MCP/工具
+图像生成
+教程/实践
+22:27
+向阳乔木
+@vista8
+31
+Vista8 公众号URL一键转PPT 下周开源
+开发者 @vista8 推出新项目：只需输入微信公众号文章 URL，即可自动将其转换为 PPT，并保留文章中的图片。支持导出 PPTX（可任意编辑）、HTML 和 PDF 格式。项目仍在开发中，排版尚需优化，预计下周开源。该功能吸收了此前将公众号 URL 转为 Markdown 并下载图片的能力，实现了从文章到演示文档的自动化转换。
+向阳乔木: 发现卡比一个库也很实用,只需微信公众号URL,就能转成Markdown,还能下载网页中的图片。 发现内置会用一个叫camoufox的浏览器,看介绍叫Anti-detect 亲测好用,把能力吸收,让公众号文章也能转PPT。 地址见评论区
+产品更新
+22:27
+向阳乔木
+@vista8
+36
+一个很常见的细节问题，AI生成的HTML标题的line-height太紧了。
+只要换行就变的很丑。
+问题虽小，但很影响观感，不知道有多少朋友注意到了。
+图像生成
+教程/实践
+22:26
+Nathan Lambert
+@natolambert
+44
+Nathan Lambert 评论称前沿实验室（Frontier labs）在自我服务无意义方面已是 SOTA。他认为 AI 虽为关键技术，但硅谷通过人才交流和酒吧传播知识，并非深度国家安全决策场景。引用 @willdepue 声称中国能完全访问 OpenAI 和 Anthropic 的 GitHub/Slack/docs，并怀疑中国开源模型中可能出现可抵赖的被窃架构方法。
+will depue: there is no question, none at all, that china has full access to all of openai & anthropic's github/slack/docs today no ...
+Anthropic
+OpenAI
+大佬观点
+安全/对齐
+22:23
+X.PIN
+@thexpin
+65
+微信于6月20日扩大了对小微（Xiaowei）的灰度测试--一个内置在主应用中的对话助手，可通过文本或语音运行。它能操作微信原生功能并调用小程序完成任务：打车、外卖、订酒店、查快递。它还能根据单条提示词生成一个可运行的小程序。生成的应用程序目前为
+智能体
+产品更新
+语音
+22:23
+🚨 AI News | TestingCatalog
+@testingcatalog
+37
+Anthropic正在为其即将推出的Claude Conway开发"Schedules"功能。
+非常期待看到Conway如何与所有这些计划功能配合工作。
+智能体
+Anthropic
+产品更新
+22:00
+IT之家（RSS）
+57
+Take-Two 前 AI 负责人：我担心生成式 AI 会败坏整个 AI 领域的声誉
+Take-Two 在 2025 年 4 月裁撤了整个 AI 研究团队，该团队长期从事传统 AI 研究而非生成式 AI。前负责人卢克·迪肯博士接受采访时表示，生成式 AI 当前热度被严重夸大，泡沫一旦破裂，外界可能连同传统 AI 研究一并抛弃。他认为业界有道德责任妥善管理生成式 AI，但完全拒绝也不是正确答案。迪肯警告，公众缺乏细致判断来区分传统 AI 与生成式 AI，大语言模型已进入幻灭低谷期。
+大佬观点
+现象/趋势
+21:50
+OpenBMB
+@OpenBMB
+39
+@aijoey 用 MiniCPM-V 4.6 搭建视觉智能体安全监控 demo
+@aijoey 用 MiniCPM-V 4.6 搭建了视觉智能体安全监控 demo：四个 CCTV 实时画面，模型观察近期帧窗口，判断活动是否正常，仅在识别到真实事件时调用 `raise_alert(reason, severity)`。模型持续将场景分类为“常规/无紧急”，只在高速公路出现警车蓝灯时触发警报，推理为“警车蓝灯亮起，可能表示紧急情况”。该演示展示了小 VLM 超越图像描述、实现实际智能体行为的潜力。
+Joey: Built a vision-agent security monitoring demo with MiniCPM-V 4.6. @OpenBMB Four CCTV style feeds run on a live clock. Mi...
+智能体
+多模态
+教程/实践
+21:50
+OpenBMB
+@OpenBMB
+50
+面壁智能OpenBMB感谢@aijoey用MiniCPM5-1B构建后端智能体集群
+面壁智能OpenBMB感谢@aijoey用MiniCPM5-1B构建后端智能体集群。128个并发智能体在DGX Spark上运行，通过vLLM连续批处理提供服务，每个智能体独立处理发票审核、退款路由、合规检查等8种业务队列。系统在1.48秒内跨智能体流式传输6604个chunks。该案例表明，1B模型的价值在于同时做出大量有用业务决策——用一群小型廉价worker并行清理队列。
+Joey: Built a back-office agent swarm demo with MiniCPM5-1B. 128 concurrent agents on DGX Spark, served through vLLM continuou...
+智能体
+开源生态
+教程/实践
+部署/工程
+21:30
+The Decoder：AI News（RSS）
+54
+OpenAI 为 macOS 版 Codex 推出 Record & Replay 功能
+OpenAI 为 macOS 版 Codex 新增 Record & Replay 功能。用户可先演示一次操作（如上传 YouTube 视频并添加元数据、缩略图和字幕），Codex 将其录制成可复用的“skill”，随后自主重复执行。该功能需开启 Computer Use，在欧盟、英国和瑞士不可用；Computer Use 自 6 月 16 日起已在欧盟上线。版本 26.616 还新增了 Automations 历史批量操作及本地与远程主机间线程交接能力。Codex 是 OpenAI 面向编程和白领工作自动化的 AI 智能体，应用免费下载，但需付费 ChatGPT 账号才能实际使用。
+智能体
+OpenAI
+产品更新
+21:28
+SemiAnalysis
+@SemiAnalysis_
+53
+据 @arankomatsuzaki 称，Claude 对印地语使用者（如 @dylan522p、@_sholtodouglas 和 @dwarkesh_sp）收费贵 3 倍。
+Anthropic
+行业动态
+21:00
+IT之家（RSS）
+52
+高通 CEO 安蒙：智能眼镜市场有望比肩手机
+高通 CEO 安蒙认为，AI 智能体将改变应用和设备使用方式。他设想的入口之一是内置摄像头和显示屏的智能眼镜，用户告诉数字助理需求，AI 智能体即可协调多个应用完成流程。安蒙指出应用不会消失但会变化，智能体将成为新应用。苹果 Siri、三星 Bixby 等数字助理能力持续提升。未来手机和新设备将围绕 AI 智能体重新设计。高通正参与 40 多种 AI 设备设计，包括智能首饰、带摄像头的耳机、智能胸针和手表。安蒙最看好智能眼镜，预计其规模最终可与智能手机相当——去年全球智能手机出货超 12 亿部。
+智能体
+多模态
+大佬观点
+端侧
+21:00
+IT之家（RSS）
+精选
+71
+谷歌 Gemini 联席负责人沙泽尔转投 OpenAI，奥尔特曼发文欢迎
+当地时间18日，谷歌前工程副总裁、Gemini技术联席负责人诺姆·沙泽尔宣布离职加入OpenAI。他是Transformer架构论文《Attention Is All You Need》共同作者，曾参与LaMDA等AI项目，并撰写了2016年论文《Sparsely-gated Mixture of Experts》。他于2021年离开谷歌创办Character.AI，2024年通过交易回归谷歌DeepMind。OpenAI CEO奥尔特曼发文欢迎，称其是从创立之初最希望合作的人之一。
+Google
+OpenAI
+行业动态
+关联讨论 9 条
+推荐理由：Transformer 论文作者、前 Gemini 联席负责人跳槽 OpenAI，奥尔特曼等了十年，人才争夺战的标志事件，两家公司的路线博弈又多了一个看点。
+21:00
+IT之家（RSS）
+57
+教授达摩达兰警告：AI泡沫破裂后果或超互联网泡沫
+纽约大学金融学教授达摩达兰6月20日警告，AI行业泡沫破裂冲击可能比2000年互联网泡沫更严重。AI需巨额资金建设数据中心等实体基础设施，且大量投资靠举债，市场调整时损失将向社会扩散。他怀疑AI商业模式能否实现规模效应，因每次使用均消耗更多算力，成本类似Spotify按次付费而非Netflix分摊模式。DeepSeek等中国竞争对手可能继续压低价格，当前利润率已不高。即便最乐观情景成真，若AI直接取代完整岗位，一半白领可能失业，社会代价极其惊人。
+大佬观点
+现象/趋势
+20:30
+The Decoder：AI News（RSS）
+56
+NYU教授Damodaran：AI回调冲击或超互联网泡沫
+纽约大学金融教授Aswath Damodaran在播客中警告，AI行业若发生回调，冲击可能比2000年互联网泡沫破裂更痛苦。他指出AI需巨额物理基础设施投资且多依赖债务融资，损失将波及社会。Damodaran质疑AI商业模式能否规模化，因AI每次使用都消耗算力，规模经济弱于Netflix、更像Spotify；中国Deepseek等对手带来价格侵蚀，利润率本已很低。他还警告，若AI实现替代整个岗位的愿景，将导致一半白领失业，带来巨大社会成本。科技巨头因重注AI进入不熟悉的资本密集型领域，苹果的谨慎态度在他看来更明智。
+DeepSeek
+现象/趋势
+20:24
+meng shao
+@shao__meng
+精选
+75
+开源教程《Deep Agents 实战》发布
+LangChain 官方认证大使 @zhanghaili0610 推出开源教程《Deep Agents 实战》，基于 LangChain / LangGraph 生态，讲解如何用 Deep Agents Harness 框架构建真实 Agent 应用。核心是“三层架构”：Runtime（LangGraph）、Framework（LangChain）、Harness（Deep Agents）。技术内核为上下文工程，通过虚拟文件系统实现按需读取、中间结果落盘、大文件局部读取。教程共 8 章 + 2 准备篇，覆盖虚拟文件系统（六大工具）、任务规划、子 Agent 委派（异步并行）及 Skills 复用（可在 Claude Code、Cursor 等 30+ 工具中通用）。
+Harry Zhang: A gift to the Chinese developer community for anyone building agents on @LangChain: After 2 books on the ecosystem, I op...
+智能体
+开源生态
+教程/实践
+推荐理由：海里的这份 Deep Agents 教程把 LangChain 生态下的 Agent 开发梳理成了清晰的三层架构，虚拟文件系统、子 Agent、Skills 这些实战点讲得透，正在做协作型 Agent 的开发者终于有个成体系的免费入门路径了。
+20:23
+🚨 AI News | TestingCatalog
+@testingcatalog
+42
+Google 正在为 NotebookLM 开发一种名为 "Lit review" 的新 Artifact 类型。在此模式下，NotebookLM 将能够基于你的来源 "生成文献综述矩阵"。
+考虑到即将新增 Google Play Books 和 Text Books 作为来源，Google 计划为读者和作者拓展新的用例。
+它能否梳理出《冰与火之歌》中的所有角色？
+Google
+产品更新
+20:10
+Chubby♨️
+@kimmonismus
+72
+特朗普将Anthropic视为潜在国家安全风险的观点，以及他对AI能源需求和监管政策的看法。
+让我们希望很快能再次看到fable 5。
+Anthropic
+安全/对齐
+政策/监管
+20:01
+AYi
+@AYi_AInotes
+32
+阿易AI笔记宣布开设付费社群，199元起阶梯涨价
+粉丝5.2万的AI博主@AYi_AINotes在6个月内实现十几个W变现，并晒出X平台创作者收益截图——14天收益远超国内小红书2周努力。为帮更多人抓住X创作者红利，他宣布开设付费社群，定价199元起，满50人阶梯涨价。社群提供X增长与流量变现答疑、独家X算法拆解知识库、纯正AYi skills、社媒运营及AI实战方法等，不承诺具体效果但强调内容可落地。
+AYi: 收到工资了,感谢老马! 没想到这次也这么多, 敢情上次就是 14 天的,我还以为累计 3 个月的, 喵个咪,这比国内搞小红书投产比高太多了, 之前有个小项目,国内小红书我肝了 2 周才赚了 小 2000 块, 只想说 X 依旧是蓝海,我一个...
+其他
+19:24
+meng shao
+@shao__meng
+51
+LandingAI ADE 支持密码保护文档解析
+LandingAI Agentic Document Extraction（ADE）现支持在 Parse 或 Parse Jobs 调用中传入 password 参数，同一请求完成解密、解析及结构化输出。该功能要求启用 Zero Data Retention（ZDR）模式，文档仅在内存处理，不持久化，适用于 HIPAA/PHI/PII 合规场景。支持 PDF、DOC、DOCX、ODT、PPT、PPTX、XLSX 格式。集成成本低：单一可选参数，非加密文件不受影响；缺密码返回 422 错误。密码经 HTTPS 传输，ZDR 下服务端不持久化，建议配合最小权限 API Key 与审计日志。REST API 及 Python/TypeScript 库均可用。
+LandingAI: Parse password-protected documents! Agentic Document Extraction (ADE) accepts a password parameter directly in the Parse...
+智能体
+产品更新
+部署/工程
+19:10
+Chubby♨️
+@kimmonismus
+39
+这大概与试图赢取更多好感无关，因为Fable 5仍然不可用，而且--理论上--在6月22日之后将无法通过订阅获取，对吧？
+ClaudeDevs: Update: we've gone ahead and reset 5-hour and weekly usage limits for everyone, across all plans. Enjoy your weekend!
+Anthropic
+行业动态
+18:02
+歸藏(guizang.ai)
+@op7418
+11
+一个预告
+【引用 @op7418】：http：//x.com/i/article/2053655813877870592
+歸藏(guizang.ai): http://x.com/i/article/2053655813877870592
+产品更新
+其他
+18:01
+AYi
+@AYi_AInotes
+47
+诺贝尔奖得主 John Jumper 离开 Google DeepMind 加入 Anthropic
+2024年诺贝尔化学奖得主、AlphaFold团队核心领导者John Jumper在Google DeepMind工作近9年后宣布离职，将加入Anthropic，先休整一段时间。Jumper博士毕业仅6个月便被Demis Hassabis委以AlphaFold团队领导重任，最终做出诺奖级成果。其告别中写道“GDM taught me how to do great science”。社区调侃Anthropic在组建“AI Avengers”，并期待下个月Jeff Dean是否也会加入。主推文暗示Google可能已启动留人计划。
+AYi: John Jumper (Google AlphaFold 团队核心领导者、2024 年诺贝尔化学奖得主)宣布,在 Google DeepMind 工作近 9 年后决定离开,加入 Anthropic(先休整一段时间) 我看到这条离职帖下面好...
+Anthropic
+DeepMind
+大佬观点
+18:00
+The Decoder：AI News（RSS）
+67
+Data2Story：七个AI智能体将CSV文件自动生成可验证的交互式新闻文章
+Data2Story是牛津和斯坦福研究人员基于Claude Code构建的技能，通过Detective、Analyst、Editor、Designer、Programmer、Auditor、Inspector七个专用AI智能体，将CSV文件自动生成包含研究背景、统计图表和可追溯来源的交互式在线文章。核心“检查员”面板为每个声明和图表提供结构化证据，93%的可见陈述可溯源（人类文章基线为25%）。在53位读者对18个数据集的评测中，AI文章在视觉设计、叙事节奏、数据透明度、可验证性和洞察力五个类别均胜出，74%的读者更偏好AI版本。但人类在编辑视角、创意设计和密集图形方面仍保持优势。项目已开源。
+智能体
+产品更新
+数据/训练
+17:59
+IT之家（RSS）
+精选
+73
+微信 AI 助手"小微"灰度上线，可通过文字或语音对话操作原生功能
+微信原生 AI 助手“小微”今日扩大灰度测试，支持文字或语音操作微信原生功能（调整设置、发送消息、拨打电话、点外卖、生成图片等），集成文件总结、提醒设置、音乐推荐。用户可一句话生成小程序（仅限个人使用，暂不支持分享），并可通过多轮对话修改风格。该功能由微信技术架构负责人周颢带队推进，计划 2026 年第三季度向更多用户推出。此前微信开放平台已于 6 月 8 日开放 AI 生态接入能力，微信支付同步发布 AI 专属卡。
+智能体
+产品更新
+关联讨论 2 条
+推荐理由：微信这次把 AI 助手直接塞进主界面，不止是聊天，而是能操作设置、发消息、点外卖甚至一句话生成小程序。国民应用 + 原生 AI 的整合，可能会让这代人对智能助手的理解彻底刷新一遍。
+17:59
+IT之家（RSS）
+47
+LM Studio 与苹果合作，成功用四台 Mac Studio 运行万亿参数 Kimi K2.6 大模型
+LM Studio与苹果在WWDC 2026期间合作，用四台Mac Studio集群运行月之暗面万亿参数大模型Kimi K2.6。该模型总参数1万亿，MoE架构，激活参数320亿，支持长上下文、多模态输入和智能体任务。四台Mac Studio通过苹果内存共享与互联技术组成集群，统一内存约1.5TB，生成速度约28 tokens/s，功耗低于传统GPU集群。用户可通过LM Link从MacBook Neo或iPhone安全远程访问，数据通信保持本地化。LM Link已于2026年6月初更新至LM Studio Mac应用和Locally AI iOS应用，支持端到端加密连接。
+端侧
+行业动态
+部署/工程
+17:25
+MarkTechPost（RSS）
+68
+如何使用TimeCopilot构建预测流水线：基础模型与自动异常检测
+本教程使用TimeCopilot构建端到端预测工作流。安装TimeCopilot等库后，加载AirPassengers数据集及合成季节序列（注入三处异常）。配置统计模型（AutoARIMA、AutoETS、SeasonalNaive、Theta）、Prophet和基础模型（Chronos，根据GPU选用amazon/chronos-bolt-small或tiny，可选TimesFM）。通过滚动交叉验证和RMSE等指标评选最优模型，生成概率预测与预测区间，可视化未来趋势并检测异常值。可选LLM智能体自动选择模型并输出分析响应。
+开源/仓库
+教程/实践
+数据/训练
+17:23
+🚨 AI News | TestingCatalog
+@testingcatalog
+55
+ClickUp 将通过 Brain2 添加 artifacts 👀
+> 它将能够创建幻灯片、原型、网站或仪表板。
+> Brain 从工作区上下文中提取信息，因此输出基于真实项目数据 > Artifacts 在频道内内联渲染，并保持完全交互。
+当要求 Brain 制作演示文稿时，它现在将在线程中直接返回一个已完成、专业、可导航的幻灯片组，随时可以分享或放入任务中。
+产品更新
+多模态
+17:10
+Chubby♨️
+@kimmonismus
+22
+一切始于几年前。
+然后，起飞真正加速了。
+via @EpochAIResearch
+数据/训练
+现象/趋势
+17:10
+Chubby♨️
+@kimmonismus
+68
+非常期待 GPT-5.6。无需任何辅助框架，一次性生成《模拟人生》模拟，太疯狂了。
+Chetaslua: 🚨 The Sims one shotted by GPT-5.6 Pro this is without codex or any coding harness , one shot entire game with logic in ...
+OpenAI
+编码
+评测/基准
+‹ 上一页
+下一页 ›
