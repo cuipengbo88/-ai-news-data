@@ -1,0 +1,375 @@
+AI
+HOT
+内容
+精选
+全部 AI 动态
+AI 日报
+AI 周报
+AI 月报
+分类
+模型发布
+产品发布
+行业动态
+论文研究
+技巧观点
+接入
+Agent 接入
+更多
+关于
+更新日志
+反馈
+登录
+全部 AI 动态
+AI 相关资讯全量信息流
+全部
+一手信源
+资讯
+推文
+全部
+模型
+产品
+行业
+论文
+技巧
+搜索
+6月21日
+23:34
+AI Notkilleveryoneism Memes ⏸️
+@AISafetyMemes
+精选
+80
+美国NSA局长称，Mythos在数小时内攻破了其几乎所有机密系统。此前Mythos已在5天内破解MacOS。而顶级漏洞团队Google Project Zero完成同等攻击需6个月，单个MacOS零日漏洞价值约200万美元。苹果原假设全球仅10-20个团队具备此能力，Mythos将使该数字增至数千。全球约20亿活跃苹果设备中，Mac用户多为记者、高管、政府官员等高价值目标，苹果曾是"最安全"的选择。
+AI Notkilleveryoneism Memes ⏸️: Mythos cracked MacOS in 5 days WHY THIS MATTERS: - It takes Google Project Zero - the most prestigious bug-finding team ...
+安全/对齐
+行业动态
+推荐理由：前NSA局长说Mythos几小时内攻破军方系统，5天破解MacOS，把零日漏洞发现速度从月压到天，安全行业的威胁模型要重写，而且背后是AI自动化攻击的可怕威力。
+23:33
+🚨 AI News | TestingCatalog
+@testingcatalog
+40
+Grok Build Remote 似乎可以在网页上访问。然而，它无法使用，而且这很可能是无意的。
+Grok Build 的网页版和桌面应用现在都面临一个大问号，它们能否在 Cursor 收购后继续存在还是个未知数。
+下方链接👇
+xAI
+编码
+行业动态
+23:33
+TechCrunch：AI（RSS）
+68
+特朗普政府要求 Anthropic 下线两模型引争议
+特朗普政府以国家安全为由要求 Anthropic 将 Fable 5 和 Mythos 5 模型下线。Anthropic 因难以限制外国国民使用而全面撤下模型。据悉，白宫接到亚马逊 CEO Andy Jassy 举报——亚马逊研究人员发现可绕过 Fable 5 的护栏。网络安全专家签署公开信要求撤销命令，认为移除这些高级网络安全能力对美国网络防御者构成危险。讨论认为此举可能带有报复色彩，与 Anthropic 此前呼吁放缓 AI 却又发布最强大模型的态度有关。
+Anthropic
+安全/对齐
+政策/监管
+行业动态
+23:26
+Chubby♨️
+@kimmonismus
+38
+所以我们很快就会得到 Claude-Sonnet-5 而不是 Fable 5。
+看起来是忙碌的一周：可能会有 GPT-5.6 和 Sonnet 5。
+不过嘿，继续来吧！
+leo 🐾: 🚨 BREAKING: The slug "claude-sonnet-5" has appeared on an Anthropic partner provider Gonna be a busy week next week 👀
+Anthropic
+OpenAI
+行业动态
+23:09
+Berryxia.AI
+@berryxia
+61
+Agentic Engineering Workflow：让AI像工程师一样自主干活
+开发者整理出一套Agentic Engineering Workflow，覆盖任务拆解、工具调用、记忆管理到错误恢复全流程，让AI像工程师一样自主规划、写代码、调试和交付，而非仅聊天写文案。该工作流包含tmux、agent记忆、skills、语音输入、长任务执行、并行worktree管理、多agent调度，以及可视化HTML编辑器Lavish和代码变更校验流水线no-mistakes。所有步骤均已在真实项目中跑通，强调工程方法比模型能力更重要。
+Yanhua: 目前看到关于 "Agentic Engineering Workflow"的最完整的介绍👇 花了一个小时完整看完了,完全可以做成一个付费教程。 内容涵盖了tmux,agent记忆,skills,语音输入,长任务执行,并行worktree管...
+智能体
+教程/实践
+编码
+23:09
+Berryxia.AI
+@berryxia
+43
+最新XAI增加了一个work folder，在SuperGrok就可以看到。
+Tech Dev Notes: xAI has released Work folder feature in Grok Web
+xAI
+产品更新
+23:06
+Rohan Paul
+@rohanpaul_ai
+23
+Chamath 提示 Claude 阅读 Dario Amodei 自己的博客，并基于此对 Dario 进行心理分析。😄
+David Sacks: Claude psychoanalyzing Dario is the AI slop I didn't know I needed.
+大佬观点
+现象/趋势
+23:05
+宝玉
+@dotey
+68
+宝玉认为翻译质量 Gemini 3.1 Pro 最好，Opus-4.8 自身写作能力不行导致翻译生硬，工作流无法弥补。@LinearUncle 分享 Claude Code 方案：设置 `/effort` 为 `ultracode` 后自动触发动态工作流，包括三位译者各出一稿、双语编辑评审、综合定稿、逐句校对，并用 Claude Code History Viewer 查看历史记录。
+LinearUncle: Claude Code 设置/effort 为ultracode,然后翻译英文文章,你就会收获一个自动的多智能体流水线翻译流程: 先让 3 位风格各异的译者各出一稿 → 双语编辑对照原文评审挑出最佳译法 → 综合成定稿 → 最后逐句校对纠错...
+智能体
+Anthropic
+Google
+教程/实践
+23:03
+TechCrunch：AI（RSS）
+59
+iOS 27 开发者测试版上线多项实用 AI 功能
+iOS 27 开发者测试版上线多项基于 Apple Intelligence 的实用 AI 功能。账单分摊：拍照识别收据，通过 Apple Cash 分账。密码更新：AI 自动识别弱密码并代理登录网站升级。Messages 一键建议：根据对话内容提示添加提醒、分享照片、添加日历事件。通话时提取邮件中的确认码。支持自然语言添加或修改日历事件。Shortcuts 应用可通过描述自动化任务。这些功能将在今年秋季正式发布。
+智能体
+产品更新
+端侧
+22:36
+Hacker News 热门（buzzing.cc 中文翻译）
+44
+Anthropic 将于2026年7月8日起对部分功能实施身份验证要求
+Anthropic 宣布自2026年7月8日起，将对旗下 AI 产品的部分功能实施身份验证要求。届时用户在使用这些功能时需完成身份验证。该消息由 Reddit 社区 ClaudeAI 板块发布，目前社区已有相关讨论。
+Anthropic
+安全/对齐
+政策/监管
+22:35
+宝玉
+@dotey
+45
+DeepSeek Harness 新部门正在招人，共三种职位：Harness 研究员（实习/全职均可）、Harness 工程师（实习/全职均可）、Harness 产品经理（限全职）。招聘门槛与 DeepSeek 其他组一致，流程为一轮笔试加三轮面试，终面由 @tianyi 负责。有意者可私信投递简历，具体链接详见推文。
+Tianyi Cui: 作为新成立的部门,DeepSeek Harness 组的目标远大、工作繁重,仍然非常缺人。我每天都在面试,以及各种地方张贴小广告......一共有三种职位: Harness 研究员(实习全职均可):https://app.mokahr.co...
+DeepSeek
+行业动态
+22:35
+meng shao
+@shao__meng
+63
+AI Native组织三层系统：人、Agent与上下文
+AI Native组织由人、Agent、上下文三层构成。人退守两端：战略/品味/判断与沟通/评审，AI吃掉中间执行。Agent自治需Clear Goal、Skills、Tools、Context四要素，并通过Skill Chain串联多个skill对抗幻觉。上下文层是护城河，五阶段循环：Capture→Curate→Store→Execute→Experience→回流。两个Live Demo验证：提案微站3-4分钟生成个性化页面，已带来数百万美元收入；10分钟产品闭环实现语音口述到高保真原型。创业方向是将三层系统打包服务，聚焦行业/职能/公司规模。
+智能体
+大佬观点
+22:09
+Berryxia.AI
+@berryxia
+62
+开发者用AI编程打造"抓真实猫"的Pokemon Go式App
+一位开发者花几个周末用AI辅助编程制作了一款类似Pokemon Go的App，但抓的是真实世界的猫。用户打开摄像头拍路边猫，App会检测照片中是否有真实的猫（防止截屏），然后将猫转化为复古卡通风格插画（奶油色调、粗轮廓），并添加到玩家的图鉴中。每只猫拥有名字、稀有度、等级、状态页和收藏卡，世界地图还能显示附近其他玩家抓到的猫。该App无融资、无团队、无市场预算，利用“全球六亿只流浪猫”这一普遍事实，让玩家不再错过路边的猫。
+Om Patel: SOMEONE VIBE CODED POKEMON GO BUT FOR CATS YOU MEET IN REAL LIFE see a cat, open the camera, snap it, and it gets added ...
+产品更新
+图像生成
+编码
+22:05
+Rohan Paul
+@rohanpaul_ai
+34
+Vercel CEO："几乎被 GLM-5.2 的编码能力震惊。"
+我的时间线也全是 @Zai_org 的 GLM-5.2。
+Guillermo Rauch: Genuinely impressed, almost shocked, at how good GLM-5.2 by @zai_org is at coding. This changes things.
+大佬观点
+编码
+22:05
+Rohan Paul
+@rohanpaul_ai
+51
+现代汽车以3.25亿美元全资收购波士顿动力
+现代汽车以3.25亿美元收购软银持有的波士顿动力剩余9.65%股份，实现100%控股。此举为Atlas人形机器人提供最清晰的工业部署路径：内部客户（现代自身）率先使用。Atlas专为工业任务设计，如零部件排序，现代计划2028年前在佐治亚州Metaplant部署，2030年扩展到更广泛的组件装配。软银退出机器人领域，转向更大规模的AI基础设施投资。
+具身智能
+行业动态
+22:05
+Nathan Lambert
+@natolambert
+26
+开放式权重模型，通过 GLM 5.2，在 Gemini 之前迎来了它们在编码测试中的"非常实用"时刻。自 Opus 4.5 发布以来约 200 天。
+Google
+大佬观点
+开源生态
+编码
+22:04
+IT之家（RSS）
+44
+华为官网发布鸿蒙 HarmonyOS 7 （API 26） 新能力一览
+华为开发者官网发布 HarmonyOS 7 (API 26) 新能力一览，新增智能化 Skill（Vibe Coding 助力开发）、Agent（支持 A2A 接入）、视觉 AI；空间化沉浸光感组件、3DGS 端侧重建；全场景碰一碰精准分享；空间音频；多窗互动卡片（摇一摇触发）、闪控窗；安全星盾机密风控引擎、分布式数字身份 DID 框架、数字盾；性能游戏快启、鸿蒙内核应用快启；通讯冷启网络预建链、QUIC 长连接、弱网直播优化；低功耗 LTPO 可变帧率。该系统于 HDC 2026 发布，开发者 Beta 1 版已公开招募，正式版秋季向消费者开放。
+智能体
+产品更新
+端侧
+21:36
+向阳乔木
+@vista8
+14
+如果搭建一套自用Skill，只需一句话就能开发网站。
+一觉醒来网站开发好了，很美妙。
+其他
+编码
+21:36
+向阳乔木
+@vista8
+32
+花几块钱就获得Codex三次重置机会，截止6月24。
+用闲鱼这种服务有风险吗？实在是消耗太快，一周用量，两天就快用完了。
+OpenAI
+其他
+21:35
+Rohan Paul
+@rohanpaul_ai
+50
+@mntruell（Michael Truell，Cursor联合创始人兼CEO）在Compile上宣布了Cursor的新Composer模型：
+Cursor现在的算力是此前的10到20倍，让他们能够从头训练这个GPT规模的模型。
+模型发布
+编码
+21:35
+meng shao
+@shao__meng
+44
+DeepSeek Harness 组（新成立部门）仍在大量招聘。职位包括：Harness 研究员（实习/全职）、Harness 工程师（实习/全职）、Harness 产品经理（仅全职）。招聘流程与 DeepSeek 其他组一致：一轮笔试加三轮面试，终面由 @tianyi 负责。可私信投递简历。
+Tianyi Cui: 作为新成立的部门,DeepSeek Harness 组的目标远大、工作繁重,仍然非常缺人。我每天都在面试,以及各种地方张贴小广告......一共有三种职位: Harness 研究员(实习全职均可):https://app.mokahr.co...
+智能体
+DeepSeek
+行业动态
+21:35
+meng shao
+@shao__meng
+68
+OpenAI Codex Record & Replay 功能发布
+OpenAI Codex 新增 Record & Replay 功能，用户可通过“演示一次工作流”创建可复用的 AI Skill。底层将 Skill 作为结构化上下文，回放时具备适应性，能调用当前环境中的工具完成任务。流程分两阶段：录制时 Codex 分析操作并自动起草 Skill（含使用时机、输入、步骤、验证）；回放时用户提供新参数，Codex 自动执行。官方总结了五条高质量录制原则：短而完整、提前声明变量、真实但脱敏、补录隐性规则、及时停止。该功能与 Plugin 形成互补：适合个人快速 Skill 化，而非团队级分发。
+智能体
+MCP/工具
+OpenAI
+教程/实践
+21:09
+Berryxia.AI
+@berryxia
+28
+AI 智能体公司 CREAO 近日完成 3000 万美元融资，用户与收入快速增长。现开放三个岗位：Agent Product Engineer（全栈，直接定义产品，负责智能体创建、配置、执行、记忆、工具调用等核心体验）；Forward Deployed Engineer（将 Agent 落地于复杂企业生产系统，需 3 年以上企业客户技术经验）；Product Marketing and Technical Growth（构建面向 founder/builder/developer 的叙事与增长体系，覆盖获客、激活、留存、商业化）。简历投递：evelyn@creao.ai。
+North@CreaoAI: CREAO is hiring 这是一艘刚刚开始提速的新船。 我们正身处AI时代的乱纪元。组织形态和财富分配方式都在被重塑。接下来最大的机会,会属于那些敢在秩序尚未形成时下场,用产品和结果定义新生态的人。 前不久,CREAO刚完成了3000...
+智能体
+行业动态
+20:56
+Chubby♨️
+@kimmonismus
+14
+@thsottiaux 表示，他们用前端能力一般的模型构建了 Codex App，未来若显著提升模型前端能力，将能实现更强大的功能。Kim 猜测这指的是 GPT-5.6 在前端表现更好。
+Tibo: We built the Codex App with models that were okayish at front-end. Wait to see what we can do when we finally improve fr...
+OpenAI
+其他
+20:56
+Chubby♨️
+@kimmonismus
+41
+当我读到所有那些关于大家对 GLM-5.2 真的如宣传中那样出色感到惊讶的帖子，以及众多基准测试支持这一点（通常仅次于 GPT-5.5 和 Opus 4.8，位列第三）时，我甚至能想象创始人声称今年能发布一个 Mythos 级别的模型并非夸大其词。
+大佬观点
+推理
+模型发布
+20:12
+The Decoder：AI News（RSS）
+61
+UC Berkeley研究：ChatGPT推出后写作编程课程A比例飙升，显示AI替代作业而非改善学习
+UC Berkeley分析美国一所大型公立研究型大学超50万份成绩发现，自ChatGPT推出以来，写作和编程任务多的课程A等级比例跃升13个百分点，平均GPA上升0.12分。成绩涨幅主要来自家庭作业而非考试，口头展示类作业成绩未受影响，表明AI替代学生完成作业而非改善学习。研究建议重新设计作业格式。OpenAI CEO Sam Altman警告若不调整教育体系，批判性思维可能萎缩。挪威已在小学全面禁用AI。
+OpenAI
+现象/趋势
+20:09
+Berryxia.AI
+@berryxia
+41
+DeepSeek-V4-Flash免费至6月28日
+兄弟们，喜大普奔哈哈！ DeepSeek-V4-Flash 免费到6月28号，直接冲啊！ 284B MoE，1M上下文，编码和Agent能力都不错，直接可以用起来，截止日期到6月28号。 链接：https://www.openmodel.ai
+OpenModel: DeepSeek-V4-Flash is FREE until June 28! OpenModel Limited-Time Event: → Input: $0.00 / M → Output: $0.00 / M Powerful 2...
+智能体
+DeepSeek
+编码
+行业动态
+20:05
+AYi
+@AYi_AInotes
+31
+感觉GLM 5.2太强了，有点国产Fable 5的感觉了，
+会不会是下一个DeepSeek时刻，
+然后接棒DeepSeek成为中国大模型的新一代大哥和门店担当
+DeepSeek
+开源生态
+现象/趋势
+20:04
+IT之家（RSS）
+33
+消息称华为乾崑智驾 ADS 5 即将推送，鸿蒙智行旗舰车型优先搭载
+博主 @爱叨叨的Steven 今日透露，华为乾崑智驾 ADS 5 即将推送，鸿蒙智行几款旗舰车型将优先搭载。ADS 5 于 4 月 23 日发布，算法层面采用面向自动驾驶的 AI 智能体 WEWA 2.0 架构：云端引入 Multi-Agent 博弈技术与在线强化学习，车端应用安全风险场技术进行实时安全评估，并通过 Driving Agent 模块完成出行任务策略优化。华为智能汽车解决方案 BU CEO 靳玉志表示，ADS 5 为自动驾驶而来。
+产品更新
+端侧
+19:33
+🚨 AI News | TestingCatalog
+@testingcatalog
+22
+Meta AI 网页版将新增一个 Artifacts 标签页。所有演示文稿、文档、网页及其他创作内容都将存储在此处。
+缩小差距 👀
+Meta
+产品更新
+19:05
+AYi
+@AYi_AInotes
+精选
+78
+美团tabbit国际版免费接入GPT-5.5/Claude Opus 4.8等旗舰模型
+美团近期上线tabbit国际版应用，免费集成多家顶级AI模型的最新旗舰版，包括GPT-5.5、Claude Opus 4.8、Gemini 3.5 Flash，以及国内Kimi-2.6、GLM-5.1、MiniMax-M3。用户无需单独订阅即可使用这些模型。需注意：只有国际版包含海外模型，国内版仅提供国内模型。该应用旨在抢占AI入口，目前处于免费推广阶段。
+风渡fengdu: 分享一个免费用 Claude 、Gemini、GPT的方法,都是可用他们的最新旗舰模型。 除了御三家,还有国内的明星模型:Kimi-2.6、GLM-5.1、MiniMax-M3 只要下载一个美团的「tabbit 国际版」,记住要用国际版的才...
+产品更新
+推理
+推荐理由：美团做AI入口的野心藏不住了，tabbit国际版一口吞下三家旗舰模型还全免费，对不想开多订阅的用户是实用降本方案，趁未收费值得试试。
+19:04
+IT之家（RSS）
+63
+刘强东：京东所有AI技术向海外开放，反对技术壁垒
+6月21日，在2026年APEC工商领导人中国论坛上，京东创始人刘强东宣布，京东所有AI技术即日起向包括亚太地区在内的海外合作伙伴开放。他表示不希望任何企业或国家制造技术壁垒，认为技术壁垒本质上是剥削。他还呼吁企业、研究机构和政府尽早就AI和机器人时代开展国际化合作。刘强东透露，京东近期提出“涅槃计划”，计划将70万快递员等蓝领工人送往学校进行技术培训，以应对AI冲击。
+开源生态
+行业动态
+19:04
+IT之家（RSS）
+36
+丰巢联合微信支付推出"刷掌取件"，全程无需使用手机
+丰巢与微信支付在本周上海举办的中国国际金融展上联合展示“刷掌取件”功能。用户通过微信刷掌即可完成身份核验，系统自动识别并开启对应包裹的柜门，全程无需手机，省去找取件码、扫码等步骤，提升取件效率。目前该功能已在深圳部分区域完成落地试点，未来将结合试点效果持续推进。
+产品更新
+19:04
+IT之家（RSS）
+37
+华为发布乾崑智驾主动避险视频，截至5月31日已达成114.7亿公里真实行车里程
+华为乾崑智能汽车解决方案官方微博发布最新乾崑智驾主动避险视频，披露截至5月31日用户真实行车里程达114.7亿公里。华为官网显示，乾崑智驾累计辅助驾驶里程已突破120亿公里，搭载车辆累计行驶总里程达354亿公里。余承东在5月问界M9发布会上表示，纯视觉目标是接近人眼，而华为目标是超越人眼，故坚持多传感器融合感知路线。IT之家提醒：辅助驾驶≠自动驾驶，驾驶员须时刻观察路况并随时准备接管。
+其他
+行业动态
+19:03
+PixVerse
+@PixVerse_
+19
+这个东西简单却有力--它真正展示了记忆如何让平凡之物变得有意义。喜欢这个 PixVerse 创作。
+Blujeanmomma: Sometimes it's not the object we keep... it's the memory attached to it. What's something you've saved for years and cou...
+其他
+视频
+18:31
+数字生命卡兹克
+@Khazix0918
+21
+Anthropic大赦天下：解封被封账号，用户怒氪200刀
+用户卡兹克24年初被封的Google账号被Anthropic解封，随即充值200美元。目前该用户拥有两个分别充值200美元的Claude Max账号，并可使用Claude原生Chrome插件进行浏览器操控。
+Anthropic
+其他
+18:20
+公众号：火山引擎
+26
+火山引擎×千行百业：让每一个Token，都落地有声
+行业动态
+部署/工程
+18:06
+Hacker News 热门（buzzing.cc 中文翻译）
+53
+PRINCE：拜耳与Thoughtworks联合开发的智能体式AI临床前数据平台
+拜耳与Thoughtworks合作开发了云端平台PRINCE，利用Agentic RAG和Text-to-SQL整合数十年临床前安全研究报告。该系统从关键词搜索演进为能回答复杂问题并起草监管文档的智能研究助手。架构通过上下文工程控制信息路由，通过驾驭工程实现编排、错误恢复与可观测性。系统以透明度、可解释性和人工参与为核心信任机制，显著提升数据可访问性与研究效率，同时确保治理与合规。
+智能体
+检索增强
+教程/实践
+部署/工程
+18:03
+IT之家（RSS）
+36
+现代汽车集团拟5000亿韩元收购软银所持波士顿动力剩余股份，实现全资控股
+现代汽车集团计划以5000亿韩元（约22.23亿元人民币）收购软银持有的波士顿动力9.65%股份。交易完成后，波士顿动力将成为现代全资子公司。软银已通知现代行使看跌期权，该权利源于2021年6月现代收购80%股份时的约定。预计现代将于6月22日召开董事会批准交易。现代上月公布了部署2.5万台旗下Atlas人形机器人的计划，目标到2028年实现年产3万台。
+具身智能
+行业动态
+17:42
+The Decoder：AI News（RSS）
+52
+Sam Altman 称一代研究者因低估 scaling 能力而阻碍 AI 发展
+OpenAI CEO Sam Altman 继续押注大语言模型的规模扩展，批评一代研究者过于自信地认为 scaling 行不通。在斯坦福回应 Yann LeCun 等批评者时，Altman 表示有些人将身份与立场绑定，即便数据证明他们错了也不愿放手。他指出 LLMs 已在某些领域超越人类智能，如 OpenAI 模型推翻了一个长期困扰数学家的猜想。但对于需要高判断力的长期复杂任务，LLMs 仍远不如人类。Anthropic CEO Dario Amodei 近期也表达了类似看法。
+OpenAI
+大佬观点
+‹ 上一页
+下一页 ›
