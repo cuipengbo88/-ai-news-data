@@ -1,0 +1,372 @@
+AI
+HOT
+内容
+精选
+全部 AI 动态
+AI 日报
+接入
+Agent 接入
+更多
+关于
+更新日志
+反馈
+登录
+全部 AI 动态
+AI 相关资讯全量信息流
+全部
+一手信源
+资讯
+推文
+全部
+模型
+产品
+行业
+论文
+技巧
+搜索
+6月24日
+00:19
+IT之家（RSS）
+61
+研究揭示 AI 聊天机器人或成"妄想放大器"：个性化互动能让用户越聊越偏执
+伦敦国王学院和德国新教应用科学大学的精神科医生在《自然》发表论文，提出“放大螺旋”框架，解释AI聊天机器人如何助推用户妄想持续发展。研究指出，聊天机器人的语言对齐（模仿用户表达方式）、超个性化内容生成和迎合倾向三项特征相互作用，可能形成回音室，不断确认和放大用户的错误信念。论文强调该假设仍有待验证，但已有用户报告陷入有害的妄想螺旋。研究人员建议医疗人员将聊天机器人使用情况纳入常规筛查。
+安全/对齐
+论文/研究
+00:19
+IT之家（RSS）
+39
+小米 MiMo-V2.5-Pro-UltraSpeed 限时体验延期
+小米6月23日宣布延长MiMo-V2.5-Pro-UltraSpeed限时体验窗口。截至当日，该模式已收到超6.6万个申请，涵盖法律、金融、汽车制造等多个领域。UltraSpeed API于6月8日上线，定价为MiMo-V2.5-Pro的3倍，输出速度约提升10倍。通过审核用户可获得限时免费Chat体验，每日最多成功进入队列10次，单次会话上限30分钟，空闲超5分钟自动释放资源。下线时间将根据资源情况另行安排。
+推理
+行业动态
+00:16
+Berryxia.AI
+@berryxia
+43
+腾讯开源EdgeOne Makers，AI Agent一句话部署应用
+腾讯低调发布EdgeOne Makers平台，无发布会，仅一条推文和一个GitHub仓库。核心理念：让AI Agent一句话部署应用——通过CLI自动完成Git推送、CI/CD触发、边缘函数部署及预览链接生成，无需打开浏览器。底层标准化Skill系统支持边缘函数、云函数、KV存储等能力模块，Claude Code、Cursor等Agent可直接调用。GitHub已开源，支持Node.js、Go、Python云函数和V8边缘运行时，集成LangGraph、Claude SDK、OpenAI Agents等主流框架。这标志着云平台从为人设计转向为Agent设计。
+智能体
+产品更新
+开源生态
+部署/工程
+00:16
+Microsoft Research
+@MSFTResearch
+48
+在微软研究播客上，微软的 Jaime Teevan、Jenna Butler、Jake Hofman 和 Rebecca Janssen 探讨了，将 AI 视为不仅仅是自动化人们已能完成任务的工具，可能会如何打开新的可能性。https：//msft.it/6011vo8cX
+Microsoft
+大佬观点
+现象/趋势
+00:16
+Rohan Paul
+@rohanpaul_ai
+67
+KroWork：AI对话秒变可重用桌面应用
+KroWork 新发布，解决 AI 智能体每次运行后会话即失效的痛点。用户用自然语言描述任务，AI 自动构建工作流并保存为可重用的桌面应用，无需编程背景。应用完全本地运行，数据不出设备。相比一次性回答，它生成持久、可复用的软件——例如一句指令即可生成免费市场监控应用，替代分散的付费工具。KroWork 将“氛围编码（vibe-coding）”转变为“结果编码（outcome-coding）”。
+智能体
+产品更新
+端侧
+部署/工程
+00:08
+🚨 AI News | TestingCatalog
+@testingcatalog
+64
+Latitude 以 MIT 许可证开源发布，用于监控生产环境中的 AI 智能体。平台可揭示智能体与真实用户交互时的行为、捕获重复失败，并将修复反馈回编辑器。用户能将数千条实时对话聚类为单一视图，了解用户需求与流失点，并支持纯英文搜索所有 trace。引用指出：AI 智能体的对话是企业最被低估的数据源，Latitude 改变了这一现状。
+cesar.wtf: Most underrated data source in a company: your AI agent's conversations. Your agent talks to more customers than any emp...
+智能体
+产品更新
+开源生态
+00:07
+jason
+@jxnlco
+16
+给你！可能来自 @itsjessyin
+https：//codex-billboard.vercel.app/
+OpenAI
+编码
+评测/基准
+00:06
+Kling AI
+@Kling_ai
+24
+WILD - 完整MV现已发布！
+欢迎来到足球丛林 ⚽️
+行业动态
+00:03
+HuggingFace Daily Papers（社区热门论文）
+44
+Vera：用于内容保留视频编辑的分层扩散模型
+Vera 是一种分层扩散模型，专为内容保留视频编辑设计。它生成编辑层及 alpha 遮罩，与源视频合成，从而分离创意编辑与内容保留。架构采用混合 Transformer（MoT），各层独立 DiT 通过联合自注意力交互。训练使用高质量分层数据集，含精确 alpha 遮罩和多样场景。定量基准和人类偏好显示，Vera 在内容保留上优于开源模型，编辑质量有竞争力，仅使用 486K 帧分层训练数据。
+视频
+论文/研究
+6月23日
+23:58
+Chubby♨️
+@kimmonismus
+70
+五眼联盟（Five Eyes）与英国国家网络安全中心（NCSC）发布联合声明，警告前沿AI模型将在数月（而非数年）内显著改变网络战格局和攻击性网络能力。组织必须立即行动，保护系统免受日益加速的AI驱动网络威胁。
+NCSC UK: With our Five Eyes partners, we have published a joint statement warning organisations they have months - not years - to...
+安全/对齐
+政策/监管
+23:56
+Hacker News 热门（buzzing.cc 中文翻译）
+62
+Meta因内部信息泄露暂停用于追踪员工击键记录的AI培训项目
+Meta暂停了一项用于追踪员工击键记录的AI培训项目，原因是发生内部信息泄露。该项目被Business Insider报道后，在Hacker News上获得100个积分。
+Meta
+行业动态
+23:56
+Hacker News 热门（buzzing.cc 中文翻译）
+62
+MSG 被曝制作档案追踪反对人脸识别活动人士
+麦迪逊广场花园（MSG）制作了一份名为“Facial Recognition Activists.docx”的档案，记录三位公开批评其人脸识别技术的活动人士的推文和评论，并在公司内部共享。该档案包含背景信息、联系方式、社交媒体数据及截图，被纳入黑客本月窃取并发布的45GB数据缓存中。被记录者包括数字权利组织Fight for the Future主任Evan Greer、监督技术监督项目创始人Albert Fox Cahn及电子前哨基金会（EFF）隐私诉讼主任Adam Schwartz。Greer表示，这证明私营公司不应被允许使用危险监控技术打压批评者。MSG自2018年起部署人脸识别，曾用于阻止与公司有法律纠纷的律师等入场。
+政策/监管
+行业动态
+23:50
+elvis
+@omarsar0
+27
+一篇博客文章汇总了在 GLM-5 上进行强化学习所需的所有基础设施组件。主推文作者强烈推荐阅读，并认为这对自我改进智能体发展至关重要。
+elie: every infra piece you need to know to do RL on GLM-5 https://www.primeintellect.ai/blog/rl-at-1t-scale
+智能体
+教程/实践
+数据/训练
+23:49
+François Chollet
+@fchollet
+44
+休闲：Token 最大化
+紧张：Token 最小化
+元：Token 最小-最大化
+大佬观点
+现象/趋势
+23:46
+Nathan Lambert
+@natolambert
+32
+Nathan Lambert 为新书新增 7.4 小时讲座视频，内容涵盖从 2015 年 Hinton 知识蒸馏论文到当下多教师 on-policy 蒸馏（OPD、MOPD、OPSD）。视频重点讲解了使 on-policy distillation 适配主流 RL 框架所需的 3-4 项核心公式改动，并回顾了合成数据如何逐步占领训练后数据研究领域。此外还介绍了 Constitutional AI、AI 反馈以及将评分准则作为奖励等主流方法。时间线：00：00 合成数据兴起，10：50 师生蒸馏背景，24：47 on-policy 蒸馏，37：11 Constitutional AI，45：50 评分准则与结论。
+Nathan Lambert: New lecture for the book! Nominally about synthetic data, but mostly is a walk through of the distillation literature fr...
+教程/实践
+数据/训练
+23:45
+Logan Kilpatrick
+@OfficialLoganK
+45
+有趣的数据：过去一个月，人们在 @GoogleAIStudio 中直接创建了超过 1，000，000 个原生 Android 应用！！这里取得了巨大进展，看到大家构建的广泛内容真是太酷了。
+Google
+行业动态
+23:38
+🚨 AI News | TestingCatalog
+@testingcatalog
+58
+OpenAI 即将推出双向语音模型 Bidi 1，支持唱歌和生成不同声音。Bidi 1 可在用户说话时插话并继续监听，能在句子中间来回切换任务，处理打断和停顿的能力显著提升，并能更好地保持对话上下文记忆。模型仍有连续说话长度上限（一次可轻松数到 23 不停顿）。Bidi 1 将登陆 ChatGPT，并可能进入 Codex，预计很快可用。
+🚨 AI News | TestingCatalog: BREAKING 🔥: First tests of "Bidi 1", an upcoming bidirectional voice model from OpenAI. This upgrade will arrive in Cha...
+OpenAI
+产品更新
+语音
+23:32
+向阳乔木
+@vista8
+68
+网友用AI总结新智元标题规律并发布生成Skill
+网友Vista通过AI分析新智元标题风格，总结出中位长度32字、标点使用率近八成、数字出现率56.7%、英文名出现率90.8%等规律，并发布名为`joeseesun/qiaomu-xinzhiyuan-title`的Skill，可用`npx skills add`安装，生成类似标题。
+向阳乔木: 看看这个skill生成的标题,是不是有新智元的味道了😂
+GitHub
+教程/实践
+编码
+23:27
+The Verge：AI（RSS）
+59
+Fitbit Air 以更聪明的方式应对 AI 健康乱局
+售价 99 美元的 Fitbit Air 是一款轻便手环，续航出色（一个月仅充电三次，45 分钟可充至 85%），支持心率、睡眠、血氧、准备度等指标。核心亮点是与 Google Health 绑定的 AI 健康教练，基于 Gemini 驱动，每日推送睡眠与准备度总结及行动建议，可解读数据趋势并生成旅行健身计划，但不提供诊断。该教练需 $99/年 Premium 订阅，且不独占于 Air。作者认为多数 AI 健康功能是“糟糕的贴金捞钱”，但 Google Health Coach 是其中最接近不糟糕的一款，前提是用户愿意投入大量精力进行引导。
+Google
+评测/基准
+23:26
+Hacker News 热门（buzzing.cc 中文翻译）
+46
+Claude 多个模型错误率上升
+Claude 状态页面 status.claude.com 显示多个模型出现 elevated error rate（错误率升高），该信息于 22:19 发布，在 Hacker News 上获得 112 个点赞。
+Anthropic
+行业动态
+23:20
+SenseTime
+@SenseTime_AI
+18
+商汤科技发布基于 Office Raccoon 和 SenseNova-Skills 的 2026 世界杯小组赛预测引擎
+商汤科技利用 Office Raccoon 与 SenseNova-Skills 构建数据驱动预测引擎，用于 2026 年世界杯小组赛结果预测。引擎整合 FIFA 排名、Elo 评分、Transfermarkt 球队身价、WinnersAndWhiners 赔率、RotoWire 战术分析、FootballBerry 排名及 ESPN 市场数据，并从长期阵容能力、近期状态、阵容完整度、战术适应性四个维度评估各队。相关项目已开源：SenseNova-Skills 的 GitHub 仓库（含 Hermes Agent 与 OpenClaw 安装指南）及 Office Raccoon 官网已公布。
+GitHub
+MCP/工具
+行业动态
+23:17
+gabriel
+@gabriel1
+42
+显然，每个PR都会带来100%覆盖的AI应用测试，它会尝试界面中的每个按钮以确保其按预期工作。
+为什么编码应用不把AI测试作为一等特性？如果AI自己尝试应用，80%的问题都是显而易见的。
+大佬观点
+编码
+23:16
+Berryxia.AI
+@berryxia
+68
+a16z领投Impeccable，Paul Bakaus创立Renaissance Geek
+Paul Bakaus宣布创立Renaissance Geek，旗下设计工具Impeccable获a16z领投融资（Anish Acharya主导），并与GitHub合作——Impeccable预装在GitHub Copilot应用中。他认为AI拉高了创作下限，但优秀作品仍依赖人类意图、迭代与品味；Impeccable只剥离“设计泔水”而非输出品味。设计正从Figma迁入浏览器生产环境，Impeccable让用户用自然语言指导Agent实时修改生产代码，推出Live Mode实现主动人机交互。他定义“文艺复兴极客”为跨学科的T型通才，AI将放大这类人的能力。
+GitHub
+现象/趋势
+23:16
+Berryxia.AI
+@berryxia
+54
+Paul Bakaus 成立 Renaissance Geek：获 a16z 投资，与 GitHub 合作推"增强工艺"路线
+Paul Bakaus 宣布成立 Renaissance Geek（Impeccable 母公司），获 a16z 投资并与 GitHub 合作。他认为 AI 降低了创作门槛，但未自动提高上限；真正优秀的工作仍需清晰意图、迭代、判断力与工艺。公司方向为“增强工艺”——让人类深度参与智能体循环的最后 20%。首款产品 Impeccable 为 AI coding agent 提供设计词汇表，支持在真实代码库视觉迭代，避免低质量输出。同时提出“文艺复兴极客”画像：T 型通才、高品味、高主动性、强好奇心，AI 赋能其跨领域移动，而品味与判断力是 AI 最稀缺的能力。
+Berryxia.AI: http://x.com/i/article/2069426743950417920
+智能体
+GitHub
+产品更新
+编码
+23:16
+Berryxia.AI
+@berryxia
+43
+网友分享一张AI生成图，图中Exo集群的网线、C口、电源线等硬件细节明显错误，暴露了图片是AI所作。引用推文指出，2026年最新炫富方式不再是豪车名表，而是在家部署一个满血GLM5.2模型集群。
+Max For AI: 我觉得现在豪车、名表或者什么首饰的炫富方式已经过时了。 2026年的方式是:我在我家部署了一个满血GLM5.2🫡
+图像生成
+教程/实践
+23:15
+Rohan Paul
+@rohanpaul_ai
+66
+Templafy 发布免费 AI PowerPoint Agent
+Templafy 推出 AI PowerPoint Agent，用户只需输入提示词、选择主题与深度、添加源文件并审核大纲，即可生成可直接编辑的 .pptx 演示文稿。该工具旨在解决现有 AI 幻灯片工具在编辑、品牌规则应用、图表更新和法律审核环节的易用性问题。产品完全免费、在浏览器中使用，无需注册。引用推文显示本次升级新增聊天历史、自定义颜色和可编辑图表功能，进一步提升了灵活性和创作效率。
+Templafy: Our free PowerPoint Agent just got a big upgrade! Now with: 💬 Chat history 🎨 Custom colors 📊 Editable charts Create p...
+智能体
+产品更新
+23:15
+Nathan Lambert
+@natolambert
+44
+Nathan Lambert 新讲座：名义合成数据，实为知识蒸馏文献巡礼
+Nathan Lambert 为其新书发布讲座（7.4 小时），名义上关于合成数据，实则系统梳理知识蒸馏文献——从 Hinton 2015 年论文到现今主流的 on-policy 蒸馏（OPD/MOPD/OPSD）。他重点分析了使 on-policy 蒸馏落地所需的 3-4 个核心数学改动。讲座还回顾了合成数据逐步取代后训练数据研究的历史，并介绍了 Constitutional AI、rubrics 等流行方法。提供章节时间戳（00:00–45:50）。
+安全/对齐
+教程/实践
+数据/训练
+23:13
+歸藏(guizang.ai)
+@op7418
+49
+Seed 2.1 Pro 测评：胜任 Agent 工作流
+Seed 2.1 Pro 正式发布，测评显示它能胜任真实 Agent 工作流。优势包括：复杂任务稳定、视觉内容规划能力强、多模态额外优势。测试通过豆包任务模式（本地电脑 Agent 操作）和火山引擎 API（Cloud Code）进行。复杂 Skills 测试（PPT 生成、社交媒体卡片）表现优秀，能根据内容调整版式。三个前端任务（百叶窗图片动效、WebGL 贝塞尔曲线、跨整页视差滚动网页）均一步到位或结果完整。定位：未必最顶尖，但适合组合工作流——强编码模型负责工程，Seed 2.1 Pro 负责多模态理解、内容规划和视觉表达。限制：视频输入目前为抽帧式处理。API 已在火山引擎全量上线。
+智能体
+多模态
+编码
+评测/基准
+23:13
+歸藏(guizang.ai)
+@op7418
+42
+测试显示豆包旗下的 Seed 2.1 Pro 模型表现不错，尤其补上了此前在 Agent 和 Coding 方面的短板，将成为内容创作的主力模型。更多案例及提示词详见原文链接。
+歸藏(guizang.ai): http://x.com/i/article/2069421203073490944
+智能体
+编码
+评测/基准
+23:12
+AYi
+@AYi_AInotes
+64
+日本Fugu仅0.6B参数，本质是AI项目经理，自动拆分任务，从顶级模型池挑选选手，分配思考、执行、验证三种角色，多轮协作合成答案。API调用与普通模型无异，编排策略由训练习得。跑分超越Claude和GPT，绕过scaling law军备竞赛。缺点包括黑箱、复杂任务延迟高、简单题成本更高。信号意义在于多智能体编排从实验室玩具正式变为可用生产力工具，orchestration layer新赛道开启。
+AYi: 全网都在吹日本Fugu跑分超GPT,但我敢说99%的人没看懂它真正炸场的地方。 首先这玩意儿根本不是什么超大单体大模型, 它全身上下只有0.6B参数,本职工作就其实就是个AI项目经理, 简单任务自己处理,复杂任务自动拆分,从全球顶级模型池里...
+智能体
+大佬观点
+推理
+23:07
+Krea
+@krea_ai
+60
+今天，我们发布了 Krea 2 的开源权重。
+欢迎 Krea 2 Raw 和 Krea 2 Turbo，一个来自中期训练的未蒸馏模型，旨在用于微调；以及一个快速蒸馏版本，具有广泛的美学多样性。
+详情如下 👇
+图像生成
+模型发布
+23:02
+向阳乔木
+@vista8
+25
+看看这个skill生成的标题，是不是有新智元的味道了😂
+教程/实践
+23:00
+公众号：昆仑万维（天工）
+49
+DramaWave张薇：AI拍剧代替的是流程，不是故事 | 上海电视节白玉兰论坛
+昆仑万维旗下短剧业务DramaWave内容负责人张薇在6月22日上海电视节白玉兰论坛上分享海外微短剧市场洞察。DramaWave采取付费和免费双轨运营，海外月活用户超亿，年度经常性收入达6亿美金。AI技术极大提升了内容产能——男频玄幻类AI短剧填补了真人拍摄成本高、难度大的空白，平台目前一个月可上线200余部AI剧。张薇指出，AI作为工具代替的是制作环节而非故事内核，99%的观众只关心故事是否好看。合作模式包括成品剧上传、合拍等，平台持续欢迎好剧本。
+现象/趋势
+视频
+22:57
+Chubby♨️
+@kimmonismus
+52
+据爆料，GPT-5.6本周不再发布，新目标推迟至7月中旬；DeepMind对Gemini 3.5 Pro当前状态不满意，本月不会推出。与此同时，Claude Sonnet 5已向部分企业客户开放早期访问，被视为Mythos/Fable 5开发停滞的权宜之计。OpenAI新语音模型Bidi也正准备在ChatGPT上线，可能本周可用。
+leo 🐾: 🚨 SCOOP(s): - GPT-5.6 has been delayed and will no longer release this week. New target is ~mid-July. - DeepMind are no...
+Anthropic
+Google
+OpenAI
+行业动态
+22:50
+elvis
+@omarsar0
+65
+Microsoft Teams 刚刚跨过了一条我今年没预料到的界限。
+它现在运行一个 AI 员工，这个员工能完成工作，而不是回答问题的员工。
+以下是新内容：
+智能体
+Microsoft
+产品更新
+22:49
+HuggingFace Daily Papers（社区热门论文）
+精选
+78
+能力强但粗心：计算机使用智能体是否遵循情境完整性？
+AgentCIBench评估计算机使用智能体（CUA）是否遵循情境完整性。它针对三种常见失败模式：视觉共置（智能体拉取任务目标旁边被禁止的项目）、任务模糊性过度分享（在提示不明确时泄露个人状态）以及收件人错配（向不适当的收件人发送内容）。对15个前沿CUA的评测显示平均泄漏率67.9%，其中11个在超过50%的场景中泄漏，这些失败在端到端任务中同样存在。AgentCIBench已发布，旨在推动开发更安全的计算机使用智能体。
+智能体
+安全/对齐
+论文/研究
+推荐理由：计算机使用代理的隐私泄露问题被严重低估了。这篇论文用 AgentCIBench 实测 15 个前沿代理，发现平均泄漏率接近 70%，把这个隐患摆到了台面上，做 agent 产品的团队该把它加入上线前测试清单。
+22:36
+Luma
+@LumaLabsAI
+26
+文明并非天然。它是被建造的。而它所埋葬的，永远不会真的消亡。
+Wolf of Arcadia，一个由@MazuranDomagoj 创造的世界。
+使用 Luma 制作。
+行业动态
+视频
+22:26
+Hacker News 热门（buzzing.cc 中文翻译）
+48
+《The Coming Loop》--Hacker News 热门文章
+自 lucumr.pocoo.org 发布题为《The Coming Loop》的文章，在 Hacker News 上获得 103 个点赞。
+大佬观点
+现象/趋势
+编码
+22:24
+Mistral AI：News（网页）
+精选
+68
+Mistral OCR 4
+Mistral AI 发布 OCR 4，新增边界框、块分类（标题、表格、方程式、签名等）及逐页逐词置信度分数。支持 170 种语言、10 个语系，可单容器全自托管部署。在 OlmOCRBench 上得分 85.20，独立标注者偏好率平均 72%。定价每 1000 页 $4，Batch API 享 50% 折扣。可通过 API 或 Mistral Studio 的 Document AI 调用。
+多模态
+搜索
+模型发布
+推荐理由：Mistral OCR 4 把 bounding box 和置信度输出做进了产品，自托管部署和多语言能力很务实，做文档 RAG 和智能体的团队可以认真看看。
+22:16
+Berryxia.AI
+@berryxia
+42
+Berry Xia质疑Fugu性能接近GLM 5.2宣传：实际差距明显且成本高17倍
+Berry Xia发文质疑Sakana Fugu性能接近GLM 5.2的宣称，认为实际差距明显、属营销宣发。引用数据显示，在构建交易台任务中，Fugu Ultra输出22,225 token、成本$0.51；GLM 5.2输出13,677 token、成本仅$0.03，便宜约17倍。Opus 4.8（15,802 token/$0.31）和GPT-5.5（11,474 token/$0.26）成本也更低。主推文指出该模型来自美国VC投资的日本企业，质疑日本能否靠“蒸馏”快速赶超中美。
+atomic.chat: Sakana Fugu surprisingly performed near GLM 5.2 level but 17× more expensive! We gave the same prompt to 4 models: build...
+Anthropic
+OpenAI
+大佬观点
+评测/基准
+‹ 上一页
+下一页 ›
