@@ -1,0 +1,367 @@
+AI
+HOT
+内容
+精选
+全部 AI 动态
+AI 日报
+接入
+Agent 接入
+更多
+关于
+更新日志
+反馈
+登录
+全部 AI 动态
+AI 相关资讯全量信息流
+全部
+一手信源
+资讯
+推文
+全部
+模型
+产品
+行业
+论文
+技巧
+搜索
+6月25日
+00:05
+向阳乔木
+@vista8
+57
+前SpaceX工程师洪力德深度访谈：猎鹰9号回收、星链物理优势与太空数据中心逻辑
+前SpaceX猎鹰9号首席制造工程师洪力德（Louis Hong）接受访谈，指出2015年12月21日猎鹰9号首次入轨回收是行业转折点，将每公斤发射成本从1-2万美元降至约3000美元（星舰目标100美元以下）。星链基于真空传输速度比光纤快一倍的物理优势于2015年启动。SpaceX与xAI合并的底层逻辑是太空数据中心：免审批、利用高转换效率太阳能，解决美国电网25%-40%缺电及AI算力需求。马斯克用人重成长速度而非经验，如曾用Mini Cooper团队创新火箭制造。
+xAI
+现象/趋势
+00:05
+向阳乔木
+@vista8
+58
+字节火山引擎大会：洪定坤谈AI开发新范式
+字节火山引擎大会上，洪定坤分享了AI开发的三个核心方法论：1. 原型驱动开发——用AI生成可交互原型替代PRD，提前暴露分歧。2. AI Development系统化——AI写Spec→功能实现→Browser Use验证→自动提交上线。3. Harness基建——上下文工程、架构约束、团队知识Memory、技术债梳理，能将可交付性从40~60分提升至80分。
+大佬观点
+编码
+部署/工程
+00:04
+Chubby♨️
+@kimmonismus
+56
+OpenAI、Anthropic、Stripe和比尔·盖茨向新组织Intercept投资5亿美元。Intercept的目标是预防普通感冒和流感，并最终彻底消除所有呼吸道病毒。Kim对此表示："太棒了，我喜欢。"
+Andrew Curran: OpenAI, Anthropic, Stripe and Bill Gates are putting $500 million in funding into a new organization called Intercept. I...
+Anthropic
+OpenAI
+行业动态
+6月24日
+23:59
+Mistral AI：News（网页）
+精选
+62
+Mistral AI 为 Connectors 推出多项安全与可控新能力
+2026年6月24日，Mistral AI 发布 Connectors 多项新能力：Enriched admin controls（GA）支持按工作空间设置连接器访问权限并单独开关工具；API keys with connector scopes（GA）防止自动化 AI 工作负载中身份冒充；Multi-account connectors（GA）允许单个连接器绑定多个账户；Connectors Debugger（公开预览）对 MCP 连接器进行端到端根因分析；Connectors in Vibe Code（GA）和 Connectors in Workflows（公开预览）分别允许在开发者界面复用连接器及支持长时间运行任务不中断。
+产品更新
+推荐理由：Mistral 这次把连接器从演示级提升到生产级，关键不只是新功能，而是解决了企业代理在权限、身份和故障排查上的真实痛点，做平台工程的人会觉得踏实了不少。
+23:58
+IT之家（RSS）
+25
+宝丽来"另类营销"：趁数据中心还没把水喝干，赶紧下水玩吧
+宝丽来在纽约海滩投放广告牌，上写“趁数据中心还没把水喝干，赶紧下水玩吧”，调侃AI数据中心高耗水，推广新款Go Gen 3相机。创意总监表示不反对数字技术，但强调保护人性。报道称美国部分最大数据中心每天用水量超过近4.9万美国人日均用水总量。OpenAI CEO奥尔特曼今年早些时候驳斥了ChatGPT每次查询耗水64升的说法。英伟达本周公布新型液冷系统，称已基本消除数据中心用水。
+行业动态
+23:58
+IT之家（RSS）
+61
+摩根士丹利再度上调中国人形机器人出货量预测：2026年增至5万台
+摩根士丹利6月24日报告将2026年中国人形机器人出货量上调至5万台，较此前预测的2.8万台几乎翻倍，为今年第二次上调。预计2026年市场规模达20亿美元（约136亿元），2030年增至150亿美元（约1020亿元），年出货44.6万台。分析师称商业验证、政策支持和供应链信息显示普及加速。Omdia数据显示，2025年全球出货1.3万台，前五名均为中国企业，美国Figure AI和特斯拉仅排第七、第九。
+具身智能
+行业动态
+23:58
+IT之家（RSS）
+61
+华为鸿蒙"龙虾"小艺 Claw 全机型开放，HarmonyOS 5.0 及以上设备可用
+华为今日宣布鸿蒙“龙虾”小艺 Claw 全机型开放，HarmonyOS 5.0 及以上设备可用，小艺 App 需升级至 11.6.4.300 版本。套餐更新：49 元体验包上线 Auto-Model 模式；199 元标准包支持自主选择 openPangu-2.0-Pro、DeepSeek V4-Flash、DeepSeek V4-Pro、MiniMax M3 四种基础大模型。小艺 Skills 市场已支持 500+ 精选 Skills，覆盖消息、办公、知识检索、创意、生活、金融、开发等领域。小艺 Claw 获信通院首个终端厂商权威安全认证，具备开箱即用、一键唤醒、自我学习、深度记忆、多端协同、端云协同等功能。
+智能体
+产品更新
+23:57
+Claude Code：GitHub Releases（RSS）
+19
+Claude Code v2.1.190 发布
+Claude Code v2.1.190 版本发布，主要包含漏洞修复与可靠性改进。
+Anthropic
+产品更新
+编码
+23:52
+François Chollet
+@fchollet
+28
+理解复杂系统的最佳方式是通过边缘案例和故障模式，因为它们定义了系统的轮廓。
+大佬观点
+推理
+23:49
+swyx 🔜 @aiDotEngineer
+@swyx
+19
+受 @karpathy 言论启发，阐述为什么你应该从事 AI 智能体工作。
+swyx 🔜 @aiDotEngineer: Inspired by @karpathy's words on why you - yes YOU - should work on AI Agents
+智能体
+大佬观点
+23:45
+Ethan Mollick
+@emollick
+64
+Anthropic 的 Claude Tag 让企业成员共享同一 Claude 实例，使其能异步自主行动、吸收隐性知识，从工具变为"同事"。这带来严重锁效应：团队无法查看或编辑 Claude 的独立记忆，解雇 Claude 会导致工作流和隐性知识丢失。定价按 token 计费，Claude 可无限制工作，企业难以像工具那样管控成本，token 预算耗尽将全员停工。此外，Claude 接入私有频道可能访问用户无权限的仓库和工具，引入新安全风险。AI 公司正从争夺 IT 预算转向争夺劳动力支出，Claude Tag 是这一转型的里程碑。
+Arvind Narayanan: The new Claude Tag feature seems extremely useful, but at the same time, a dangerous bargain for enterprises because of ...
+智能体
+Anthropic
+大佬观点
+安全/对齐
+23:34
+向阳乔木
+@vista8
+56
+Vista：连续追问AI三次可改善文章质量
+Vista分享经验：将3小时播客访谈交由AI生成文章时，通过连续追问“还有什么细节需要补充？”（约三次）能有效补全遗漏细节，显著改善输出质量，使文章更具故事性。她建议将这一追问流程封装为Agent Skill，以便复用。
+智能体
+教程/实践
+23:29
+Hacker News 热门（buzzing.cc 中文翻译）
+78
+Krea 2 技术报告
+Krea 2 是一系列基础模型，兼顾审美多样性与创意控制。采用扩散 Transformer（DiT）架构，集成 iREPA、改进 VAE 和 Qwen3-VL，通过预训练、中期训练、SFT、偏好优化和 RL 多阶段流水线训练。构建提示词扩展器和风格参考系统，支持从文本和图像输入进行可控探索。模型权重与推理代码以宽松许可证开源。在 Artificial Analysis 文本到图像排行榜中位列前十，独立实验室模型中排名第二。
+Hugging Face
+图像生成
+多模态
+开源生态
+关联讨论 1 条
+23:23
+elvis
+@omarsar0
+48
+沉迷于我们新的 /learn 技能。
+这是我最喜欢的学习和研究主题的方式。
+该智能体创建学习计划和学习中心（artifact），根据学习者的需求和进度进行调整。
+智能体
+产品更新
+23:18
+Rohan Paul
+@rohanpaul_ai
+65
+OpenAI与Broadcom合作推出首款自研AI芯片Jalapeño，推动全栈战略
+OpenAI与Broadcom合作推出首款自研AI芯片Jalapeño（ASIC），专为ChatGPT、Codex、API及未来AI智能体产品的LLM工作负载设计。在已知工作负载下，Jalapeño比NVIDIA GPU更便宜、更快，通过减少数据移动、均衡计算/内存/网络资源实现更接近理论峰值的实际利用率，能效更优。该芯片从设计到流片仅用9个月，OpenAI自己的模型加速了部分设计工作。这标志着OpenAI从购买算力转向构建完整堆栈（模型、软件、服务器、网络、芯片）的战略转变。
+OpenAI: We've designed and built our first AI chip: Jalapeño. Designed from the ground up by OpenAI and brought to production wi...
+OpenAI
+产品更新
+推理
+部署/工程
+23:17
+Runway
+@runwayml
+57
+Runway 新功能，现可本地化广告。
+一张图片输入，任意语言输出。输入单一广告，即可获得适用于每个市场的版本。全部一键完成。
+产品更新
+图像生成
+多模态
+23:13
+AYi
+@AYi_AInotes
+61
+OpenAI与博通合作，九个月流片自研推理芯片Jalapeño
+OpenAI与博通合作，九个月内完成首款自研AI芯片Jalapeño的设计到流片。该芯片专为大语言模型推理场景打造，用于ChatGPT、Codex、API及未来智能体产品，每瓦性能优于当前最先进水平。推理成本可降低30%–50%，为日常持续消耗大头。传统芯片设计周期2–3年，Jalapeño通过AI辅助设计跑通“AI造AI硬件”自循环。OpenAI意图走全栈路线，摆脱对英伟达依赖，掌握底层算力定价权。
+OpenAI: We've designed and built our first AI chip: Jalapeño. Designed from the ground up by OpenAI and brought to production wi...
+OpenAI
+产品更新
+推理
+23:13
+AYi
+@AYi_AInotes
+61
+Notion 大规模招聘：AI 集成草莽时代结束
+Notion 发布招聘帖，职位列表中找不到传统 Prompt Engineer，取而代之的是模型行为工程师、AI 评估师、AI 治理专员、客户体验知识架构师等工程化岗位，负责调优模型行为边界、评估输出质量、设计权限与审计体系。Notion 认为 AI 负责执行，人类负责定义价值，因此同步扩招销售、客户成功、知识架构师。实习生要求对艺术、历史、社会科学有兴趣，强调判断力。招聘帖采用 ASCII 艺术设计，获得高传播。
+Notion: ______ | We're hiring | |______| \ (•◡•) / \ / -- | | |_ |_ Open roles: → AI Applications Engineer → AI Conversation Des...
+现象/趋势
+部署/工程
+23:13
+🚨 AI News | TestingCatalog
+@testingcatalog
+32
+GOOGLE 🔥： Gemini 桌面应用（macOS）将新增名为 "Speak to Window" 的语音听写功能，可在任意其他应用中使用。
+Google
+产品更新
+语音
+23:12
+OpenRouter
+@OpenRouter
+65
+推出全新专用图像 API，包含类型化动态能力。
+统一访问来自8家提供商的30+图像生成模型：Google、OpenAI、Black Forest Labs、Recraft、ByteDance、Sourceful、Microsoft 和 xAI。
+此外，还提供针对图像 API 异构性的新方案👇
+产品更新
+图像生成
+关联讨论 1 条
+23:09
+The Verge：AI（RSS）
+56
+OpenAI 发布首款自研 AI 处理器：Jalapeño
+OpenAI 推出与 Broadcom 合作打造的首款定制芯片 Jalapeño，这是一款专用于 AI 推理的 ASIC，用于处理 ChatGPT 请求。据称其性能与 Nvidia Blackwell 和 Google TPU 相当，每瓦性能显著优于当前 SOTA。Jalapeño 是 OpenAI 多代计算平台的首步，预计 2026 年底部署。
+OpenAI
+产品更新
+推理
+23:08
+Kling AI
+@Kling_ai
+18
+大家都在问她的发光皮肤……
+其他
+视频
+23:03
+TechCrunch：AI（RSS）
+65
+OpenAI 发布首款自研推理芯片 Jalapeño，由 Broadcom 制造
+OpenAI 周三公布其首款自研推理处理器 Jalapeño，由 Broadcom 设计制造，专为推理系统优化，OpenAI 自身 AI 模型参与了芯片开发。早期测试显示能效比显著优于当前顶尖替代方案。该芯片旨在降低实时编码模型的运行成本，但预训练等高性能任务仍将依赖 Nvidia GPU。OpenAI 称此举使其能全栈优化芯片架构、内核、内存系统、调度等基础设施，以提升模型速度、可靠性和经济性。
+OpenAI
+产品更新
+部署/工程
+23:01
+Chubby♨️
+@kimmonismus
+55
+OpenAI 发布首款自研 AI 芯片 Jalapeño
+OpenAI 推出首款自研 AI 芯片 Jalapeño，专为 LLM 推理从零设计。从初始设计到流片仅用 9 个月，ChatGPT 参与了芯片设计，堪称高性能先进半导体领域最快的 ASIC 开发周期。该芯片由 Broadcom 和 Celestica 代工，针对 ChatGPT、Codex、API 及未来 Agent 产品的实际负载优化。早期样片已在实验室达到目标频率和功耗，成功运行 GPT-5.3-Codex-Spark 等 ML 负载；性能功耗比显著优于当前 SOTA，详细基准后续公布。部署计划于 2026 年底启动，战略上旨在减少对外部 GPU 依赖，加强对算力经济的控制。
+Chubby♨️: OpenAI just unveiled Jalapeño, its first custom AI chip designed from scratch for LLM inference- It is OpenAI moving dee...
+OpenAI
+产品更新
+推理
+部署/工程
+22:58
+IT之家（RSS）
+56
+汇丰调查：AI 目前仍无法取代人类财富顾问
+汇丰控股调查约1万名富裕及高净值人士，62%受访者视专业人士为投资想法主要来源，仅12%认为AI最重要。客户用AI了解选项，但最终决策依赖人类顾问的判断与责任。麦肯锡称资产不足100万美元的客户或逐步被AI取代，花旗增聘顾问把握增长。年轻一代更倾向结合AI与顾问，但人类顾问的判断、验证和个性化解读最难替代。
+现象/趋势
+行业动态
+22:58
+IT之家（RSS）
+49
+一年 640TB？Codex CLI 日志过量写入致 SSD 折寿，OpenAI 正紧急修复中
+OpenAI 正紧急修复 Codex CLI 日志过量写入缺陷。开发者 Rui Fan 报告称，其机器运行约 21 天后主 SSD 写入约 37TB SQLite 日志，推算每年约 640TB；对于 1TB、额定 600TBW 的消费级 SSD，不到一年可能耗尽质保写入耐久度。另一开发者引用 Codex 自估，该缺陷在 3 月至 6 月可能造成全体用户低位数百万美元 SSD 写入耐久度损失。问题源于 2026 年 2 月将服务器 SQLite 日志输出级别改为 TRACE，且本地诊断日志默认开启。OpenAI 确认工程师正在修复，部分修复已实装，但用户仍持续报告。
+OpenAI
+产品更新
+编码
+22:58
+IT之家（RSS）
+57
+360 发布 AI 安全"倚天屠龙"：图龙锋与仪天阵
+360 集团在 ISC.AI 2026 上发布两大 AI 安全能力：漏洞自动化挖掘智能体“图龙锋”和网络安全自动化防御系统“仪天阵”。图龙锋已累计挖掘漏洞 3432 个，其中监管确认 105 个，多个被定为高危漏洞，覆盖开源代码、操作系统等场景。仪天阵可自主规划任务、研判告警、联动处置。周鸿祎指出，Mythos 使漏洞发现速度提升百倍、成本下降千倍，中国必须拥有自己的 Mythos 以应对“第二次单向透明”。
+产品更新
+安全/对齐
+22:58
+IT之家（RSS）
+52
+论文 AI 率改后反升，央视揭秘检测原理
+毕业季高校毕业生论文面临 AIGC 检测新关卡。有学生论文 AI 率为 62%，远超学校 15% 红线，尝试用大模型改写后检测升至 94%。首都师范大学副院长蔡海龙指出，AI 检测本质是基于概率的分类，用 AI 查 AI 无法明确判定；中文语意丰富易致歧义误判。当前检测依赖困惑度与突发性等特征，准确性无法达 100%。专家建议建立透明可回溯的 AI 使用标注制度，实行“人工评议为主、AI 检测为辅”的人机共判模式。
+现象/趋势
+22:48
+Nathan Lambert
+@natolambert
+49
+Nathan Lambert 用 GLM 5.2 开讲 AI 基础
+Nathan Lambert 发布了一期 AI 基础讲座视频，使用 GLM 5.2 模型生成。内容涵盖语言模型概述、LM Head、Softmax 与对数概率、训练样本结构、概率计算、后训练中的三种掩码、解码、交叉熵损失、优化与微调、预训练到 SFT 流程、KL 散度与熵、Sigmoid 与成对似然、强化学习 MDP 框架等。视频包含时间戳目录，并持续收集观众问题用于后续 Q&A。
+安全/对齐
+教程/实践
+22:41
+OpenBMB
+@OpenBMB
+26
+Nice work 👍👍@TechlatestNet
+Telegram 上的本地照片助手，搭载 MiniCPM-V 4.6，无需云端 OCR，正是注重隐私的用户所需。
+TechLatest.Net: Most AI assistants can read text, write code, and automate workflows. #LLMs #AI #Aiassistants #Aigateway #AIModels #Open...
+多模态
+端侧
+行业动态
+22:36
+Google DeepMind
+@GoogleDeepMind
+50
+DeepMind 播客探索 AI 智能体经济与群体思维
+Google DeepMind 发布播客，由 @weballergy 与 @fryrsquared 共同探讨 AI 智能体经济的崛起。内容涵盖：AI 智能体的定义、在科研中的探索、智能体间的委托与协作、安全风险与陷阱、如何构建智能体经济、认知单一文化（群体思维）风险，以及分布式智能的解决方案。播客还设有详细时间戳分段，帮助听众聚焦不同话题。
+智能体
+DeepMind
+Google
+现象/趋势
+22:31
+公众号：火山引擎
+精选
+74
+字节跳动技术副总裁洪定坤：AI Coding 的实践与探索
+在火山引擎Force大会，字节跳动技术副总裁洪定坤分享AI Coding实践。过去一年，字节AI代码贡献率增长6倍，tokens消耗增长5倍，但过度关注单一指标可能失真——TRAE团队代码超90%由AI生成，人均需求吞吐率仅提升60%。900次实验显示，主流Coding模型组合代码正确率超80%，但可交付性仅40-60分；结合Harness基建后提升至80分。AI降低编程门槛但需优化指标、治理、协作。字节探索原型驱动开发，能力沉淀至TRAE（日均Token消耗5.6万亿，增长50倍），并推出TRAE Work。
+大佬观点
+现象/趋势
+编码
+推荐理由：洪定坤把字节用 AI Coding 一年踩的坑和实验数据摊开讲，尤其‘过度重视代码贡献率’的反思和 Harness 基建的实证，是所有推 AI 编程的团队必看的复盘。
+22:31
+公众号：腾讯元宝
+元宝已回答近8000万个高考志愿问题
+22:29
+Hacker News 热门（buzzing.cc 中文翻译）
+精选
+78
+里德·霍夫曼称SpaceX"不是一家人工智能公司"，xAI则是"彻底的灾难"
+LinkedIn联合创始人、Anthropic和OpenAI投资者Reid Hoffman在播客中公开批评SpaceX和xAI。他指出SpaceX“不是一家人工智能公司”，6月12日上市后收购AI编程工具Cursor属于“花钱买相关性”；xAI则是“彻底的灾难”，所有11位联合创始人已离职，Grok模型在基准测试中落后于Anthropic和OpenAI。他还批评美国政府6月11日以出口管制为由强制Anthropic下架Fable和Mythos模型，理由仅为Amazon CEO报告Fable 5存在jailbreak漏洞，称此举“专断随意”。Hoffman认为Anthropic和OpenAI均有巨大发展空间，但Cursor可能已过巅峰。他建议年轻人不要抵制AI。
+大佬观点
+安全/对齐
+现象/趋势
+推荐理由：Reid Hoffman 对 xAI 和 SpaceX 的批评几乎不留情面，这种硅谷核心人物的公开呛声本身就值得一读，他对监管干预的担忧和对 Gen Z 的劝诫也很有现实感。
+22:23
+小互
+@xiaohu
+48
+字节跳动发布 SeedMusic 1.0 Preview AI 音乐模型
+字节跳动推出 SeedMusic 1.0 Preview AI 音乐模型，用户只需一句话提示词即可生成完整歌曲，生成速度约 2-3 分钟。示例提示词为“来一首古风歌曲，但是有着现代流行音乐的节奏感，能让人朗朗上口，关于爱情的歌曲”，效果不错。该模型属于字节跳动在 AI 领域的布局之一。
+产品更新
+语音
+22:20
+gabriel
+@gabriel1
+25
+词语是我们思考概念的极度简化的指针
+如果我们能直接向大语言模型给出原始意图，我们可以花少 90% 的时间与它们交谈
+不过有点不好的是，你需要一个大脑植入物才能高效工作，尽管它超酷
+Elon Musk: @yunta_tsai Maybe first attempt at this for Neuralink later this year
+xAI
+大佬观点
+22:19
+Microsoft Research
+@MSFTResearch
+42
+Talos 旨在帮助解决基因组医学中的一个主要瓶颈：人工审查时间。
+这个开源系统恢复了 90% 范围内的诊断，同时每个患者仅呈现 1.3 个候选变异供专家审查。
+Microsoft
+开源/仓库
+22:14
+PixVerse
+@PixVerse_
+24
+"万事皆变--除了我们真正想改变的东西。"
+Change - PixVerse Originals S1.
+Caroline Kiessling 完全在 PixVerse 上构建了这部静谧的视觉诗，不断打磨每一帧，直到情绪到位。
+转发+关注+评论 = 150 Creds & 全片私信送达（仅限48小时）
+图像生成
+行业动态
+视频
+22:04
+The Decoder：AI News（RSS）
+60
+OpenAI与Broadcom发布首款定制芯片"Jalapeño"，专为LLM推理设计
+OpenAI与Broadcom联合发布首款定制芯片"Jalapeño"，专为大语言模型推理而设计，从零打造而非修改通用芯片。OpenAI称其性能功耗比“显著优于”当前最先进硬件，但为自报数据，尚未独立验证。芯片开发耗时9个月，OpenAI自身模型辅助加速设计。工程样片已运行包括GPT-5.3-Codex-Spark在内的ML工作负载。计划于2026年底进行大规模部署，微软预计将购买其中40%的芯片。
+OpenAI
+产品更新
+推理
+21:58
+IT之家（RSS）
+39
+首款搭载宁德时代电池的重载人形机器人上岗
+6月24日，宁德时代与银河通用机器人签署全球战略合作协议，银河通用研发的重载人形机器人Galbot S1成为全球首款搭载宁德时代电池的具身智能常态化运营机器人。该机器人具备双臂50公斤级载重、纯视觉厘米级定位、360°全向避障能力；宁德时代电芯失效率达PPB级别，保障8小时超长续航与产线高安全性。目前Galbot S1已在宁德时代智慧产线中替代物料搬运、拣选等高强度人工。
+具身智能
+行业动态
+部署/工程
+‹ 上一页
+下一页 ›
