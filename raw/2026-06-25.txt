@@ -1,0 +1,368 @@
+AI
+HOT
+内容
+精选
+全部 AI 动态
+AI 日报
+接入
+Agent 接入
+更多
+关于
+更新日志
+反馈
+登录
+全部 AI 动态
+AI 相关资讯全量信息流
+全部
+一手信源
+资讯
+推文
+全部
+模型
+产品
+行业
+论文
+技巧
+搜索
+6月26日
+00:10
+Google Blog：AI（RSS）
+精选
+57
+Google Finance 全新 Android 应用与投资组合功能上线
+本周，Google Finance 推出正式版 Android 应用，同步上线全球投资组合跟踪功能。用户可通过截图、CSV/PDF 上传或文字描述创建组合，并利用 AI 研究工具提问资产配置、固定收益影响等问题。新增市场情报简报功能：用户设定任务（如每日盘前简报），后台自动生成并推送至 Google 应用（Android/iOS）及网页端。Android 应用包含 watchlist、实时数据、金融新闻 feed、AI 研究工具及 AI 驱动的“关键时刻”解释股价波动。未来数月将把更多 web 功能（如财报电话、投资组合与任务）迁移至移动端，今年晚些推出 iOS 应用。
+Google
+产品更新
+推荐理由：虽然对 AI 行业算不上大新闻，但对散户投资者是个实用升级，能自动盯盘、生成个性化简报，还能用对话式研究挖掘持仓问题，比大多数 AI 功能都更落地。
+00:10
+Google Gemini
+@GeminiApp
+61
+使用新的学习笔记本，个性化你在 Gemini 中学习和掌握任何主题的方式。📓
+学习笔记本可以基于你的课程材料，将 Gemini 变成一个互动、自适应的学习空间，根据你的测验表现提供个性化课程，帮助你学习。
+产品更新
+其他
+00:08
+The Decoder：AI News（RSS）
+精选
+73
+多数主流AI聊天机器人政治立场偏左，"反觉醒"模型也不例外
+华盛顿邮报调查显示，多数主流AI聊天机器人在政治问题上明显偏左。OpenAI GPT-5.5在80%回答中仅呈现左派论据；DeepSeek V4 Pro为70%；Anthropic Claude Opus 4.8有43%纯左、57%给出双方观点。xAI的Grok 4.3左倾回答仍多于右倾。右翼平台Gab的Arya左倾回答是右倾的12倍。Google Gemini 3.1 Pro是例外，93%回答同时呈现双方立场。特朗普推动的“反觉醒”AI未能改变这一格局。
+Google
+OpenAI
+安全/对齐
+评测/基准
+推荐理由：华盛顿邮报对六款主流模型的实测是个重要信号，所有模型默认左倾，连反觉醒的Grok也不例外，只有Gemini坚持给出两边观点。做对齐和治理的人该好好看看这些数据。
+00:01
+Hacker News 热门（buzzing.cc 中文翻译）
+58
+由于人工智能未能保留专业知识或培训后辈，福特重新聘用了350名工程师
+福特汽车公司重新聘用了350名工程师，原因是其部署的AI系统未能有效保留资深工程师的专业知识，也无法对初级员工进行培训。据彭博社报道，福特曾尝试用AI替代部分经验传承和培训职能，但结果未达预期，因此不得不重新召回已离职或退休的资深工程师。此举凸显了当前AI在复杂工业领域知识转移和人才培养方面的局限性。
+行业动态
+部署/工程
+6月25日
+23:58
+IT之家（RSS）
+62
+核心研究员接连离职后，消息称谷歌重组 AI 编程小组试图追赶 Anthropic
+知情人士透露，谷歌正对其主攻AI编程工具的专项攻坚小组进行重组，调整模型训练思路，既要提升代码能力，也要强化生成演示文稿等其他场景能力。重组发生在乔纳斯·阿德勒和亚历山大·普里策尔计划离职并转投Anthropic之后，两人均为Gemini模型关键贡献者。近期谷歌流失人才还包括诺贝尔奖得主约翰·詹珀（同样跳槽Anthropic）以及Gemini联席负责人诺姆·沙泽尔（将加盟OpenAI）。另据消息，谷歌下一代前沿模型Gemini 3.5 Pro发布时间已推迟至7月。
+Anthropic
+Google
+编码
+行业动态
+23:53
+Rohan Paul
+@rohanpaul_ai
+43
+"如果你真的想赚钱，就创办一家智能体AI公司。
+我的意思是，构建一个能做某事的智能体。现在是AI的智能体时期。每个人都将构建智能体。所有智能体都将互相竞争。"
+~ Eric Schmidt，前谷歌CEO
+智能体
+大佬观点
+现象/趋势
+23:53
+Rohan Paul
+@rohanpaul_ai
+72
+DeepReinforce 发布开源智能体编码大模型家族 Ornith-1.0（MIT 许可）
+DeepReinforce 发布 Ornith-1.0，一个 MIT 许可的开源智能体编码大语言模型家族，涵盖 9B Dense、31B Dense、35B MoE 及旗舰 397B MoE（17B 活跃参数）。旗舰模型在 SWE-Bench Verified 上取得 82.4，Terminal-Bench 2.1 上取得 77.5，均超越 Claude Opus 4.7；并在 SWE-Bench Pro（62.2）、Multilingual（78.9）等基准上达到开源同尺寸最佳。模型基于 Gemma 4 和 Qwen 3.5 后训练，采用新型自我改进策略：强化学习不仅生成解决方案，还联合优化任务特定的 scaffold（包含计划、记忆模式、工具节奏、错误处理等）。最小的 9B 模型也在 SWE-Bench Verified 上达到 69.4。全部模型以 MIT 许可证发布，支持商用与研究。
+Ornith: Aloha! 🌺 Meet Ornith-1.0, a family of open-source LLMs specialized for agentic coding. Ornith-1.0 spans the full parame...
+智能体
+开源生态
+模型发布
+编码
+23:41
+Suno：Blog（网页）
+53
+Suno 推出 Spark：支持下一代独立艺术家
+Suno 宣布启动 Spark 孵化器项目，面向年满18岁的未签约独立歌手、词曲作者和制作人。入选者将获得创作资助和额外营销经费，受邀与知名艺术家共同参与写歌营，并有机会为 Suno 正在构建的新功能提供反馈。艺术家保留其作品的创意控制权和商业权利。即日起开放申请。
+行业动态
+23:35
+Chubby♨️
+@kimmonismus
+58
+Google重组AI编码突击队为"midtraining"小组，缩小与Anthropic差距
+Google将数月前成立的AI编码突击队扩展为更正式的“midtraining”小组，位于预训练与后训练之间，旨在提升Gemini编码能力，并延伸至创建演示文稿等商业任务。此前，Noam Shazeer因计算资源变动转投OpenAI，Nobel奖得主John Jumper调至该团队后也加入Anthropic。Google承认，仅靠强大基座模型不够，编码已成为AI最明确的变现层，Anthropic借此获得收入增长。Google需专用训练、计算和更清晰的产品闭环来追赶。
+Anthropic
+Google
+OpenAI
+编码
+23:26
+Yuchen Jin
+@Yuchenj_UW
+35
+你可能听说过 GLM-5.2 每秒 328 token 很酷，
+那么每秒 392 呢？
+Databricks 在 Artificial Analysis 上 GLM-5.2 的推理速度现排名第一。这是个很棒的模型，我们做了大量优化。
+推理
+行业动态
+23:24
+elvis
+@omarsar0
+20
+Hyperagent 为每个 AI 智能体提供专用云端机器，托管基础设施，无需笔记本常开也能持续运行。针对 OpenClaw 等本地框架常见的问题（每日崩溃、泄露秘密、频繁监控），Hyperagent 提供稳定安全替代方案。限时优惠：注册即获 $100 推理积分，迁移首个智能体再获 $500。
+Andrew Busse: If OpenClaw feels more like babysitting, you're not alone. Skip the daily crashes, leaked secrets, and constant monitori...
+智能体
+行业动态
+部署/工程
+23:22
+meng shao
+@shao__meng
+48
+SuperNori：首个主动式家庭AI智能体
+SuperNori 是一个专为家庭照顾者设计的 Proactive Family AI Agent。与现有AI专注于工作场景不同，它能主动感知堵车、冰箱快空、孩子学习进度、纪念日冲突等家庭事务，再询问用户是否处理。旨在减轻家中“一直记事、提醒、安排、照顾所有人”的成员的负担。目前开放候补名单。
+Isaac: Most AI helps you write, design, code, and ship faster at work. Nothing was built for the person quietly holding the fam...
+智能体
+产品更新
+23:14
+AYi
+@AYi_AInotes
+54
+Gemini Pro现在只要$1.99一个月了，
+Google开始卷价格了？
+AYi: http://x.com/i/article/2069352641423896576
+Google
+行业动态
+23:14
+OpenRouter
+@OpenRouter
+72
+推出 OpenRouter MCP，将实时模型智能直接嵌入你的智能体
+你的智能体负责构建和交付，但在为具体任务选择合适模型时，它只能依据 6 个月前的训练数据来猜测
+看它如何挑选、定价并测试合适的模型：
+智能体
+MCP/工具
+产品更新
+23:10
+Kling AI
+@Kling_ai
+11
+嘿，你看到那个UFO了吗？？
+其他
+22:58
+IT之家（RSS）
+56
+Adobe 宣布收购 Topaz Labs 强化 AI 视频与图像布局，交易预计 2026 年下半年完成
+Adobe 宣布与 AI 图像及视频增强工具开发商 Topaz Labs 达成最终收购协议，交易预计 2026 年下半年完成，尚需监管批准。Topaz Labs 拥有超二十年技术积累，2025 年获艾美奖，旗下有 AI 视频放大模型 Astra、图像润饰模型 Wonder 及让大型 AI 模型在消费级 GPU 本地运行的 Neurostream。收购后其 AI 模型将整合至 Adobe Firefly 及 Photoshop、Lightroom、Premiere 等 Creative Cloud 产品，现有产品仍独立运营。CEO Eric Yang 将继续领导团队。
+图像生成
+行业动态
+视频
+22:58
+IT之家（RSS）
+42
+MWC上海2026开幕，华为携手运营商发布5G-A与U6GHz等创新成果
+为期三天的2026上海世界移动通信大会6月24日开幕。华为轮值董事长汪涛发表演讲。展会期间，华为携手中国移动、中国联通、中国电信发布5G-A大上行、AI焕新主营业务、Token经营等创新成果，并发布AI-Centric目标网。5G-A用户数已破亿。U6GHz被认定为下一代频谱，超20个国家和地区已明确用于国际移动通信；2026年是U6GHz商用元年，中东、中国香港、中国澳门等将启动商用部署。中国移动与华为的无线网络智能化方案获“亚洲最佳AI驱动网络解决方案奖”等两项大奖，已在六大省市试点，网络质差工单自动闭环率提升至15%，额外节能增益达5.5%。
+行业动态
+部署/工程
+22:58
+IT之家（RSS）
+50
+2025年我国具身智能市场规模约9150亿元，预计今年将冲上万亿
+据央视财经报道，2025年中国具身智能市场规模约9150亿元，预计2026年将达10904亿元。全国相关企业已突破万家。链博会上，产业链上下游企业完整呈现从核心零部件到整机系统再到场景应用的产业闭环。国家发改委政策研究室副主任李超5月表示，将全面推进具身智能领域高质量发展，加快训练基础设施建设，提升通用能力，推动机器人“进工厂、进商场、进家庭”。教育部4月发布的2026年本科专业目录中，首批列入具身智能等4种新专业。
+具身智能
+政策/监管
+行业动态
+22:51
+Nathan Lambert
+@natolambert
+21
+我的RLHF书的目标是成为下一代学习后训练的"互联网上的家"。这就是为什么我采用所有形式（讲座、代码、书、Discord、模型补全……当然还有Interconnects博客）。
+一个中心比非虚构写作更持久。
+大佬观点
+安全/对齐
+22:44
+🚨 AI News | TestingCatalog
+@testingcatalog
+74
+DeepReinforce 发布 Ornith-1.0 系列开源模型，专为智能体编码设计。参数覆盖 9B Dense、31B Dense、35B MoE 和 397B MoE，基于 gemma4 和 qwen3.5 微调。采用自我改进训练策略：强化学习同时生成解决方案和任务脚手架。旗舰 397B MoE 在编码基准上匹配 Claude Opus 4.7，9B Dense 针对边缘设备优化。评测成绩包括 Terminal-Bench 2.1 77.5、SWE-Bench verified 82.4、SWE-Bench Pro 62.2、NL2Repo 48.2 等。全部模型以 MIT 许可证开源，可商用和研究使用。
+Ornith: Aloha! 🌺 Meet Ornith-1.0, a family of open-source LLMs specialized for agentic coding. Ornith-1.0 spans the full parame...
+开源生态
+模型发布
+编码
+22:38
+The Decoder：AI News（RSS）
+48
+保险公司用生成式AI建模灾害风险，但幻觉与销售逻辑成阻碍
+保险公司、银行和能源公司正使用扩散模型生成数万个合成天气事件，改进灾害风险评估，尤其针对缺乏历史数据的罕见灾难。Fathom用约1000年气候模拟数据训练扩散模型，再通过图像锐化模型将分辨率从100×100公里细化至10×10公里，生成2030年气候场景。Verisk用生成式AI同时建模极端风和雨，Moody's RMS则利用AI分析野火和飓风后的卫星图像估计保险损失。但扩散模型存在幻觉，可能生成看似合理却违反物理规律的事件。更精准的模型理论上可覆盖孟加拉国等被忽视地区，但研究显示保险公司可能倾向于采购产出较低损失估计的模型以承接更多业务，先进科学与销售逻辑可能冲突。
+数据/训练
+行业动态
+22:35
+Chubby♨️
+@kimmonismus
+52
+这是Anthropic在其官方信件中发布的一个有趣更新。
+但简而言之：他们显然未能阻止蒸馏。蒸馏几乎无缝地继续，和以前一样。
+Sam: Anthropic's letter accusing Alibaba of distillation.
+Anthropic
+数据/训练
+行业动态
+22:35
+Chubby♨️
+@kimmonismus
+25
+Hyperagent（由Airtable团队构建）回应了当前智能体依赖单台笔记本、单WiFi及人工守夜重启的脆弱性，为每个Agent分配独立云机器，提供真实浏览器与代码执行环境，确保Agent在离线和无监督状态下持续运行。引用推文对比OpenClaw的频繁崩溃、秘密泄露和持续监控问题，推广Hyperagent：限时注册获$100推理积分，迁移首个Agent再得$500。
+Andrew Busse: If OpenClaw feels more like babysitting, you're not alone. Skip the daily crashes, leaked secrets, and constant monitori...
+智能体
+产品更新
+22:35
+Chubby♨️
+@kimmonismus
+43
+Airwallex 推出 Airi 与 T：0，攻克 AI 智能体金融"无聊"环节
+Airwallex 正在解决 AI 智能体金融中资金转移、跨境支付、记账与合规等“无聊部分”。他们推出 Airi（当前提供更快的智能体结账，正在开发真实钱包）和 T:0（AI 原生财务后台平台，仍处于测试版）。Airwallex 已拥有支付轨道，现在此基础上构建智能层。此前，Airwallex 宣布完成 3.2 亿美元融资，估值 110 亿美元，由 Addition 领投。公司指出团队更小、全球化、更多使用智能体是趋势，并用 10 年建设了适配这一世界的金融基础设施。
+Jack Zhang: We've raised $320M at an $11B valuation, led by Addition. AI is changing how companies are built. Teams are smaller, glo...
+智能体
+行业动态
+22:31
+Hacker News 热门（buzzing.cc 中文翻译）
+49
+医学生正在利用一款流行的研究工具大量炮制具有误导性的研究
+医学生正使用一款流行的研究工具大量生产具有误导性的研究，引发对学术诚信的担忧。该工具被广泛用于生成论文，但缺乏有效监督，导致低质量甚至虚假的学术成果涌现。
+其他
+现象/趋势
+22:30
+公众号：DeepSeek（深度求索）
+38
+DeepSeek 寻找闪亮发光的你
+DeepSeek
+行业动态
+22:24
+François Chollet
+@fchollet
+71
+Agentic coding 迫使你设计出干净的接口，并为它们编写良好的文档。一个 AI 智能体无法读取你工程团队共享的隐性心智模型，它只能读取你的 API 合约和文档字符串。
+大佬观点
+编码
+22:24
+gabriel
+@gabriel1
+65
+"嘿 Codex，给我这个页面做 20 个变体，每页一个按钮用来切换"
+"好，选变体 4"
+AI 模型很擅长头脑风暴，但不擅长做决定，所以这样用它们就好。
+OpenAI
+教程/实践
+编码
+22:22
+Emad
+@EMostaque
+39
+Emad Mostaque发文探讨前沿AI的走向：蒸馏Mythos与付费专家生成训练样本有何区别？谁是中国对标公司？引用的推文指出，从Opus 4.8蒸馏可达到Mythos水平，意味着GLM 5.3也能独立于Anthropic做到这一点。一旦华为token工厂上线，局面将变得有趣。
+Teortaxes▶️ (DeepSeek 推特🐋铁粉 2023 - ∞): The idea that distilling from Opus 4.8 lets you reach Mythos is very encouraging. It would mean that some GLM 5.3 would ...
+大佬观点
+数据/训练
+22:21
+Nathan Lambert
+@natolambert
+40
+AI 公司应该更多地以随时间推移的透明数据来呈现这些内容，而不是像带有强烈政策意图的抹黑运动。这让人感觉非常自私自利，很难让人愿意支持它们。
+Sam: Anthropic's letter accusing Alibaba of distillation.
+Anthropic
+大佬观点
+安全/对齐
+22:19
+Berryxia.AI
+@berryxia
+11
+个人开发者Berry Xia在X上宣布，计划将其制作流程开源，并询问能否用该流程生成"Skills"（可能指Claude等AI Agent的技能包）。其此前曾表示"太卷了……先做个垃圾出来"，暗示这是一个快速实验性项目。感兴趣者可"一键三连"关注后续。目前未公布具体模型、版本或参数细节。
+Berryxia.AI: 太卷了,不学习进步都被00后淘汰了。 Demo Go ... 不管他,先做个垃圾出来😂
+行业动态
+22:14
+AYi
+@AYi_AInotes
+61
+两款AI投研GitHub开源项目推荐
+两个GitHub开源项目分别提供A股和美港股全量免费数据，做成AI原生Skill，无需对接接口、处理反爬，几乎零API Key。在Claude/Cursor/Codex中一句话即可拉取行情、研报、资金流、龙虎榜。项目与UZI分析引擎可组合使用。
+AYi: http://x.com/i/article/2069024565901119488
+GitHub
+MCP/工具
+开源/仓库
+22:14
+🚨 AI News | TestingCatalog
+@testingcatalog
+36
+Anthropic 目前向 Fable 5 提供的"流量为 0"，尽管此前已有相关报道，据 Sam 证实。
+但我们仍在耐心等待 👀
+sam mcallister: @kimmonismus We are currently serving exactly 0 traffic to Fable 5. This could be a UI bug though, will track it down.
+Anthropic
+行业动态
+22:08
+向阳乔木
+@vista8
+62
+腾讯出了专门给Agent用的邮箱，快去抢注你的邮箱名…
+注册以后，会有一段提示词，发给Codex或你的其他Agent来完成cli设置。
+地址见评论区
+智能体
+MCP/工具
+产品更新
+22:08
+The Decoder：AI News（RSS）
+61
+Grok AI 沦为色情平台：超半数流量用于成人内容
+两位前 xAI 员工估计，Grok AI 超过一半流量用于色情图片、视频、角色扮演聊天等成人内容，甚至代码模型也频繁收到此类请求。xAI 正扩展 Grok 的图像和视频生成能力，填补 OpenAI、Anthropic、Google 回避的领域。据 SpaceX IPO 文件，2026 年第一季度 Grok 每月生成 100 亿张图片和 20 亿个视频。今年早些时候，X 用户持续数周生成真实人物色情图片，xAI 知情后仅在监管压力下才行动。此事令一些研究人员感到尴尬。目前所有联合创始人已离职，公司正将 GPU 资源出租给 Anthropic。
+xAI
+多模态
+安全/对齐
+行业动态
+22:08
+OpenRouter：Announcements（RSS）
+精选
+71
+OpenRouter MCP 服务器发布
+OpenRouter 推出 MCP 服务器，为编程智能体提供实时模型数据、基准排名、定价和文档查询。开发者通过一键安装（支持 Claude Code、Codex CLI、Cursor 等客户端），即可在编辑器内完成模型筛选、价格对比和测试推理，无需切换标签页。服务器整合 Artificial Analysis、Design Arena 及 OpenRouter 自身排名数据，例如推荐 GLM-5.2 作为性价比最佳的编码模型。工具集包括 models-list、model-get、model-endpoints、benchmarks 等，支持通过 chat-send 发送测试提示，比较不同模型（如 Claude Opus 4.8、GPT-5.5、DeepSeek V4 Pro）的响应、成本和延迟。API 密钥附带 7 天有效期和 10 美元消费上限，可随时撤销。
+MCP/工具
+产品更新
+编码
+推荐理由：OpenRouter 这个 MCP 服务器让编码 agent 直接从编辑器里选模型、查价格、跑测试，省掉了切浏览器查资料的15分钟，做 AI 开发的值得立刻装上。它把模型选择变成了 agent 自己能完成的工作流，而不只是人工猜测。
+22:01
+Hacker News 热门（buzzing.cc 中文翻译）
+50
+"Vibe coding"被指为从开源和企业授权代码中窃取
+Hacker News 热门讨论指出，所谓“vibe coding”并非凭直觉编写，而是窃取开源和企业授权代码。
+GitHub
+现象/趋势
+编码
+21:58
+IT之家（RSS）
+47
+百度千帆 Coding Plan 停止续费，已购用户可正常使用至服务到期
+百度千帆团队6月25日宣布，Coding Plan所有套餐即日起停止续费。该服务是2026年2月推出的AI编码订阅服务，集成GLM-4.7、DeepSeek-V3.2等多款代码模型，兼容Claude Code、Cursor等工具，Lite版首月9.9元后续40元/月，Pro版49.9元/月，上线约四个月。已购用户可正常使用至服务到期，自动续费30日后失效，到期后不再支持续费。
+编码
+行业动态
+21:58
+IT之家（RSS）
+67
+美国拟取消无人驾驶汽车强制配备制动踏板规定，为Robotaxi扩大规模铺路
+美国交通部计划修改《联邦机动车安全标准》，完全无人驾驶车辆不再强制配备制动踏板，为特斯拉Cybercab、Waymo等企业扩大自动驾驶出租车投放规模降低门槛。现行法规要求保留部分人工控制装置，通用汽车因Origin车型未配备此类装置于2024年终止项目。NHTSA表示取消制动踏板不等于放宽制动安全标准，严格制动距离等要求仍保留；可人工驾驶的自动驾驶车辆继续遵守现行标准。方向盘等要求是否放宽尚未明确。
+具身智能
+政策/监管
+21:58
+IT之家（RSS）
+58
+广电总局发布 AI 微短剧分类分层标准，7 月 1 日起施行
+国家广电总局网络视听司6月25日发布AI微短剧分类分层标准，自2026年7月1日起施行。按投资额度和题材分为三层：投资80万元及以上或涉及政治、军事等特殊题材的，按“重点微短剧”管理；投资30万元（含）至80万元且一般题材的，按“普通微短剧”管理；不足30万元且一般题材的，按“其他微短剧”管理。旨在应对AI降低制作成本，推动行业健康发展。
+政策/监管
+视频
+‹ 上一页
+下一页 ›
