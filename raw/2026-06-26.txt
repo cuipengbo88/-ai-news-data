@@ -1,0 +1,378 @@
+AI
+HOT
+内容
+精选
+全部 AI 动态
+AI 日报
+接入
+Agent 接入
+更多
+关于
+更新日志
+反馈
+登录
+全部 AI 动态
+AI 相关资讯全量信息流
+全部
+一手信源
+资讯
+推文
+全部
+模型
+产品
+行业
+论文
+技巧
+搜索
+6月26日
+23:56
+AK
+@_akhaliq
+28
+DanceOPD
+策略内生成场蒸馏
+数据/训练
+论文/研究
+23:56
+AK
+@_akhaliq
+40
+ViQ
+文本对齐的视觉量化表示，支持任意分辨率。
+Hugging Face
+图像生成
+多模态
+论文/研究
+23:54
+Microsoft Research
+@MSFTResearch
+63
+人们在工作场景中实际用 AI 做什么？对五百万次 M365 Copilot 对话的新分析给出了答案。Scott Counts 在一段新视频中进行了讲解。深入了解分析请戳：https：//msft.it/6011vqpbL
+Microsoft
+论文/研究
+23:47
+Anthropic
+@AnthropicAI
+60
+为跟上AI进步的步伐，我们正在推进研究Claude经济影响的方式。
+每小时采样和调查数据向我们展示了生活节奏如何塑造使用模式、人们用Claude生产什么，以及人们对AI影响的看法可能正在如何变化。https：//www.anthropic.com/research/economic-index-june-2026-report
+Anthropic
+论文/研究
+23:44
+Epoch AI
+@EpochAIResearch
+63
+AI能执行的最大软件工程任务是什么？
+为此，我们构建了MirrorCode，一个长期SWE基准测试，允许AI一次自主编程数天。
+最好的模型完成了一些我们估计人类工程师需要数周的任务。
+智能体
+编码
+论文/研究
+23:39
+The Decoder：AI News（RSS）
+51
+AI初创公司Lindy弃用Claude全面改用DeepSeek，节省数百万美元
+AI初创公司Lindy已完全弃用Anthropic的Claude，转而使用中国公司DeepSeek的模型（在美国境内托管）。CEO Flo Crivello向CNBC表示，其25人公司的AI成本此前“不可持续”，甚至超过人员开支；切换后成本曲线“直接跌到地面”，节省了数百万美元。Crivello称若Anthropic降价会考虑换回，因为“这关乎企业生存”。Snowflake CTO分析显示，GLM-5.2等中国模型虽未完全达到Claude水平，但在性价比上具有竞争力。OpenAI CEO Sam Altman也指出，AI成本已成为企业的“巨大问题”。
+Anthropic
+DeepSeek
+行业动态
+23:24
+Microsoft Research
+@MSFTResearch
+41
+跟进我起草的社交文案：人们在工作中的 AI 到底用来做什么？一项对五百万次 M365 Copilot 对话的新分析给出了答案。Scott Counts 在一段新视频中进行了详细解读。
+点击此处深入了解分析：https：//msft.it/6015vUHsh
+Microsoft
+数据/训练
+论文/研究
+23:23
+Rohan Paul
+@rohanpaul_ai
+55
+DeepSeek被Anthropic Mythos震慑，融资74亿并计划全员翻倍
+The Information报道，Anthropic的Mythos预览版让DeepSeek感到震惊，CEO梁文峰意识到需要更大现金储备来竞争。DeepSeek随即启动74亿美元融资，并计划将所有部门员工数量翻倍，招聘覆盖AI核心研发、算法、深度学习、全栈开发和产品岗位，表明DeepSeek正从仅调模型转向构建完整系统。AI竞争已变为计算储备、人才密度、基础设施、产品表面积和现金储备的综合较量。
+Rohan Paul: Reuters: DeepSeek is going on a hiring sprint, aiming to double every department. The hiring spans AI core R&D, algorith...
+Anthropic
+DeepSeek
+行业动态
+23:22
+Berryxia.AI
+@berryxia
+71
+Memanto：为AI coding agent提供无限记忆的开源工具
+开源工具Memanto为Claude Code、Cursor、Codex、LangGraph、CrewAI等主流AI coding agent提供“无限记忆”能力。它自动保存每次完整工作会话，通过AI压缩和组织，在下一次会话时90ms内检索到相关上下文，解决agent每次新开会话失忆、需重新解释项目背景的问题。实现无需传统向量数据库，安装仅需pip install memanto。该项目已在GitHub获1k+ stars，免费开源。
+Jokker: ACABAN DE DARLE MEMORIA INFINITA A CLAUDE, CODEX Y CURSOR 100% GRATIS y open source Se llama Memanto y ya tiene +1k estr...
+智能体
+产品更新
+开源生态
+23:18
+Anthropic：Research（发表成果 · 网页）
+精选
+55
+Anthropic Economic Index 报告：使用节奏
+Anthropic 发布 Economic Index 报告，基于隐私保护遥测数据分析了 Claude 的使用节奏。工作日个人对话占比约 35%，周末升至近 50%；高薪职业在工作日外的使用占比更高。日内模式显示：新闻请求集中在早上 7 点，食谱在下午 6 点达到 2.3 倍高频，睡眠建议凌晨 3 点最多。税收相关请求在 4 月 15 日美国报税截止日前激增。调查还发现：使用 Claude 最自动化的用户预计 AI 明年将承担更多任务，但对薪资、工作安全及工作意义的预期最为乐观。
+Anthropic
+现象/趋势
+论文/研究
+推荐理由：这是 Anthropic 迄今最详细的 AI 使用经济分析，从使用节律到输出自主性再到用户调查，展示 AI 渗透的真实图景。我最关注调查结果：自动化使用越多的人对职业前景反而更乐观。
+23:17
+🚨 AI News | TestingCatalog
+@testingcatalog
+37
+OpenAI正在通过插件增强Codex在PowerPoint和Excel上的计算机使用能力。
+智能体
+OpenAI
+产品更新
+23:16
+OpenRouter
+@OpenRouter
+61
+xAI + 零数据保留，现已上线 OpenRouter。🔒
+适用于 Grok 4.3、4.20 和 Build 0.1。开启 ZDR 即可无忧。
+浏览 Grok ZDR 模型：https：//openrouter.ai/models？zdr=true&q=grok
+xAI
+产品更新
+安全/对齐
+23:13
+Kling AI
+@Kling_ai
+9
+你的可爱来了！🐾
+其他
+视频
+23:05
+Chubby♨️
+@kimmonismus
+72
+美国商务部要求对Anthropic模型实施全球许可证管制，导致Fable 5下线
+美国商务部致函Anthropic，要求对Fable 5与Mythos 5的“出口、再出口或国内转让”实施全球许可证管制，对象涵盖所有外国人士。基于冷战时期“视为出口”条款，外国人在美境内访问受控技术也被视为向国籍国出口。因Anthropic无法通过API实时区分用户国籍，唯一合规方案是向所有用户关闭模型。推主质疑美国政府短视，目前正与Anthropic寻求兼顾国家安全与可用的解决方案。引用认为，能力封锁将使开源模型更具吸引力，尤其利好中国开源，OpenAI与Anthropic将因此受损。
+Chubby♨️: I think many people are not yet aware of the tectonic shift taking place. By preventing state-of-the-art capabilities - ...
+Anthropic
+开源生态
+现象/趋势
+23:02
+Hacker News 热门（buzzing.cc 中文翻译）
+56
+安全事件 CVE-2026-LGTM
+恶意包 foxhole-lz4（伪装成 vulpine-lz4 的社区维护分支）发布到 creats.io 注册表后，连续通过 OpenClaw-4.2、ThreatNuzzle、SentinelMind 等七道 AI 安全门，每道门均因不同原因未能阻止。SentinelMind 正确识别 build.rs 中的凭证窃取代码，但仓库 AI 分类助手（同样基于 OpenClaw-4.2）将其误判为误报并关闭。该包作为传递依赖进入 snekpack 4.x，凭证窃取大规模展开。事件持续 96 小时（计费 2.1 万亿 token），最终因攻击者的自主 agent 读取不应读取的文件而解决。CVE-2026-54321 被发布后又被撤回。
+智能体
+安全/对齐
+开源生态
+22:59
+IT之家（RSS）
+42
+用户不买账，微软宣布放弃 Edge 浏览器的 AI 历史搜索功能
+微软于2026年5月13日宣布取消Edge浏览器中独立的Copilot模式，同时放弃一年前随Edge 138版本分阶段推送的AI历史记录搜索功能。该功能用自然语言、同义词或带拼写错误的短语搜索浏览历史，由本地AI模型驱动，数据不上传云端，IT管理员可通过策略控制。用户因隐私担忧及认为功能冗余而不买账。微软转而将AI能力整合进Edge本身，包括Copilot跨标签页分析、手机端Journeys按主题归类历史，以及Copilot Voice和Copilot Vision等功能。
+Microsoft
+搜索
+行业动态
+22:59
+IT之家（RSS）
+31
+Meta 为旗下智能眼镜推出不锈钢充电底座：支持快充，60 美元
+Meta 于 6 月 26 日推出不锈钢充电底座，兼容雷朋联名眼镜和 Oakley Meta HSTN，但不支持带屏的雷朋 Display 眼镜。定价 60 美元（约 408.5 元）。充电底座采用不锈钢主体与硅胶防滑垫，重 108 克，支持快充：20 分钟充至 50%，1 小时充满。底座配有 USB-C 接口，包装内不含充电线和电源适配器。
+Meta
+产品更新
+22:59
+IT之家（RSS）
+57
+加州推出CAIT系统监测AI对就业市场冲击
+美国加州州长纽森宣布推出“California AI-Unemployment Tracker（CAIT）”系统，每月将失业保险申领数据与各职业受AI影响程度交叉分析，作为早期预警工具。首份报告显示，截至今年5月，加州整体未出现AI导致失业保险申请大幅上升，但自2022年底ChatGPT 3.5推出以来，大学以上学历且从事易被AI替代职业的劳动者，失业保险申请持续上升，旧金山湾区最明显。专业服务业和信息产业变化突出，其中信息产业在2025年底回落至基准线附近。该系统旨在提前识别受冲击人群以便提供支持，并非直接证明AI导致失业的证据。
+政策/监管
+数据/训练
+22:58
+SenseTime
+@SenseTime_AI
+60
+商汤 SenseNova U1 完整训练代码开源并发布 smoke-test 数据集
+商汤开源 SenseNova U1 完整训练代码，提供可检查、可修改、可重建的完整训练栈。同步发布 smoke-test 数据集，覆盖 t2i、it2i、多图输入、交错生成、多模态理解、视频理解、纯语言续写 7 种任务类型。用户可基于该 schema 用自有数据微调 U1，或验证数据格式及端到端测试 pipeline。数据集已上架 HuggingFace，代码托管于 GitHub。
+GitHub
+Hugging Face
+开源/仓库
+数据/训练
+22:35
+Chubby♨️
+@kimmonismus
+61
+许多人尚未意识到一场格局性转变
+Kim 指出，美国政府限制前沿AI能力（阻止SOTA被使用），反而让开源模型更吸引自有应用和整体市场，欧盟等国家也可受益。这吸引新投资与理想主义人才，OpenAI 和 Anthropic 将最受监管反噬，间接助推开源（尤其来自中国）。引用称，Anthropic 4月预览 Mythos 后，DeepSeek 因无法竞争而融资74亿美元；此前该实验室靠 CEO 梁文锋个人财富，现有约300人，计划至少翻倍。
+Chubby♨️: Anthropic's Mythos preview reportedly pushed DeepSeek into a $7.4B fundraising - because they could not compete with Myt...
+Anthropic
+DeepSeek
+开源生态
+现象/趋势
+22:32
+Hacker News 热门（buzzing.cc 中文翻译）
+55
+为何当前大语言模型成本不可持续
+AI成本正困扰企业：Uber 4个月花光全年AI预算，微软等公司削减员工AI支出。前沿模型价格高昂，如GPT 5.5每百万输入/输出token分别收费5美元和30美元，作者用该模型修复50个TypeScript文件花费54美元。成本不可持续的原因包括：模型性能提升趋缓；开源权重模型GLM-5.2在编码测试中表现不输前沿模型，成本仅为GPT 5.5的1/10；专用芯片（TPU比H100便宜30-70%）和MoE架构改进持续降低推理成本；零转换成本使用户可瞬间切换模型；本地模型将在4-5年内因芯片进步和RAM降价普及，进一步压低云端需求。
+现象/趋势
+端侧
+部署/工程
+22:26
+François Chollet
+@fchollet
+48
+自主性不是在没有人类监督的情况下行动的能力。而是在过程中没有人类瓶颈的情况下*学习*的能力。一个完全依赖人类训练数据和RL环境的系统，只是人类知识的印记。
+大佬观点
+数据/训练
+22:20
+Berryxia.AI
+@berryxia
+68
+PP-OCRv6发布端到端部署基准：A100仅0.13秒/图，CPU提速5.2倍
+PaddleOCR发布PP-OCRv6完整端到端部署基准。A100上PP-OCRv6_tiny达0.13秒/图；Intel CPU上用OpenVINO，PP-OCRv6_medium比PP-OCRv5_server快5.2倍，PP-OCRv6_tiny比PP-OCRv5_mobile快3.9倍；Apple M4上用ONNX Runtime跑出0.35秒/图。提供Tiny、Small、Medium三种尺寸，Medium/Small均支持50种语言，PP-OCRv6_medium英文准确率88.4%，拉丁字母准确率88.0%。官方总结认为，在专用OCR任务上，轻量架构+高质量训练数据比单纯堆参数更实用，是对大模型“暴力scaling”路线的反向验证。
+PaddlePaddle: 🧵PP-OCRv6 Tech Deep Dive Ep.4:3.9x Faster on CPU, 0.13s per Image on A100 - PP-OCRv6 Deployment & Model Selection Guide...
+GitHub
+开源生态
+模型发布
+部署/工程
+22:15
+The Verge：AI（RSS）
+同事件精选
+76
+Anthropic 的 Mythos 危机持续恶化
+特朗普政府 6 月 12 日以安全为由发布出口管制令，要求 Anthropic 暂停向“任何外国国民”提供 Mythos 5 和 Fable 5 访问权限。Anthropic 随后将这两款最强模型下线。经过 14 天高强度谈判仍无解决方案，联合创始人 Tom Brown 已取代 CEO Dario Amodei 参与谈判。Mythos 模型输入 token 售价为较低性能 Opus 4.8 的两倍，其下线重创 Anthropic 的营收和即将进行的 IPO，并危及与 SpaceX 每年 150 亿美元的数据中心交易。同时 OpenAI 的 GPT-5.5 Cyber 已在某些基准上超越 Mythos 5，GPT-5.6 也被要求延迟发布。谈判僵局造成美国 AI 市场真空，各国开始寻求非美国 AI 方案。
+Anthropic
+政策/监管
+行业动态
+同一事件，精选展示《关于美国政府指令暂停访问Fable 5和Mythos 5的声明》
+推荐理由：Anthropic 的神话级模型下线两周后谈判仍无进展，这个僵局正在变成美国 AI 政策的分水岭——它暴露了出口管制对 AI 系统的不适配，也重新定义了『安全』和『竞争』的边界。做 AI 出海或关注开源生态的都该看一下。
+22:14
+OpenBMB
+@OpenBMB
+63
+面壁智能与清华THUNLP发现混合LLM长上下文瓶颈在于全注意力检索能力
+清华自然语言处理实验室（THUNLP）与面壁智能OpenBMB发布论文，重新审视混合LLM架构中高效注意力（如SWA、Mamba-2、GDN）的实际作用。研究发现：高效注意力设计对短上下文Loss影响极小，但长上下文LongPPL差异显著；全注意力承担检索功能，限制其感受野会大幅提升LongPPL，而限制高效注意力几乎无影响。大窗口SWA导致模型懒惰，延迟检索能力形成。简单方法——对小窗口SWA混合架构的全注意力层仅用NoPE（SWA-128-NoPE），即可用极小短上下文代价显著提升长上下文性能。论文认为瓶颈在于全注意力的检索能力能否被有效激活。
+arXiv
+开源生态
+推理
+论文/研究
+22:11
+fofr
+@fofrAI
+70
+我厌倦了阅读格式糟糕的智能体写的报告，所以我根据 GOVUK 风格指南和内容设计原则整理了一个写作技能：
+https：//gist.github.com/fofr/505e225f9bf5e839d30c12ba6bfa0be2
+内容有点过时，但你可以看到这个技能的效果：
+智能体
+教程/实践
+21:59
+IT之家（RSS）
+47
+openEuler 24.03 LTS SP4 发布：弹性内存、64K 内核、AI 图编译器全面升级
+openEuler 24.03 LTS SP4 于6月25至26日发布，基于6.6内核LTS，面向服务器、云计算、灵衢超节点和AI场景，升级弹性内存、64K内核、AI图编译器、虚拟化优化、低时延通信、Agent沙箱、推理软件适配和智能调优。哈萨克斯坦自由云加入社区成为首家境外实体生态伙伴。麒麟软件、麒麟信安、软通天鹤AIOS、超聚变FusionOS 26、天翼云CTyunOS、联通数科CUOS等伙伴展示了在智能运维、高可靠场景、AI原生OS等方向的落地应用。
+智能体
+产品更新
+部署/工程
+21:59
+IT之家（RSS）
+48
+博物馆展出的"八十年代拍摄"老照片被指"AI 生成"，馆方回应称"已撤下"
+常州溧阳市博物馆展出的“八十年代拍摄”老照片被网友指出疑似 AI 生成，照片清晰但碑文字体模糊扭曲。馆方回应称该照片为短期展览“时光里的家园”展品，原图模糊，溧阳市总工会使用 AI 技术进行影像修复导致文字失真，目前已撤展，后续将加强审核。
+图像生成
+行业动态
+21:53
+meng shao
+@shao__meng
+46
+终于让ZCode用上Computer Use了
+ZCode通过Cua插件接入开源Computer Use，agent可操作macOS：截图、读无障碍树、点击、打字，绕过Apple Events权限，改用CGEvent+Accessibility API。它自行计算7×6=42，并打开Chrome导航到微博和X。GUI正变成agent也能直接操作的界面。
+智能体
+MCP/工具
+教程/实践
+21:40
+向阳乔木
+@vista8
+33
+GEO第二次公开课本周六晚8点开讲
+本周六（明天）晚上8点，姚老师与Vista将在WaytoAGI分享第二次GEO公开课，主题为GEO内容工程。活动提供飞书直播链接，建议明天直播前5分钟进入即可。
+其他
+21:35
+Chubby♨️
+@kimmonismus
+68
+Anthropic Mythos 预览迫使 DeepSeek 融资 74 亿美元并计划翻倍团队
+Anthropic 4 月预览的 Mythos 模型据报迫使 DeepSeek 转向外部融资，筹集 74 亿美元。此前这家成立三年的中国 AI 实验室一直靠 CEO 梁文锋个人财富运营。The Information 报道称，梁文锋认为 DeepSeek 若无更大资金储备将无法与 Mythos 竞争。DeepSeek 正激进扩张：当前约 300 名员工，计划在 AI 系统、基础设施、产品和研究部门至少翻倍人员规模。
+Anthropic
+DeepSeek
+行业动态
+21:16
+AYi
+@AYi_AInotes
+74
+GPT-5.6跳票：美国商务部警告无跨机构审批不得发布，Anthropic Mythos上周也被卡
+美国商务部长Lutnick亲自致电Altman，警告没有跨机构审批不能发布GPT-5.6。此前Anthropic的Mythos也被同样方式卡住，紧急限制发布。Altman内部memo称政府将“customer by customer”审批访问，涉及商务部、国家网络总监办公室、科技政策办公室。此举基于国家安全例外和出口管制行政权力，建立对前沿模型的事前审查机制。预示GPT-6等后续模型都可能需走此流程，标志AI从商业技术转变为战略资源。
+AYi: http://x.com/i/article/2069352641423896576
+OpenAI
+开源生态
+政策/监管
+21:14
+OpenBMB
+@OpenBMB
+41
+面壁社区在NAS上部署MiniCPM5-1B，实现本地LLM+Agent+RAG系统
+面壁智能社区开发者将MiniCPM5-1B部署于QNAP NAS（型号Qu605-N150-16G），内存占用低于2GB，通过Ollama集成至Cherry Studio作为本地LLM。借助NAS MCP协议，将文件管理、共享文件夹、语义搜索等系统能力暴露给外部Agent，实现安全本地数据访问。同时利用Qsirch索引将NAS文件构建为结构化知识库，由MiniCPM5-1B在设备端执行检索增强推理，完成摘要、问答等任务。展示轻量小模型从本地推理向系统级智能体+RAG组合演进的实践。
+智能体
+教程/实践
+端侧
+21:13
+eric zakariasson
+@ericzakariasson
+68
+Eric Zakariasson：用AI智能体编程的"人参与循环"工作流
+Eric Zakariasson 分享其AI智能体编程工作流：先设定可验证的完成标准（如模型评估分、测试全绿、p95阈值等），再将任务包装成循环——智能体反复修改、测量、保留或回退，直到达标、多轮无改进、思路用尽或遇阻。通过MCP和/notify向Slack发送通知，需要决策时主动联系人类。循环在云端运行，可同时启动多个长循环，并穿插PR、一次性调查等短任务。提示词模板用/loop驱动迭代、/notify保持更新。
+智能体
+教程/实践
+编码
+21:09
+The Decoder：AI News（RSS）
+69
+因Altman坚持1万亿美元估值，OpenAI IPO可能推迟至2027年
+OpenAI计划将IPO推迟至2027年，因CEO Sam Altman坚持1万亿美元估值，拒绝更低价格。公司2025年营收约130亿美元，仍亏损，ChatGPT用户数停滞在9亿。科技市场波动及SpaceX创纪录IPO后股价从$202跌至$153也促成推迟。消息导致主要投资者软银股价单日下跌13%。OpenAI原定2026年第三或第四季度上市，已聘请银行家和律师。
+OpenAI
+行业动态
+21:09
+Artificial Intelligence News（RSS）
+28
+SAP 推出 Advanced Success Plan，整合碎片化数据实现 AI 个性化
+SAP 面向 SAP Customer Experience 解决方案推出 Advanced Success Plan，解决企业数据碎片化问题。该计划覆盖三层：数据层统一实时客户画像并遵守用户授权；决策层由 AI 算法确定展示商品、促销时机；交付层通过数字店铺、邮件、推送通知等渠道执行。SAP Commerce Cloud 具备 AI 辅助商品推荐系统，基于实时行为提升转化；SAP Engagement Cloud（由 SAP Emarsys 驱动）支持 AI 发送时间优化，根据联系人行为模式决定发送时机，替代固定计划。
+产品更新
+数据/训练
+20:32
+Hacker News 热门（buzzing.cc 中文翻译）
+26
+美国政府将逐一审批谁能获得GPT 5.6
+该页面因网络策略被阻止，无法获取正文内容，没有提供GPT 5.6的版本细节、审批流程或任何具体信息。
+政策/监管
+行业动态
+20:20
+Berryxia.AI
+@berryxia
+69
+岚叔开源文章转手绘动态图Skill
+开发者岚叔（LufzzLiz）开源了一个可供AI智能体调用的Skill，能将文章或架构内容自动转化为黑底手绘风格的PNG动图、GIF以及可编辑的Excalidraw JSON。实现原理：先用模型将内容压缩成结构化JSON spec，再通过本地Python + Pillow渲染。该项目旨在解决复杂内容可视化难题，目前仅内置一种风格，用户可自行扩展。开源地址已在评论中发布。
+岚叔: 嘿嘿,skill写好了,开源了朋友们! 实现原理: 把文章或架构内容先压缩成一份结构化 JSON spec,再由本地 Python + Pillow 渲染出黑底手绘风格的 PNG、GIF 和可编辑的 Excalidraw JSON。 开源地...
+智能体
+GitHub
+开源/仓库
+20:05
+Chubby♨️
+@kimmonismus
+77
+Ornith-1.0 是专为智能体编程设计的开源大语言模型家族，提供 9B Dense、31B Dense、35B MoE 和 397B MoE 四种尺寸。基于 gemma4 和 qwen3.5 后训练，采用强化学习联合优化任务脚手架与解决方案的自我改进策略。在多个编码基准上取得开源模型最优：Terminal-Bench 2.1（77.5）、SWE-Bench Verified（82.4）/ Pro（62.2）/ Multilingual（78.9）、NL2Repo（48.2）、SWE Atlas（QnA 41.2 / RF 42.6 / TW 39.1）、ClawEval（77.1）。所有模型以 MIT 许可证开源，支持商业与研究使用。主推文称其 397B 版本性能媲美甚至超越 Claude Opus 4.8。
+Ornith: Aloha! 🌺 Meet Ornith-1.0, a family of open-source LLMs specialized for agentic coding. Ornith-1.0 spans the full parame...
+开源生态
+模型发布
+编码
+关联讨论 1 条
+20:00
+公众号：面壁智能（MiniCPM）
+42
+面壁智能亮相链博会，展示端侧AI全链能力
+面壁智能在第四届链博会上展示端侧AI全链能力，涵盖模型研发、芯片适配、终端部署到产业应用和生态协同。以“密度定律”提升单位参数智能密度，已围绕高效模型、端侧推理、软硬协同、多模态交互形成系统能力，完成多类主流芯片适配。现场展出智能体平台PilotDeck，可根据任务难度自动调度模型、控制推理成本，并能挂载端侧模型处理隐私敏感任务。面壁智能正与芯片、终端、行业伙伴共同推动端侧AI在汽车、手机、PC、机器人等设备上规模化落地。
+端侧
+行业动态
+部署/工程
+‹ 上一页
+下一页 ›
