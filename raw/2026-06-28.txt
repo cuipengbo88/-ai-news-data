@@ -1,0 +1,385 @@
+AI
+HOT
+内容
+精选
+全部 AI 动态
+AI 日报
+接入
+Agent 接入
+更多
+关于
+更新日志
+反馈
+登录
+全部 AI 动态
+AI 相关资讯全量信息流
+全部
+一手信源
+资讯
+推文
+全部
+模型
+产品
+行业
+论文
+技巧
+搜索
+6月28日
+23:10
+Chubby♨️
+@kimmonismus
+51
+对我们来说不太乐观：
+"即使AI泡沫破裂，价格也不太可能改善。三星、SK海力士和美光已经花费数十亿美元重新配置实体厂房空间，用于生产复杂的AI内存芯片。此外，这三家公司还签订了长达2030年的多年供货合同。无论数据中心需求是否降温，对科技巨头的法律义务依然存在。"
+大佬观点
+现象/趋势
+22:56
+Nathan Lambert
+@natolambert
+59
+这是真实的，也是前沿模型氛围监管的可怕后果。
+clem 🤗: Getting regulated by a government because your model is "too dangerous" is the best marketing (especially for enterprise...
+Hugging Face
+大佬观点
+安全/对齐
+政策/监管
+22:21
+PixVerse
+@PixVerse_
+58
+从基本的灰色3D座舱模型到全速电影级圈速。
+Seedance 2.0 使用3D通道锁定运动和相机移动，无需依赖文本提示即可提供精确、一致的结果。
+产品更新
+多模态
+视频
+22:19
+The Verge：AI（RSS）
+56
+帕利塞兹火灾审判：检察官用ChatGPT日志作证，陪审团不信致悬案
+在2025年元旦引发洛杉矶致命野火的纵火案审判中，检察官将被告Jonathan Rinderknecht的ChatGPT日志作为关键证据，包括其用ChatGPT生成火焰图像、询问“为什么我总是这么愤怒”以及抱怨富人毁掉世界等记录，并出示了一段屏幕录制显示其问ChatGPT是否可因香烟引火而追责。但陪审团以10比2的投票支持辩方，法官宣布悬案。一名陪审员表示她“经常和ChatGPT聊天”，认为此举不能证明任何问题，并对检方用聊天记录指控感到愤怒。
+OpenAI
+政策/监管
+22:01
+IT之家（RSS）
+60
+应对美国高端 AI 限制，奥地利推动欧盟引入 Anthropic 落地运营
+奥地利数字化国务秘书亚历山大·普罗尔（Alexander Pröll）致信欧盟委员会，敦促各成员国将 Anthropic 作为战略重点引入欧盟，提供法律确定性、市场准入、资本和价值观。此举意在反制美国阻止外籍人士使用最先进 AI 模型的举措。普罗尔认为，Anthropic 扎根欧洲能吸引人才、留住资金并制定行业标准。此前欧盟委员会发言人曾表示欧洲必须强化技术自主权。
+Anthropic
+政策/监管
+21:51
+🚨 AI News | TestingCatalog
+@testingcatalog
+52
+Google vs Meta 🤖
+> 据《金融时报》报道，Google因容量短缺对Meta使用Gemini施加限制。
+> 据报道，这负面影响了Meta内部与客户支持和内容审核相关的项目，导致项目延期。
+我敢打赌，从长远来看，token效率将成为一个巨大的市场，其商业模式非常透明且可预测。
+Google
+Meta
+行业动态
+部署/工程
+21:32
+小互
+@xiaohu
+64
+Grok 4.5 基于1.5T V9进入SpaceX/Tesla测试
+马斯克宣布Grok 4.5基于1.5T V9基础模型，并在补充训练中加入Cursor数据，现已于SpaceX和Tesla进入私人测试。早期评估显示其性能接近甚至可能超过Opus。RL持续显著优化模型，Grok Build工具每日改进。此外，SpaceX今年将每月发布完全从零训练的新模型。
+Elon Musk: Grok 4.5, based on our 1.5T V9 foundation model, with Cursor data added in supplemental training, is now in private beta...
+xAI
+数据/训练
+模型发布
+21:23
+Berryxia.AI
+@berryxia
+63
+Agent-Reach：为AI Agent免费读取多平台内容的开源CLI工具
+Agent-Reach（3.5K Star）通过CLI工具让AI Agent免费读取Twitter、Reddit、YouTube、GitHub、B站、小红书等多平台内容。核心是智能选择当下最稳定的开源后端，自动健康检查和故障切换，无需自写爬虫。安装后Agent可直接处理“看视频字幕”、“搜产品评价”等任务，全程零API费用、本地运行。项目将碎片能力封装为Agent可调用的skill，实现多后端路由和自动降级，补齐Agent低成本、可靠获取网页和社交媒体内容的能力。
+Berryxia.AI: 这个开源视频制作工作流真爽啊! 单日斩获3000 Star,真的牛~ 又一个把AI coding agent直接变成视频制作工作室的项目开源了,叫OpenMontage。 它把整个视频生产流程拆成12条结构化pipeline(动画解说、纪录...
+智能体
+开源/仓库
+21:23
+Berryxia.AI
+@berryxia
+17
+99%的人不知道的Claude Code分屏功能。如果你是Claude Code桌面端用户，一定要看看。原推主感叹：我特么还真想成为那1%的人，可惜我也不知道😄
+Yanhua: 99%的人不知道的Claude Code分屏功能。 如果你是Claude Code桌面端用户,一定要看看。
+Anthropic
+教程/实践
+编码
+21:10
+The Decoder：AI News（RSS）
+60
+AI成为真正同事的关键：停止回答问题，开始完成任务
+腾讯Youtu Lab联合多所中国大学发布调查论文，提出AI系统需从聊天机器人转向数字同事，核心是结合持久工作空间和可重用技能。思考型LLM（如OpenAI o1、DeepSeek-R1）采用链式推理实现慢思考；工作空间（如
+智能体
+现象/趋势
+21:08
+Chubby♨️
+@kimmonismus
+28
+Anthropic的商业案例值得研究。2025年底至2026年初，其企业/商业领域的使用量出现了惊人增长，使其成为第一。
+Anthropic
+现象/趋势
+21:01
+IT之家（RSS）
+30
+字节跳动为努比亚M153"豆包手机"赠送每月68元标准版会员额度
+字节跳动向努比亚M153“豆包手机”用户赠送价值68元/月的标准版会员额度，有效期至2026年12月31日，支持全端通用。会员默认发放至设备登录的豆包账户，若设备登录多个豆包UID，则发给近期使用豆包手机助手最活跃的账户。权益一周左右生效，用户可在7月3日23:59前确认。该会员对应豆包专业版服务，基于豆包2.1系列大模型。
+行业动态
+20:56
+meng shao
+@shao__meng
+45
+LoanLens：基于LandingAI的AI审贷初筛系统
+LoanLens从六类借款人文档抽取结构化字段，进行欺诈检测与可解释评分，并附带案件RAG问答。采用Schema驱动抽取，可追溯字段来源；欺诈检测包括姓名TF-IDF比对和护照篡改检测；评分透明（信用23%、DTI 23%等），≥60批准，40–59复核，<40拒绝。
+LandingAI: http://x.com/i/article/2070766331306332160
+检索增强
+数据/训练
+行业动态
+20:40
+The Decoder：AI News（RSS）
+65
+Coinbase 转向中国 AI 模型，西方实验室面临定价压力测试
+Coinbase CEO Brian Armstrong 已将公司迁移至中国 AI 模型，采用智谱 GLM 5.2 和月之暗面 Kimi 2.7，token 用量攀升但支出减半。91% 的开发者从未触及旧用量上限。初创公司 Lindy 近期转向 DeepSeek V4，Snowflake 也在测试中国模型作为廉价替代品。Coinbase 部署自动路由系统，根据任务、价格和缓存潜力选择模型，缓存命中率从 5% 提升至 60%。开发者被要求保持上下文精简并开启新会话。公司让每位开发者用量透明但不设上限，Armstrong 表示“AI 支出越多，预期影响越大”。这些举措使 AI 总支出减半。同时，OpenAI 的 GPT-5.6-Sol 与 GPT-5.5 定价相同但更省 token，并推出两个廉价变体，加剧与 Anthropic 的价格战。
+DeepSeek
+OpenAI
+行业动态
+部署/工程
+20:13
+fofr
+@fofrAI
+20
+Gemini 3.5 Flash 是一个很棒的工作马模型，尤其适合子智能体。它坚定、快速，能完成任务。
+智能体
+Google
+评测/基准
+20:08
+Chubby♨️
+@kimmonismus
+65
+Grok 4.5 基于 1.5T V9 基础模型，补充训练加入 Cursor 数据，已在 SpaceX 和 Tesla 进行内测。早期评测显示性能接近甚至可能超过 Opus。RL 持续显著改进模型，Grok Build 工具链每日提升。Elon Musk 宣布今年 SpaceX 将每月发布完全从头训练的新模型。
+Elon Musk: Grok 4.5, based on our 1.5T V9 foundation model, with Cursor data added in supplemental training, is now in private beta...
+数据/训练
+模型发布
+20:01
+IT之家（RSS）
+43
+马斯克：Grok 4.5 已在 SpaceX 和特斯拉内部测试，性能接近 Opus 模型
+Grok 4.5 基于自研 1.5 万亿参数 V9 基础大模型打造，并引入 Cursor 数据完成补充训练，已在 SpaceX 和特斯拉内部开启测试。早期评测显示其性能接近甚至有望超越 Opus 模型。基于人类反馈的强化学习持续提升模型能力，Grok 配套调度框架每日迭代优化。马斯克还透露，SpaceX 今年每个月将推出一批完全从零开始训练的全新模型。
+推理
+行业动态
+20:01
+IT之家（RSS）
+62
+OpenClaw 官方市场惊现"冒名顶替"项目，多达 23 个 Skill 技能伪装成"第一方出品"
+AI智能体安全公司Manifold Security发现，OpenClaw的插件市场ClawHub上1508个技能中有557个采用“@owner/技能名”格式，其中23个直接冒用“@OpenClaw/”或“@ClawHub/”名称，实际发布者与官方无关。该命名空间抢注手法可能用于供应链投毒，但暂未发现恶意代码。ClawHub于6月17日更新命名空间规则，仅允许拥有@openclaw权限的发布者上传，6月19日已移除23个误导技能，并新增命名空间申诉机制。
+智能体
+GitHub
+安全/对齐
+19:51
+🚨 AI News | TestingCatalog
+@testingcatalog
+43
+Grok 4.5 基于 1.5T V9 基础模型，补充训练引入了 Cursor 数据，现已在 SpaceX 与 Tesla 进入私人测试阶段。早期评估显示其性能接近甚至超越 Opus。RL 持续显著提升模型能力，Grok Build 工具链每日改进。今年 SpaceX 将每月发布完全从头训练的新模型。
+Elon Musk: Grok 4.5, based on our 1.5T V9 foundation model, with Cursor data added in supplemental training, is now in private beta...
+xAI
+推理
+模型发布
+19:27
+DogeDesigner
+@cb_doge
+59
+BREAKING： Elon Musk 确认 Grok 4.5 现已在 SpaceX 和 Tesla 进入私有 beta。
+• 早期评估显示性能接近，甚至可能超过 Opus
+• 基于 xAI 的 1.5T V9 基础模型
+• 训练中加入了 Cursor 数据
+• Grok Build 工具每天都在改进
+• 今年每月将发布从头训练的新模型
+SpaceXAI 的节奏简直疯狂。
+模型发布
+评测/基准
+19:00
+IT之家（RSS）
+52
+消息称比亚迪自研智驾芯片璇玑 A3 预计 2027 年首搭腾势品牌量产车型
+据晚点 Auto 消息，比亚迪计划于 2027 年在腾势品牌量产新车上首次搭载自研智驾芯片璇玑 A3。智驾芯片从流片到上车通常需要至少一年。此前 5 月 28 日，比亚迪已发布该芯片并启动规模化量产，支持 L3/L4 自动驾驶。董事长王传福表示，电动化上半场看电池，智能化下半场看芯片。三颗璇玑 A3 芯片总算力超 2100TOPS，结合自研算法深度优化，算力利用率提升 100%。
+端侧
+行业动态
+19:00
+IT之家（RSS）
+31
+华为途灵平台完成三轮技术升级，余承东称全新龙行平台为L3做好准备
+据鸿蒙智行近日披露，华为途灵平台自2023年11月推出已完成三轮结构性技术升级，技术成果已应用于智界S7、问界M9（2023年）、尊界S800、享界S9/S9T（2025年）以及全新问界M9、尊界S800 Grand Design（2026年）。该平台让底盘具备感知与思考能力，实现“看-想-动”。余承东在5月全新问界M9发布会上表示，全新华为途灵龙行平台首创全域融合架构与全链路八大冗余设计，为L3时代做好准备。
+产品更新
+具身智能
+18:50
+Elon Musk
+@elonmusk
+精选
+70
+Grok 4.5，基于我们的1.5T V9基础模型，并在补充训练中加入Cursor数据，现已在SpaceX和Tesla进入私测。初步评估显示其性能接近，或许超越Opus。
+强化学习仍在持续显著改进模型，Grok Build工具链也在日益完善。
+所有参与者的出色工作！
+今年，@SpaceX 将每月发布完全从头训练的新模型。
+xAI
+数据/训练
+模型发布
+推荐理由：Elon 亲自宣布 Grok 4.5 内部测试，性能可能超过 Opus，虽然还没公开可用，但每月从零训练新模型的节奏，意味着算力军备竞赛还在加速。
+18:40
+The Decoder：AI News（RSS）
+精选
+70
+仅有三个AI模型在500天创业测试中盈利超过起始资本
+普林斯顿大学推出CEO-Bench基准测试，让AI智能体在模拟环境中运营订阅软件公司NovaMind 500天，起始资金100万美元。14个测试模型中，仅Claude Fable 5（最佳轮次盈利4715万美元）、Claude Opus 4.8（2780万美元）和GPT-5.5（2130万美元）在最佳运行中超过起始资本。一个不调用语言模型的简单规则启发式方法通过固定定价、配额和针对性开发达到1576万美元，超越除上述三款外的所有模型。多数模型无法保持连贯策略，在模拟结束前破产。该测试旨在衡量AI的长期战略决策能力。
+智能体
+论文/研究
+评测/基准
+推荐理由：普林斯顿的 CEO-Bench 测试了一个反直觉结果，一个不用 AI 的简单规则系统击败了绝大多数模型——在当前 agent 都在比窄任务时，这个测试直指长期战略决策的致命短板，做 agent 的必须看。
+18:21
+🚨 AI News | TestingCatalog
+@testingcatalog
+32
+OpenAI 正在为 Codex 测试一种新的努力选择器 UI，采用滑条形式。
+此外，实时语音支持似乎将被彻底重写，因为之前可用的组件已被移除。
+OpenAI
+产品更新
+编码
+18:21
+PixVerse
+@PixVerse_
+6
+小企鹅从疾病中康复，本该回归日常，但梦境、星星、微光、旧箱子……奇怪的事情逐渐增多，不过它依然我行我素🐧📷
+楽園: 病気から回復したぺんぎんちゃん。 いつもの日常に戻ったはずなのに、 夢、星、小さな光、古い箱...... 少しずつ不思議なことが増えてきました。 でも本人は相変わらずマイペースです🐧📷 #pixversecpp @PixVerse_
+其他
+视频
+18:18
+AYi
+@AYi_AInotes
+67
+Hermes代理优化：搭建自复盘Memory.md记忆循环
+为用户提供不依赖微调或开发的Hermes代理优化方案：通过Memory.md文件构建“会话学习-记录沉淀-迭代优化”闭环。核心流程：1)桌面新建Memory.md，固定偏好、更正、模式、学到的经验四层框架；2)绑定提示词，每次会话前读取并完整应用，任务结束后记录有效做法与失败根因，新结论覆盖旧内容；3)每周精炼压缩零散经验为通用规则；4)定期日期命名归档备份。无需模型微调或部署，几分钟启动，使代理越用越贴合个人工作习惯，从单次随机输出收敛为专属智能体。
+AYi: http://x.com/i/article/2042547855865585664
+智能体
+教程/实践
+18:00
+公众号：卡尔的AI沃茨
+49
+主动型Agent Vida：读取屏幕与文件上下文，实现电脑全托管
+主动型Agent Vida通过读取电脑屏幕、苹果原生应用及文件系统获取完整上下文，用户无需提供详细背景即可自动理解项目，优化提示语并生成可直接用于Claude Code或ChatGPT的生产级Prompt。还能在群聊中结合历史消息自动回复，扫描全盘查找重复文件，重新设计Obsidian架构以区分本地与iCloud存储，通过定时任务整理Downloads文件夹，以及通过浏览器自动化分析邮件并分类。与Computer Use不同，Vida通过双击Option键零帧起手启动。
+智能体
+端侧
+评测/基准
+17:40
+The Decoder：AI News（RSS）
+46
+中国网络安全公司360推出AI工具对抗Mythos，周鸿祎呼吁建立网络核威慑
+中国网络安全公司360安全科技发布两款AI工具：“屠龙锋”用于自动化漏洞挖掘，“倚天镇”用于自动化网络防御。创始人周鸿祎称“屠龙锋”已发现3432个漏洞。他认为中国顶级AI模型仍落后西方20%-30%，因此采用基于智能体的方法将模型与安全专业知识及自动化工具结合。周鸿祎将Mythos类模型比作“AI时代的网络核武器”，呼吁中国建立对等战略威慑能力，避免美国垄断。清华大学教授唐杰（Z.ai创始人，近期发布GLM-5.2）预测中国“类Mythos”模型将在2027年第一季度前出现。
+Anthropic
+产品更新
+安全/对齐
+行业动态
+17:38
+Chubby♨️
+@kimmonismus
+68
+传言称智谱AI新模型在网络安全上对标美国顶尖模型，但信息源存疑
+有传言称zAI新模型在网络安全方面至少与Fable5相当。博主@Kim查找发现只有《华尔街日报》一篇相关文章，但提及的是智谱AI的GLM-5.2，并非新模型。WSJ称GLM-5.2在某些找bug场景可匹配美国顶尖模型；360安全称其Tulongfeng工具可比肩Anthropic的Mythos。@Polymarket也曾引用消息称智谱AI新模型在查找安全漏洞上达到Claude Mythos水平。目前这些说法均未获官方确认，存在信息混淆可能。
+Polymarket: JUST IN: A new Chinese AI model from Zhipu AI reportedly matches Claude Mythos' performance at finding security bugs.
+安全/对齐
+行业动态
+17:00
+IT之家（RSS）
+38
+法拉第未来发布Faber轮臂机器人及Futurist人形机器人
+6月28日，法拉第未来在芝加哥Automate展会上推出“全美首款工业级轮臂机器人”Faber系列（U/T/S三款），应用于工业上下料与物流转运等场景。同时发布全新Futurist人形机器人标准版：身高173cm、重55kg（减重14%）、全身31自由度、膝关节峰值扭矩320N·m、1152Wh双电池续航6小时（上代3倍），支持7×24小时商用部署，定价89900美元（约61.2万元）。Ultra版年内发布，搭载Jetson Thor芯片，支持自主充电，面向高强度场景。
+具身智能
+行业动态
+16:55
+Orange AI
+@oran_ge
+23
+如果有一天程序员写代码的速度提升了10倍
+那程序员应该选择：
+1. 写100倍的代码
+2.用省下来的时间90%做稀缺的重要的事
+你的选择是1还是2？
+你的老板对你的要求是1还是2？
+大佬观点
+编码
+16:10
+The Decoder：AI News（RSS）
+精选
+70
+新浪开源VibeThinker-3B：推理可压缩，事实知识不能
+新浪发布仅3B参数的VibeThinker-3B，在AIME26等数学编程基准上持平DeepSeek V3.2等大200–333倍的模型，LiveCodeBench超越所有20B以下模型，LeetCode竞赛解决123/128题超过GPT-5.2、Kimi K2.5等。但知识密集型GPQA-Diamond大幅落后。模型基于阿里Qwen2.5-Coder-3B，经SFT、强化学习、自蒸馏等多阶段后训练。研究提出“参数压缩-覆盖假说”：逻辑推理依赖少数可压缩模式，而广泛世界知识仍需大参数。模型已开源。
+Hugging Face
+开源生态
+推理
+模型发布
+推荐理由：VibeThinker-3B 用 3B 参数在数学编程上匹敌百倍大模型，推理可压缩而知识不能的假设值得深思。对做推理应用的人来说是个信号。
+16:08
+Chubby♨️
+@kimmonismus
+72
+Kim驳斥Anthropic CEO"恐惧煽动"导致模型禁运的说法
+Kim认为美国政府基于自身安全评估（担忧模型被中国通过蒸馏获取）而非CEO言论决定禁运Fable 5和GPT-5.6。她批评Anthropic沟通失误（拒配合国防部、电话不畅通），并赞同模型被禁源于其真实破坏性能力，Anthropic应主动报告风险而非让Amazon先行披露。
+prinz: A few random thoughts on the Fable 5/GPT-5.6 situation: 1. I see some people on the timeline blaming Anthropic for scari...
+Anthropic
+大佬观点
+安全/对齐
+政策/监管
+16:00
+IT之家（RSS）
+60
+智元第15000台通用具身机器人精灵G2量产下线
+智元今日宣布第15000台通用具身机器人精灵G2正式量产下线。该机器人搭载NVIDIA Jetson Thor芯片，配备19自由度灵巧手、3D触觉感知、高精度力控双臂及5自由度腰腿全向底盘，引入真机RL工具链。支持多人连续语音对话与知识库问答，采用双电池热插拔换电，配备360环视鱼眼和前后双激光雷达实现主动避障，并优化超视距遥操作。可覆盖工业作业、巡检巡逻、安检引导、讲解导览、家庭服务等场景。
+具身智能
+行业动态
+15:56
+Rohan Paul
+@rohanpaul_ai
+60
+研究：AI让自由职业市场更重价格竞争
+一项新研究（arXiv: 2606.21880）表明，AI正在将部分自由职业市场变成价格竞赛，高技能简历的优势被削弱。在ChatGPT出现后，AI暴露程度最高的职业中，人力资本信号（经验、声誉）的重要性下降了约7.8%，而价格的重要性上升了约1.1%。强背景工作者失去了部分需求优势，需求向更便宜的工人转移，表明AI使这些工作者显得更可互换。
+现象/趋势
+论文/研究
+15:48
+jason
+@jxnlco
+64
+Codex 两种计划工作：Scheduled Task 与 Scheduled Message 的区别
+Codex 支持两种计划工作方式。Scheduled Tasks 每次运行创建新线程，适合无需上下文延续的任务，如每日 9 点自动总结邮件、日历；Scheduled Messages 在同一现有线程反复运行，适合需要历史上下文的场景，如每 30 分钟检查 PR 状态并处理评论，直至合并。推文还给出创建可复用循环技能的提示词，让 Codex 自动判断使用哪种方式并引导用户填写关键参数。
+智能体
+OpenAI
+教程/实践
+编码
+15:48
+jason
+@jxnlco
+36
+instructor 1.15.4 发布
+主要是维护性扫除：
+- 修复了 v2 列表/标量响应模型
+- 保留了流式 JSON 字符串中的反引号
+- Image.autodetect 现在处理原始字节
+- 刷新了过时的文档模型字符串，包括 Ollama llama3.2
+小补丁，更少奇怪边缘
+产品更新
+编码
+15:38
+Chubby♨️
+@kimmonismus
+51
+美国官员将中美AI竞赛定性为国家安全对抗
+美国官员将与中国的人工智能竞赛定位为国家安全对抗，称微小领先也能改变结果。众议院外交委员会主席Brian Mast在哈德逊研究所活动上称美国是“超级英雄”、中国是“超级反派”。参议员Jim Banks表示这场竞赛涉及经济、军事和道德层面，警告美国不能输给“最大对手”。财长Bessent直言，中国愿意讨论AI是因为美国目前仍领先，但华盛顿担忧这一优势正不断缩小。作者认为，“Fable 5禁令”必须在此背景下理解。
+政策/监管
+15:28
+MarkTechPost（RSS）
+63
+在Colab中构建Fable 5 Traces工作流：解析工具调用、审计数据与训练基线
+本教程使用Hugging Face上的Fable 5 Traces数据集，在Google Colab中搭建轻量环境并手动下载JSONL文件。流程包括预览原始agent trace示例、规范化工具调用与文本输出、审计数据结构、检测密钥模式，以及可视化输出类型、工具、源根目录和文本长度等分布。还创建了安全的no-CoT聊天/SFT导出，构建关键词搜索辅助，并训练纯Python朴素贝叶斯基线，评估trace上下文能否预测助手的输出类型与工具使用。
+智能体
+Hugging Face
+教程/实践
+‹ 上一页
+下一页 ›
