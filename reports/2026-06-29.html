@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 2026-06-29</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.8;
+    padding: 32px 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.02);
+  }
+
+  .header {
+    background: #fafafa;
+    color: #1d1d1f;
+    padding: 48px 40px 36px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .header h1 {
+    font-size: 34px; font-weight: 700; letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #1d1d1f 0%, #555 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header .date {
+    font-size: 14px; color: #86868b; margin-top: 8px;
+    font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+  }
+
+  .section {
+    padding: 40px;
+    border-bottom: 1px solid #f5f5f7;
+  }
+  .section:last-of-type { border-bottom: none; }
+
+  .section h2 {
+    font-size: 22px; font-weight: 700; margin-bottom: 24px;
+    color: #1d1d1f; letter-spacing: -0.3px;
+    display: flex; align-items: center; gap: 10px;
+  }
+
+  .deep-item { margin-bottom: 32px; }
+  .deep-item:last-child { margin-bottom: 0; }
+  .deep-item h3 {
+    font-size: 17px; font-weight: 600; color: #1d1d1f;
+    margin-bottom: 12px; letter-spacing: -0.2px;
+  }
+  .deep-item p {
+    margin-bottom: 12px; text-indent: 2em;
+    font-size: 15px; color: #424245; font-weight: 400;
+  }
+
+  .quick-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .quick-list li {
+    padding: 14px 18px;
+    background: #fafafa; border-radius: 12px;
+    font-size: 14px; color: #424245;
+    transition: background 0.2s;
+  }
+
+  .tool-item {
+    margin-bottom: 12px; padding: 20px 24px;
+    background: #fafafa; border-radius: 16px;
+    border: 1px solid #f0f0f0;
+  }
+  .tool-item:last-child { margin-bottom: 0; }
+  .tool-item h4 { font-size: 16px; font-weight: 600; margin-bottom: 6px; color: #1d1d1f; }
+  .tool-item p { font-size: 14px; color: #6e6e73; line-height: 1.7; }
+
+  .c-name  {
+    color: #0071e3; font-weight: 600;
+    background: #f0f7ff; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-data  {
+    color: #e05a00; font-weight: 700;
+    background: #fff5ee; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-warn  {
+    color: #d12b2b; font-weight: 700;
+    background: #fff0f0; padding: 2px 10px; border-radius: 6px;
+  }
+  .c-good  {
+    color: #1b8a3d; font-weight: 600;
+    background: #edfaf1; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-tech  {
+    color: #894ecc; font-weight: 600;
+    background: #f6f0ff; padding: 2px 8px; border-radius: 6px;
+  }
+
+  hr.divider {
+    border: none; border-top: 1px solid #f0f0f0; margin: 28px 0;
+  }
+
+  .footer {
+    text-align: center; padding: 28px;
+    font-size: 12px; color: #aeaeb2; font-weight: 500;
+    letter-spacing: 1px; background: #fafafa;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="header">
+    <h1>🔥 AI 日报 2026-06-29</h1>
+    <div class="date">每日自动生成 · 数据来源 aihot.virxact.com</div>
+  </div>
+
+  <div class="section">
+    <h2>📰 深度分析</h2>
+    <div class="deep-item">
+      <h3>1. Meta 的蒸馏陷阱：自研编码助手的无奈与必然</h3>
+      <p><span class="c-name">Meta</span> 最近被曝出内部限制工程师使用 <span class="c-name">Claude Code</span> 和 <span class="c-name">Codex</span>，同时加速自建 <span class="c-tech">MetaCode</span>。表面是防止 <span class="c-warn">能力蒸馏</span>（用竞品输出训练自己模型），背后其实是所有 AI 大厂的共性困局：越依赖最先进的外部模型做基建，越难证明自家模型的“独立智能”。<span class="c-data">数十亿美元</span>的内部 AI 预算让 Meta 必须“去外部化”，但短期内 MetaCode 的效果大概率不如成熟的 Claude Code。对于编导来说，这条信息意味着 <span class="c-good">大厂之间的模型封锁将进一步加剧</span>，未来可用的免费/低价编码助手可能会变少，但也会催生更多独立的、开源的编码工具（比如 <span class="c-tech">Cline</span> 这样的第三方聚合）。<span class="c-warn">蒸馏攻击会成为新的地缘技术摩擦点</span>——今天 Meta 防蒸馏，明天可能就轮到短视频平台防 AI 抓取脚本了。</p>
+    </div>
+    <div class="deep-item">
+      <h3>2. 德勤警告：按小时计费模式将在 2035 年被 AI 打碎</h3>
+      <p>德勤内部会议流出的信息非常直接：<span class="c-warn">AI 将压缩传统按小时计费模式</span>，预计到 <span class="c-data">2035 年</span>，AI 智能体将拿下专业服务市场大部分份额。这意味着咨询、法律、审计这些“卖时间”的行业必须转向固定价格或按成果付费。麦肯锡已经有 <span class="c-data">30% 以上</span> 收入来自成果导向模式。这个趋势对实体老板的启发很明确——<span class="c-good">你的短视频代运营、文案外包也面临同样的逻辑变化</span>。甲方会更倾向于按播放量、留资量付费，而不是按条数付费。作为编导，你手里必须要有能证明“AI 辅助后交付更快、成本更低”的数据，否则议价权会快速流失。同时，这也是一个机会：向老板们推销“AI 批量生产素材 + 人工精调”的按效果付费套餐，可能比固定月费更好卖。</p>
+    </div>
+    <div class="deep-item">
+      <h3>3. Anthropic 工程师的提示词工程实战：评估比改 prompt 更重要</h3>
+      <p><span class="c-name">Anthropic</span> 的应用 AI 工程师 Margot Van Laar 在 <span class="c-tech">Code with Claude</span> 分享了一套非常务实的提示词方法论。核心观点只有两条：<span class="c-warn">大多数人都在维护已有的生产提示词，而不是从零写</span>；<span class="c-warn">评估（Eval）是判断改动是否有效的唯一严谨方式</span>。她举了两个场景：客服机器人需要用 <span class="c-tech">XML 标签</span>结构化输出，并清理掉为旧模型打的“禁止列表”补丁（新模型反而会过度拟合）；零售排班 Agent 应该拆成“生成-评估-修复”三个简单提示词，而不是塞进一个复杂提示词里。对于天天和脚本打交道的短视频编导来说，这完全就是“<span class="c-good">先跑通再迭代，用数据说话</span>”的同款思维。下次你用 AI 改写口播脚本时，别急着调 prompt，先拉一个 A/B 测试集（比如 5 条竞品爆款脚本），然后对比 AI 版本和人工版本的完播率，让数据告诉你怎么改，而不是靠感觉。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>📋 快讯速览</h2>
+    <ul class="quick-list">
+      <li><span class="c-name">OpenAI</span> 成立应急小组调查 <span class="c-tech">Codex</span> 额度异常消耗，原因为风控误限流，已重置所有用户上限。</li>
+      <li><span class="c-name">Meta</span> 限制工程师使用 <span class="c-name">Claude Code</span> 和 <span class="c-name">Codex</span>，防止无意间 <span class="c-warn">蒸馏</span>，加速自建 <span class="c-tech">MetaCode</span>。</li>
+      <li><span class="c-name">Anthropic</span> 与加州政府合作，政府机构可 <span class="c-data">五折</span> 使用 <span class="c-name">Claude</span>，用于起草、汇总文件。</li>
+      <li><span class="c-name">Tidal</span> 发布 AI 音乐政策：<span class="c-data">100%</span> AI 生成内容需标识，<span class="c-warn">不可货币化</span>，7 月中旬起展示图标。</li>
+      <li><span class="c-name">Cline</span> 推出 <span class="c-data">$9.99/月</span> 订阅服务 <span class="c-tech">ClinePass</span>，打包 <span class="c-name">GLM 5.2</span>、<span class="c-name">Kimi k2.7-code</span> 等模型，首月 <span class="c-data">$1.99</span>。</li>
+      <li><span class="c-name">德勤</span> 内部警告：<span class="c-warn">AI 将冲击按小时计费模式</span>，预计到 <span class="c-data">2035 年</span> 智能体占据大部分市场份额。</li>
+      <li><span class="c-name">欧盟</span> 批准新法案：禁止 AI 生成未经同意的色情内容，高风险 AI 合规时限推迟至 <span class="c-data">2027/2028 年</span>。</li>
+      <li><span class="c-name">Proception</span> 与 <span class="c-name">特斯拉</span> 达成和解，完成 <span class="c-data">1100 万美元</span> 种子轮，交付 <span class="c-data">22 自由度</span> 高灵巧度机器人手。</li>
+      <li><span class="c-name">Together AI</span> 月处理 <span class="c-data">400T</span> tokens，创下推理规模里程碑。</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🎬 编导可用的</h2>
+    <div class="tool-item"><h4>🟢 PixVerse Live + Agent + Canvas</h4><p>把手机拍摄的后院视频一键变成黑暗科幻大片，保留原表演完整性。做实体探店或产品展示时，可以 <span class="c-good">免费生成电影级背景</span>，省掉棚拍和后期。7月9日有线上工作坊，建议去学一下 <span class="c-tech">PixVerse Agent</span> 的工作流。</p></div>
+    <div class="tool-item"><h4>🟢 视频讲解 Skills（Berry Xia）</h4><p>只需提供网站/内容/视频地址，自动生成基础讲解视频。对于 <span class="c-good">批量产出产品说明、使用教程</span> 的账号非常实用，尤其适合本地生活类的“功能演示”短内容。</p></div>
+    <div class="tool-item"><h4>🟢 Herdr：终端 AI 智能体多路复用器</h4><p>如果你同时用多个 AI 工具写脚本、做数据分析，<span class="c-tech">Herdr</span> 让你在终端里集中管理所有会话，不用来回切浏览器标签。对 vim 流的编导来说很解压，但需要一点命令行基础。</p></div>
+  </div>
+
+  <div class="section">
+    <h2>🛠️ Vibe Coding 可玩的</h2>
+    <div class="tool-item"><h4>⚡ Cline + ClinePass 订阅</h4><p>花 <span class="c-data">$1.99</span> 首月体验 <span class="c-tech">ClinePass</span>，一条命令接入 <span class="c-name">GLM 5.2</span>、<span class="c-name">DeepSeek V4 Pro</span>、<span class="c-name">Kimi k2.7</span> 等 <span class="c-data">6 个</span> 模型。适合想快速对比各模型代码生成能力、做 <span class="c-tech">vibe coding</span> 原型的开发者，省掉管理多个 API key 的麻烦。</p></div>
+    <div class="tool-item"><h4>⚡ LLM-as-a-Judge 快速入门</h4><p>学会用 AI 验证 AI 的输出，是 <span class="c-good">当前最重要的新兴 AI 技能</span>。今天有教程在 10 分钟内讲清楚如何构建 AI 验证器和裁判。拿来评估你生成的短视频脚本质量、检测带货话术的合规性，都很实用。</p></div>
+    <div class="tool-item"><h4>⚡ Scout：以 KPI 为目标的 AI 智能体</h4><p>用自然语言设定业务目标（如“提升存款转化”），<span class="c-tech">Scout</span> 自动构建智能体，从真实客服对话中学习，能自动推送文案修复。适合 <span class="c-good">测试 AI 在实体店场景中的自动化营销</span>——比如自动回复差评、推送优惠券，所有变更需人工审批，风险可控。</p></div>
+  </div>
+
+  <div class="footer">AI 日报 · 每日自动生成 · 数据截至 2026-06-29</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,366 @@
+AI
+HOT
+内容
+精选
+全部 AI 动态
+AI 日报
+接入
+Agent 接入
+更多
+关于
+更新日志
+反馈
+登录
+全部 AI 动态
+AI 相关资讯全量信息流
+全部
+一手信源
+资讯
+推文
+全部
+模型
+产品
+行业
+论文
+技巧
+搜索
+6月30日
+00:47
+Chubby♨️
+@kimmonismus
+22
+Cursor 迎来重大更新（Big day），主推文猜测：Composer 3？
+Ben Lang: Big day for Cursor
+编码
+行业动态
+00:34
+AK
+@_akhaliq
+36
+PhysisForcing
+用于机器人操作的物理强化世界模拟器
+具身智能
+论文/研究
+00:28
+Rohan Paul
+@rohanpaul_ai
+66
+Dario Amodei 持非常强硬的观点，认为中国不应拥有强大的人工智能。
+他说--"这符合美国的国家安全利益……情况非常明确，反对它的论点都很可疑。"
+- 来自 "Dwarkesh Patel" YouTube 频道
+Rohan Paul: 👀 This is from an ex-Meta PM.
+Anthropic
+大佬观点
+00:23
+PixVerse
+@PixVerse_
+35
+推出 PixVerse Live：面向创作者、营销人员和电商品牌的美国免费线上会议，学习制作生产级 AI 视频。
+学习掌握 PixVerse Agent + Canvas。
+📅7月9日，上午10-11点（太平洋夏令时）
+🔗了解更多及注册：https：//luma.com/ltct01ib
+行业动态
+00:23
+jason
+@jxnlco
+6
+回想到当时我在做关于如何使用 RStudio、Jupyter Notebooks 和训练 VAE 的工作坊….
+已经很久了。
+其他
+数据/训练
+00:22
+The Verge：AI（RSS）
+68
+议员欲禁止AI公司出售您的健康数据
+一项新提案将禁止向数据经纪商出售美国人的健康与位置信息，包括用户向ChatGPT、Claude等AI聊天机器人透露的数据。Elizabeth Warren与Mary Gay Scanlon计划未来几周推出《健康与位置数据保护法》新版。该法案2022年首次提出时仅禁止数据经纪商收集和销售健康与位置数据，四年后修订为禁止其他公司将此类数据出售给经纪商，并特别覆盖输入AI系统的数据。此前xAI的Grok、OpenAI的ChatGPT Health及Anthropic的Claude for Healthcare已涉足医疗数据处理。法案要求联邦贸易委员会180天内制定规则，允许FTC、州检察长及受影响个人起诉执行，未来10年拨款10亿美元用于执法。
+Anthropic
+OpenAI
+政策/监管
+00:07
+The Decoder：AI News（RSS）
+54
+Meta限制使用Claude Code和Codex以防AI能力蒸馏
+Meta正限制工程师使用Anthropic的Claude Code和OpenAI的Codex，防止这些AI工具的输出被纳入自身训练数据，以避免能力蒸馏。内部备忘录警告若模型输出泄漏将导致与合作伙伴严重升级。Meta正自建编码助手MetaCode以降低对外部工具依赖，因今年内部AI使用预计花费数十亿美元。政策禁止使用AI输出来创建测试任务或进行代码分析，仍需人工审核。行业因此产生摩擦——Anthropic指控阿里巴巴实施迄今最大蒸馏攻击，马斯克承认xAI部分蒸馏OpenAI模型。OpenAI、Anthropic和Google的服务条款均禁止使用模型输出构建竞争系统。
+Meta
+安全/对齐
+行业动态
+00:04
+elvis
+@omarsar0
+59
+Cline 推出 ClinePass 订阅服务，月费 $9.99，提供 2-5 倍折扣价访问 GLM 5.2、Kimi k2.7-code、Mimo 2.5、Deepseek v4 pro、Minimax M3 等开源权重模型，省去管理多 API 密钥的麻烦。首月优惠价 $1.99，可通过 npm i -g cline 注册后在 Cline CLI 及 IDE 中使用。
+Cline: We've been impressed with GLM-5.2 and so are introducing a $9.99/month subscription to give you 2-5x discounted access t...
+产品更新
+开源生态
+00:01
+IT之家（RSS）
+63
+安全公司Push Security披露黑客利用OpenAI组织邀请功能实施钓鱼攻击
+安全公司Push Security披露，黑客假借其名义创建OpenAI组织，通过官方通知邮箱发送邀请邮件。邮件通过标准身份验证，域名不符提醒仅以普通文字显示易被忽略。被邀请员工默认获Owner权限，黑客提前绑定Visa信用卡消除付费门槛。加入无需额外验证，点击链接即可。调查显示其他受邀员工仍为待接受状态，未发现数据泄露。Push Security已向全员发送警告并设置过滤规则。
+OpenAI
+安全/对齐
+00:01
+IT之家（RSS）
+51
+防止蒸馏第三方模型，Meta限制AI工程师使用Claude与Codex
+Meta已限制其AI工程部门工程师使用Anthropic的Claude Code与OpenAI的Codex，以防止无意间触发蒸馏行为——借助竞品模型输出训练自家AI模型，该操作违反用户协议。这份5月出台、目前仍在生效的内部规范警告，若竞争对手的AI输出渗入训练数据，可能引发与合作企业之间的严重纠纷。Meta发言人表示有明确政策规范团队以负责任方式使用AI工具。
+Meta
+数据/训练
+行业动态
+6月29日
+23:58
+Nathan Lambert
+@natolambert
+50
+Together AI 月处理 400T tokens。
+Vipul Ved Prakash: http://x.com/i/article/2071357845443153921
+行业动态
+部署/工程
+23:58
+Rohan Paul
+@rohanpaul_ai
+49
+Giga 发布 Scout，一种以业务 KPI 为目标的 AI 智能体工具。用户用自然语言设定目标，Scout 自动构建智能体，从真实对话中学习（尤其是人工客服介入时），测试每次更改并保留有效部分。小型文案和策略修复可自动推送；涉及资金或系统的操作会带证据路由给团队审批。例如，金融科技公司将"资金存款"设为 KPI，Scout 智能体能自动触达未存款客户并促成存款，恢复流失收入。Scout 还能自行检测并修复自身集成故障，所有变更需用户批准后才生效。
+Meer | AI Tools & News: You set the goal. Scout gets you there. most agent tools hand you the KPIs everyone already tracks. scout works backward...
+智能体
+产品更新
+23:57
+SenseTime
+@SenseTime_AI
+35
+商汤 SenseNova-U1-8B-MoT 可生成高质量信息图
+商汤推出 SenseNova-U1-8B-MoT-Infographic 模型，能够生成工作室级别的高密度信息图，此前这类工作流程缓慢且昂贵。YouTuber CAPITAL R 制作了演示视频，模型已在 HuggingFace 上线，GitHub 页面展示示例图片，并开放 Discord 社区。
+GitHub
+Hugging Face
+图像生成
+模型发布
+23:55
+Google Blog：AI（RSS）
+39
+问AI专家：全栈AI到底是什么？
+一位Google专家解释了全栈AI方法的含义，并指出这一方法长期以来一直是Google AI工作的基础。
+Google
+教程/实践
+部署/工程
+23:53
+🚨 AI News | TestingCatalog
+@testingcatalog
+64
+Cline 发布 ClinePass 按月订阅服务，覆盖其 IDE 扩展、CLI 和 SDK，取代多个提供商的独立 API 密钥。当前套餐包括 GLM 5.2、Kimi K2.7 Code、DeepSeek V4 Pro、MiniMax-M3 及 Qwen3.7 等开源权重编码模型。Cline 称对 GLM-5.2 印象深刻，推出 $9.99/月订阅，提供 2-5 倍折扣访问；另提供 $1.99 促销价，通过 `npm i -g cline` 注册即可使用。
+Cline: We've been impressed with GLM-5.2 and so are introducing a $9.99/month subscription to give you 2-5x discounted access t...
+产品更新
+编码
+23:37
+The Decoder：AI News（RSS）
+60
+德勤内部警告：AI将冲击按小时计费模式
+德勤经理在内部全员会上警告，AI将大幅压缩传统按小时计费的咨询模式。预计到2035年，AI智能体将占据专业服务市场大部分份额，引发员工“被机器人取代”的担忧。行业被迫转向固定价格和按成果付费模式，但转型伴随财务风险——项目超支时公司需自行承担成本。据《华尔街日报》报道，德勤美国公共部门咨询负责人Jason Manstof上月展示的图表显示，按小时计费业务到2035年将萎缩至市场一小部分。麦肯锡全球收费中已有超30%来自成果导向模式，波士顿咨询公司也在加速推进类似定价模型。
+现象/趋势
+行业动态
+23:35
+小互
+@xiaohu
+46
+瞎捣鼓了一个东西
+http：//Best.xiaohu.ai
+给点意见🤓
+产品更新
+开源生态
+23:31
+StepFun
+@StepFun_ai
+41
+Step 3.7 Flash 在 Claw-Eval General 自主智能体评测中排名第二。
+我们在多步执行和长周期任务鲁棒性方面表现强劲，排名仅次于 Claude Opus 4.6。
+这是面向真实世界智能体工作负载的有前景的信号。
+智能体
+评测/基准
+23:29
+swyx @aiDotEngineer WF Day 1
+@swyx
+18
+AIE 工作坊日 https：//x.com/i/broadcasts/1dGYllOggQoKX
+其他
+教程/实践
+23:24
+Berryxia.AI
+@berryxia
+61
+Anthropic工程师在Code with Claude分享提示词工程实战手册
+Anthropic应用AI工程师Margot Van Laar在Code with Claude分享提示词工程实战手册。核心观点：维护已有提示词比从零写更常见，最佳起点是评估（Eval）而非直接改提示词。两个场景：客服机器人需用XML标签结构化，移除旧模型冗余指令，为精确计算提供工具；零售排班Agent应拆分成生成-评估-修复循环，使用更强推理模型（Opus）+自适应思考。强调评估是判断改动有效性的唯一严谨方式。
+智能体
+Anthropic
+推理
+教程/实践
+23:24
+Berryxia.AI
+@berryxia
+12
+曾经，熬夜刷bbos ios beta 安卓 dev 自制包的少年 。
+如今，已经已是只能熬夜榨干Codex和Claude的老登。
+Beta Profiles: iOS 27 Beta 3 is expected next week. This week, Apple could release iOS 26.6 Beta 3, iOS 26.5.2, or both.
+其他
+23:24
+Berryxia.AI
+@berryxia
+精选
+77
+Anthropic工程师Margot Van Laar：提示词工程实战--调试生产提示词为主，评估是唯一严谨方式
+An anthropic应用AI工程师Margot Van Laar在Code with Claude分享提示词工程实战，核心观点：大部分时间在调试和维护已有生产提示词而非从零编写。两个场景：客服机器人维护中，用XML标签结构化清理，移除旧模型遗留的“禁止列表”指令（新模型会过度拟合），精确计算应调用工具，转人工决策需明确代价与收益；零售排班Agent从零构建时，拆成生成-评估-修复三个简单提示词更稳定，选用更强推理模型（Opus）。她反复强调：评估（Eval）是唯一严谨方式，没有评估就是碰运气。
+Berryxia.AI: 睡前来一发,这个视频还是挺完美的。 Anthropic的应用AI工程师Margot Van Laar在Code with Claude分享了提示词工程的实战手册。 核心观点是:我们很少从零写提示词,大部分时间都在调试和维护已有的生产提示词。...
+智能体
+Anthropic
+推理
+教程/实践
+推荐理由：Margot Van Laar把提示词维护讲到了工程级别，评估驱动迭代、清理旧指令、拆分任务循环，这些方法比死记prompt模板重要得多，做AI应用的人都该看一遍。
+23:24
+Berryxia.AI
+@berryxia
+64
+Anthropic工程师分享提示词工程实战手册
+Anthropic应用AI工程师Margot Van Laar在Code with Claude分享提示词工程实战手册。核心观点：生产提示词大多时间在调试维护，最好起点是评估而非直接修改。维护客服机器人提示词时，需用XML标签结构化，移除冗余补丁，明确输出格式；避免旧模型“禁止列表”指令在新模型上过度拟合；精确计算应赋予工具；升级决策需说明代价与收益。从零构建零售排班Agent，应拆分为生成-评估-修复循环，三个简单提示词各司其职；更强推理模型+自适应思考更高效。评估是唯一验证改动的严谨方式。
+智能体
+Anthropic
+教程/实践
+23:05
+Hacker News 热门（buzzing.cc 中文翻译）
+63
+Tidal AI 政策
+Tidal 发布 AI 生成音乐政策，将完全或主要由生成式 AI 创作的音乐定义为 AI 生成音乐。Tidal 接受这类内容但要求标识，7 月中旬起听众将在 100% AI 生成内容旁看到图标；欺诈行为（欺骗听众、干扰真实艺术家、大量上传或异常流媒体）将被阻止或移除。自即日起，AI 生成音乐不可货币化，版税仅归人工创作的原作；Tidal Upload 独立艺术家上传内容同样适用。
+多模态
+行业动态
+23:04
+elvis
+@omarsar0
+77
+Meta AI 发布 Brain2Qwerty v2，非侵入性脑信号编码器最新里程碑，论文同日发表于《Nature》。该模型能从原始脑信号实时解码完整句子，准确度逼近需开颅手术的侵入式技术；从 v1 的字符级解码升级为词语及语义级解码，显著提升通信精度，有望帮助因脑损伤或障碍无法交流的数百万患者。
+AI at Meta: We're sharing the next major milestone in our non-invasive brain-to-text decoder research: Brain2Qwerty v2. Building on ...
+Meta
+多模态
+论文/研究
+关联讨论 1 条
+23:01
+IT之家（RSS）
+50
+美国加州与Anthropic达成合作：政府机构可半价使用Claude
+6月29日，加州州长纽森宣布与Anthropic合作，州级行政部门及市、县政府可五折使用Claude系列AI工具，获免费培训及Anthropic开发人员的技术援助与工作流指导。Claude将协助政府处理文件起草、汇总、信息分析等任务，改善公共服务。此前，美国国防部于3月将Anthropic认定为“供应链风险”实体；6月，商务部以国家安全及越狱风险为由，对Anthropic的Fable 5和Mythos 5模型实施严格出口管制。
+Anthropic
+政策/监管
+行业动态
+22:57
+Rohan Paul
+@rohanpaul_ai
+49
+Anthropic CEO Dario Amodei 在 2023 年美国参议院证词中警告，开源模型扩展正走向危险路径。他指出 AI 中的开源与传统开源不同，模型是开放权重（open weights）而非开源，无法看到内部，协作优势有限。他认为开源是"红鲱鱼"，只关心模型性能而非是否开源，以 Deep Seek 为例，不在乎它是否开源。他还强调开源并非免费，模型需托管在云端进行推理，成本高且推理难度大。
+Rohan Paul: Anthropic CEO Dario Amodei on Open-Source AI Models. "I don't think open source works the same way in AI that it has wor...
+Anthropic
+大佬观点
+开源生态
+22:43
+Gary Marcus：The Road to AI We Can Trust（RSS）
+6
+Gary Marcus 宣布离线度假，附 AI 生成自行车事故趣图
+Gary Marcus 在最新帖子中宣布即将离线度假，并分享了一张 Oren Etzioni 发送的 AI 生成自行车事故图片（源自真实的 REI 广告），同时提及了“The Klarna Effect”彩蛋。
+其他
+22:35
+Hacker News 热门（buzzing.cc 中文翻译）
+精选
+71
+Herdr：驻留在终端中的AI智能体多路复用器
+Herdr是一个驻留在终端中的AI智能体多路复用器，允许用户在单一终端界面内管理和切换多个AI智能体会话。
+智能体
+GitHub
+MCP/工具
+开源/仓库
+推荐理由：这个工具把 AI 代理管理塞进终端，比开一堆浏览器标签自然，对命令行重度用户是个值得一试的 early idea。
+22:25
+TechCrunch：AI（RSS）
+57
+Proception 与特斯拉达成和解并完成 1100 万美元种子轮融资
+前特斯拉Optimus技术负责人Jay Li创立的机器人手公司Proception已与特斯拉就商业秘密诉讼达成和解，特斯拉本月撤诉。公司周一宣布完成1100万美元种子轮融资，由First Round Capital领投，Y Combinator和BoxGroup跟投。同时开始向研究者和机器人公司交付首批高灵巧度机器人手，该手拥有22个自由度、每指多关节，通过内置传感器的数据手套收集人类手部交互数据，无需机器人参与。Li认为硬件与可扩展数据结合是解决灵巧操作难题的关键，目标成为顶级机器人手供应商。
+具身智能
+行业动态
+22:24
+Berryxia.AI
+@berryxia
+45
+开发者跑通AI视频讲解Skills，可自动生成内容
+Berry Xia 宣布成功完成了一套“视频讲解的Skills”开发与测试。用户只需提供网站、内容、视频地址等信息，该技能就能自动生成基础的讲解视频。作者询问社区兴趣度，表示如果需求多可能会进一步分享。目前未披露具体使用的模型或平台名称。
+智能体
+教程/实践
+视频
+22:23
+PixVerse
+@PixVerse_
+40
+过去，打造一个完整的黑暗科幻世界需要摄影棚布景、复杂的合成技术以及大量视效预算。
+有了 PixVerse，一段简单的后院手机拍摄视频也能转化为电影级场景，同时完全保留原表演的完整性。
+产品更新
+视频
+22:17
+Chubby♨️
+@kimmonismus
+50
+Meta 陷入蒸馏陷阱：自研 MetaCode 替代外部工具
+Meta 正面临每个 AI 公司都会遇到的难题：想用内部系统 MetaCode 取代 Claude Code、Codex 等昂贵的外部编码工具，但在构建更好的编码模型时，必须确保不意外地使用竞争对手模型的输出进行训练或评估。这就是知识蒸馏陷阱——公司越依赖前沿模型建设内部 AI 基础设施，就越难证明智能来源的独立性。
+Meta
+数据/训练
+现象/趋势
+22:05
+Hacker News 热门（buzzing.cc 中文翻译）
+63
+对人工智能时代软件工程的思考
+作者以软件工程师和小说家双重身份，对比AI前后的典型工作流。AI通过学习万亿行公开源代码，已能持续生成高质量代码，但开发者角色从亲手编写变为“编辑”：撰写提示词、审查AI输出、必要时修改或合并代码。AI如同能力合格但缺乏二十年后系统级知识与机构记忆的初级/中级开发者，无法理解法律合规、外部系统延迟、未来功能冲突或敏感数据安全风险。资深开发者必须核验和修正看似可用的AI代码。文章同时类比历史小说家研究过程，指出深度沉浸的心流体验仍是核心。
+现象/趋势
+编码
+22:04
+elvis
+@omarsar0
+56
+LLM-as-a-Judge 在约10分钟内解释完毕。
+学会构建AI验证器和裁判是当今最重要的新兴AI技能之一。
+这里提供一个快速介绍，以及在哪里学习如何应用LLM-as-a-Judge。
+推理
+教程/实践
+评测/基准
+22:01
+IT之家（RSS）
+53
+OpenAI 成立应急小组调查 Codex 额度异常消耗问题
+OpenAI 组建应急专项攻坚小组，处理用户反馈的 Codex 编码智能体额度消耗速度远超往常的问题。官方称部分用户额度“消耗速度超出预期”，原因为防滥用风控系统错误限流。工程负责人表示已全面重置所有用户额度上限，并开展问题溯源。OpenAI 称本次故障影响范围有限，平台持续监控。
+OpenAI
+编码
+行业动态
+22:01
+IT之家（RSS）
+65
+欧盟批准新法案：禁止AI生成未经同意的色情内容，延迟高风险AI合规时限
+欧盟理事会今日批准新法案，在《人工智能法案》中新增禁止利用AI生成未经同意的色情与私密内容及儿童性虐待材料。能生成裸体图像或通过“消除衣物”技术暴露私密部位的AI系统将于今年12月起全面禁用。新法案还要求欧盟委员会提供指导方针以减轻高风险AI系统运营商合规负担，并推迟合规时限：独立高风险系统最迟2027年12月2日，嵌入产品的高风险系统最迟2028年8月2日。
+安全/对齐
+政策/监管
+21:49
+fofr
+@fofrAI
+54
+这是一个提示词，展示了文本在Omni中的良好效果。
+该提示词的精确文本逐字显示在此环境视频中。
+文本逐句出现，如同电影的开头。
+背景是飞过蓝天。
+多模态
+教程/实践
+视频
+21:25
+TechCrunch：AI（RSS）
+50
+Omen AI 获 3100 万美元融资，用微型光谱仪实时监测数据中心液冷系统
+数据中心液冷系统的冷却液若细菌滋生会导致堵塞，需停机数小时冲洗，单次损失达数百万美元。Omen AI 开发微型光谱仪，实时监测冷却液中的细菌生长，并检测铜、铬等磨损颗粒以预警泵体或密封件故障，替代传统送样检测。公司今日宣布完成 3100 万美元 A 轮融资，由 Nava Ventures 领投，CRV、Vanderbilt University、Mann+Hummel 等跟投。Omen AI 由 Zach Laberge 于 2024 年创立，已与十余家数据中心客户合作，包括使用 AMD 芯片的 AI 计算云公司 TensorWave。
+行业动态
+部署/工程
+21:19
+凡人小北
+@frxiaobei
+15
+上周 DeepSeek 消耗了 50，从这周开始得 100 了。
+其他
+‹ 上一页
+下一页 ›
