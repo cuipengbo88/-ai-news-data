@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 2026-06-30</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.8;
+    padding: 32px 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.02);
+  }
+
+  .header {
+    background: #fafafa;
+    color: #1d1d1f;
+    padding: 48px 40px 36px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .header h1 {
+    font-size: 34px; font-weight: 700; letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #1d1d1f 0%, #555 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header .date {
+    font-size: 14px; color: #86868b; margin-top: 8px;
+    font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+  }
+
+  .section {
+    padding: 40px;
+    border-bottom: 1px solid #f5f5f7;
+  }
+  .section:last-of-type { border-bottom: none; }
+
+  .section h2 {
+    font-size: 22px; font-weight: 700; margin-bottom: 24px;
+    color: #1d1d1f; letter-spacing: -0.3px;
+    display: flex; align-items: center; gap: 10px;
+  }
+
+  .deep-item { margin-bottom: 32px; }
+  .deep-item:last-child { margin-bottom: 0; }
+  .deep-item h3 {
+    font-size: 17px; font-weight: 600; color: #1d1d1f;
+    margin-bottom: 12px; letter-spacing: -0.2px;
+  }
+  .deep-item p {
+    margin-bottom: 12px; text-indent: 2em;
+    font-size: 15px; color: #424245; font-weight: 400;
+  }
+
+  .quick-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .quick-list li {
+    padding: 14px 18px;
+    background: #fafafa; border-radius: 12px;
+    font-size: 14px; color: #424245;
+    transition: background 0.2s;
+  }
+
+  .tool-item {
+    margin-bottom: 12px; padding: 20px 24px;
+    background: #fafafa; border-radius: 16px;
+    border: 1px solid #f0f0f0;
+  }
+  .tool-item:last-child { margin-bottom: 0; }
+  .tool-item h4 { font-size: 16px; font-weight: 600; margin-bottom: 6px; color: #1d1d1f; }
+  .tool-item p { font-size: 14px; color: #6e6e73; line-height: 1.7; }
+
+  .c-name  {
+    color: #0071e3; font-weight: 600;
+    background: #f0f7ff; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-data  {
+    color: #e05a00; font-weight: 700;
+    background: #fff5ee; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-warn  {
+    color: #d12b2b; font-weight: 700;
+    background: #fff0f0; padding: 2px 10px; border-radius: 6px;
+  }
+  .c-good  {
+    color: #1b8a3d; font-weight: 600;
+    background: #edfaf1; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-tech  {
+    color: #894ecc; font-weight: 600;
+    background: #f6f0ff; padding: 2px 8px; border-radius: 6px;
+  }
+
+  hr.divider {
+    border: none; border-top: 1px solid #f0f0f0; margin: 28px 0;
+  }
+
+  .footer {
+    text-align: center; padding: 28px;
+    font-size: 12px; color: #aeaeb2; font-weight: 500;
+    letter-spacing: 1px; background: #fafafa;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="header">
+    <h1>🔥 AI 日报 2026-06-30</h1>
+    <div class="date">每日自动生成 · 数据来源 aihot.virxact.com</div>
+  </div>
+
+  <div class="section">
+    <h2>📰 深度分析</h2>
+
+    <div class="deep-item">
+      <h3>1. 美团 LongCat-2.0：专为「Agentic Coding」造的 MoE 巨兽</h3>
+      <p><span class="c-name">美团LongCat</span> 发布了旗舰模型 <span class="c-name">LongCat-2.0</span>，采用 <span class="c-data">1.6T</span> 参数 MoE 架构，仅有 <span class="c-data">48B</span> 活跃参数，原生支持 <span class="c-data">1M</span> 上下文窗口。定价方面，Input Cache <span class="c-data">$0.015/1M tokens</span>、Output <span class="c-data">$2.95/1M tokens</span>，这个定价在长上下文场景下很有竞争力。技术上最大的亮点是三大设计：<span class="c-tech">LSA稀疏注意力</span>实现高效 1M 扩展；<span class="c-tech">Zero-Compute Experts</span> 动态激活 <span class="c-data">33B–56B</span> 参数/token，无算力浪费；<span class="c-tech">MOPD</span> 将专家分为 Agent / Reasoning / Interaction 三组，按任务门控路由。</p>
+      <p><span class="c-good">关键是它专为 agentic coding 设计</span>，在 <span class="c-tech">SWE-bench Pro</span> 上取得 <span class="c-data">59.5</span> 分，性能接近主流闭源模型。这意味着做 coding agent 的团队现在有了一个国产的高性价比选择，而且已经在 <span class="c-name">SiliconFlow</span> 上提供 Day 0 服务，可以直接上手跑。对于我们做实体短视频编导的，这个信号是：AI 编程的能力门槛再次降低，未来用自然语言驱动代码生成会更稳定，我们的「副业 vibe coding」又会多一个趁手的模型。</p>
+    </div>
+
+    <div class="deep-item">
+      <h3>2. AI 选目标误炸学校：美军实践暴露系统级断裂</h3>
+      <p><span class="c-warn">美军在打击伊朗时首次大规模使用 AI 选择目标</span>，<span class="c-name">Anthropic</span> 的 <span class="c-name">Claude</span> 模型嵌入 <span class="c-name">Palantir</span> 的 Maven Smart System，首日建议约 <span class="c-data">1000</span> 个目标。然而对一个学校的导弹袭击导致约 <span class="c-data">120</span> 名儿童死亡。调查发现，情报分析师早在 <span class="c-data">2019</span> 年就通过数字工具标记该地点已变为小学，但该工具<span class="c-warn">未连接</span>军方官方目标数据库 <span class="c-tech">MIDB</span>，信息从未送达指挥官。<span class="c-tech">MIDB</span> 建于 <span class="c-data">1980</span> 年代，依赖手动输入，替代系统 MARS 多年延迟。</p>
+      <p><span class="c-warn">这不是模型出错，而是整个情报系统的数据断裂</span>。对实体行业编导来说，这个案例比任何技术报告都更有警示意义：你用了再强的 AI，如果前端的「数据底座」（比如门店库存、客户档案、脚本库）是割裂、过时的，那 AI 的建议就是建立在沙子上的城堡。套用到短视频业务，就是账号数据、爆款素材、用户标签如果各存各的，AI 给出来的选题建议就很可能「瞄偏」。</p>
+    </div>
+
+    <div class="deep-item">
+      <h3>3. Agents-A1：35B 追平万亿参数，注意力从「参数规模」转向「视野扩展」</h3>
+      <p>研究人员提出 <span class="c-name">Agents-A1</span>，一个 <span class="c-data">35B</span> 参数的 MoE 智能体模型，<span class="c-warn">仅用 1/30 的参数达到万亿参数级性能</span>。核心手段是扩展智能体 horizon（长轨迹与异构能力），团队构建了平均 <span class="c-data">45K token</span> 的智能体轨迹，并采用三阶段训练：全领域监督微调、领域级教师模型训练、<span class="c-tech">多教师领域路由在线蒸馏</span>（含显著词汇对齐）。对比万亿参数模型 <span class="c-name">Kimi-K2.6</span> 和 <span class="c-name">DeepSeek-V4-pro</span>，它在 <span class="c-tech">SEAL-0</span>（<span class="c-data">56.4</span>）、<span class="c-tech">IFBench</span>（<span class="c-data">80.6</span>）、<span class="c-tech">HiPhO</span>（<span class="c-data">46.4</span>）等多个基准上领先。</p>
+      <p><span class="c-good">这给所有做 Agent 和长程推理的团队一个明确的信号：</span>「扩展视野」比「无脑堆参数」更务实。对于实体老板的短视频编导来说，这意味着未来 AI 助手处理复杂任务（比如策划一个月的选题排期、跨门店协调素材）的能力会大幅提升，而不只是生成单个脚本。这是我们可以期待的「AI 能接住长链条需求」的转折点。</p>
+    </div>
+
+  </div>
+
+  <div class="section">
+    <h2>📋 快讯速览</h2>
+    <ul class="quick-list">
+      <li><span class="c-name">Meta</span> 发布 <span class="c-name">Brain2Qwerty v2</span>：非侵入式实时句子解码，从字符级提升至语义级，Nature 论文背书，有望帮助数百万失语人群。</li>
+      <li><span class="c-name">X (Twitter)</span> 推出 hosted X MCP，AI 智能体可通过 MCP 协议直连 X API，每次调用 <span class="c-data">$0.01</span>，<span class="c-data">1</span> 美元可用 <span class="c-data">1000</span> 次。</li>
+      <li><span class="c-name">黑石</span> 计划 <span class="c-data">3~5</span> 年在日本投 <span class="c-data">300</span> 亿美元建 AI 数据中心，并与 <span class="c-name">阿波罗</span>、<span class="c-name">博通</span> 成立 <span class="c-name">AI XPV</span> 平台，目标 <span class="c-data">2028</span> 年提供超 <span class="c-data">20GW</span> 算力。</li>
+      <li><span class="c-name">特斯拉</span> 量产版 <span class="c-name">Cybercab</span>（无方向盘/踏板）在奥斯汀启动公开道路工程测试，首批 <span class="c-data">34</span> 台，从概念到路测约 <span class="c-data">20</span> 个月。</li>
+      <li><span class="c-name">三星</span> 和 <span class="c-name">SK海力士</span> 计划投资 <span class="c-data">5900</span> 亿美元扩产芯片，<span class="c-name">Jefferies</span> 预测内存价格 <span class="c-data">2026 Q3</span> 上涨 <span class="c-data">40%~50%</span>，涨势持续至 <span class="c-data">2028</span> 年。</li>
+      <li><span class="c-name">国务院</span> 印发《教育发展"十五五"规划》，要求推进人工智能全学段教育，<span class="c-good">这是顶层设计首次明确要求提升全民 AI 素养</span>。</li>
+      <li><span class="c-name">美股</span> AI 就业争论新数据：高 AI 投入企业总员工增长 <span class="c-data">10.2%</span>，入门级岗位增长 <span class="c-data">12%</span>，<span class="c-warn">但仅购买订阅未持续投入的公司未见人头增长</span>。</li>
+      <li><span class="c-name">OpenAI</span> 公布 ChatGPT 全球采用趋势：用户注册 <span class="c-data">6</span> 个月后日均消息量增 <span class="c-data">50%</span>，非洲和亚洲增速最快，<span class="c-good">非英语用户占活跃用户半数以上</span>。</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🎬 编导可用的</h2>
+    <div class="tool-item">
+      <h4>AI News Radar 大更新 — 社媒热榜 + 官方源一站式选题雷达</h4>
+      <p>完全开源的 AI 信息过滤工具，新增自媒体板块，支持订阅某书、某音、某X等平台账号，每日按热度推荐 Top10 信息。可零 API 部署独立的 AI 日报页面，支持移动端和暗色界面。<span class="c-good">对于实体短视频编导，等于每天自动生成行业热点和竞品动态清单，省去手动刷平台的时间，直接拿来当选题灵感库。</span></p>
+    </div>
+    <div class="tool-item">
+      <h4>第一性原理 + 对抗式审查：两个 Vibe Coding 必用 Prompt</h4>
+      <p>公众号「卡尔的AI沃茨」分享的实战技巧：「第一性原理」强制 AI 从基本事实重新推导，避免类比推理陷阱；「对抗式审查」让 AI 假扮恶意用户攻防式审代码。两个 Prompt 形成生成与验证闭环，<span class="c-good">纯 vibe coding 项目曾靠它们跑通过千万次请求。</span>对编导来说，可把思路迁移到脚本审核——让 AI 先按「用户最挑剔的角度」挑刺，再优化。</p>
+    </div>
+    <div class="tool-item">
+      <h4>Anthropic 工程师 Margot 的提示词维护实战</h4>
+      <p>核心观点：大部分时间在调试已有生产提示词而非从零编写。用 XML 标签结构化清理旧指令，精确计算工具调用代价，拆成生成-评估-修复三个简单提示词更稳定。<span class="c-warn">她反复强调：没有评估就是碰运气。</span>做脚本编导一样，不要反复改「开头 3 秒怎么写」，而是建一个评估表——完播率、互动率、转粉率，用数据驱动迭代。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🛠️ Vibe Coding 可玩的</h2>
+    <div class="tool-item">
+      <h4>EverOS — 开源 Markdown 优先的智能体记忆运行时</h4>
+      <p><span class="c-name">EverMind</span> 开源（Apache 2.0），以可编辑的 Markdown 文件为记忆主体，<span class="c-tech">SQLite</span> 管理状态、<span class="c-tech">LanceDB</span> 混合检索。每个完成任务记录为 Case，离线提炼为 Skill，<span class="c-good">记忆随使用自我进化</span>。p95 检索延迟低于 <span class="c-data">500ms</span>。可直接在本地部署，也提供云托管。对 vibe coding 来说，这是把 agent 记忆从重向量堆栈解放出来的轻量方案，做聊天机器人或自动化助手时能快速让它「记住」用户偏好。</p>
+    </div>
+    <div class="tool-item">
+      <h4>Herdr — 终端里的 AI 智能体多路复用器</h4>
+      <p>驻留在终端中的 AI 智能体多路复用器，允许在单一终端界面内管理和切换多个 AI 智能体会话。<span class="c-good">对于命令行重度用户，比开一堆浏览器标签页更自然，</span>可以同时跑一个脚本生成、一个代码审查、一个数据查询，随时切换。目前还是 early idea，适合喜欢尝鲜的开发者 clone 下来改着玩。</p>
+    </div>
+    <div class="tool-item">
+      <h4>Adrafinil — 只在 AI Agent 工作时阻止 Mac 睡眠</h4>
+      <p>macOS 菜单栏工具，仅在 <span class="c-name">Claude Code</span>、<span class="c-name">Cursor</span>、<span class="c-name">Codex</span> 等 <span class="c-data">9</span> 种 AI coding agent 持有活跃会话时阻止系统睡眠（包括合盖睡眠）。无 agent 工作时，合盖后 Mac 正常睡眠。延迟低于 <span class="c-data">50ms</span>，支持温度阈值强制释放。需要 <span class="c-tech">macOS Tahoe 26.4</span>。<span class="c-good">对用 Cursor/Claude Code 做 vibe coding 的人来说，不用再担心合盖断连，长任务能跑完，实用又有趣。</span></p>
+    </div>
+  </div>
+
+  <div class="footer">AI 日报 · 每日自动生成 · 数据截至 2026-06-30</div>
+</div>
+</body>
+</html>
