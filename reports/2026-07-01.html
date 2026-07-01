@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 2026-07-01</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.8;
+    padding: 32px 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.02);
+  }
+
+  .header {
+    background: #fafafa;
+    color: #1d1d1f;
+    padding: 48px 40px 36px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .header h1 {
+    font-size: 34px; font-weight: 700; letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #1d1d1f 0%, #555 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header .date {
+    font-size: 14px; color: #86868b; margin-top: 8px;
+    font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+  }
+
+  .section {
+    padding: 40px;
+    border-bottom: 1px solid #f5f5f7;
+  }
+  .section:last-of-type { border-bottom: none; }
+
+  .section h2 {
+    font-size: 22px; font-weight: 700; margin-bottom: 24px;
+    color: #1d1d1f; letter-spacing: -0.3px;
+    display: flex; align-items: center; gap: 10px;
+  }
+
+  .deep-item { margin-bottom: 32px; }
+  .deep-item:last-child { margin-bottom: 0; }
+  .deep-item h3 {
+    font-size: 17px; font-weight: 600; color: #1d1d1f;
+    margin-bottom: 12px; letter-spacing: -0.2px;
+  }
+  .deep-item p {
+    margin-bottom: 12px; text-indent: 2em;
+    font-size: 15px; color: #424245; font-weight: 400;
+  }
+
+  .quick-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .quick-list li {
+    padding: 14px 18px;
+    background: #fafafa; border-radius: 12px;
+    font-size: 14px; color: #424245;
+    transition: background 0.2s;
+  }
+
+  .tool-item {
+    margin-bottom: 12px; padding: 20px 24px;
+    background: #fafafa; border-radius: 16px;
+    border: 1px solid #f0f0f0;
+  }
+  .tool-item:last-child { margin-bottom: 0; }
+  .tool-item h4 { font-size: 16px; font-weight: 600; margin-bottom: 6px; color: #1d1d1f; }
+  .tool-item p { font-size: 14px; color: #6e6e73; line-height: 1.7; }
+
+  .c-name  {
+    color: #0071e3; font-weight: 600;
+    background: #f0f7ff; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-data  {
+    color: #e05a00; font-weight: 700;
+    background: #fff5ee; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-warn  {
+    color: #d12b2b; font-weight: 700;
+    background: #fff0f0; padding: 2px 10px; border-radius: 6px;
+  }
+  .c-good  {
+    color: #1b8a3d; font-weight: 600;
+    background: #edfaf1; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-tech  {
+    color: #894ecc; font-weight: 600;
+    background: #f6f0ff; padding: 2px 8px; border-radius: 6px;
+  }
+
+  hr.divider {
+    border: none; border-top: 1px solid #f0f0f0; margin: 28px 0;
+  }
+
+  .footer {
+    text-align: center; padding: 28px;
+    font-size: 12px; color: #aeaeb2; font-weight: 500;
+    letter-spacing: 1px; background: #fafafa;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="header">
+    <h1>🔥 AI 日报 2026-07-01</h1>
+    <div class="date">每日自动生成 · 数据来源 aihot.virxact.com</div>
+  </div>
+
+  <div class="section">
+    <h2>📰 深度分析</h2>
+
+    <div class="deep-item">
+      <h3>1. Claude Sonnet 5 把 Agent 能力拉到「三折价」，但隐写术寒了谁的心？</h3>
+      <p><span class="c-name">Anthropic</span> 今天连扔两颗炸弹：<span class="c-name">Claude Sonnet 5</span> 正式登场，性能逼近 Opus 4.8，定价直接砍到 <span class="c-data">$2/百万输入 token</span>（8月底前），只有 Opus 的 <span class="c-data">三分之一</span>。同时曝光的是 <span class="c-name">Claude Code</span> 里用隐写术识别中国用户的恶劣行为——读取本地时区、加密比对 147 个域名（包括美团、字节跳动等），然后把系统提示词里的连字符偷偷替换，作为 <span class="c-tech">2-3bit 分类标记</span> 发回服务器。</p>
+      <p>作为编导，你不需要深究 XOR 和 base64，但必须理解一个后果：<span class="c-warn">闭源开发工具的信任被严重透支</span>。实体老板通常不会注意到「AI 工具里藏了小动作」，但你的短视频策划如果涉及数据合规、工具选择，这件事是绝佳的话题素材。Sonnet 5 本身是 <span class="c-good">性价比飞跃</span>，可以支撑更复杂的脚本改写和多轮交互，但隐写术提醒我们：AI 工具越好用，越要关注它背后公司的数据道德立场。给老板做选型建议时，可以把「是否开源可控」作为加分项。</p>
+      <p>另外，<span class="c-name">Anthropic</span> 当天还上线了 <span class="c-name">Claude Science</span> 科研工作台，以及 <span class="c-name">Claude apps gateway</span> 企业控制平面。在生态完整性上，它走得比竞品更远；但信任裂缝一旦撕开，修复需要很久。</p>
+    </div>
+
+    <div class="deep-item">
+      <h3>2. 美团 LongCat-2.0 开源：1M 上下文的国产万亿模型，编导能怎么蹭？</h3>
+      <p><span class="c-name">美团</span> 的 <span class="c-name">LongCat-2.0</span> 是今天国产模型圈最硬的消息。总参数 <span class="c-data">1.6T</span>，激活 <span class="c-data">48B</span>，原生支持 <span class="c-data">1M</span> 超长上下文，在 <span class="c-data">5万卡</span> 国产算力集群上完成全流程训练。评测数字也很亮眼：<span class="c-tech">SWE-bench Pro</span> 跑出 <span class="c-data">59.5</span>，<span class="c-tech">SWE-bench Multilingual</span> 拿到 <span class="c-data">77.3</span>。而且已经在 <span class="c-name">OpenRouter</span> 上开放预览，月调用量冲到了全球第三。</p>
+      <p>对短视频编导来说，LongCat 最直接的价值在于：<span class="c-good">超长上下文可以一口气塞进一整本实体店运营手册、几百条客户评价甚至几十个脚本逐字稿</span>。过去你给老板写脚本，要反复喂片段；现在可以把品牌历史、爆款话术、竞品分析全部丢进一次对话，模型能跨文档找结构。而且它是 <span class="c-good">开源</span> 的，意味着没有隐写术噩梦，数据安全由你控制。</p>
+      <p>别被「万亿参数」吓到，真实使用时你只需要关心「48B 激活」和「1M 上下文」这两个指标。前者意味着推理成本可控（甚至能本地部署），后者直接改变你整理素材的方式。美团用国产算力做这件事，对实体行业也是一个信号：<span class="c-warn">AI 基础设施的自研替代正在加速，未来调用国产模型可能比调用 OpenAI 更便宜、更合规</span>。</p>
+    </div>
+
+    <div class="deep-item">
+      <h3>3. xAI 推出无代码语音智能体 + Cloudflare 分离 AI 爬虫 —— 两个小工具，一个大信号</h3>
+      <p>今天有两个没那么「炸」但很值得编导关注的产品更新。一个是 <span class="c-name">xAI</span> 的 <span class="c-name">Voice Agent Builder</span>——无代码构建类人语音智能体，定价 <span class="c-data">$0.05/分钟</span>，今天就能用。另一个是 <span class="c-name">Cloudflare</span> 推出 <span class="c-tech">AI 流量精细管控</span>：把搜索爬虫、AI 智能体爬虫和训练爬虫分开管理，还能保护广告页面。</p>
+      <p>对实体老板的短视频业务来说，无代码语音 agent 意味着：你可以 <span class="c-good">用 5 分钟搭一个自动回复客户咨询的语音助手</span>，接在门店电话或社群里，成本是每分钟 5 美分。而 Cloudflare 的更新则直接关系到 <span class="c-warn">你的门店官网或落地页的 SEO 表现</span>——如果大量 AI 爬虫在扫你的页面却不转化，你可以轻松屏蔽它们，保留搜索引擎的正规爬虫。两个工具叠加，等于 <span class="c-good">用极低的技术投入，同时优化了客户触达效率和网站数据质量</span>。</p>
+      <p>更深一层的信号是：<span class="c-warn">AI 基础设施正在从「通用平台」走向「可插拔的管理面板」</span>。无论是爬虫分类还是语音 agent，都在降低实体企业尝鲜 AI 的门槛。编导可以在选题会上提出：「下期视频可以拍『AI 帮你接电话』，或者『AI 学会给老板跑腿』——用这些实际工具做 demo，比讲概念更引流。」</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>📋 快讯速览</h2>
+    <ul class="quick-list">
+      <li><span class="c-name">Claude Sonnet 5</span> 发布：性能接近 Opus 4.8，输入 <span class="c-data">$2/百万 token</span>（首月优惠），支持浏览器/终端自主操作。同时 <span class="c-name">Claude Code</span> 被曝用隐写术标记中国用户，引发信任危机。</li>
+      <li><span class="c-name">美团 LongCat-2.0</span> 正式开源：<span class="c-data">1.6T</span> 总参数，<span class="c-data">1M</span> 上下文，国产 <span class="c-data">5万卡</span> 算力训练，<span class="c-name">OpenRouter</span> 调用量全球前三。</li>
+      <li><span class="c-name">xAI Voice Agent Builder</span> 上线：无代码构建语音 agent，<span class="c-data">$0.05/分钟</span>，今天可用。</li>
+      <li><span class="c-name">Cloudflare</span> 推出 AI 流量细分管控：区分搜索/智能体/训练爬虫，可保护广告页面，站长实测可优化 SEO。</li>
+      <li><span class="c-name">Meta</span> 计划推出 <span class="c-name">Meta Compute</span> 云业务，对外出售 AI 算力，承诺 <span class="c-data">1829亿美元</span> 建设基础设施。</li>
+      <li><span class="c-name">NVIDIA</span> 发布 <span class="c-tech">Nemotron-Labs-TwoTower</span> 扩散语言模型：吞吐提升 <span class="c-data">2.42倍</span>，质量保留 <span class="c-data">98.7%</span>，开源可商用。</li>
+      <li><span class="c-name">OpenAI</span> 论文曝光 <span class="c-name">GPT-5.6</span> 三个 Pro 变体（Luna/Terra/Sol），在基因组学基准 Sol Pro 达 <span class="c-data">31.5%</span>。</li>
+      <li>黑石计划未来 <span class="c-data">3~5年</span> 在日本投 <span class="c-data">300亿美元</span> 建 AI 数据中心，与 Apollo、博通成立 <span class="c-name">AI XPV</span> 平台。</li>
+      <li><span class="c-name">Google DeepMind</span> 推出 <span class="c-name">Nano Banana 2 Lite</span>（图像生成 <span class="c-data">4秒</span>、<span class="c-data">$0.034/图</span>）和 <span class="c-name">Gemini Omni Flash</span>（视频生成 <span class="c-data">$0.10/秒</span>）。</li>
+      <li><span class="c-name">X(Twitter)</span> 发布官方 <span class="c-tech">hosted X MCP</span>，AI 代理可直接调用 X API，个人价 <span class="c-data">$0.01/次</span>。</li>
+      <li><span class="c-name">Qwen 3.6 27B</span> 本地模型评测：Macbook M5 上可达 <span class="c-data">30 tokens/s</span>，原生 <span class="c-data">256K</span> 上下文。</li>
+      <li><span class="c-name">特斯拉 Cybercab</span> 量产版在奥斯汀启动公共道路测试，<span class="c-data">34辆</span> 无方向盘车辆上路。</li>
+      <li><span class="c-name">Agents-A1</span>（35B MoE）通过扩展 horizon 达到万亿参数级性能，在 <span class="c-data">6项</span> 基准上超越顶尖大模型。</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🎬 编导可用的</h2>
+    <div class="tool-item">
+      <h4>NotebookLM 短视频概览</h4>
+      <p><span class="c-name">Google NotebookLM</span> 向英文 Web 用户全量推出 <span class="c-good">Short Video Overviews</span>：把复杂资料（如店面运营数据、产品手册）自动转成 <span class="c-data">60秒</span> 竖屏视频，深入讲解任意概念。编导可以直接拿它做「老板一分钟看懂 AI」系列：输入一个长文档，自动输出脚本+视频草稿，再人工精修。免费用户即将能用。</p>
+    </div>
+    <div class="tool-item">
+      <h4>Acti 智能体手机键盘</h4>
+      <p><span class="c-name">Acti</span> 基于 <span class="c-name">Google Gemini</span> 推出智能键盘：在任意 App 内长按特定键可触发 AI 操作（如长按 T 翻译消息、C 发送会议链接）。早期测试者在 <span class="c-data">两周</span> 内创建超 <span class="c-data">1000个 Skills</span>。对实体老板来说，可以用它快速回复客户消息、生成产品介绍，不需要离开微信或聊天软件，本地说中文支持值得期待。</p>
+    </div>
+    <div class="tool-item">
+      <h4>Final Cut Pro 自动字幕 + 遮罩</h4>
+      <p><span class="c-name">Apple Creator Studio</span> 更新，<span class="c-name">Final Cut Pro</span> 新增 on-device AI 自动字幕生成和 <span class="c-tech">Auto Mask</span>（自动抠除背景）。做实体探店视频、产品演示时，不需要第三方工具加字幕和抠图，<span class="c-good">省掉大量后期时间</span>。教育用户 <span class="c-data">$2.99/月</span>，个人订户 <span class="c-data">$12.99/月</span>。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🛠️ Vibe Coding 可玩的</h2>
+    <div class="tool-item">
+      <h4>Every 复利工程开源插件（Claude Code + 多Agent并行）</h4>
+      <p>媒体公司 <span class="c-name">Every</span> 公开了「复利工程」方法论配套插件：包含 <span class="c-data">26个</span> 专项 agent、<span class="c-data">23条</span> 工作流命令、<span class="c-data">13项</span> 技能，零配置支持 <span class="c-name">Claude Code</span>。其中最亮眼的是 <span class="c-tech">/workflows:review</span> 一次性并发 <span class="c-data">14个</span> agent 审查代码，<span class="c-tech">/workflows:plan</span> 可以在 ultrathink 模式下并发 <span class="c-data">40多个</span> 研究 agent。对于喜欢 vibe coding 的编导来说，这是体验「一人管五款产品」的绝佳入口——把你之前写的脚本、slogan、运营文案都喂给这些 agent，让它们并行做 A/B 测试和优化建议。GitHub 开源，可直接上手。</p>
+    </div>
+    <div class="tool-item">
+      <h4>Claude Code 四种智能体循环模板</h4>
+      <p><span class="c-name">Anthropic</span> 官方发布 agent loop 入门指南，定义了 <span class="c-tech">turn-based</span>、<span class="c-tech">goal-based</span>、<span class="c-tech">time-based</span>、<span class="c-tech">proactive</span> 四种循环模式，并附 <span class="c-tech">SKILL.md</span> 文件写法。作为非技术编导，你可以用 goal-based 循环让 AI 自动迭代视频脚本（设一个「完播率 > 30%」的目标，AI 自己改写+测试），用 proactive 循环让 AI 每天自动推送一条选题灵感。全部可以用自然语言配置，门槛极低。</p>
+    </div>
+    <div class="tool-item">
+      <h4>shot-scraper video：让 AI 自己录工作演示</h4>
+      <p><span class="c-name">shot-scraper 1.10</span> 新增 video 命令，通过 <span class="c-tech">storyboard.yml</span> 定义操作步骤，用 <span class="c-name">Playwright</span> 自动录制浏览器视频。开发者 Simon Willison 演示了用 agent 生成 demo 视频的流程。对于做工具推荐类短视频的编导，可以让 AI 自己录制「如何使用某 AI 工具」的录屏解说，极大降低 demo 制作成本。</p>
+    </div>
+  </div>
+
+  <div class="footer">AI 日报 · 每日自动生成</div>
+
+</div>
+</body>
+</html>

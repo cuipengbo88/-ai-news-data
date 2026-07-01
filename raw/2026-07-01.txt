@@ -1,0 +1,486 @@
+AI
+HOT
+内容
+精选
+全部 AI 动态
+AI 日报
+收藏
+接入
+Agent 接入
+更多
+关于
+更新日志
+反馈
+内部员工登录
+精选
+AI 自动挑选的高价值内容
+全部
+模型
+产品
+行业
+论文
+技巧
+搜索
+🔥
+当前热点
+多信源热度 · 随时间消退
+1
+Claude Sonnet 5 发布
+14 个信源
+·
+16小时前
+2
+重新部署 Claude Fable 5
+8 个信源
+·
+8小时前
+3
+美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型
+10 个信源
+·
+7小时前
+4
+Claude Code负责人承认留有后门，明日回滚
+6 个信源
+·
+4小时前
+5
+Google DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash
+4 个信源
+·
+23小时前
+7月2日
+00:07
+Z.ai
+@Zai_org
+精选
+67
+推出 ZCode，GLM-5.2 的官方开发环境
+- GLM Coding Plan 订阅用户：现可在 ZCode 获得 1.5 倍使用配额
+- 支持 BYOK：可与您现有的订阅和 API 配合使用
+- 适用于 macOS、Windows 和 Linux
+立即下载：http：//zcode.z.ai/en
+产品更新
+编码
+推荐理由：智谱为 GLM-5.2 推出官方 IDE，1.5 倍配额和自带密钥对已有订阅的人挺实用，但整体只是常规产品完善，算不上行业级事件。
+00:02
+xAI
+@xai
+精选
+73
+介绍 Voice Agent Builder：一个无代码平台，可使用 Grok Voice 创建类人语音智能体。
+今日可用，$0.05 / 分钟。
+http：//x.ai/voice
+智能体
+xAI
+产品更新
+语音
+推荐理由：xAI 的 Voice Agent Builder 是无代码建语音 agent 的工具，今天就能用，每分钟 0.05 美元，做语音产品的团队可以试试看。门槛低，但实际效果待看。
+7月1日
+22:20
+Cloudflare Blog
+精选
+58
+Cloudflare 推出全新AI流量管理选项：区分搜索、智能体与训练爬虫，保护广告页面
+Cloudflare 为所有网站所有者提供更精细的AI流量管控选项，取代一刀切的屏蔽方式。用户可轻松区分并管理搜索爬虫、AI智能体爬虫和训练爬虫，同时新增保护广告变现页面的能力。
+智能体
+产品更新
+搜索
+推荐理由：Cloudflare 把 AI 流量管理拆成了搜索、Agent 和训练三类，对依赖广告收入的站长是个实用功能，早期控制 bot 访问可能影响 SEO，值得测试。
+22:01
+TechCrunch：AI（RSS）
+精选
+72
+Meta效仿SpaceX，将过剩AI算力变现
+据Bloomberg报道，Meta正计划推出云基础设施业务Meta Compute，对外出售AI计算能力和模型访问权限，直接与AWS、Google Cloud及Azure竞争。Meta已承诺未来几年投入1829亿美元建设AI基础设施，其中俄亥俄州数据中心（规模如曼哈顿）将于今年上线。新业务由基础设施主管Santosh Janardhan、Meta超级智能实验室负责人Daniel Gross和总裁Dina Powell McCormick领导。Meta可能效仿CoreWeave出售裸计算能力，并像AWS一样托管AI模型（包括近期发布的闭源模型Muse Spark）。扎克伯格此前已表示云业务“definitely on the table”。
+Meta
+行业动态
+部署/工程
+推荐理由：Meta 进入云市场不只是大厂的新业务，而是算力资产化的信号，未来 AI 竞争可能从模型军备赛转向数据中心所有权，开发者能拿到更便宜的 GPU 但绑定生态的风险也得权衡。
+18:10
+The Decoder：AI News（RSS）
+精选
+70
+OpenAI论文揭示GPT-5.6三个Pro变体，打破单一顶级策略
+OpenAI论文首次列出GPT-5.6的三个Pro变体：Luna Pro、Terra Pro和Sol Pro，取代以往单一Pro模式。在基因组学基准中，Sol Pro通过率31.5%居60个测试模型之首，领先标准Sol（28.7%）和Claude Opus 4.8（16.0%）。Pro相比标准版本提升逐级递减：Luna Pro提升7.1个百分点（16.5%→23.6%），Terra Pro提升5.2（23.3%→28.5%），Sol Pro仅提升2.8（28.7%→31.5%）。Terra Pro（28.5%）几乎与标准Sol（28.7%）持平。论文未披露Pro运行的token用量，也不清楚该分层是否会在ChatGPT中实际推出。
+OpenAI
+推理
+行业动态
+推荐理由：论文意外曝光 GPT-5.6 Pro 将有三个变体，Pro 不再只是一个最强模型，而是让用户按推理需求选版本，这才是匹配 200 美元月费该有的逻辑。
+16:32
+MarkTechPost（RSS）
+精选
+73
+NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型
+NVIDIA 发布 Nemotron-Labs-TwoTower，基于冻结的自回归骨干 Nemotron-3-Nano-30B-A3B 的扩散语言模型。采用双塔架构：上下文塔冻结，降噪器塔训练，通过层对齐交叉注意力和状态播种协作。在 2×H100 上 BF16 评估，保留 98.7% 的 AR 基线质量，生成吞吐量提升 2.42 倍（γ=0.8，块大小 S=16）。降噪器在约 2.1T token 上训练，骨干使用 25T token 预训练。总参数约 60B，每 token 活跃参数约 3B/塔。支持扩散、模拟 AR 和 AR 三种解码模式。
+开源生态
+推理
+模型发布
+部署/工程
+推荐理由：NVIDIA这个TwoTower把扩散解码接在已有的AR骨干上，几乎无损质量却让吞吐翻倍，并且开源可商用，对批量文本生成的团队是实在的加速工具。
+15:03
+IT之家（RSS）
+精选
+70
+亚马逊 AWS 砸 10 亿美元，派遣工程师进驻客户公司
+亚马逊 AWS 宣布设立新部门，组建前置驻场工程师团队，先期投入 10 亿美元（约 67.97 亿元人民币）。团队分批派驻客户企业，每批 5-6 组工程师，驻场周期 45 天，协助客户落地人工智能软件与智能体应用。该模式在 Palantir、Salesforce、Anthropic、谷歌云等企业已有先例，领英数据显示 2023 至 2025 年间同类岗位需求增长 42 倍。新部门员工规模将达数千人，首批客户包括 NBA 与理光。
+行业动态
+部署/工程
+推荐理由：AWS 砸 10 亿美元建驻场工程师团队，帮客户 45 天落地 AI 智能体。这不是卖云资源，是卖业务结果，对考虑用 AI 的企业是个信号，巨头开始贴身服务了。
+12:00
+公众号：龙猫LongCat（美团）
+精选
+82
+美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型
+美团于6月30日发布新一代万亿参数大模型LongCat-2.0并开源。总参数1.6T，平均激活约48B，原生支持1M超长上下文，在五万卡国产算力集群上完成全流程训练与推理。采用LSA稀疏注意力、零计算专家、ScMoE及MOPD多专家融合（Agent/Reasoning/Interaction三组专家）架构。评测中SWE-bench Pro获59.5，SWE-bench Multilingual获77.3。预览版已通过OpenRouter和longcat.ai开放，月调用量跻身OpenRouter全球前三。
+开源生态
+推理
+模型发布
+编码
+关联讨论 9 条
+推荐理由：国产算力上首个全流程自训的万亿开源模型，1M上下文和动态专家架构直指Agentic Coding场景，OpenRouter调用量已经冲到前三，不是Demo是生产力。
+09:33
+meng shao
+@shao__meng
+精选
+75
+mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南
+mattpocockuk 的 /writing-great-skills 成为其最常调用的 Skill，指导如何编写稳定可预测的 AI Skill。核心：以过程可预测为目标；区分 model-invoked（自动触发）与 user-invoked（用户调用），description 应作触发器；采用三层信息结构（主步骤、参考、外部文件）实现渐进式披露；每步骤需明确完成标准；拆分 Skill 是为了控制模型注意力；利用 leading word 压缩行为要求。同时诊断五种失败模式：Premature completion、Duplication、Sediment、Sprawl、No-op，并提供 No-op 测试作为判断句子是否有效的标准。
+Matt Pocock: /writing-great-skills is quickly becoming my most often-invoked skill It's just really good at writing skills, guys. npx...
+智能体
+GitHub
+教程/实践
+推荐理由：Matt Pocock 把写 Skill 从玄学变成了可拆解的工程，其中领先词和完成标准这两个概念，能立刻让你的自定义工具行为更稳定，搞 Agent 的都应该试一下。
+08:20
+公众号：数字生命卡兹克
+精选
+84
+Anthropic在Claude Code中植入隐写术代码识别中国用户
+Anthropic在Claude Code中植入隐写术：读取本地时区（Asia/Shanghai或Asia/Urumqi）和ANTHROPIC_BASE_URL环境变量，与一份经base64+XOR（密钥91）加密的147个域名列表（含美团、字节跳动、月之暗面等）比对，识别中国用户。识别后，在请求发送前将系统提示词中日期字符串的单引号（U+0027）替换为其他Unicode字符，连字符改为斜杠，作为2-3比特分类标记传回服务器。该隐蔽行为被社区逆向发现后引发争议，被认为破坏用户信任。
+Anthropic
+安全/对齐
+行业动态
+关联讨论 5 条
+推荐理由：Anthropic用隐写术在Claude Code里埋标记的行为，让我对闭源开发者工具的信任打了一个巨大的问号，这事比普通地域封锁严重得多，因为它在不该碰的地方动了手脚。
+08:03
+IT之家（RSS）
+精选
+72
+库克与欧盟科技主管就新版Siri AI举行建设性会谈
+苹果CEO库克与欧盟科技事务负责人维尔库宁就新版Siri AI在欧推出举行建设性视频会议。新版Siri将转为可调用用户个人数据的聊天机器人，但因《数字市场法》互操作义务苹果拒绝向竞争对手开放同等数据权限，暂不在欧盟iPhone和iPad上推出。苹果提出“可信系统代理”方案，拟在设备与第三方AI模型间增加软件层，但未开发，并要求18个月监管宽限期，遭欧盟拒绝。欧盟收到数百封消费者邮件及死亡威胁。
+政策/监管
+行业动态
+推荐理由：苹果与欧盟围绕Siri AI的监管博弈，表面是互操作义务之争，实则关乎AI巨头在数据隐私和市场准入间的平衡，对全球科技政策都有风向标意义。
+06:59
+AI Notkilleveryoneism Memes ⏸️
+@AISafetyMemes
+精选
+76
+AI Safety Memes 推文指出，AI 刚刚解决了 9 个未解决的数学问题，但全球没有记者报道。引用 @WeinsteinOmri 的推文称，采用"prover-verifier"LLM 循环的方法，成功解决了理论计算机科学中 9 个重大开放问题，其中包括一个困扰其长达 2 年的难题。该研究由哥伦比亚大学合作者完成，并计划将这一方法扩展到所有科学领域。
+Omri Weinstein: Even @OpenAI's recent Erdős breakthrough didn't convince me that LLMs can do general math research. This changed my mind...
+安全/对齐
+推理
+论文/研究
+推荐理由：如果属实，这将是 AI 首次批量解决实质性开放数学问题，但消息仅来自推文声明，未见论文或代码，现在兴奋还太早。
+03:55
+NotebookLM
+@NotebookLM
+精选
+68
+NotebookLM 正式向 Web 英文用户全量推出 Short Video Overviews（短视频概览）功能。该功能可将复杂资料自动转化为 60 秒竖屏视频，深入讲解任意概念。此前，这一功能已面向 Google AI Ultra 和 Pro 订阅者（移动端及 Web）推出，免费用户即将可用。
+NotebookLM: Doom scrolling but make it educational 🤓 Introducing Short Video Overviews in NotebookLM! Turn your most complex source...
+Google
+产品更新
+视频
+推荐理由：NotebookLM 把资料源变成 60 秒竖屏视频，想法不新但落地很实用，学生和内容创作者可能会高频用上，只是颠覆性谈不上。
+02:02
+Anthropic：Newsroom（网页）
+精选
+81
+Claude Sonnet 5 发布
+Claude Sonnet 5 是 Anthropic 推出的最新 Sonnet 模型，具备计划、浏览器和终端工具使用能力，可自主运行。性能接近 Opus 4.8，定价更低：即日起至 2026 年 8 月 31 日，输入 token $2/百万，输出 $10/百万，之后恢复为 $3/百万输入和 $15/百万输出。相比 Sonnet 4.6，在推理、工具使用、编程和知识工作等智能体能力上大幅提升。在 BrowseComp 和 OSWorld-Verified 评测中严格优于 Sonnet 4.6。安全评估显示不良行为率更低，幻觉和谄媚减少，但网络安全能力弱于 Opus 4.8。即日起在所有套餐及 Claude Code、Claude API 中可用。
+智能体
+Anthropic
+模型发布
+编码
+关联讨论 13 条
+推荐理由：Claude Sonnet 5 把代理能力从 Opus 下放到了 Sonnet，性能接近 Opus 4.8 但价格只有三分之一，这对开发者来说性价比飞跃。虽然还不是最强，但已经能让许多复杂任务从勉强可用变成可靠。
+01:58
+TechCrunch：AI（RSS）
+精选
+72
+Acti 将 AI 智能体直接放入手机键盘
+新加坡初创公司 Acti 发布基于 Google Gemini 的智能体键盘，可代替用户在应用中执行操作。核心功能 Skills 允许用自然语言创建快捷方式，如长按 T 键翻译消息、C 键发送会议链接。早期测试者两周内创建超 1000 个 Skills。采用本地优先架构，默认不访问私人消息。公司获 530 万美元种子轮融资，由 BITKRAFT Ventures 领投，现已开放下载。
+智能体
+Google
+产品更新
+端侧
+推荐理由：Acti 想用 AI 代理重塑手机键盘，把 Gemini 塞进输入法，离不离开 App 都能用 AI 的思路很讨巧，但换键盘的阻力不小，目前更像一个有趣的试验品。刚拿到 530 万美元种子轮，有试错空间。
+01:32
+Anthropic：Newsroom（网页）
+精选
+66
+Claude Science 科研工作台正式上线
+Anthropic 推出 AI 科研工作台 Claude Science，整合常用工具与计算资源，支持从文献分析到多步骤研究的全流程。提供超 60 项预配置技能与连接器，覆盖基因组学、单细胞、蛋白质组学、结构生物学、化学信息学等领域；可在macOS/Linux本地运行，或通过SSH/HPC远程使用。生成含代码和环境的可审计成果（3D蛋白质结构、基因组浏览器轨迹等），内置reviewer agent自动检查引用与计算错误。通过NVIDIA BioNeMo接入Evo 2、Boltz-2等模型，也支持连接自有模型与管道。今日以beta版面向Claude Pro、Max、Team和Enterprise用户开放。
+智能体
+Anthropic
+MCP/工具
+产品更新
+关联讨论 2 条
+推荐理由：Anthropic 为科学家打造了一个整合 60+ 技能、可管理计算和审计输出的 AI 工作台，让 AI 从顾问变成可复现的实验合作者。
+01:29
+Apple：Newsroom（RSS）
+精选
+66
+Apple Creator Studio 更新：更智能、更快速、更互联
+Apple Creator Studio 推出多项 AI 增强更新。Final Cut Pro 新增 on-device AI 驱动的 Generate Captions（自动转录音频生成字幕）和 Edit Detection（自动检测剪辑点）。Mac 版加入 Auto Mask（自动识别皮肤、天空等主体）、增强的 Match Color 和 Advanced Trimming。支持将帧发送至 Pixelmator Pro 编辑，并在 Keynote、Pages、Numbers 中直接调用 Pixelmator Pro 修改图片。Logic Pro 新增 Grammy 制作人制作的 Producer Project 及 Chord ID 改进。订阅价 $12.99/月或 $129/年，新用户免费试用一个月，教育用户 $2.99/月。
+产品更新
+图像生成
+语音
+推荐理由：Final Cut Pro 的自动字幕和遮罩是实打实的工作流提升，Pixelmator Pro 的深度整合也让设计更顺畅，虽然没有颠覆性突破，但创意工作者今天就能用上。
+01:28
+Claude：Blog（网页）
+精选
+72
+Claude Code 入门：智能体循环
+Claude Code 团队将智能体循环定义为 agent 重复工作直到满足停止条件的过程，并划分出四种主要类型：turn-based 循环（用户提示触发，Claude 自行判断完成或需更多上下文）、goal-based 循环（通过 /goal 命令设定可验证完成标准与最大轮次）、time-based 循环（通过 /loop 按时间间隔重复执行，可用 /schedule 移至云端）、以及 proactive 循环（基于事件或计划自动运行，无人实时参与）。文章还介绍了如何编写 SKILL.md 文件将人工验证步骤编码，让 Claude 进行端到端自检，减少 turn-based 循环中的手动操作。
+智能体
+Anthropic
+MCP/工具
+教程/实践
+推荐理由：Anthropic把agentic loops从模糊概念变成四种可复制的模式，附带SKILL.md和命令示例，Claude Code用户读完就能设计更自主的编码流程。
+01:19
+Simon Willison 博客
+精选
+73
+用 shot-scraper video 让 AI 智能体录制工作演示视频
+shot-scraper 1.10 新增 shot-scraper video 命令，支持通过 storyboard.yml 文件定义操作步骤，并利用 Playwright 录制浏览器视频。演示视频展示了 Datasette 中从粘贴的 CSV/TSV/JSON 数据创建新表的功能。该功能依赖 Playwright 1.61.0 新增的 screencast 机制，解决了此前视频开头白帧、宽度固定 800px 等问题。开发者 Simon Willison 强调，将 --help 输出设计得足够详细，可使编码 Agent 直接利用该命令生成演示视频。
+智能体
+GitHub
+MCP/工具
+产品更新
+推荐理由：Simon 把 agent 的产出从文字推到了视频，这个 shot-scraper video 让 agent 自己生成 storyboard 并录屏，等于给自动化流程加了一双眼睛，开发者可以立刻用上这套 demo 生成方案。
+01:17
+Google Developers Blog（RSS）
+精选
+67
+ADK Go 2.0 发布：构建可靠的多智能体应用，新增基于图的工作流引擎、人工参与循环与动态编排
+Agent Development Kit (ADK) for Go 2.0 发布，引入了一类基于图的工作流引擎，用于组合复杂多智能体应用。新版本内置人工参与循环（HITL）编排、使用纯 Go 代码的动态执行、以及指数退避重试等自动弹性特性。统一执行模型后，单智能体应用与复杂图均运行在同一运行时上，简化了遥测与状态持久化。
+智能体
+Google
+产品更新
+部署/工程
+推荐理由：Google 给 Go 生态补上了多智能体编排的关键一环，图工作流引擎和人机协同直接内置，比之前拼积木的方式可靠很多，做 Agent 的 Go 开发者值得跟进。
+01:03
+OpenAI：官网动态（RSS · 排除企业/客户案例）
+精选
+70
+OpenAI 发布 GeneBench-Pro：计算生物学研究级基准测试
+OpenAI 发布 GeneBench-Pro，用于评估 AI 智能体在计算生物学中处理模糊性和做出判断性分析的能力。该基准包含 129 个问题，覆盖统计遗传学、群体遗传学等 10 个领域 21 个子领域。每个问题提供真实混乱的数据集和实验背景，要求模型探索数据、选择分析路径并迭代实验。采用合成数据构建，已知完整因果结构。82 个问题已由外部领域专家审核确认其现实性。
+OpenAI
+推理
+论文/研究
+推荐理由：OpenAI 的新基准揭示了一个信号，GPT-5.6 在需要科学判断的模糊任务上进步神速，从不足 5% 到接近 30%，且单题成本仅几美元，这对 AI for Science 的落地想象空间影响不小。
+00:42
+Dwarkesh Patel：Podcast & Blog（RSS）
+精选
+61
+Grant Sanderson 谈 AI 与数学的未来
+3Blue1Brown 创办人 Grant Sanderson 正在制作记录 AI 在数学领域进展的新项目。他在与 Dwarkesh Patel 的对谈中指出，AI 在 IMO 获金牌并不等于 AGI，只是又一个被攻克的基准。即使 AI 未来解决千禧年大奖难题，仍可能存在大量人类任务无法被自动化。对话还探讨了概念突破验证周期可长达一个世纪、Riemann 假设的 AI 证明能否被人类理解、AI 能否在已有文献间发现隐藏联系，以及现实经济任务难以套用强化学习环境等话题。
+大佬观点
+推理
+现象/趋势
+推荐理由：这次对谈没有停留在AI刷数学题的喜报上，而是追问了‘验证循环’和‘定义生成’两个终极难题。Grant Sanderson的视角让人重新思考AI的进展究竟缺什么，数学家未来的角色会是什么。
+00:28
+ClaudeDevs
+@ClaudeDevs
+精选
+67
+Claude Desktop 现已在 Linux（Ubuntu 和 Debian）上推出测试版。
+除了浏览器和终端，你现在可以在所有付费计划中获得一流的桌面体验，包括 Claude Code、Claude Cowork 和聊天。
+Anthropic
+产品更新
+端侧
+推荐理由：Claude 桌面端终于来到 Ubuntu，补齐了 Linux 开发者工作流里缺失的一环，beta 状态不影响它与终端、浏览器的深度打通。
+00:13
+OpenAI：官网动态（RSS · 排除企业/客户案例）
+精选
+62
+OpenAI Signals 数据揭示 ChatGPT 全球采用趋势
+OpenAI Signals 数据显示，用户注册六个月后日均消息量增加50%，尝试任务种类翻倍。自2023年7月以来，各大洲活跃用户均大幅增长，非洲和亚洲增速最快，低人类发展指数国家增长尤为显著。用户群体更加多元化，女性名字用户已占全球多数，巴西、哥伦比亚、波兰和纳米比亚等国女性用户显著多于男性。非英语用户占活跃用户半数以上，领先语言为西班牙语、葡萄牙语和阿拉伯语；乌兹别克语、哈萨克语和缅甸语用户占比增长百分比最大。
+OpenAI
+现象/趋势
+推荐理由：OpenAI 首次公开用户行为数据，显示使用深度和广度随时间增长、非洲与亚洲增速最快，对做全球化产品的同行是个重要信号。
+00:08
+Google DeepMind：Blog（RSS）
+精选
+70
+Google DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash
+Google DeepMind 推出 Nano Banana 2 Lite（gemini-3.1-flash-lite-image），为 Nano Banana 系列速度最快、成本最低的图像模型，文本到图像输出仅需 4 秒，每 1K 分辨率图像成本 $0.034，已上线 Google AI Studio、Gemini API 及消费者产品（AI Mode in Search、Gemini app 等）。同时推出 Gemini Omni Flash（gemini-omni-flash-preview），支持高画质视频生成与对话式编辑，视频输出定价 $0.10/秒，面向开发者开放 API。
+Google
+图像生成
+多模态
+模型发布
+关联讨论 3 条
+推荐理由：Nano Banana 2 Lite 把图像生成拉到 4 秒延迟和 0.034 美元单价，很适合高频草稿流，Omni Flash 首次对开发者开放视频生成和对话编辑，两个模型串起来的快速迭代工作流是这次最实用的更新。
+6月30日
+19:38
+The Decoder：AI News（RSS）
+精选
+70
+Meta秘密测试ChatGPT等竞品：承包商假扮未成年发送数万条危机提示
+Meta通过承包商Covelen发起代号“Cannes”的项目，雇佣数百人假扮未成年人，向ChatGPT、Gemini和Character.AI发送关于自杀、自残、饮食障碍和毒品的敏感提示，并将回复录入表格。2025年8月一轮测试中发送了超过4.5万条提示。Meta称这是行业标准安全测试，未将数据用于训练自家模型。被测试公司不知情——Character.AI表示违反其服务条款，OpenAI已调查，Google称未批准。青少年使用AI聊天机器人引发的担忧持续，此前已有用户自杀事件。
+Meta
+OpenAI
+安全/对齐
+行业动态
+推荐理由：Meta 秘密测试 ChatGPT 等对手，用的是假装未成年人的危机提示，这种事既是安全测试也可能是数据抓取，被测试公司全不知情，这暴露了 AI 安全测试的灰色地带。
+16:02
+IT之家（RSS）
+精选
+70
+黑石未来3~5年拟投300亿美元在日本建AI数据中心，联合成立AI XPV平台
+黑石计划未来3~5年在日本AI数据中心领域投资300亿美元，此前的500MW基础上新增超1GW容量。黑石总裁认为AI投资仍处早期，真正风险是算力短缺而非基建泡沫；谷歌、亚马逊是英伟达潜在挑战者。此外，黑石、阿波罗、博通本月9日成立AI XPV平台，目标2028年向OpenAI、Anthropic等提供超20GW算力，首期350亿美元支持Anthropic在Fluidstack数据中心部署1GW基础设施。
+Anthropic
+OpenAI
+行业动态
+部署/工程
+推荐理由：黑石300亿美元押注日本AI数据中心，加上此前AI XPV平台，算力基建竞赛进入新阶段，对于关注云计算和算力供需的人来说是个重要信号。
+15:02
+IT之家（RSS）
+精选
+79
+特斯拉Cybercab量产版在奥斯汀启动公开道路工程测试
+2026年6月30日，特斯拉在奥斯汀公共道路启动首批量产版Cybercab工程测试。车辆无方向盘与脚踏板，配有安全监督员，马斯克发布实拍视频。从2024年10月概念车首秀到实车上路约20个月。目前不对外开放乘客，投入34台Cybercab在市中心验证硬件可靠性。Cybercab为双座车型，完全围绕无人驾驶打造，无后期改装。此前奥斯汀已有无安全员Model Y无人驾驶出租于1月启用、6月22日开放付费服务。
+具身智能
+行业动态
+推荐理由：特斯拉把无方向盘无踏板的 Cybercab 量产版开上奥斯汀公路，得州交通局批准了设计，从概念到测试仅 20 个月，进度远超预期，这是自动驾驶商业化的关键一步。
+13:24
+歸藏(guizang.ai)
+@op7418
+精选
+75
+X（Twitter）发布 hosted X MCP，AI 智能体可直连 X API
+X（Twitter）官方推出 hosted X MCP，AI 智能体可通过 MCP 协议直接调用 X API 获取实时信息，支持 Grok、Cursor 等工具。用户需注册 X API 并按量付费，个人优惠价每次调用 0.01 美元（1 美元 1000 次）。有用户实测拉取近三天书签仅花 0.1 美元。配置步骤：创建 APP 并充值、获取配置 ID、辅助配置（可交给 Codex/Claude）、授权启动。
+Developers: Announcing the hosted X MCP. Agents now have access to the best real-time information source in the world. Connect Grok,...
+智能体
+MCP/工具
+产品更新
+推荐理由：X官方推出的MCP让AI代理能直接读取Twitter数据，归藏实测了定价和配置流程，1美元可调用1000次个人数据，比官方公告更实在，依赖Twitter信息的开发者可以立刻上手。
+12:27
+TechCrunch：AI（RSS）
+精选
+71
+AI就业争论变得更加混乱
+截至2026年5月，AI相关裁员接近9万个，预计未来五年美国最多15%的岗位将被AI替代。但Ramp与Revelio Labs对近22,000家公司的报告发现，高AI投入企业（前三个月人均月均支出30美元）总员工数增长10.2%，入门级岗位增长12%。报告认为AI并非普遍导致岗位消失，而是在资源充裕的科技企业里成为扩张工具——降低工程、销售、客服等职能的生产成本，从而推动整体增员。但仅购买订阅而未持续投入的公司未见人头增长，可能加剧企业间的资源鸿沟。
+其他
+现象/趋势
+推荐理由：报告用雇佣数据驳斥了「AI消灭就业」的简单说法，付费多的公司反而在扩招甚至增加初级岗，但样本都是快速增长的科技公司，分化隐忧仍在，值得人力决策者细看。
+11:36
+小互
+@xiaohu
+精选
+81
+一个人管理5款产品，80%时间不写代码？Every的复利工程
+媒体软件公司Every公开「复利工程」方法论，以单人工程团队维护5款产品。核心是四步循环：Plan→Work→Review→Compound，其中Compound将每次解决问题的解法写入CLAUDE.md和docs/solutions/，使AI下次自动避坑。工程师80%时间花在Plan和Review，仅20%用于写代码。配套开源插件支持Claude Code等，含26个专项agent、23条工作流命令、13项技能，可零配置使用。/workflows:review一次并发14个agent审查代码，/workflows:plan在ultrathink模式下可并发40多个研究agent。
+智能体
+教程/实践
+编码
+部署/工程
+推荐理由：Every把内部单人维护5款产品的方法论和插件开源了，14个AI同时审代码、40多个研究agent做计划，是目前公开的多agent并行工程里数字最具体的参考之一，做AI辅助开发的可以直接上手抄。
+11:26
+HuggingFace Daily Papers（社区热门论文）
+精选
+77
+Agents-A1：35B MoE 智能体模型通过扩展 horizon 达到万亿参数级性能
+研究人员提出 Agents-A1，一个 35B 参数的 Mixture-of-Experts 智能体模型，通过扩展智能体 horizon（长轨迹与异构能力两个视角）达到万亿参数模型性能。团队构建了长 horizon 知识-行动基础设施，生成平均 45K token 的智能体轨迹，并采用三阶段训练：全领域监督微调、领域级教师模型训练、多教师领域路由在线蒸馏（含显著词汇对齐）。对比万亿参数模型 Kimi-K2.6 和 DeepSeek-V4-pro，Agents-A1 在 SEAL-0（56.4）、IFBench（80.6）、HiPhO（46.4）、FrontierScience-Olympiad（79.0）和 MolBench-Bind（56.8）上领先，并在 SciCode（44.3）、HLE（47.6）和 BrowseComp（75.5）上保持强竞争力。
+智能体
+推理
+论文/研究
+推荐理由：用35B模型追平1T参数模型，这条“扩展智能体视野”的路比无脑堆参数务实得多，做Agent和长程推理的团队必须认真读。
+10:10
+公众号：数字生命卡兹克
+精选
+67
+具身智能数据采集员：日薪200元起，给机器人当老师
+具身智能数据采集员以日薪200-250元招兼职，无需学历经验。面试先测量身高体重以适配采集手套，并询问是否晕VR。工作分两种：遥操作采集——穿戴设备控制双臂机器人完成分拣积木、叠纸杯等动作；无机器人示教采集——徒手重复动作（如叠衣服），设备记录轨迹。全球高质量物理交互数据截至2026年初仅约50万小时，不足大语言模型训练数据的两万分之一，需大量人力从零采集。
+具身智能
+现象/趋势
+推荐理由：具身智能的数据采集正在催生一种日结兼职，这篇文章把镜头对准了那些教会机器人叠纸杯的普通人，给我一种强烈的割裂感——最前沿的技术和最传统的用工方式在这里合体了。
+09:50
+公众号：卡尔的AI沃茨
+精选
+70
+AI News Radar 大更新：新增自媒体板块，支持订阅多平台账号
+AI News Radar 迎来大更新，新增自媒体板块，支持订阅某书、某音、某站、某X等平台账号，每日按热度推荐 Top10 信息（无热门则不硬凑），同时保留时间轴视图，可在热度优先和时间优先间切换。官方来源包括 OpenAI、Anthropic、Google 等一手消息及 GitHub AI&ML 更新日志。信息流按来源、类型、信号等级分类，标注高优先级与多源认证。项目完全开源，可零 API 部署独立 AI 日报页面，支持手机移动端及暗色界面。
+GitHub
+产品更新
+开源生态
+推荐理由：我觉得这是目前最实用的AI信息过滤工具，新版直接整合了社媒热榜和官方源，内容创作者可以拿来当选题雷达，普通人也能一键部署自己的AI日报，省去每天刷各个平台的时间。
+05:22
+Claude：Blog（网页）
+精选
+66
+为 Amazon Bedrock 和 Google Cloud 推出的 Claude apps gateway
+Anthropic 今日推出 Claude apps gateway，一个自托管控制平面，让企业能在 Amazon Bedrock 和 Google Cloud 上运行 Claude Code。它作为单个无状态容器部署于 Linux，后端使用 PostgreSQL，提供企业级 SSO 登录（通过 OIDC 对接 Google Workspace、Microsoft Entra ID、Okta 等）、集中策略管理、角色权限、路由（支持故障转移）以及按日/周/月、按组织/群组/用户的消费上限。遥测数据通过 OTLP 发送至用户配置的收集器。gateway 不会向 Anthropic 发送推理流量或使用数据（除非配置使用 Claude API）。即日起可用。
+Anthropic
+Google
+产品更新
+编码
+推荐理由：Claude Code企业版有了统一管理入口，SSO和成本控制是团队落地AI编程的关键，对CTO来说值得关注。
+05:01
+SemiAnalysis
+@SemiAnalysis_
+精选
+77
+有意思：在GTC 2026宣布Rubin Ultra仅3个月后，原4-die Rubin Ultra因制造执行问题被取消。新的"Rubin Ultra"尺寸减半，实际性能约为原版的一半。1/4🧵
+数据/训练
+行业动态
+推荐理由：NVIDIA 原版 Rubin Ultra 取消并减半规格是今年硬件领域最大的意外，所有依赖下一代算力增长的公司都得重估路线图。
+04:34
+Tomer Tunguz 博客（VC 分析）
+精选
+58
+Anthropic：当AI成本超过工程师薪酬
+Anthropic在算力上的支出达到每位工程师每年51.5万美元，是其完全薪资（22.4万美元）的2.3倍。相比之下，顶尖1%软件公司的算力支出为8.9万美元，中位数仅为1.37万美元。三个2029年情景预测了这一差距的缩小路径。
+Anthropic
+大佬观点
+数据/训练
+推荐理由：Tomer Tunguz 用数据把 AI 公司的烧钱速度拆得很细，Anthropic 每个工程师年算力成本 51.5 万美元，是工资的 2.3 倍，这个数字对重新理解 SaaS 毛利率很有冲击力。
+04:26
+OpenClaw🦞
+@openclaw
+精选
+71
+OpenClaw 现已登陆 iOS 和 Android 🦞
+📱 原生移动应用，终于来了
+💬 智能体装进口袋
+🔔 频道、任务、回复，随时处理
+用你的大拇指，在任何地方运行智能体。
+iOS： https：//apps.apple.com/us/app/openclaw-ai-that-does-things/id6780396132
+Android： https：//play.google.com/store/apps/details？id=ai.openclaw.app
+智能体
+产品更新
+端侧
+推荐理由：OpenClaw 终于推出原生移动应用，智能体可以随时放进口袋，对已有用户是体验上的补完，但对新用户的吸引力可能有限。
+02:35
+Hacker News 热门（buzzing.cc 中文翻译）
+精选
+75
+Qwen 3.6 27B 是本地开发的理想选择
+Qwen 3.6 27B 是一款密集参数本地大语言模型，原生支持 256k 上下文。在 Macbook Max M5 上运行 llama.cpp Q8_0 量化版（含多 token 预测）可达 30 tokens/s；用户反馈在 RTX 5090 上 Q6_K 量化可达 50 tokens/s。它可通过单个提示完成创意诗歌、用 pnpm 生成六边形扫雷游戏等任务，作者称其为首个真正具备通用智能的本地模型。另有一个 MoE 变体 35B A3B，但作者推荐 27B 版本。
+开源生态
+端侧
+评测/基准
+推荐理由：一篇详实的 Qwen 3.6 27B 实战评测，从创意写作到代码生成都测了，还给出了 llama.cpp 部署命令和性能数据，想本地跑模型的开发者可以直接抄作业。
+02:22
+Claude：Blog（网页）
+精选
+64
+Claude 在 Microsoft Foundry 正式可用
+从今天起，Claude 模型在 Microsoft Foundry 上正式可用，托管于 Azure 环境，运行在 NVIDIA GB300 GPU 上。首批提供 Claude Opus 4.8 和 Claude Haiku 4.5，通过 Messages API 调用，支持提示缓存和扩展思考。用户可选择推理处理位置，包括美国数据区域，由 Anthropic 负责推理运营。Azure 用户可使用现有身份验证、计费与治理控制，并获得统一账单；符合条件的 Enterprise Agreement 客户可将 Claude 用量计入 Azure 承诺消费。
+Anthropic
+Microsoft
+产品更新
+部署/工程
+推荐理由：Claude 正式登陆 Azure Foundry 企业版，对于看重数据主权和现有 Azure 合约的企业是个好消息，但本质上是一次渠道铺开而非能力突破。
