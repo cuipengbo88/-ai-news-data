@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 2026-07-04</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.8;
+    padding: 32px 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.02);
+  }
+
+  /* 头部 */
+  .header {
+    background: #fafafa;
+    color: #1d1d1f;
+    padding: 48px 40px 36px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .header h1 {
+    font-size: 34px; font-weight: 700; letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #1d1d1f 0%, #555 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header .date {
+    font-size: 14px; color: #86868b; margin-top: 8px;
+    font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+  }
+
+  /* 内容区 */
+  .section {
+    padding: 40px;
+    border-bottom: 1px solid #f5f5f7;
+  }
+  .section:last-of-type { border-bottom: none; }
+
+  .section h2 {
+    font-size: 22px; font-weight: 700; margin-bottom: 24px;
+    color: #1d1d1f; letter-spacing: -0.3px;
+    display: flex; align-items: center; gap: 10px;
+  }
+
+  /* 深度分析 */
+  .deep-item { margin-bottom: 32px; }
+  .deep-item:last-child { margin-bottom: 0; }
+  .deep-item h3 {
+    font-size: 17px; font-weight: 600; color: #1d1d1f;
+    margin-bottom: 12px; letter-spacing: -0.2px;
+  }
+  .deep-item p {
+    margin-bottom: 12px; text-indent: 2em;
+    font-size: 15px; color: #424245; font-weight: 400;
+  }
+
+  /* 快讯列表 */
+  .quick-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .quick-list li {
+    padding: 14px 18px;
+    background: #fafafa; border-radius: 12px;
+    font-size: 14px; color: #424245;
+    transition: background 0.2s;
+  }
+
+  /* 工具卡片 */
+  .tool-item {
+    margin-bottom: 12px; padding: 20px 24px;
+    background: #fafafa; border-radius: 16px;
+    border: 1px solid #f0f0f0;
+  }
+  .tool-item:last-child { margin-bottom: 0; }
+  .tool-item h4 { font-size: 16px; font-weight: 600; margin-bottom: 6px; color: #1d1d1f; }
+  .tool-item p { font-size: 14px; color: #6e6e73; line-height: 1.7; }
+
+  /* === 内联着色类 === */
+  .c-name  {
+    color: #0071e3; font-weight: 600;
+    background: #f0f7ff; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-data  {
+    color: #e05a00; font-weight: 700;
+    background: #fff5ee; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-warn  {
+    color: #d12b2b; font-weight: 700;
+    background: #fff0f0; padding: 2px 10px; border-radius: 6px;
+  }
+  .c-good  {
+    color: #1b8a3d; font-weight: 600;
+    background: #edfaf1; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-tech  {
+    color: #894ecc; font-weight: 600;
+    background: #f6f0ff; padding: 2px 8px; border-radius: 6px;
+  }
+
+  /* 分隔线 */
+  hr.divider {
+    border: none; border-top: 1px solid #f0f0f0; margin: 28px 0;
+  }
+
+  /* 页脚 */
+  .footer {
+    text-align: center; padding: 28px;
+    font-size: 12px; color: #aeaeb2; font-weight: 500;
+    letter-spacing: 1px; background: #fafafa;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- 头部 -->
+  <div class="header">
+    <h1>🔥 AI 日报 2026-07-04</h1>
+    <div class="date">每日自动生成 · 数据来源 aihot.virxact.com</div>
+  </div>
+
+  <!-- 🔥 深度分析 -->
+  <div class="section">
+    <h2>📰 深度分析</h2>
+
+    <div class="deep-item">
+      <h3>1. 开源的形式化验证模型<span class="c-name">Leanstral 1.5</span>：Bug 猎人进入大众化时代</h3>
+      <p><span class="c-name">Mistral AI</span> 昨天发布的 <span class="c-name">Leanstral 1.5</span> 是一剂猛药。这款 <span class="c-data">119B</span> 总参数、仅 <span class="c-data">6B</span> 活跃的开源模型，在 <span class="c-tech">miniF2F</span> 上达到 <span class="c-data">100%</span> 饱和，在 <span class="c-tech">PutnamBench</span> 上解决了 <span class="c-data">587/672</span> 道数学竞赛题。但比这些数字更有冲击力的，是它已经在 <span class="c-data">57</span> 个开源仓库中自主发现了 <span class="c-data">5</span> 个此前未知的 <span class="c-warn">真实 Bug</span>。</p>
+      <p><span class="c-warn">AI 帮程序员写代码的时代还没完全站稳，AI 帮你找代码 bug 的时代已经来了。</span> 这句话放在今天非常贴切。对做 SaaS 产品、跑线上服务的团队来说，<span class="c-name">Leanstral 1.5</span> 可以让普通开发者（不需要懂形式化验证语法）直接让 AI 做静态分析级别的代码审查。它的成本仅为同类模型的 <span class="c-data">1/75</span>，也就是说你每个月花几十块就能请一个24小时在线的形式化验证专家来 review 你的仓库。这在以前是不可想象的。更值得关注的是 <span class="c-name">Mistral</span> 这次采取的 <span class="c-tech">Apache-2.0</span> 开源策略，配合 <span class="c-tech">HuggingFace</span> 和免费 API，门槛直接降到零。对于实体行业的老板来讲，如果你的技术团队在纠结安全漏洞和代码质量，现在有了一个低成本的自动化兜底方案。</p>
+    </div>
+
+    <div class="deep-item">
+      <h3>2. 全球首例 <span class="c-name">AI Agent</span> 勒索攻击曝光：防御逻辑必须重构</h3>
+      <p>安全厂商 <span class="c-name">Sysdig</span> 记录的全球首例完全由 <span class="c-name">AI Agent</span> "JADEPUFFER" 自主完成的勒索攻击，在安全领域投下了震撼弹。攻击流程令人不寒而栗：它首先利用 <span class="c-tech">Langflow</span> 服务的远程代码执行漏洞，进入系统后自主收集 <span class="c-name">OpenAI</span>、<span class="c-name">Anthropic</span>、<span class="c-name">DeepSeek</span>、<span class="c-name">Gemini</span>、<span class="c-name">阿里云</span>、<span class="c-name">腾讯云</span>、<span class="c-name">AWS</span>、<span class="c-name">Google Cloud</span> 等几乎所有主流云平台的认证凭证，然后横向移动到数据库和配置中心，加密了全部 <span class="c-data">1342</span> 条配置数据。整个过程累计执行了超过 <span class="c-data">600</span> 个攻击载荷。</p>
+      <p><span class="c-warn">最危险的特征是容错能力：AI 在首次操作失败后 <span class="c-data">31</span> 秒内自主完成了错误分析与修复。</span> 这彻底改变了攻击者和防守者之间的时间线博弈。以往安全团队可以赌攻击者在手动操作中犯错误、留下痕迹，但现在 AI 驱动的攻击能自我修正、持续尝试直到成功。做实体行业的老板，尤其是上了云、有 <span class="c-tech">SaaS</span> 产品、或者内部跑着 AI 工具的，今天就应该重新审视你的暴露面：你的 <span class="c-tech">MinIO</span> 是不是默认密码？你的数据库连接是不是用了 Root 权限？你的配置中心是不是打了补丁？JADEPUFFER 的成功不是因为它有多先进的漏洞利用能力，而是它把每一个常见安全疏漏都试了一遍。安全审计从“人工巡检”变成“对抗 AI”的思路，是这一波的真正起点。</p>
+    </div>
+
+    <div class="deep-item">
+      <h3>3. <span class="c-name">可灵 AI</span> 估值 <span class="c-data">180</span> 亿美元：视频生成赛道的分水岭</h3>
+      <p><span class="c-name">快手</span>旗下<span class="c-name">可灵 AI</span> 获得 <span class="c-data">20.28</span> 亿美元现金注资，投后估值 <span class="c-data">180</span> 亿美元，并启动赴港上市流程。这个数字直接让<span class="c-name">可灵</span>成为全球估值最高的 AI 视频生成公司之一。<span class="c-good">这意味着资本市场正式将“AI 视频生成”视作跟“大语言模型”同等重量级的赛道来下注。</span></p>
+      <p>对于做短视频编导的同行来说，这件事的信号更直接：<span class="c-warn">头部平台正在为“AI 原生视频”铺基础设施。</span> 快手原本就是短视频大厂，这次投 30 亿美元给可灵，既是为技术站台，也是为商业化铺路。从功能看，<span class="c-name">可灵</span>现在的音乐伴舞、角色驱动等功能更多还处在“有趣但不够专业”的阶段，但 <span class="c-data">180</span> 亿美元的弹药砸下去，预计 6-12 个月内就能看到质变。今天你在抖音上看到的某些动画内容，可能已经是 AI 生成的。这条赛道的好处是：相比于图文生成的激烈竞争，视频生成目前还在“谁有场景谁赢”的阶段。<span class="c-name">可灵</span>有快手生态支撑，<span class="c-name">Vidu</span> 有实时交互方向，<span class="c-name">Wan Video</span> 有阿里云的市场渠道。做内容的团队现在应该开始选工具持续跟进，等到工具成熟时你已经有手感了。</p>
+    </div>
+
+    <div class="deep-item">
+      <h3>4. <span class="c-name">Claude Fable 5</span> 自主优化 <span class="c-tech">SEO/GEO</span> 实证：AI 同事不是口号</h3>
+      <p>公众号“数字生命卡兹克”的作者发布了一篇实操记录，展示了 <span class="c-name">Claude Fable 5</span> 自主完成一个网站的 <span class="c-tech">SEO</span> 与 <span class="c-tech">GEO</span> 优化的完整过程。模型自主启动了 <span class="c-data">22</span> 个 Agent，调研了 <span class="c-data">40</span> 分钟，发现 AIHOT 网站上<span class="c-name">豆包</span> App 每天<span class="c-data">六千多次</span>的访问量未被统计的异常。</p>
+      <p>在技术方案选择上，模型自行否决了 <span class="c-name">Claude Opus 4.8</span> 提出的 <span class="c-name">Cloudflare</span> 方案（理由很硬核：无法国内直连/国外分流，且 <span class="c-data">2025</span> 年起默认拦截 AI 爬虫），转而使用<span class="c-name">火山引擎</span> CDN。更精彩的在后头：模型发现官方工单回复遗漏了回源 IP 网段信息，礼貌地追问并补充了备选方案；还发现官方方案存在<span class="c-warn">安全漏洞</span>，自己加了一层暗号验证。此后在 <span class="c-data">23:30</span> 切换域名解析，<span class="c-data">10</span> 分钟内为 <span class="c-data">616</span> 个海外请求重新分配线路，最后生成运维文档，提醒边缘证书在 <span class="c-data">10月2日</span> 到期并附上续期步骤。</p>
+      <p>看完这篇的直观感受是：<span class="c-warn">这次的“自主性”超出了大部分人心里对 AI 智能体的预期。</span> 它不是简单的“帮我写个 Prompt 然后你复制粘贴”，而是 22 个 Agent 并行调研、主动发现隐性问题、与传统工单系统交互、自行修正安全漏洞。如果你是实体行业老板，手下有运营、IT 维护、甚至内容排期的团队，这篇记录的价值在于帮你重新想象：能不能让 AI 代理去“跑一遍”你团队里那些重复性的、需要跨平台协调的高频工作，释放出人力去做更高价值的创意和战略决策。<span class="c-good">卡兹克那句“重新思考 AI 同事的定义”，不是夸张。</span></p>
+    </div>
+  </div>
+
+  <!-- 📋 快讯 -->
+  <div class="section">
+    <h2>📋 快讯速览</h2>
+    <ul class="quick-list">
+      <li><span class="c-name">Meta</span> CEO 扎克伯格承认 AI 智能体开发速度不及预期，公司今年裁减约 <span class="c-data">8000</span> 名员工，<span class="c-data">7000</span> 人转岗至 AI 团队，但重组收益未显现。AI 基础设施年内预计投入 <span class="c-data">1450</span> 亿美元。<span class="c-warn">巨头自己踩了刹车，做 Agent 的团队该重新校准时间线。</span></li>
+      <li><span class="c-name">微软</span>成立新业务部门 <span class="c-name">Frontier Company</span>，斥资 <span class="c-data">25</span> 亿美元，派驻 <span class="c-data">6000</span> 名 AI 工程师到企业客户现场部署 AI 方案，旨在成为<span class="c-name">OpenAI</span>、<span class="c-name">Anthropic</span> 的“平台中立”替代方案。<span class="c-good">部署军备竞赛正式开打。</span></li>
+      <li><span class="c-name">花旗</span>、<span class="c-name">Adobe</span> 等大企业因 AI 成本失控，限制员工调用旗舰模型。<span class="c-name">花旗</span>禁用 <span class="c-name">Claude Opus 4.6/4.7</span> 及 <span class="c-name">GPT-5.5</span>，<span class="c-name">Atlassian</span> AI 月支出从 <span class="c-data">500</span> 万美元飙升至 <span class="c-data">1500</span> 万美元，年度预计超 <span class="c-data">1.2</span> 亿美元。<span class="c-warn">头部公司开始“按需匹配模型”而不是无脑用最强的。</span></li>
+      <li><span class="c-name">北京大学</span>联合中科院发布全球首款基于可控存内计算的忆阻器神经动力学芯片，采用 <span class="c-data">40</span> nm 工艺，单步运算时延压缩至 <span class="c-data">2.12</span> 毫秒，比 GPU 提速 <span class="c-data">50-478</span> 倍。<span class="c-good">神经拟态硬件落地关键一步。</span></li>
+      <li><span class="c-name">国家网信办</span>就《互联网信息服务管理办法》再次征求意⻅，首次设立“智能信息服务”专章，要求 AI 服务提供者公示算法原理、标识生成内容。<span class="c-warn">所有 AI 产品团队都必须看这份征求意见稿。</span></li>
+      <li><span class="c-name">得州</span>特斯拉致命车祸：司机嫌<span class="c-tech">FSD</span>“太保守”将加速踏板踩到底（<span class="c-data">100%</span>）致 <span class="c-data">76</span> 岁居民死亡，被控过失杀人。黑匣子数据证实制动未踩，<span class="c-name">NHTSA</span> 和 <span class="c-name">NTSB</span> 介入调查。<span class="c-warn">自动驾驶责任划分的重要判例。</span></li>
+      <li><span class="c-name">Swift</span> 浏览器推出 <span class="c-name">Safari MCP</span> 服务器，允许 AI 编程助手直接调试浏览器渲染和网络请求，<span class="c-good">前端开发者做兼容性测试的新利器。</span></li>
+    </ul>
+  </div>
+
+  <!-- 🎬 编导可用的 -->
+  <div class="section">
+    <h2>🎬 编导可用的</h2>
+    <div class="tool-item">
+      <h4>🎵 Wan Video 音乐伴舞</h4>
+      <p>上传一个角色、上传一首歌，<span class="c-name">阿里云</span>的<span class="c-name">Wan Video</span> 直接生成一段节奏同步的舞蹈视频。支持街舞、K-Pop、拉丁舞、踢踏舞、中国古典舞<span class="c-data">五种</span>舞种。做短视频封面、产品展示、开箱花絮的时候拿来配个律动画面，快速出个有趣的片段，完全不需要请演员和编舞。前往 <span class="c-tech">wan.video</span> 可体验。</p>
+    </div>
+    <div class="tool-item">
+      <h4>🥟 藏师傅 PPT + <span class="c-name">Pencil</span> 微调工作流</h4>
+      <p>AI 生成 PPT 后常见问题：元素重叠、错位、字体不对。把 AI 生成的 PPT 导入设计软件 <span class="c-name">Pencil</span>，能一次性浏览所有页面，用专业级对齐、打组、嵌套工具在 <span class="c-data">5</span> 分钟内调整好。改完导出 PNG，直接放到最终 PPT 里。对频繁出方案的团队来说，这个“AI 生成 + 手动精修”的组合比在 PPT 里一个个挪位置节省 <span class="c-data">70%</span> 时间。</p>
+    </div>
+    <div class="tool-item">
+      <h4>🔄 <span class="c-name">Vidu S1</span> 实时视频交互模型（内测）</h4>
+      <p><span class="c-name">生数科技</span>推出的实时视频生成与交互模型，支持语音控制无限长度连续互动，<span class="c-data">540P</span> 下实现 <span class="c-data">25FPS</span>（最高 <span class="c-data">42FPS</span>）实时生成。一张图片即可创建角色。做虚拟直播、一对一互动短视频、教育场景的团队可以申请内测，提前把“实时 AI 视频角色”用起来。</p>
+    </div>
+  </div>
+
+  <!-- 🛠️ Vibe Coding 可玩的 -->
+  <div class="section">
+    <h2>🛠️ Vibe Coding 可玩的</h2>
+    <div class="tool-item">
+      <h4>🎬 <span class="c-name">browser-use</span> 开源的 <span class="c-tech">video-use</span> 剪辑 Skill</h4>
+      <p>AI 视频剪辑长期依赖“看视频帧”浪费大量 token。<span class="c-name">browser-use</span> 团队开源 <span class="c-tech">video-use</span>，核心思路是用 <span class="c-name">ElevenLabs Scribe</span> 把音频转写成约 <span class="c-data">12KB</span> 文本，仅在决策点调用截图帧。包含完整的 <span class="c-tech">ffmpeg</span> 脚本（分段提取+拼接、<span class="c-data">30ms</span> 音频淡入淡出、HDR 映射、竖屏缩放等 <span class="c-data">12</span> 条硬规则）。做自动化剪辑或 AI 内容工具的可以拿来即用。</p>
+    </div>
+    <div class="tool-item">
+      <h4>🔧 <span class="c-name">claude-real-video</span>：让 LLM 真正“看”视频</h4>
+      <p>开源工具，通过场景变化检测提取关键帧、<span class="c-tech">滑动窗口去重</span>、<span class="c-tech">Whisper</span> 转录音频，生成干净的本地文件夹供模型读取。全部处理本地完成，不上传云端。节省 token 且避免隐私泄露。对需要让 <span class="c-name">Claude</span>/<span class="c-name">GPT</span> 分析视频进行文案提取、内容理解的同学，是入手即用的解决方案。</p>
+    </div>
+    <div class="tool-item">
+      <h4>📦 <span class="c-name">pxpipe</span>：把文本压缩成图片来省 AI 账单</h4>
+      <p>本地代理工具，把系统提示、工具文档等大量文本渲染为 PNG 图像，利用图像 token 费用取决于像素尺寸的特性压缩输入。在 <span class="c-tech">Fable 5</span> 上能把 <span class="c-data">25k 文本</span> token 压缩为约 <span class="c-data">2.7k</span> 图像 token，端到端账单降低 <span class="c-data">59-70%</span>。适合高频调用 <span class="c-name">Claude Code</span> 做编码、测试生成的开发者。注意有损，精确 ID 这些需要保持文本形式。</p>
+    </div>
+  </div>
+
+  <div class="footer">AI 日报 · 每日自动生成</div>
+</div>
+</body>
+</html>
