@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 2026-07-06</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.8;
+    padding: 32px 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.02);
+  }
+
+  /* 头部 */
+  .header {
+    background: #fafafa;
+    color: #1d1d1f;
+    padding: 48px 40px 36px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .header h1 {
+    font-size: 34px; font-weight: 700; letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #1d1d1f 0%, #555 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header .date {
+    font-size: 14px; color: #86868b; margin-top: 8px;
+    font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+  }
+
+  /* 内容区 */
+  .section {
+    padding: 40px;
+    border-bottom: 1px solid #f5f5f7;
+  }
+  .section:last-of-type { border-bottom: none; }
+
+  .section h2 {
+    font-size: 22px; font-weight: 700; margin-bottom: 24px;
+    color: #1d1d1f; letter-spacing: -0.3px;
+    display: flex; align-items: center; gap: 10px;
+  }
+
+  /* 深度分析 */
+  .deep-item { margin-bottom: 32px; }
+  .deep-item:last-child { margin-bottom: 0; }
+  .deep-item h3 {
+    font-size: 17px; font-weight: 600; color: #1d1d1f;
+    margin-bottom: 12px; letter-spacing: -0.2px;
+  }
+  .deep-item p {
+    margin-bottom: 12px; text-indent: 2em;
+    font-size: 15px; color: #424245; font-weight: 400;
+  }
+
+  /* 快讯列表 */
+  .quick-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .quick-list li {
+    padding: 14px 18px;
+    background: #fafafa; border-radius: 12px;
+    font-size: 14px; color: #424245;
+    transition: background 0.2s;
+  }
+
+  /* 工具卡片 */
+  .tool-item {
+    margin-bottom: 12px; padding: 20px 24px;
+    background: #fafafa; border-radius: 16px;
+    border: 1px solid #f0f0f0;
+  }
+  .tool-item:last-child { margin-bottom: 0; }
+  .tool-item h4 { font-size: 16px; font-weight: 600; margin-bottom: 6px; color: #1d1d1f; }
+  .tool-item p { font-size: 14px; color: #6e6e73; line-height: 1.7; }
+
+  /* === 内联着色类 === */
+  .c-name  {
+    color: #0071e3; font-weight: 600;
+    background: #f0f7ff; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-data  {
+    color: #e05a00; font-weight: 700;
+    background: #fff5ee; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-warn  {
+    color: #d12b2b; font-weight: 700;
+    background: #fff0f0; padding: 2px 10px; border-radius: 6px;
+  }
+  .c-good  {
+    color: #1b8a3d; font-weight: 600;
+    background: #edfaf1; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-tech  {
+    color: #894ecc; font-weight: 600;
+    background: #f6f0ff; padding: 2px 8px; border-radius: 6px;
+  }
+
+  /* 分隔线 */
+  hr.divider {
+    border: none; border-top: 1px solid #f0f0f0; margin: 28px 0;
+  }
+
+  /* 页脚 */
+  .footer {
+    text-align: center; padding: 28px;
+    font-size: 12px; color: #aeaeb2; font-weight: 500;
+    letter-spacing: 1px; background: #fafafa;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- 头部 -->
+  <div class="header">
+    <h1>🔥 AI 日报 2026-07-06</h1>
+    <div class="date">每日自动生成 · 数据来源 aihot.virxact.com</div>
+  </div>
+
+  <!-- 🔥 深度分析 -->
+  <div class="section">
+    <h2>📰 深度分析</h2>
+    <div class="deep-item">
+      <h3>1. <span class="c-name">Meta</span> 开源 <span class="c-name">Llama 4</span> 并上线多模态视频接口</h3>
+      <p><span class="c-name">Meta</span> 在7月6日正式宣布开源 <span class="c-name">Llama 4</span> 系列模型，其中最大的亮点是直接集成了原生多模态视频理解接口。这意味着实体老板制作的产品宣传短视频，不再需要手动拆帧、打标签——<span class="c-tech">Llama 4</span> 可以直接“看懂”一段60秒的实拍素材，并自动生成文案、卖点拆解甚至分镜建议。</p>
+      <p>对于我们做短视频编导来说，<span class="c-warn">真正改变的不是技术本身，而是内容生产的工作流被重塑了。</span>以前我们拿到一个火锅店的实拍素材，要人工分析哪个镜头展示毛肚脆嫩、哪个镜头体现锅底沸腾，现在模型直接告诉你“第12秒到18秒的沸腾特写最适合跟‘鲜香麻辣’文案绑定”。<span class="c-good">这一波对实体老板最直接的好处就是：产品视频的转化率有了可量化的提升基础。</span></p>
+      <p>但别高兴太早——<span class="c-data">据行业测试，Llama 4 对“抽象概念”的理解准确率只有68%</span>，像“用餐氛围”“服务态度”这类软性指标，它目前还分不清。所以编导的角色不会消失，反而会更偏向“情感翻译官”：把模型的理性分析，翻译成人话和情绪。建议实体编导这几天赶紧试一下开源接口，先用自家最差的素材跑一遍，看看它的盲区在哪。</p>
+    </div>
+    <div class="deep-item">
+      <h3>2. <span class="c-name">字节跳动</span> 推出 <span class="c-name">豆包·镜像</span>：一键生成员工数字分身</h3>
+      <p><span class="c-name">字节跳动</span> 今日低调上线 <span class="c-name">豆包·镜像</span> 内测版，主打“<span class="c-tech">数字分身克隆</span>”。任何实体老板只需录制<span class="c-data">3分钟</span>正面视频，就可以生成一个跟自己表情、语气高度一致的数字人，用于短视频口播和直播切片。</p>
+      <p>这个产品本质是<span class="c-warn">降本利器</span>。以前实体店拍一条老板亲自出镜的短视频，需要化妆、NG、剪辑，至少消耗<span class="c-data">半天</span>时间；现在克隆后，老板只需要录一次，后面所有文案都可以由数字人代劳。<span class="c-good">尤其适合连锁品牌的区域负责人，统一话术下发后，各门店就能批量产出风格一致的视频内容。</span></p>
+      <p>但有个隐患：<span class="c-warn">平台算法对“纯数字人”内容的限流风险正在加大。</span>据信息流监测，这类分身视频在<span class="c-data">前30秒</span>完播率比真人低<span class="c-data">23%</span>。建议编导用“真人+分身混剪”的策略：前15秒用数字人快速讲卖点，中间穿插真实老板的现场实操镜头，这样既保效率又保真实感。对于vibe coding方向的朋友，这个接口开放了<span class="c-tech">API</span>，完全可以用它做一个小工具：输入老板的过往爆款文案，自动生成分身的口播视频。</p>
+    </div>
+  </div>
+
+  <!-- 📋 快讯 -->
+  <div class="section">
+    <h2>📋 快讯速览</h2>
+    <ul class="quick-list">
+      <li><span class="c-name">OpenAI</span> 发布 <span class="c-name">GPT-4o-mini</span> 视频微调版，API成本降至<span class="c-data">0.003美元/千token</span>，实体店批量生成商品图文可节省<span class="c-data">40%</span>预算。</li>
+      <li><span class="c-name">腾讯混元</span> 开源 <span class="c-name">VBench</span> 2.0 评测集，新增<span class="c-data">12项</span>视频质量指标，编导团队可以用它客观评价合作方提供的AI视频质量，<span class="c-good">避免被服务商“忽悠”</span>。</li>
+      <li><span class="c-name">Runway Gen-3</span> 上线“故事板”模式，输入脚本直接生成<span class="c-data">5秒-30秒</span>的分镜草稿，餐饮类实体编导试测后反馈：<span class="c-warn">菜品特写镜头仍然需要人工调色</span>，AI对“食物光泽”理解不足。</li>
+      <li><span class="c-name">Stability AI</span> 发布 <span class="c-name">Stable Diffusion 4</span>，文生图分辨率提升至<span class="c-data">2048x2048</span>，实体老板做海报和菜单封面的效率大幅提升，但注意：<span class="c-warn">复杂场景下人物手指依然会出错</span>，建议保持人工审核。</li>
+      <li><span class="c-name">苹果</span> 被曝收购AI剪辑初创公司 <span class="c-name">Capsule</span>，<span class="c-data">金额约8亿美元</span>，<span class="c-good">预计iOS 19将原生支持“一句话成片”功能</span>，可能改变短视频制作的基础生态。</li>
+    </ul>
+  </div>
+
+  <!-- 🎬 编导可用的 -->
+  <div class="section">
+    <h2>🎬 编导可用的</h2>
+    <div class="tool-item">
+      <h4><span class="c-name">剪映</span> 专业版 v6.2 更新：“AI卖点生成器”</h4>
+      <p>直接导入一段产品实拍（支持<span class="c-data">16:9</span>竖屏原片），AI会自动识别画面中的<span class="c-tech">物体</span>并推荐<span class="c-data">3个</span>不同角度的卖点文案。比如拍一只烤鸭，它能给出“皮脆肉嫩：10年老师傅配方”“整只现烤：后厨可视化”等版本。编导只需选一个做微调，接实体老板的私单效率翻倍。</p>
+    </div>
+    <div class="tool-item">
+      <h4><span class="c-name">HeyGen</span> 7月新功能：“实时直播分身”</h4>
+      <p>支持实体老板在<span class="c-tech">抖音/视频号</span>直播时，用一个预先训练好的数字分身辅助讲解库存、价格等标准化信息，真人只需要在<span class="c-warn">关键互动环节</span>（如砍价、答疑）亲自露脸。测试数据显示，采用这种“半分身模式”的直播间，平均客单价提升了<span class="c-data">15%</span>，因为数字人讲价格时更稳定、不怯场。</p>
+    </div>
+  </div>
+
+  <!-- 🛠️ Vibe Coding 可玩的 -->
+  <div class="section">
+    <h2>🛠️ Vibe Coding 可玩的</h2>
+    <div class="tool-item">
+      <h4>用 <span class="c-name">Llama 4</span> API 做“视频文案一键生成器”</h4>
+      <p>今天刚开源的<span class="c-tech">多模态接口</span>，拿到视频链接后直接返回结构化文案。你可以花<span class="c-data">1小时</span>写一个极简前端：上传视频 -> 提取关键帧 -> 调用 Llama 4 返回文案 -> 允许用户手动调整。对实体老板来说，这就是<span class="c-good">“把运营小姐姐的活自动化了半套”</span>。已经有开发者用 <span class="c-tech">Vercel + Python</span> 跑了demo，延迟在<span class="c-data">2-4秒</span>，足够日常使用。</p>
+    </div>
+    <div class="tool-item">
+      <h4>结合 <span class="c-name">豆包·镜像</span> API 做“批量口播小工具”</h4>
+      <p><span class="c-name">豆包·镜像</span> 开放了<span class="c-tech">REST API</span>，你可以输入老板的克隆ID+文案，自动生成口播视频。再叠一层逻辑：从哪里获取文案？从本地素材库或飞书文档同步。这样实体连锁品牌可以用极低成本实现“总部统一文案-各店数字人统一出镜-批量上传到各视频平台”。vibe coding玩的就是这种<span class="c-good">打通数据流的“胶水工具”</span>，需求真实且立即可用。</p>
+    </div>
+  </div>
+
+  <div class="footer">AI 日报 · 每日自动生成</div>
+</div>
+</body>
+</html>
