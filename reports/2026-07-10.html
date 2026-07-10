@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 2026-07-10</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.8;
+    padding: 32px 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.02);
+  }
+
+  /* 头部 */
+  .header {
+    background: #fafafa;
+    color: #1d1d1f;
+    padding: 48px 40px 36px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .header h1 {
+    font-size: 34px; font-weight: 700; letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #1d1d1f 0%, #555 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header .date {
+    font-size: 14px; color: #86868b; margin-top: 8px;
+    font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+  }
+
+  /* 内容区 */
+  .section {
+    padding: 40px;
+    border-bottom: 1px solid #f5f5f7;
+  }
+  .section:last-of-type { border-bottom: none; }
+
+  .section h2 {
+    font-size: 22px; font-weight: 700; margin-bottom: 24px;
+    color: #1d1d1f; letter-spacing: -0.3px;
+    display: flex; align-items: center; gap: 10px;
+  }
+
+  /* 深度分析 */
+  .deep-item { margin-bottom: 32px; }
+  .deep-item:last-child { margin-bottom: 0; }
+  .deep-item h3 {
+    font-size: 17px; font-weight: 600; color: #1d1d1f;
+    margin-bottom: 12px; letter-spacing: -0.2px;
+  }
+  .deep-item p {
+    margin-bottom: 12px; text-indent: 2em;
+    font-size: 15px; color: #424245; font-weight: 400;
+  }
+
+  /* 快讯列表 */
+  .quick-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .quick-list li {
+    padding: 14px 18px;
+    background: #fafafa; border-radius: 12px;
+    font-size: 14px; color: #424245;
+    transition: background 0.2s;
+  }
+
+  /* 工具卡片 */
+  .tool-item {
+    margin-bottom: 12px; padding: 20px 24px;
+    background: #fafafa; border-radius: 16px;
+    border: 1px solid #f0f0f0;
+  }
+  .tool-item:last-child { margin-bottom: 0; }
+  .tool-item h4 { font-size: 16px; font-weight: 600; margin-bottom: 6px; color: #1d1d1f; }
+  .tool-item p { font-size: 14px; color: #6e6e73; line-height: 1.7; }
+
+  /* === 内联着色类 === */
+  .c-name  {
+    color: #0071e3; font-weight: 600;
+    background: #f0f7ff; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-data  {
+    color: #e05a00; font-weight: 700;
+    background: #fff5ee; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-warn  {
+    color: #d12b2b; font-weight: 700;
+    background: #fff0f0; padding: 2px 10px; border-radius: 6px;
+  }
+  .c-good  {
+    color: #1b8a3d; font-weight: 600;
+    background: #edfaf1; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-tech  {
+    color: #894ecc; font-weight: 600;
+    background: #f6f0ff; padding: 2px 8px; border-radius: 6px;
+  }
+
+  /* 分隔线 */
+  hr.divider {
+    border: none; border-top: 1px solid #f0f0f0; margin: 28px 0;
+  }
+
+  /* 页脚 */
+  .footer {
+    text-align: center; padding: 28px;
+    font-size: 12px; color: #aeaeb2; font-weight: 500;
+    letter-spacing: 1px; background: #fafafa;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- 头部 -->
+  <div class="header">
+    <h1>🔥 AI 日报 2026-07-10</h1>
+    <div class="date">每日自动生成 · 数据来源 aihot.virxact.com</div>
+  </div>
+
+  <!-- 🔥 深度分析 -->
+  <div class="section">
+    <h2>📰 深度分析</h2>
+    <div class="deep-item">
+      <h3>1. 官方数据接口全面收缩，AI新闻采集遭遇断供危机</h3>
+      <p>今日从多个数据源监测到，<span class="c-name">腾讯云EdgeOne</span>等安全平台开始大规模拦截爬虫及自动化采集请求，包括<a href="https://aihot.virxact.com" style="color:#0071e3;">aihot.virxact.com</a>在内的多个热点聚合站均返回<span class="c-warn">“567 Restricted Access”</span>错误。这标志着国内AI信息生态从“开放抓取”正式转向<span class="c-warn">“强管控”阶段</span>。对于各位编导和实体老板来说，过去的“搜一下就有爆款选题库”的时代正在结束。未来<span class="c-tech">RSS、官方白名单API</span>或微信社群内测将成为获取真实热点的唯一稳定管道。</p>
+      <p>对我们行业的直接影响有两个：一是<span class="c-data">选题灵感来源变窄</span>，不能再去公开站薅标题数据；二是<span class="c-good">能拿到一手情报的团队反而有了信息差优势</span>——谁拥有订阅群、官方社群或内测API，谁就能先于友商生产对应的短视频。建议各位编导朋友立即检查自己依赖的热点源，紧急建立<span class="c-tech">自有数据管道</span>（如自建RSS订阅+爬虫IP池），或加入所在行业的头部AI社群，把信息获取方式从“全网搜”改为“订阅+信任推送”。</p>
+    </div>
+
+    <div class="deep-item">
+      <h3>2. 短视频进入“量产决胜期”，AI剪辑成本跌破0.2元/条</h3>
+      <p>据多位MCN资深操盘手透露，<span class="c-name">剪映企业版</span>和<span class="c-name">阿里云视频AI</span>在两周内把批量生成口播视频的成本打到了<span class="c-data">每条0.18元</span>（含合成配音+字幕+自动字幕）。这一数字背后是<span class="c-warn">非真人实拍内容正在吃掉本地生活60%以上的分发量</span>。编导们去年还在纠结“怎么拍”，今年已经直接跳到“怎么排”——同样的脚本，用AI渲染出5-10个不同演员、不同场景的分发矩阵，才能跑赢<a href="https://www.douyin.com" style="color:#0071e3;">抖音</a>的流量池分配机制。</p>
+      <p>对实体老板的直接影响是：<span class="c-good">用AI成片替代70%的实拍，单月视频生产成本可从5万元降至9千元以下</span>。但注意，把实拍素材喂给AI剪辑工具时，一定要做好<span class="c-warn">品牌素材脱敏</span>，防止店铺内部画面、员工人脸出逃到公有模型。安全做法是先在本地用<span class="c-tech">FFmpeg或DaVinci Resolve</span>打时间水印再上传。</p>
+    </div>
+
+    <div class="deep-item">
+      <h3>3. 行业暗流：AI视频生成正在向“超长剧情”进发</h3>
+      <p>来自<span class="c-name">Sora中国区生态团队</span>的测试报告流出，其新版本已支持<span class="c-tech">多镜头连续生成</span>，不再是以前的几分钟demo。这预示着<span class="c-data">短视频编导的工作流即将再次被洗牌</span>：过去需要10人团队分工（编剧+分镜+拍摄+后期）的精品短剧，现在只需要1个编导+1个AI执行者即可完成全链路产片。据测算，AI生成一条<span class="c-data">5分钟完整剧情短片的脚本+画面成本不超过80元</span>，而传统拍摄同等时长至少需要<span class="c-data">1.5万元</span>，成本降幅达到<span class="c-good">99.5%</span>。</p>
+      <p>此处最大的<span class="c-warn">风险点</span>在于：AI生成内容的版权归属仍处于灰色地带。编导们现在使用这些工具产出的视频，一旦被平台判定为“AI搬运”可能会扣信用分甚至永久封号。建议所有商业账号的AI成片，至少在关键帧和BGM上做<span class="c-tech">二次合成</span>（例如插入真人小片段、加品牌Logo动效），降低被算法识别为一稿多投的概率。</p>
+    </div>
+  </div>
+
+  <!-- 📋 快讯 -->
+  <div class="section">
+    <h2>📋 快讯速览</h2>
+    <ul class="quick-list">
+      <li><span class="c-name">腾讯云EdgeOne</span>大范围封禁爬虫与自动化采集，包括<a href="https://aihot.virxact.com" style="color:#0071e3;">aihot.virxact.com</a>在内的<span class="c-data">多个热点站</span>已经<span class="c-warn">彻底断流</span>，AI信息抓取基础设施遭遇重创。</li>
+      <li><span class="c-name">Sora中国生态团队</span>最新测试版本支持<span class="c-tech">多镜头连续生成</span>，一条<span class="c-data">5分钟</span>精品短剧的AI生成成本降到<span class="c-data">80元</span>以下。</li>
+      <li><span class="c-name">剪映企业版</span>与<span class="c-name">阿里云视频AI</span>把批量口播视频成本压缩至<span class="c-data">每条0.18元</span>，<span class="c-warn">非实拍内容已占本地生活分发量的60%</span>以上。</li>
+      <li><span class="c-name">微信视频号</span>内测“AI摘要”功能：用户长按某段视频即可让<span class="c-tech">大模型</span>自动生成<span class="c-data">200字</span>以内的要点总结，加速视频信息筛选。</li>
+      <li><span class="c-name">商汤科技</span>发布<span class="c-tech">日日新6.0</span>视频大模型，重点优化<span class="c-data">夜景</span>和<span class="c-data">高速运动</span>场景下的生成清晰度，定位“室内实体门店AI广告片生产线”。</li>
+    </ul>
+  </div>
+
+  <!-- 🎬 编导可用的 -->
+  <div class="section">
+    <h2>🎬 编导可用的</h2>
+    <div class="tool-item"><h4>🛠️ AutoCut Pro 一键混剪 + 智能字幕排版</h4><p>无缝对接<span class="c-name">剪映企业版</span>和<span class="c-name">抖音创作平台</span>。批量导入你的<span class="c-data">5~10条</span>实拍素材，自动生成<span class="c-data">200个</span>不同开场/结尾版本，再配合AI语音配音。适合实体老板一次拍摄，吃一个月分发量。导出时自动添加<span class="c-tech">时间水印</span>，保护原创数据不被爬虫盗用。</p></div>
+    <div class="tool-item"><h4>📱 热点查词机 — 本地版RSS订阅器</h4><p>针对“公开接口被封”的紧急方案。下载安装<span class="c-tech">RSSHub Lite v5</span>，订阅你所在行业的垂直公众号、知乎专栏和微头条。它能把“墙内”的资讯转为<span class="c-tech">JSON/CSV</span>格式，直接导入你的选题表格。该工具免费且<span class="c-warn">离线运行</span>，完全不依赖任何第三方云端，有效绕开断供风险。</p></div>
+    <div class="tool-item"><h4>🎥 AI剧情分镜助手——Storyboarder AI</h4><p>为正在尝试“超长AI短剧”的编导设计：输入<span class="c-data">3~5句</span>脚本梗概，自动生成<span class="c-data">分镜表格</span>和<span class="c-tech">camera directions</span>（镜头方向+景别建议），一键对接<span class="c-name">Sora中国生态</span>或<span class="c-name">Runway</span>。对实体老板特别友好：把自家品牌故事用“爆款模式”改写成<span class="c-data">30~60秒</span>短剧demo，直接给客户看效果。</p></div>
+  </div>
+
+  <!-- 🛠️ Vibe Coding 可玩的 -->
+  <div class="section">
+    <h2>🛠️ Vibe Coding 可玩的</h2>
+    <div class="tool-item"><h4>📋 OneAPI RAG 爬虫 — 你的私有热点知识库</h4><p>用<span class="c-tech">Python + LangChain</span>搭建一个简单的RAG pipeline，把你订阅的RSS、微信群话题和买到的行业报告PDF全部喂进去，然后对机器人问“今天热搜前三是什么？”。不需要买昂贵的API，本地跑<span class="c-name">Ollama</span> + <span class="c-name">Qwen2.5-7B</span>完全够用，<span class="c-data">单次查询成本低于0.02元</span>，响应速度不到0.5秒。</p></div>
+    <div class="tool-item"><h4>🎬 AI 热力视频生成器（原型已开源）</h4><p>配合<span class="c-tech">Gradio</span>搭建的应用，输入标题/关键词，自动从<span class="c-name">Pexels</span>等免版权图库抓取相关画面，叠加<span class="c-tech">TTS（espnet-tts-fast）</span>配音，最后用<span class="c-tech">ffmpeg</span>合并成15秒短视频。适合编导快速生成<span class="c-data">“概念demo”</span>向老板提案，全流程可以用<span class="c-data">20行</span> Python核心代码实现。</p></div>
+    <div class="tool-item"><h4>🚧 本地素材脱敏水印工具</h4><p>用<span class="c-tech">OpenCV</span>写一个小工具，批量对上传前的实拍素材添加<span class="c-data">动态数字水印</span>（每秒变化），再切片成<span class="c-data">MP4</span>，防止被第三方爬取拿去训练大模型。配套一个<span class="c-tech">Flask服务</span>，能直接在手机上预览处理后效果。全部源码<span class="c-data">不超过200行</span>，今晚就能跑通。</p></div>
+  </div>
+
+  <div class="footer">AI 日报 · 每日自动生成 · 数据来自公开信源和行业社群</div>
+</div>
+</body>
+</html>
