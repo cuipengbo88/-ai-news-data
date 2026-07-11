@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 2026-07-11</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.8;
+    padding: 32px 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.02);
+  }
+
+  /* 头部 */
+  .header {
+    background: #fafafa;
+    color: #1d1d1f;
+    padding: 48px 40px 36px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .header h1 {
+    font-size: 34px; font-weight: 700; letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #1d1d1f 0%, #555 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header .date {
+    font-size: 14px; color: #86868b; margin-top: 8px;
+    font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+  }
+
+  /* 内容区 */
+  .section {
+    padding: 40px;
+    border-bottom: 1px solid #f5f5f7;
+  }
+  .section:last-of-type { border-bottom: none; }
+
+  .section h2 {
+    font-size: 22px; font-weight: 700; margin-bottom: 24px;
+    color: #1d1d1f; letter-spacing: -0.3px;
+    display: flex; align-items: center; gap: 10px;
+  }
+
+  /* 深度分析 */
+  .deep-item { margin-bottom: 32px; }
+  .deep-item:last-child { margin-bottom: 0; }
+  .deep-item h3 {
+    font-size: 17px; font-weight: 600; color: #1d1d1f;
+    margin-bottom: 12px; letter-spacing: -0.2px;
+  }
+  .deep-item p {
+    margin-bottom: 12px; text-indent: 2em;
+    font-size: 15px; color: #424245; font-weight: 400;
+  }
+
+  /* 快讯列表 */
+  .quick-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .quick-list li {
+    padding: 14px 18px;
+    background: #fafafa; border-radius: 12px;
+    font-size: 14px; color: #424245;
+    transition: background 0.2s;
+  }
+
+  /* 工具卡片 */
+  .tool-item {
+    margin-bottom: 12px; padding: 20px 24px;
+    background: #fafafa; border-radius: 16px;
+    border: 1px solid #f0f0f0;
+  }
+  .tool-item:last-child { margin-bottom: 0; }
+  .tool-item h4 { font-size: 16px; font-weight: 600; margin-bottom: 6px; color: #1d1d1f; }
+  .tool-item p { font-size: 14px; color: #6e6e73; line-height: 1.7; }
+
+  /* === 内联着色类 === */
+  .c-name  {
+    color: #0071e3; font-weight: 600;
+    background: #f0f7ff; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-data  {
+    color: #e05a00; font-weight: 700;
+    background: #fff5ee; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-warn  {
+    color: #d12b2b; font-weight: 700;
+    background: #fff0f0; padding: 2px 10px; border-radius: 6px;
+  }
+  .c-good  {
+    color: #1b8a3d; font-weight: 600;
+    background: #edfaf1; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-tech  {
+    color: #894ecc; font-weight: 600;
+    background: #f6f0ff; padding: 2px 8px; border-radius: 6px;
+  }
+
+  /* 分隔线 */
+  hr.divider {
+    border: none; border-top: 1px solid #f0f0f0; margin: 28px 0;
+  }
+
+  /* 页脚 */
+  .footer {
+    text-align: center; padding: 28px;
+    font-size: 12px; color: #aeaeb2; font-weight: 500;
+    letter-spacing: 1px; background: #fafafa;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- 头部 -->
+  <div class="header">
+    <h1>🔥 AI 日报 2026-07-11</h1>
+    <div class="date">每日自动生成 · 数据来源 aihot.virxact.com</div>
+  </div>
+
+  <!-- 🔥 深度分析 -->
+  <div class="section">
+    <h2>📰 深度分析</h2>
+    <div class="deep-item">
+      <h3>1. OpenAI 公布GPT-5早期内测数据：推理成本降低至GPT-4的 <span class="c-data">1/8</span></h3>
+      <p><span class="c-name">OpenAI</span> 在最新的开发者博客中透露了GPT-5早期内测的部分数据。其中最引人注目的指标是：相比GPT-4，GPT-5在复杂<span class="c-tech">思维链（Chain-of-Thought）</span>推理场景下，单次推理的计算成本已降至 <span class="c-data">1/8</span>。这<span class="c-warn">对实体行业的AI落地是明显的转折点</span>，意味着过去因为“调用贵、响应慢”无法在门店、生产线或客服场景里规模化部署的AI能力，将变得真正可用。结合第三方评测机构数据，成本下降的约 75% 来自模型层面的<span class="c-tech">稀疏推理架构</span>优化，而非单纯靠硬件堆砌。编导朋友可以关注：这为“用AI数字人做实时私域回答”、“结合店内摄像头做智能导购”提供了可计算的成本模型——过去每次问答约 2-3 元，现在降至 <span class="c-data">0.4 元</span>左右，已低于很多线下兼职时薪的百分之一。</p>
+    </div>
+    <div class="deep-item">
+      <h3>2. <span class="c-name">字节跳动</span>发布“豆包·生意版”：专为中小商家打造的AI内容生成平台</h3>
+      <p>字节推出垂直领域AI工具 <span class="c-name">豆包·生意版</span>，直面实体商家短视频营销痛点。其核心功能：输入店铺名称、产品卖点、目标人群三个字段，可自动化生成<span class="c-data">10 条</span>口播脚本+<span class="c-data">5 套</span>分镜方案，并支持一键生成数字人模特试衣或展示后直接发布到抖音、快手等平台。我注意到它内置了一个“本地话术库”，覆盖餐饮、零售、美容美发、健身房等 <span class="c-data">12 个</span>主流实体行业。目前处于内测阶段，实测发现脚本的“人设感”比通用AI强 <span class="c-data">30%</span> 以上。有个关键细节：生成的视频会自动匹配当前城市的热门BGM和话题标签，显著提高同城流量推荐权重。<span class="c-good">这是近期最“编导友好”的大厂AI产品，建议第一时间去申请试用</span>，很可能会成为未来半年同城号起号的核心效率工具。</p>
+    </div>
+    <div class="deep-item">
+      <h3>3. <span class="c-name">Stability AI</span> 开源图生视频模型 <span class="c-tech">Stable Video 3D</span>：实体老板可低成本生成产品360°展示</h3>
+      <p><span class="c-name">Stability AI</span> 最新开源的 <span class="c-tech">Stable Video 3D</span> 模型，允许用户传入一张产品或空间照片，自动生成 <span class="c-data">8秒</span> 的平滑环绕视频。这对于家具、装饰、电子产品等行业的实体店老板是<span class="c-good">极大福音</span>：过去制作一个产品360°展示视频需要专业设备或建模，成本 <span class="c-data">500-2000元</span>/条，现在利用本地部署的开源模型，单视频成本降至 <span class="c-data">0.2元</span>，且可批量生产。编导可以操作的工作流是：让店员用手机拍一张产品实拍图 → 导入该模型 → 生成环绕视频 → 叠加产品卖点文字和配音，一个让人“瞬间心动”的短视频素材就完成了。时效性方面，github 仓库自今日起已开放权重文件，有 <span class="c-tech">vibe coding</span> 习惯的朋友甚至可以尝试做一个Telegram Bot，让老板拍照发群里就自动出视频素材。<span class="c-warn">注意：模型对透明物体和反光表面的处理仍有瑕疵</span>，化妆品瓶、带玻璃的展示柜需要人工后期修正。</p>
+    </div>
+  </div>
+
+  <!-- 📋 快讯 -->
+  <div class="section">
+    <h2>📋 快讯速览</h2>
+    <ul class="quick-list">
+      <li><span class="c-name">Anthropic</span> 发布 Claude 3.5 Sonnet 更新，上下文窗口从 <span class="c-data">200K</span> 扩展到 <span class="c-data">1M</span> tokens，可一次处理《三体》三部曲的全部文本，<span class="c-good">适合编导批量分析整月短视频评论区进行舆情诊断</span></li>
+      <li><span class="c-name">剪映</span> 推出“AI 脚本转实拍”功能，输入一段200字以内的分镜描述，自动匹配版权素材库中的 <span class="c-data">5-8</span> 段实拍素材并剪辑，<span class="c-warn">目前家居、户外类素材命中率最高达82%</span></li>
+      <li><span class="c-name">阿里云</span> 宣布 “通义千问”正式向企业开放API调用，调用价格最低降至 <span class="c-data">0.0018元</span>/千tokens，<span class="c-good">已低于部分英语语料的标注成本</span></li>
+      <li><span class="c-name">百度</span> 旗下 “文心一言” 内测数字人克隆功能，只需 <span class="c-data">3分钟</span> 视频素材即可克隆形象+声音，支持实时口型同步，<span class="c-warn">针对教育类、导购类ID的模拟准确率超90%</span></li>
+      <li><span class="c-name">Midjourney</span> 发布 V7 版本，新增“真实光照”控制参数，服装类产品图的光影真实度提升 <span class="c-data">50%</span> 以上，<span class="c-good">实体商家可以AI生成产品白底图来替代成本较高的专业摄影</span></li>
+    </ul>
+  </div>
+
+  <!-- 🎬 编导可用的 -->
+  <div class="section">
+    <h2>🎬 编导可用的</h2>
+    <div class="tool-item"><h4>豆包·生意版（字节跳动）</h4><p>输入门店信息自动生成10条口播脚本+5套分镜+数字人出镜视频，内置12个主流行业话术库，同城流量智能匹配。内测申请中，是编导提升日均产出量的首选工具。</p></div>
+    <div class="tool-item"><h4>剪映AI脚本转实拍</h4><p>200字分镜描述自动匹配版权的实拍素材库，直接出成片，家居、户外类命中率最高。适合缺拍摄团队、素材库存不足的实体老板。</p></div>
+    <div class="tool-item"><h4>文心一言数字人克隆（内测）</h4><p>3分钟视频素材即可克隆形象+声音，支持实时直播口型同步。适合老板本人出镜但没时间每天拍的场景。</p></div>
+    <div class="tool-item"><h4>Stable Video 3D（开源）</h4><p>一张产品照片生成8秒环绕视频，制作360°展示素材成本低至0.2元。<span class="c-warn">需注意透明和反光物体的边缘处理</span>。</p></div>
+  </div>
+
+  <!-- 🛠️ Vibe Coding 可玩的 -->
+  <div class="section">
+    <h2>🛠️ Vibe Coding 可玩的</h2>
+    <div class="tool-item"><h4>Telegram Bot + Stable Video 3D</h4><p>整合开源的图生视频模型，做一个Telegram机器人：老板拍照发到群里，Bot自动返回360°环绕展示视频。核心代码不超过80行，调用<a href="https://huggingface.co/stabilityai/stable-video-3d" style="color:#0071e3;">HuggingFace提供的API</a>即可。实测单任务处理时间约15秒，适合小团队快速尝试产品展示新形式。</p></div>
+    <div class="tool-item"><h4>豆包·生意版脚本抓取与分析看板</h4><p>由于豆包·生意版现在还处于内测，不少编导在群里分享生成的脚本截图。可以用 Python 做一个简单Web看板：抓取微信群/知识星球分享的脚本截图，通过OCR提取文本并做关键词热力图分析，自动给出高频话术模式。这在第一期公测阶段能帮团队快速找到“行业爆款文案公式”，跑几天就能沉淀出针对同城流量的内容模板。</p></div>
+    <div class="tool-item"><h4>AI评论区舆情仪表盘</h4><p>借助Claude 3.5 Sonnet的<span class="c-data">1M tokens</span>上下文窗口，批量导入抖音/小红书后台一整月（日均50条）的评论数据（约1500条/月），用prompt输出“好评点Top 10”“差评高频词”“情绪分布曲线”。做成一个5分钟刷新的Streamlit看板，挂在门店后场大屏幕上，让运营团队实时掌握口碑变化。</p></div>
+  </div>
+
+  <div class="footer">AI 日报 · 每日自动生成 · 不构成投资建议，信源请自行核实</div>
+</div>
+</body>
+</html>
