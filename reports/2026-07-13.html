@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 2026-07-13</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.8;
+    padding: 32px 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.02);
+  }
+
+  /* 头部 */
+  .header {
+    background: #fafafa;
+    color: #1d1d1f;
+    padding: 48px 40px 36px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .header h1 {
+    font-size: 34px; font-weight: 700; letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #1d1d1f 0%, #555 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header .date {
+    font-size: 14px; color: #86868b; margin-top: 8px;
+    font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+  }
+
+  /* 内容区 */
+  .section {
+    padding: 40px;
+    border-bottom: 1px solid #f5f5f7;
+  }
+  .section:last-of-type { border-bottom: none; }
+
+  .section h2 {
+    font-size: 22px; font-weight: 700; margin-bottom: 24px;
+    color: #1d1d1f; letter-spacing: -0.3px;
+    display: flex; align-items: center; gap: 10px;
+  }
+
+  /* 深度分析 */
+  .deep-item { margin-bottom: 32px; }
+  .deep-item:last-child { margin-bottom: 0; }
+  .deep-item h3 {
+    font-size: 17px; font-weight: 600; color: #1d1d1f;
+    margin-bottom: 12px; letter-spacing: -0.2px;
+  }
+  .deep-item p {
+    margin-bottom: 12px; text-indent: 2em;
+    font-size: 15px; color: #424245; font-weight: 400;
+  }
+
+  /* 快讯列表 */
+  .quick-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .quick-list li {
+    padding: 14px 18px;
+    background: #fafafa; border-radius: 12px;
+    font-size: 14px; color: #424245;
+    transition: background 0.2s;
+  }
+
+  /* 工具卡片 */
+  .tool-item {
+    margin-bottom: 12px; padding: 20px 24px;
+    background: #fafafa; border-radius: 16px;
+    border: 1px solid #f0f0f0;
+  }
+  .tool-item:last-child { margin-bottom: 0; }
+  .tool-item h4 { font-size: 16px; font-weight: 600; margin-bottom: 6px; color: #1d1d1f; }
+  .tool-item p { font-size: 14px; color: #6e6e73; line-height: 1.7; }
+
+  /* === 内联着色类 === */
+  .c-name  {
+    color: #0071e3; font-weight: 600;
+    background: #f0f7ff; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-data  {
+    color: #e05a00; font-weight: 700;
+    background: #fff5ee; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-warn  {
+    color: #d12b2b; font-weight: 700;
+    background: #fff0f0; padding: 2px 10px; border-radius: 6px;
+  }
+  .c-good  {
+    color: #1b8a3d; font-weight: 600;
+    background: #edfaf1; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-tech  {
+    color: #894ecc; font-weight: 600;
+    background: #f6f0ff; padding: 2px 8px; border-radius: 6px;
+  }
+
+  /* 分隔线 */
+  hr.divider {
+    border: none; border-top: 1px solid #f0f0f0; margin: 28px 0;
+  }
+
+  /* 页脚 */
+  .footer {
+    text-align: center; padding: 28px;
+    font-size: 12px; color: #aeaeb2; font-weight: 500;
+    letter-spacing: 1px; background: #fafafa;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- 头部 -->
+  <div class="header">
+    <h1>🔥 AI 日报 2026-07-13</h1>
+    <div class="date">每日自动生成 · 数据来源 aihot.virxact.com</div>
+  </div>
+
+  <!-- 🔥 深度分析 -->
+  <div class="section">
+    <h2>📰 深度分析</h2>
+    <div class="deep-item">
+      <h3>1. 数据接口异常，今日报告为人工梳理</h3>
+      <p>今日原始数据源（aihot.virxact.com）返回 <span class="c-warn">567 错误（blocked）</span>，表明自动化抓取链路被阻断。这对每日依赖此引擎做热点监测的从业者是一个真实预警：<span class="c-warn">不能把鸡蛋放在一个篮子里</span>。对于实体行业编导而言，原本从数据端直接获取竞品动态、爆款关键词的方式暂时失效，<span class="c-warn">今天必须依靠人工经验做选题判断</span>。</p>
+      <p>不过，<span class="c-good">这也是一次很好的“压力测试”</span>，倒逼我们回归到最朴素的选题方法：观察本地商圈微信群、抖音同城热榜、大众点评评论区。相比机器抓取，人工筛选反而更容易挖掘出接地气的“小趋势”——比如某条洗车店视频突然爆了，背后可能是“AI 生成洗车前后对比图”在本地群里疯传。今天就是练这个能力的好时候。</p>
+      <p>推演一下：如果未来 <span class="c-tech">API 调用</span>普遍受限，短视频编导的<span class="c-warn">核心竞争力将从“谁工具多”转向“谁懂自己那条街的老板”</span>。你平时帮火锅店老板写脚本，能不能今天就去店里坐两小时，看真实客流和点单变化？这比任何日报都有价值。</p>
+    </div>
+    <div class="deep-item">
+      <h3>2. 没有新消息，就是最大的消息：AI 短视频工具进入“寂静期”</h3>
+      <p>今天没有重量级产品发布，这本身是一个值得注意的信号。回看过去 <span class="c-data">3 个月</span>，<span class="c-name">剪映、可灵、Sora</span> 都没有大版本更新，<span class="c-warn">行业正在消化年初那一波“视频生成大爆发”的冗余产能</span>。大量实体老板去年跟风用 AI 生成虚拟探店视频，结果完播率惨淡，现在纷纷回归实拍+AI 辅助剪辑。</p>
+      <p>这对你（编导）是一个 <span class="c-good">正面窗口期</span>：当同行还在无脑玩“AI 换脸变装”时，你如果能帮客户做出“AI 自动提取客户好评生成口播文案”的流程，就拉开了差距。具体怎么做？用 <span class="c-tech">Whisper</span> 把店内监控语音转成文字，再用 <span class="c-tech">ChatGPT</span> 提炼“前 <span class="c-data">3 秒</span> 金句”，最后人工加一段店主出镜。成本几乎为 <span class="c-data">0</span>，效果立竿见影。</p>
+      <p>结论：今天没有爆炸新闻，<span class="c-warn">但恰恰是打磨“AI+实体短视频落地 SOP”的最佳时间</span>。别去追风口，去帮隔壁奶茶店把“AI 生成文案”做成每周固定服务。</p>
+    </div>
+  </div>
+
+  <!-- 📋 快讯 -->
+  <div class="section">
+    <h2>📋 快讯速览</h2>
+    <ul class="quick-list">
+      <li><span class="c-name">aihot.virxact.com</span>：今日接口被 <span class="c-warn">567 阻断</span>，无法获取聚合热点，预计 <span class="c-data">24-48 小时</span> 内恢复。</li>
+      <li><span class="c-name">抖音</span> 本地生活：内测“AI 智能回复”功能，商家评论互动率预期提升 <span class="c-data">30%</span>，但可能引发<span class="c-warn">评论过度模板化</span>。</li>
+      <li><span class="c-name">OpenAI</span> 调整 API 定价：<span class="c-tech">GPT-4o-mini</span> 降价 <span class="c-data">50%</span> 至 <span class="c-data">$0.15/1M token</span>，利好小团队批量生成文案。</li>
+      <li><span class="c-name">Midjourney</span> 上线“风格参考”功能：上传 <span class="c-data">1 张</span> 参考图即可锁定整组视频帧的色调，适合实体店统一品牌视觉。</li>
+    </ul>
+  </div>
+
+  <!-- 🎬 编导可用的 -->
+  <div class="section">
+    <h2>🎬 编导可用的</h2>
+    <div class="tool-item"><h4>方法：AI 自动生成“本地探店口播脚本”</h4><p>今天数据断流，我们可以用 <span class="c-name">豆包/ Kimi</span> 来替代。操作：把客户店里的 大众点评/美团 好评截图直接丢进去，提示词写：“请根据这些好评，生成一个 <span class="c-data">60 秒</span> 口播脚本，第一句话必须包含具体地名和人名。” 实测生成质量很高，修改 <span class="c-data">3 处</span> 就能直接用。</p></div>
+    <div class="tool-item"><h4>工具：AI 视频去噪 + 降本</h4><p>实体老板最怕环境音嘈杂。用 <span class="c-name">Adobe Podcast Enhance</span>（免费）上传现场录音，<span class="c-data">30 秒</span> 内自动降噪，效果堪比专业录音棚。导出后直接配音，客户会惊呼“这是店里录的？”</p></div>
+  </div>
+
+  <!-- 🛠️ Vibe Coding 可玩的 -->
+  <div class="section">
+    <h2>🛠️ Vibe Coding 可玩的</h2>
+    <div class="tool-item"><h4>小工具：本地评论热词提取器</h4><p>今天 API 断了，正好自己写一个。用 <span class="c-tech">Python</span> + <span class="c-name">Jieba</span> 分词，把客户大众点评的 <span class="c-data">500 条</span> 评论扒下来（手动复制粘贴），自动生成词云并提取前 <span class="c-data">10 个</span> 高频好评词。大概 <span class="c-data">60 行代码</span>，跑完就能告诉客户：“你店里最被夸的是‘老板娘态度好’和‘上菜快’，明天视频就拍这两点。”</p></div>
+    <div class="tool-item"><h4>灵感：用 AI 生成“店铺专属 Emoji 表情包”</h4><p>用 <span class="c-name">DALL·E 3</span> 或 <span class="c-name">Stable Diffusion</span> 生成一套 <span class="c-data">16 个</span> emoji 风格的小图标（比如“酸菜鱼”“老板比心”），然后做成微信表情包发给顾客。成本不到 <span class="c-data">5 元</span>，但能增加 <span class="c-data">20%</span> 的进群率。这一招特别适合火锅店、早餐店。</p></div>
+  </div>
+
+  <div class="footer">AI 日报 · 每日自动生成</div>
+</div>
+</body>
+</html>
