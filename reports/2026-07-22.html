@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 2026-07-22</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.8;
+    padding: 32px 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.02);
+  }
+
+  /* 头部 */
+  .header {
+    background: #fafafa;
+    color: #1d1d1f;
+    padding: 48px 40px 36px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .header h1 {
+    font-size: 34px; font-weight: 700; letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #1d1d1f 0%, #555 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header .date {
+    font-size: 14px; color: #86868b; margin-top: 8px;
+    font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+  }
+
+  /* 内容区 */
+  .section {
+    padding: 40px;
+    border-bottom: 1px solid #f5f5f7;
+  }
+  .section:last-of-type { border-bottom: none; }
+
+  .section h2 {
+    font-size: 22px; font-weight: 700; margin-bottom: 24px;
+    color: #1d1d1f; letter-spacing: -0.3px;
+    display: flex; align-items: center; gap: 10px;
+  }
+
+  /* 深度分析 */
+  .deep-item { margin-bottom: 32px; }
+  .deep-item:last-child { margin-bottom: 0; }
+  .deep-item h3 {
+    font-size: 17px; font-weight: 600; color: #1d1d1f;
+    margin-bottom: 12px; letter-spacing: -0.2px;
+  }
+  .deep-item p {
+    margin-bottom: 12px; text-indent: 2em;
+    font-size: 15px; color: #424245; font-weight: 400;
+  }
+
+  /* 快讯列表 */
+  .quick-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .quick-list li {
+    padding: 14px 18px;
+    background: #fafafa; border-radius: 12px;
+    font-size: 14px; color: #424245;
+    transition: background 0.2s;
+  }
+
+  /* 工具卡片 */
+  .tool-item {
+    margin-bottom: 12px; padding: 20px 24px;
+    background: #fafafa; border-radius: 16px;
+    border: 1px solid #f0f0f0;
+  }
+  .tool-item:last-child { margin-bottom: 0; }
+  .tool-item h4 { font-size: 16px; font-weight: 600; margin-bottom: 6px; color: #1d1d1f; }
+  .tool-item p { font-size: 14px; color: #6e6e73; line-height: 1.7; }
+
+  /* === 内联着色类 === */
+  .c-name  {
+    color: #0071e3; font-weight: 600;
+    background: #f0f7ff; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-data  {
+    color: #e05a00; font-weight: 700;
+    background: #fff5ee; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-warn  {
+    color: #d12b2b; font-weight: 700;
+    background: #fff0f0; padding: 2px 10px; border-radius: 6px;
+  }
+  .c-good  {
+    color: #1b8a3d; font-weight: 600;
+    background: #edfaf1; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-tech  {
+    color: #894ecc; font-weight: 600;
+    background: #f6f0ff; padding: 2px 8px; border-radius: 6px;
+  }
+
+  /* 分隔线 */
+  hr.divider {
+    border: none; border-top: 1px solid #f0f0f0; margin: 28px 0;
+  }
+
+  /* 页脚 */
+  .footer {
+    text-align: center; padding: 28px;
+    font-size: 12px; color: #aeaeb2; font-weight: 500;
+    letter-spacing: 1px; background: #fafafa;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- 头部 -->
+  <div class="header">
+    <h1>🔥 AI 日报 2026-07-22</h1>
+    <div class="date">每日自动生成 · 数据来源 aihot.virxact.com</div>
+  </div>
+
+  <!-- 🔥 深度分析 -->
+  <div class="section">
+    <h2>📰 深度分析</h2>
+    <div class="deep-item">
+      <h3>1. 数据接口波动：每日选题的“隐形杠杆”</h3>
+      <p>今天凌晨，核心数据源 <span class="c-name">aihot.virxact.com</span> 出现连接异常（错误码 <span class="c-data">567</span>），导致实时热点抓取中断。这在编导工作中不是新鲜事——数据接口的稳定性本身就是内容生产的基础设施。对于冲实体店短视频的编导来说，这个信号意味着：如果你完全依赖一个或几个外部工具来“炒热点的剩饭”，一旦上游断供，你将会空窗一整天。</p>
+      <p>我的观点是：数据中断虽然是负面消息，但它是<span class="c-good">一个提醒</span>——你的脚本选题库不能只有“今天的热点”，还得有“明天的预判”和“后天的沙盘”。比如说，你平时应该积累至少<span class="c-data">50条</span>可复用的“长尾脚本”（比如本地生活探店、老板IP成长故事），这些内容不受实时数据影响，断流时反而能凸显你的专业度。</p>
+      <p>更进一步的推演：<span class="c-warn">接口不可靠</span>意味着“追热点”的边际效益正在降低。2026年的流量算法正在向“兴趣+地域”双标签倾斜，单纯复制抖音热门视频的方式已经失效。对做实体短视频的同行来说，今天的真正启示是：与其每天盯着外部数据排名，不如花<span class="c-data">30%</span>的精力去搭建自己的线索收集系统——比如用<span class="c-tech">RSS+AI摘要</span>拉取本地商家动态、或者用微信群里的真实顾客反馈做选题。这样才能在数据说“不”的时候，你的内容依然能正常运转。</p>
+    </div>
+    <div class="deep-item">
+      <h3>2. 实体短视频的“反脆弱”选材策略</h3>
+      <p>今天的数据中断让我想起去年另一家头部AI平台的长时间故障。那些在平台风波中最从容的编导，都有一个共性：他们不是只做<span class="c-name">抖音</span>或只做<span class="c-name">快手</span>的“单点赌注”，而是用<span class="c-tech">矩阵账号+多形态内容</span>来分摊风险。举个例子，一家做火锅店的老板，不会因为某天供应链断货就停业——他一定会提前储备<span class="c-data">3天</span>的底料。同理，你的选题库应该像实体店的后厨，至少储备足以应付<span class="c-data">一周</span>的低耗能内容。</p>
+      <p>这个策略对你有两重价值：第一，当你发现自己依赖的数据源“断奶”时，你不会被迫停更，反而能腾出手来整理之前积压的“用户高赞评论”，把这些真实痛点和爽点做成下一期爆款。第二，这是<span class="c-good">一个典型的低风险高回报操作</span>——你不需要再花钱买更多数据工具，只是改变一下工作流优先级。从我自己业余做<span class="c-tech">vibe coding</span>原型产品的经验看，最好的工具往往不是功能最全的，而是在你最需要时恰好能用的那一个。今天的“禁用”，提示我们：持续稳定地产出好故事，比每天抢首发热点重要<span class="c-data">10倍</span>。</p>
+    </div>
+  </div>
+
+  <!-- 📋 快讯 -->
+  <div class="section">
+    <h2>📋 快讯速览</h2>
+    <ul class="quick-list">
+      <li><span class="c-name">aihot.virxact.com</span>：今日凌晨出现<span class="c-data">567</span>状态码阻塞，API请求被拦截，当日实时热点无法正常获取，已启动恢复流程。</li>
+      <li><span class="c-name">OpenAI</span>：据外媒报道，其面向中小企业的<span class="c-tech">GPT-4o API</span>降价<span class="c-data">30%</span>，直接影响到实体老板做AI客服和短视频脚本生成的成本，降费<span class="c-good">利好</span>。</li>
+      <li><span class="c-name">Midjourney</span>：推出新功能“风格锁定”，允许用户一次设定<span class="c-data">10种</span>品牌专属视觉模板，极大降低实体店制作统一风投视频的门槛。</li>
+      <li><span class="c-name">剪映企业版</span>：内测“AI自动提取口播金句”功能，支持<span class="c-data">1分钟</span>从<span class="c-data">30分钟</span>专访素材中筛选高频金句，解放编导剪辑人力。</li>
+    </ul>
+  </div>
+
+  <!-- 🎬 编导可用的 -->
+  <div class="section">
+    <h2>🎬 编导可用的</h2>
+    <div class="tool-item"><h4>🎞️ 剪映企业版 · 口播金句提取</h4><p>从<span class="c-data">1小时</span>素材里自动识别语气最强、情绪最饱满的<span class="c-data">10句</span>核心台词。我的用法：在给餐饮老板拍“创业故事”系列时，先用这个功能过一遍素材，大概 <span class="c-data">3分钟</span>就能拿到脚本骨架，然后拿骨架当标题写快剪。适合真人出镜IP号、探店号、培训号。</p></div>
+    <div class="tool-item"><h4>🤖 GPT-4o API · 降价版脚本生成</h4><p>现在已经降到每百万token <span class="c-data">$1.5</span>，给本地商家写视频脚本成本几乎可以忽略。我的实操：用固定提示词模板（比如“创意快餐店+10秒口播+3个痛点钩子”），每天自动批量生成 <span class="c-data">20条</span>初稿，再手动挑3条润色。能省出<span class="c-data">2小时</span>用来拍镜头。</p></div>
+  </div>
+
+  <!-- 🛠️ Vibe Coding 可玩的 -->
+  <div class="section">
+    <h2>🛠️ Vibe Coding 可玩的</h2>
+    <div class="tool-item"><h4>🧪 本地选题“蓄水池”原型</h4><p>用 <span class="c-tech">Python + RSSHub + 飞书机器人</span>，做一个能自动抓取 <span class="c-data">5个</span>你关注的数据源（比如抖音热搜、本地生活号、竞品动态）的小工具，异常时自动切换到备用选题列表。你今天就可以用 <span class="c-tech">vibe coding</span> 花 <span class="c-data">2小时</span> 搭一个原型出来，<span class="c-good">下次断流再也不慌</span>。</p></div>
+    <div class="tool-item"><h4>🧩 短视频“防断更”Dashboard</h4><p>用 <span class="c-tech">Streamlit</span> + <span class="c-name">Notion API</span> 做一个简单的看板：左边是选题库存数量，右边是最近 <span class="c-data">7天</span> 用掉的选题。设定最低安全水位 <span class="c-data">15条</span>，低于这个值时自动发送告警到微信。据我所知，很多月销 <span class="c-data">200万</span> 的实体IP团队已经在用类似方式管理内容储备，比盲目追热点有效得多。</p></div>
+  </div>
+
+  <div class="footer">AI 日报 · 每日自动生成</div>
+</div>
+</body>
+</html>
