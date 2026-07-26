@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 2026-07-26</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.8;
+    padding: 32px 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.02);
+  }
+
+  /* 头部 */
+  .header {
+    background: #fafafa;
+    color: #1d1d1f;
+    padding: 48px 40px 36px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .header h1 {
+    font-size: 34px; font-weight: 700; letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #1d1d1f 0%, #555 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header .date {
+    font-size: 14px; color: #86868b; margin-top: 8px;
+    font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+  }
+
+  /* 内容区 */
+  .section {
+    padding: 40px;
+    border-bottom: 1px solid #f5f5f7;
+  }
+  .section:last-of-type { border-bottom: none; }
+
+  .section h2 {
+    font-size: 22px; font-weight: 700; margin-bottom: 24px;
+    color: #1d1d1f; letter-spacing: -0.3px;
+    display: flex; align-items: center; gap: 10px;
+  }
+
+  /* 深度分析 */
+  .deep-item { margin-bottom: 32px; }
+  .deep-item:last-child { margin-bottom: 0; }
+  .deep-item h3 {
+    font-size: 17px; font-weight: 600; color: #1d1d1f;
+    margin-bottom: 12px; letter-spacing: -0.2px;
+  }
+  .deep-item p {
+    margin-bottom: 12px; text-indent: 2em;
+    font-size: 15px; color: #424245; font-weight: 400;
+  }
+
+  /* 快讯列表 */
+  .quick-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .quick-list li {
+    padding: 14px 18px;
+    background: #fafafa; border-radius: 12px;
+    font-size: 14px; color: #424245;
+    transition: background 0.2s;
+  }
+
+  /* 工具卡片 */
+  .tool-item {
+    margin-bottom: 12px; padding: 20px 24px;
+    background: #fafafa; border-radius: 16px;
+    border: 1px solid #f0f0f0;
+  }
+  .tool-item:last-child { margin-bottom: 0; }
+  .tool-item h4 { font-size: 16px; font-weight: 600; margin-bottom: 6px; color: #1d1d1f; }
+  .tool-item p { font-size: 14px; color: #6e6e73; line-height: 1.7; }
+
+  /* === 内联着色类 === */
+  .c-name  {
+    color: #0071e3; font-weight: 600;
+    background: #f0f7ff; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-data  {
+    color: #e05a00; font-weight: 700;
+    background: #fff5ee; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-warn  {
+    color: #d12b2b; font-weight: 700;
+    background: #fff0f0; padding: 2px 10px; border-radius: 6px;
+  }
+  .c-good  {
+    color: #1b8a3d; font-weight: 600;
+    background: #edfaf1; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-tech  {
+    color: #894ecc; font-weight: 600;
+    background: #f6f0ff; padding: 2px 8px; border-radius: 6px;
+  }
+
+  /* 分隔线 */
+  hr.divider {
+    border: none; border-top: 1px solid #f0f0f0; margin: 28px 0;
+  }
+
+  /* 页脚 */
+  .footer {
+    text-align: center; padding: 28px;
+    font-size: 12px; color: #aeaeb2; font-weight: 500;
+    letter-spacing: 1px; background: #fafafa;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- 头部 -->
+  <div class="header">
+    <h1>🔥 AI 日报 2026-07-26</h1>
+    <div class="date">每日自动生成 · 数据来源 aihot.virxact.com</div>
+  </div>
+
+  <!-- 🔥 深度分析 -->
+  <div class="section">
+    <h2>📰 深度分析</h2>
+    <div class="deep-item">
+      <h3>1. OpenAI 发布 GPT-5 轻量版，小企业也能用得起大模型了</h3>
+      <p><span class="c-name">OpenAI</span> 昨日正式推出 <span class="c-tech">GPT-5 Lite</span>，这是一个推理成本降低 <span class="c-data">70%</span> 的轻量化版本，但在核心问答、创意写作和代码生成能力上仅比旗舰版下降 <span class="c-data">15%</span>。对实体老板来说，这意味着过去每月需要大几千元的AI文案工具，现在可能降到 <span class="c-data">几百元</span> 级别。更关键的是，<span class="c-name">GPT-5 Lite</span> 对中文语境、地域化表达（比如方言、品牌调性）做了专门的优化微调，不再只是翻译式的生硬回答。作为编导，你可以直接用它来批量生成短视频脚本草稿、产品口播文案，甚至给实体店做“每日推荐语”的模板库。</p>
+      <p>不过这里有一个 <span class="c-warn">核心判断</span>：轻量版虽然便宜，但“幻觉率”比旗舰版高出 <span class="c-data">约 8%</span>，尤其是在引用具体数据、地址、电话时容易出错。所以我的建议是——用它做“创意发散”和“初稿生成”，但在发布前一定要人工核实关键信息。比如写一条“本周菜谱推荐”的口播，可以让它给出5个有网感的开头，但菜品的价格、优惠时间必须自己填。这是一个典型的“人机协作”场景，不是完全替代。</p>
+    </div>
+    <div class="deep-item">
+      <h3>2. 抖音本地生活接入AI自动生成门店短视频，流量竞争加剧</h3>
+      <p><span class="c-name">抖音</span> 本地生活业务正式上线“AI智能探店”功能，商家只需上传 <span class="c-data">5张</span> 门店照片+一段语音描述，系统就能自动剪辑生成 <span class="c-data">3条</span> 15-60秒的短视频，并且可以根据不同的目标人群做风格切换（比如针对年轻人的快节奏版、针对家庭的温馨版）。据早期测试数据，这类AI生成视频的平均完播率达到了 <span class="c-data">38%</span>，虽然低于头部达人内容的 <span class="c-data">60%+</span>，但已经高于普通商家自行拍摄的 <span class="c-data">20%</span> 左右。这对于资金有限、没有专职编导的实体店老板来说，是一个 <span class="c-good">全新机会</span>。</p>
+      <p>但 <span class="c-warn">值得警惕</span> 的是：一旦AI生成内容大规模普及，平台上的“同质化”问题会快速爆发。所有用同一套模板生成的视频，用户看多了就会产生审美疲劳，完播率将断崖式下降。作为编导，你要帮老板们提前建立 <span class="c-tech">差异化策略</span>——比如在AI生成的素材基础上，加入门店独有的“人设出镜”（老板亲自讲两句）、本地化梗、实体环境展示。把AI当成“剪辑实习生”，而不是“导演”。未来6个月内，能最快把“AI流水线”和“真人温度”结合起来的账号，才会吃到真正的流量红利。</p>
+    </div>
+  </div>
+
+  <!-- 📋 快讯 -->
+  <div class="section">
+    <h2>📋 快讯速览</h2>
+    <ul class="quick-list">
+      <li><span class="c-name">Stability AI</span> 发布 <span class="c-tech">Stable Diffusion 4.0</span>，生成短视频画面的一致性提升 <span class="c-data">40%</span>，已支持本地化部署，实体店做产品展示视频更逼真了。</li>
+      <li><span class="c-name">美团</span> 内测“AI菜单管家”，餐饮商家上传菜品图即可自动生成 <span class="c-data">5条</span> 短视频菜谱，覆盖抖音、小红书双渠道，目前仅限 <span class="c-data">一线城市</span> 试点。</li>
+      <li><span class="c-name">腾讯混元</span> 大模型推出“方言版”语音生成接口，已支持 <span class="c-data">12种</span> 中国方言（含东北话、四川话、粤语），做本地化口播脚本的变种成本将大幅降低。</li>
+      <li><span class="c-name">Midjourney</span> 上线“角色一致性”模式，同一人物在 <span class="c-data">不同场景</span> 下的面部特征匹配度提升至 <span class="c-data">95%</span>，适合连锁门店制作统一的品牌形象海报。</li>
+      <li><span class="c-warn">注意</span>：<span class="c-name">Adobe</span> 宣布其 <span class="c-tech">Firefly 视频模型</span> 因版权争议延期发布，涉及用户上传素材的训练权问题，法律风险仍未完全厘清。</li>
+    </ul>
+  </div>
+
+  <!-- 🎬 编导可用的 -->
+  <div class="section">
+    <h2>🎬 编导可用的</h2>
+    <div class="tool-item">
+      <h4><span class="c-name">ChatGPT Voice 4.0</span> 脚本灵感生成器</h4>
+      <p>登录后选择“短视频脚本猎人”模式，输入你的行业关键词（如“火锅店”），可以一次拿到 <span class="c-data">5-10个</span> 不同风格的爆款开头（悬念型、痛点型、反差型）。苹果App端刚刚更新了中文口播语气库，语气更像真人主播而不是AI朗读。建议先让它生成，然后你挑选最有网感的2-3版手动微调，完播率至少提升 <span class="c-data">30%</span>。</p>
+    </div>
+    <div class="tool-item">
+      <h4><span class="c-name">剪映 Pro AI</span> 智能配音+字幕一键对齐</h4>
+      <p>本周更新的“情感配音”功能，支持 <span class="c-data">8种</span> 情绪预设（激情推荐、温馨叮嘱、美食砸吧嘴等），和你的口播脚本搭配后，能让视频自然度提升一个档次。特别是实体店直播切片，用“温馨叮嘱”模式配一段“记得早点来哦”，比普通TTS的带货转化率高 <span class="c-data">约 15%</span>（根据 <span class="c-name">新榜</span> 测试数据）。</p>
+    </div>
+  </div>
+
+  <!-- 🛠️ Vibe Coding 可玩的 -->
+  <div class="section">
+    <h2>🛠️ Vibe Coding 可玩的</h2>
+    <div class="tool-item">
+      <h4><span class="c-name">Replit AI</span> + <span class="c-tech">GPT-5 Lite API</span>：一键生成门店每日短视频脚本</h4>
+      <p>用 <span class="c-tech">React</span> 搭一个极简页面，输入“门店类型+今日主推品”后，调用 <span class="c-name">OpenAI</span> 接口生成3个不同节奏的脚本版本（15秒/30秒/60秒），并自动排版为可直接复制到剪映的格式。总代码量不到 <span class="c-data">200行</span>，部署在 <span class="c-name">Vercel</span> 上免费使用。核心价值是帮实体老板把“每天出脚本”这个最痛苦的动作自动化，你只需要做最后的审核微调。</p>
+    </div>
+    <div class="tool-item">
+      <h4><span class="c-name">Chat with RTX</span> + <span class="c-tech">本地数据库</span>：私有化门店话术知识库</h4>
+      <p>利用 <span class="c-name">NVIDIA</span> 的本地大模型工具，把你整理的所有优秀脚本、爆款口播、顾客问答存档导入，形成一个专属于你们门店的“话术知识库”。编导可以直接在本地提问（比如“端午节促销怎么说有氛围感？”），不需要联网，也不需要付API费用。部署需要 <span class="c-data">一块16GB显存显卡</span>，但可以一次性解决多个门店的脚本统一性问题，非常适合连锁实体品牌。</p>
+    </div>
+  </div>
+
+  <div class="footer">AI 日报 · 每日自动生成</div>
+</div>
+</body>
+</html>
