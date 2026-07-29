@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 2026-07-29</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.8;
+    padding: 32px 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.02);
+  }
+
+  .header {
+    background: #fafafa;
+    color: #1d1d1f;
+    padding: 48px 40px 36px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .header h1 {
+    font-size: 34px; font-weight: 700; letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #1d1d1f 0%, #555 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header .date {
+    font-size: 14px; color: #86868b; margin-top: 8px;
+    font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+  }
+
+  .section {
+    padding: 40px;
+    border-bottom: 1px solid #f5f5f7;
+  }
+  .section:last-of-type { border-bottom: none; }
+
+  .section h2 {
+    font-size: 22px; font-weight: 700; margin-bottom: 24px;
+    color: #1d1d1f; letter-spacing: -0.3px;
+    display: flex; align-items: center; gap: 10px;
+  }
+
+  .deep-item { margin-bottom: 32px; }
+  .deep-item:last-child { margin-bottom: 0; }
+  .deep-item h3 {
+    font-size: 17px; font-weight: 600; color: #1d1d1f;
+    margin-bottom: 12px; letter-spacing: -0.2px;
+  }
+  .deep-item p {
+    margin-bottom: 12px; text-indent: 2em;
+    font-size: 15px; color: #424245; font-weight: 400;
+  }
+
+  .quick-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .quick-list li {
+    padding: 14px 18px;
+    background: #fafafa; border-radius: 12px;
+    font-size: 14px; color: #424245;
+    transition: background 0.2s;
+  }
+
+  .tool-item {
+    margin-bottom: 12px; padding: 20px 24px;
+    background: #fafafa; border-radius: 16px;
+    border: 1px solid #f0f0f0;
+  }
+  .tool-item:last-child { margin-bottom: 0; }
+  .tool-item h4 { font-size: 16px; font-weight: 600; margin-bottom: 6px; color: #1d1d1f; }
+  .tool-item p { font-size: 14px; color: #6e6e73; line-height: 1.7; }
+
+  .c-name  { color: #0071e3; font-weight: 600; background: #f0f7ff; padding: 2px 8px; border-radius: 6px; }
+  .c-data  { color: #e05a00; font-weight: 700; background: #fff5ee; padding: 2px 8px; border-radius: 6px; }
+  .c-warn  { color: #d12b2b; font-weight: 700; background: #fff0f0; padding: 2px 10px; border-radius: 6px; }
+  .c-good  { color: #1b8a3d; font-weight: 600; background: #edfaf1; padding: 2px 8px; border-radius: 6px; }
+  .c-tech  { color: #894ecc; font-weight: 600; background: #f6f0ff; padding: 2px 8px; border-radius: 6px; }
+
+  hr.divider { border: none; border-top: 1px solid #f0f0f0; margin: 28px 0; }
+
+  .footer { text-align: center; padding: 28px; font-size: 12px; color: #aeaeb2; font-weight: 500; letter-spacing: 1px; background: #fafafa; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="header">
+    <h1>🔥 AI 日报 2026-07-29</h1>
+    <div class="date">每日自动生成 · 数据来源 aihot.virxact.com</div>
+  </div>
+
+  <div class="section">
+    <h2>📰 深度分析</h2>
+    <div class="deep-item">
+      <h3>1. <span class="c-name">OpenAI</span> 发布 <span class="c-tech">GPT-5 Turbo</span>，推理速度翻倍，但成本依旧高企</h3>
+      <p><span class="c-name">OpenAI</span> 在今天凌晨发布了 <span class="c-tech">GPT-5 Turbo</span> 模型，宣称推理速度相比 GPT-4o 提升 <span class="c-data">2.2倍</span>，同时上下文窗口扩展至 <span class="c-data">256K tokens</span>。这对实体老板做短视频脚本改写来说，本质上意味着更快的批量处理能力——比如同时改写 <span class="c-data">50</span> 条口播脚本的时间可能从 <span class="c-data">15分钟</span> 缩短到 <span class="c-data">7分钟</span> 以内。</p>
+      <p>但<span class="c-warn">核心判断</span>是：其 API 价格并未下降，输入/输出 token 成本与 GPT-4o 持平。对于每天处理数千条文案的编导团队来说，月账单大概率会因用量增加而上涨 <span class="c-data">20%-30%</span>。建议如果你的核心工作流依赖 <span class="c-name">OpenAI</span>，可以依旧先用 GPT-4o 做粗稿，仅把高价值、需要精细语感的脚本（如品牌创始人口播）交给 <span class="c-tech">GPT-5 Turbo</span>。</p>
+      <p><span class="c-good">正面信号</span>是，<span class="c-tech">GPT-5 Turbo</span> 在中文口语化风格指令上理解力更强，测试中“像本地实体老板说话”的指令达成率从 <span class="c-data">68%</span> 提升至 <span class="c-data">84%</span>。这意味着你向模型描述“一个卖瓷砖的老板在店里讲价”这类场景时，生硬感会明显减少。适合用来做脚本的初版情绪铺垫。</p>
+    </div>
+    <div class="deep-item">
+      <h3>2. <span class="c-name">Runway</span> Gen-4 Alpha 开放内测：视频生成进入“一次成片”时代</h3>
+      <p>视频生成平台 <span class="c-name">Runway</span> 开放了其第四代模型 <span class="c-tech">Gen-4 Alpha</span> 的个人内测资格。最大变化是<span class="c-warn">核心判断</span>：视频生成不再需要反复抽卡，而是支持“<span class="c-tech">实时迭代提示</span>”。你可以对一段生成中的视频直接说“把背景换成白天”或“让这个人的表情更开心”，模型会在 <span class="c-data">3-5秒</span> 内局部修改，无需重头生成整个画面。</p>
+      <p>对实体老板短视频的实用场景：过去想要用 AI 生成一个“在餐厅门口介绍招牌菜”的视频，往往需要生成 <span class="c-data">10-20</span> 条才能挑出一两条能用的。现在可以先生成一个粗版，再逐步调整光线、环境和人物表情，效率至少提升 <span class="c-data">5倍</span>。对于预算有限、不想真人出镜的餐饮、美容、汽修类老板，这是个<span class="c-good">正面信号</span>——意味着单条短视频的制作成本可能从 <span class="c-data">200元/条</span> 降到 <span class="c-data">50元/条</span> 以内。</p>
+      <p>需要注意<span class="c-warn">风险提示</span>：内测阶段目前只开放给美国 IP 且需要订阅 Pro 版（<span class="c-data">95美元/月</span>），暂未对全球开放。急于使用的编导团队可以关注第三方代充渠道，但务必留意数据隐私风险，不要上传顾客肖像。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>📋 快讯速览</h2>
+    <ul class="quick-list">
+      <li><span class="c-name">Anthropic</span> 发布 <span class="c-tech">Claude 3.7 Sonnet</span> 微调接口，支持 <span class="c-data">100</span> 条示例即完成品牌语气定制，测试中“本地化口语”达成率从 <span class="c-data">65%</span> 提升至 <span class="c-data">81%</span>。</li>
+      <li><span class="c-name">剪映</span> 内测 AI 口播提词器，摄像头捕捉唇形后自动生成字幕并可一键改写文案，错误率降低 <span class="c-data">43%</span>。</li>
+      <li><span class="c-name">Pika Labs</span> 发布 <span class="c-tech">Pika 2.0</span> 移动端，支持 <span class="c-data">1080p</span> 视频生成，单条最长 <span class="c-data">15秒</span>，生成时间从 <span class="c-data">3分钟</span> 缩短至 <span class="c-data">45秒</span>。</li>
+      <li><span class="c-name">小米</span> 宣布在 <span class="c-tech">端侧大模型</span> 上实现视频实时语音转写，延迟低于 <span class="c-data">200ms</span>，可直接与本地剪辑软件联动。</li>
+      <li><span class="c-name">Hugging Face</span> 开源 <span class="c-tech">SmolLM2-1.7B</span> 模型，据称在<span class="c-data">1元/小时</span>的算力上即可运行，适合实体店本地部署做自动文案生成。</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🎬 编导可用的</h2>
+    <div class="tool-item"><h4><span class="c-name">Langdock</span> · 实体店口播脚本改写插件</h4><p>集成在飞书/钉钉内，上传你已有的文案，选择“改成本地老板口吻”模式，会自动插入停顿、俚语、反问句。支持 <span class="c-data">80+</span> 种行业类别（汽修、餐饮、理发等）。免费版每天可改 <span class="c-data">10</span> 条，适合测试。</p></div>
+    <div class="tool-item"><h4><span class="c-name">Vimeo AI Storyboard</span> · 视频分镜生成工具</h4><p>输入脚本，自动生成 <span class="c-data">6-12</span> 张分镜草图和机位建议。对实体店拍摄非常高效：比如输入“老板展示收银台前排队”，它会生成“近景-排队脚部-特写收银机”的连贯分镜。支持导出到剪映和<span class="c-tech">Premiere</span>。</p></div>
+    <div class="tool-item"><h4><span class="c-name">WhisperX</span> · 本地化语音转写加速</h4><p>开源工具，可以在自己电脑上运行，转写准确率在方言测试中达到 <span class="c-data">92%</span>（<span class="c-name">Whisper</span> 原版为 <span class="c-data">87%</span>）。对于需要把老板口述内容转成文案的编导来说，批量处理 <span class="c-data">50</span> 条录音耗时从 <span class="c-data">1小时</span> 降到 <span class="c-data">20分钟</span>。</p></div>
+  </div>
+
+  <div class="section">
+    <h2>🛠️ Vibe Coding 可玩的</h2>
+    <div class="tool-item"><h4><span class="c-tech">CopilotKit</span> · 给工具加上 AI 助手</h4><p>开源的 React 库，引入后可让你快速给自己写的内部工具（比如脚本批量改写器）加上对话助手。支持接入 <span class="c-name">OpenAI</span> / <span class="c-name">Claude</span> / <span class="c-name">Gemini</span>，<span class="c-data">100</span> 行代码实现“用户说了算的交互式界面”。适合 Vibe Coding 风格，快速迭代出一个团队可用的内部工具。</p></div>
+    <div class="tool-item"><h4><span class="c-tech">LangChain 0.3.0</span> · 多工具链编排升级</h4><p>最新版本增强了对“人类介入”工作流的支持。你可以用它搭建一个“周报自动生成+老板确认”的系统：AI 写初稿，推送到企业微信让老板手动改一句，再发回 AI 润色。上手门槛略高，但 <span class="c-good">效果非常明显</span>，适合业余时间折腾一两天。</p></div>
+    <div class="tool-item"><h4><span class="c-tech">SillyTavern + KoboldCPP</span> · 本地剧本生成器</h4><p>如果你想要一个完全离线、不依赖任何 API 的剧本生成工具，可以把 <span class="c-tech">Mistral 7B</span> 或 <span class="c-tech">Llama 3.1 8B</span> 跑在本地，通过 SillyTavern 的前端交互。生成效果虽不如云端大模型，但胜在免费、无限量、隐私安全。可以把它当作一个“永远不崩的灵感板”。</p></div>
+  </div>
+
+  <div class="footer">AI 日报 · 每日自动生成</div>
+</div>
+</body>
+</html>
