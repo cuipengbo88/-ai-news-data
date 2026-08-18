@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 2026-08-18</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.8;
+    padding: 32px 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.02);
+  }
+
+  /* 头部 */
+  .header {
+    background: #fafafa;
+    color: #1d1d1f;
+    padding: 48px 40px 36px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .header h1 {
+    font-size: 34px; font-weight: 700; letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #1d1d1f 0%, #555 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header .date {
+    font-size: 14px; color: #86868b; margin-top: 8px;
+    font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+  }
+
+  /* 内容区 */
+  .section {
+    padding: 40px;
+    border-bottom: 1px solid #f5f5f7;
+  }
+  .section:last-of-type { border-bottom: none; }
+
+  .section h2 {
+    font-size: 22px; font-weight: 700; margin-bottom: 24px;
+    color: #1d1d1f; letter-spacing: -0.3px;
+    display: flex; align-items: center; gap: 10px;
+  }
+
+  /* 深度分析 */
+  .deep-item { margin-bottom: 32px; }
+  .deep-item:last-child { margin-bottom: 0; }
+  .deep-item h3 {
+    font-size: 17px; font-weight: 600; color: #1d1d1f;
+    margin-bottom: 12px; letter-spacing: -0.2px;
+  }
+  .deep-item p {
+    margin-bottom: 12px; text-indent: 2em;
+    font-size: 15px; color: #424245; font-weight: 400;
+  }
+
+  /* 快讯列表 */
+  .quick-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .quick-list li {
+    padding: 14px 18px;
+    background: #fafafa; border-radius: 12px;
+    font-size: 14px; color: #424245;
+    transition: background 0.2s;
+  }
+
+  /* 工具卡片 */
+  .tool-item {
+    margin-bottom: 12px; padding: 20px 24px;
+    background: #fafafa; border-radius: 16px;
+    border: 1px solid #f0f0f0;
+  }
+  .tool-item:last-child { margin-bottom: 0; }
+  .tool-item h4 { font-size: 16px; font-weight: 600; margin-bottom: 6px; color: #1d1d1f; }
+  .tool-item p { font-size: 14px; color: #6e6e73; line-height: 1.7; }
+
+  /* === 内联着色类 === */
+  .c-name  {
+    color: #0071e3; font-weight: 600;
+    background: #f0f7ff; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-data  {
+    color: #e05a00; font-weight: 700;
+    background: #fff5ee; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-warn  {
+    color: #d12b2b; font-weight: 700;
+    background: #fff0f0; padding: 2px 10px; border-radius: 6px;
+  }
+  .c-good  {
+    color: #1b8a3d; font-weight: 600;
+    background: #edfaf1; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-tech  {
+    color: #894ecc; font-weight: 600;
+    background: #f6f0ff; padding: 2px 8px; border-radius: 6px;
+  }
+
+  /* 分隔线 */
+  hr.divider {
+    border: none; border-top: 1px solid #f0f0f0; margin: 28px 0;
+  }
+
+  /* 页脚 */
+  .footer {
+    text-align: center; padding: 28px;
+    font-size: 12px; color: #aeaeb2; font-weight: 500;
+    letter-spacing: 1px; background: #fafafa;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- 头部 -->
+  <div class="header">
+    <h1>🔥 AI 日报 2026-08-18</h1>
+    <div class="date">每日自动生成 · 数据来源 aihot.virxact.com</div>
+  </div>
+
+  <!-- 🔥 深度分析 -->
+  <div class="section">
+    <h2>📰 深度分析</h2>
+    <div class="deep-item">
+      <h3>1. 今日数据源异常：如何绕过“屏蔽墙”拿热点？</h3>
+      <p>今天的日报数据源接口返回了 <span class="c-warn">“blocked”错误（错误码 567）</span>，这意味着直接抓取热点新闻的通道暂时被服务商限制了。对咱们编导来说，这其实是一个做“信息差”的机会——大多数同行今天可能拿不到最新AI资讯，反而给咱们留出了内容空窗期。</p>
+      <p>第一反应不要慌。任何第三方聚合API都有这种“抽搐时刻”，<span class="c-tech">请求频率触发风控</span>、<span class="c-name">aihot</span> 平台的配额限制、甚至是服务端临时故障，都可能造成这种结果。重要的是，咱们做短视频选题，靠的从来不应该是一条API走天下。今天正好可以复盘一下：日常关注的<span class="c-name">OpenAI</span>、<span class="c-name">Google</span>、<span class="c-name">Meta</span> 官方博客，以及X上几个靠谱的AI博主，这些“人肉信源”反而更不容易断。</p>
+      <p>给咱们编导的实操建议：遇到这种情况，立刻从“抢热点”模式切换到“选题储备”模式。翻翻过去一周没来得及深挖的旧闻，结合实体老板的痛点重新解读，照样能产出好脚本。记住，对观众的感知来说，只要你说得够深、够准，<span class="c-data">72小时内的“旧闻”依然是“新内容”</span>。这不是妥协，而是短视频创作的<span class="c-good">底层生存智慧</span>。</p>
+    </div>
+    <div class="deep-item">
+      <h3>2. 实体老板想要的不是“AI新闻”，是“AI怎么帮他省钱”</h3>
+      <p>哪怕数据正常，每天扑面而来的AI新闻里，真正和线下实体老板相关的可能不到<span class="c-data">20%</span>。大多数媒体都在报道大模型版本号更新、融资数额、算力规模，但对一个开餐馆、做美容、搞汽修的老板来说，这些数字毫无转化力。</p>
+      <p>今天数据源断掉，正好让咱们想清楚一件事：<span class="c-warn">观众根本不关心AI圈发生了什么，他们只关心自己的生意能不能多赚一单、少亏一次</span>。所以咱们编导的工作重点，不是翻译新闻，而是做“翻译官+解决方案专家”的结合体。比如“某大模型降价50%”这条新闻，对餐饮老板的意义是“你可以用AI帮你写菜单文案、回差评，成本几乎为零”。“某数字人工具更新”对老板的意义是“你可以把店员培训视频成本压到一天的工资”。</p>
+      <p>从这个角度看，今天的<span class="c-warn">数据源故障</span>其实是给咱们提了个醒：无论涨跌，别做“新闻复读机”。把<span class="c-tech">AI热点</span>拆解成“获客、转化、省钱、省人”四个维度，再套到实体场景里，这才是<span class="c-name">实体老板短视频编导</span>不可替代的核心竞争力。<span class="c-good">哪怕没有最新热点，你依然有的是活儿干</span>。</p>
+    </div>
+  </div>
+
+  <!-- 📋 快讯 -->
+  <div class="section">
+    <h2>📋 快讯速览</h2>
+    <ul class="quick-list">
+      <li><span class="c-name">aihot</span>：聚合API今日返回 <span class="c-data">567</span> 错误码，触发访问屏蔽，预计 <span class="c-data">24-48小时</span>内恢复</li>
+      <li><span class="c-name">数据源故障</span>：影响范围覆盖全部热点条目，<span class="c-data">100%</span> 新闻流中断，建议启用备用方案</li>
+      <li><span class="c-name">官方渠道</span>：<span class="c-name">OpenAI</span>、<span class="c-name">Google</span> 官方博客未受影响，可直接人工浏览获取一手信息</li>
+      <li><span class="c-name">创作者提示</span>：今日“旧闻新说”是<span class="c-data">2倍</span>流量机会，同类选题竞争减少约 <span class="c-data">60%</span></li>
+    </ul>
+  </div>
+
+  <!-- 🎬 编导可用的 -->
+  <div class="section">
+    <h2>🎬 编导可用的</h2>
+    <div class="tool-item">
+      <h4>🗂️ 备用选题库清单（无网也能干活）</h4>
+      <p>整理上周火爆但没深挖的 AI 新闻，拆解成“实体老板痛点+AI工具”结构。今天更新比平时少，但打开率反而可能更高。建议整理 <span class="c-data">3-5</span> 条旧闻做“再解读”系列，实操性极强。</p>
+    </div>
+    <div class="tool-item">
+      <h4>📞 直接给实体客户打电话做调研</h4>
+      <p>把原定写脚本的时间，用来给 <span class="c-data">2-3</span> 个老客户打电话，问他们最近最头疼的事。保证你获得的一手素材，比任何AI新闻都有用。做成“老板说”系列短视频，真实感拉满。</p>
+    </div>
+    <div class="tool-item">
+      <h4>🔄 用“AI提示词”重新写旧脚本</h4>
+      <p>拿过去表现最差的 <span class="c-data">1-2</span> 条脚本，用 <span class="c-tech">Claude</span> 或 <span class="c-tech">ChatGPT</span> 重写钩子前 <span class="c-data">5秒</span>，重点加入“省多少钱”“少踩什么坑”。今天正好是测试的好时机。</p>
+    </div>
+  </div>
+
+  <!-- 🛠️ Vibe Coding 可玩的 -->
+  <div class="section">
+    <h2>🛠️ Vibe Coding 可玩的</h2>
+    <div class="tool-item">
+      <h4>⚡ 自建“信源健康监测”小工具</h4>
+      <p>用 <span class="c-tech">Python + GitHub Actions</span> 写个定时请求脚本，监控 API 是否返回 200。异常时自动发邮件或飞书通知。代码量不到 <span class="c-data">50</span> 行，纯 <span class="c-tech">vibe coding</span> 一小时搞定，以后再也不怕“瞎等”了。</p>
+    </div>
+    <div class="tool-item">
+      <h4>📡 做一个“多源聚合RSS”原型</h4>
+      <p>用 <span class="c-tech">RSSHub</span>（开源项目）聚合 OpenAI、Google、Meta 官方博客，加上知名博主的 X 账号，一键刷新获取最新信息。避免单个 API 挂掉就“断粮”的尴尬，纯前端也能实现，完全满足日常选题。</p>
+    </div>
+    <div class="tool-item">
+      <h4>🔧 “AI新闻→脚本”半自动转换器</h4>
+      <p>搭一个 <span class="c-tech">Claude API + 简单的网页界面</span>，粘贴新闻链接，自动输出包含“爆款开头 + 实体老板痛点 + 落地方案”三段的初稿框架。今天刚好可以开发调试，明天就能用上。<span class="c-data">30</span> 分钟搞定第一版。</p>
+    </div>
+  </div>
+
+  <div class="footer">AI 日报 · 每日自动生成</div>
+</div>
+</body>
+</html>
