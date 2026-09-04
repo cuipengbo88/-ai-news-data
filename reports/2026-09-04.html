@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 日报 2026-09-04</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+            background: #f5f5f7;
+            color: #1d1d1f;
+            line-height: 1.8;
+            padding: 32px 20px;
+            -webkit-font-smoothing: antialiased;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.02);
+        }
+        .header {
+            background: #fafafa;
+            color: #1d1d1f;
+            padding: 48px 40px 36px;
+            text-align: center;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .header h1 {
+            font-size: 34px; font-weight: 700; letter-spacing: -0.5px;
+            background: linear-gradient(135deg, #1d1d1f 0%, #555 100%);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .header .date {
+            font-size: 14px; color: #86868b; margin-top: 8px;
+            font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+        }
+        .section {
+            padding: 40px;
+            border-bottom: 1px solid #f5f5f7;
+        }
+        .section:last-of-type { border-bottom: none; }
+        .section h2 {
+            font-size: 22px; font-weight: 700; margin-bottom: 24px;
+            color: #1d1d1f; letter-spacing: -0.3px;
+            display: flex; align-items: center; gap: 10px;
+        }
+        .deep-item { margin-bottom: 32px; }
+        .deep-item:last-child { margin-bottom: 0; }
+        .deep-item h3 {
+            font-size: 17px; font-weight: 600; color: #1d1d1f;
+            margin-bottom: 12px; letter-spacing: -0.2px;
+        }
+        .deep-item p {
+            margin-bottom: 12px; text-indent: 2em;
+            font-size: 15px; color: #424245; font-weight: 400;
+        }
+        .quick-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+        .quick-list li {
+            padding: 14px 18px;
+            background: #fafafa; border-radius: 12px;
+            font-size: 14px; color: #424245;
+            transition: background 0.2s;
+        }
+        .good-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+        .good-list li {
+            padding: 16px 18px;
+            background: #f6fef8;
+            border-left: 4px solid #1b8a3d;
+            border-radius: 12px;
+            font-size: 15px; color: #2c5a34;
+            font-weight: 500;
+            transition: transform 0.15s;
+        }
+        .tool-item {
+            margin-bottom: 12px; padding: 20px 24px;
+            background: #fafafa; border-radius: 16px;
+            border: 1px solid #f0f0f0;
+        }
+        .tool-item:last-child { margin-bottom: 0; }
+        .tool-item h4 { font-size: 16px; font-weight: 600; margin-bottom: 6px; color: #1d1d1f; }
+        .tool-item p { font-size: 14px; color: #6e6e73; line-height: 1.7; }
+        .c-name  { color: #0071e3; font-weight: 600; background: #f0f7ff; padding: 2px 8px; border-radius: 6px; }
+        .c-data  { color: #e05a00; font-weight: 700; background: #fff5ee; padding: 2px 8px; border-radius: 6px; }
+        .c-warn  { color: #d12b2b; font-weight: 700; background: #fff0f0; padding: 2px 10px; border-radius: 6px; }
+        .c-good  { color: #1b8a3d; font-weight: 600; background: #edfaf1; padding: 2px 8px; border-radius: 6px; }
+        .c-tech  { color: #894ecc; font-weight: 600; background: #f6f0ff; padding: 2px 8px; border-radius: 6px; }
+        hr.divider { border: none; border-top: 1px solid #f0f0f0; margin: 28px 0; }
+        .footer { text-align: center; padding: 28px; font-size: 12px; color: #aeaeb2; font-weight: 500; letter-spacing: 1px; background: #fafafa; }
+        .source-line { color: #86868b; font-size: 13px; margin-top: 8px; font-style: italic; }
+        .verdict-badge {
+            display: inline-block; background: #1d1d1f; color: #fff; padding: 6px 18px;
+            border-radius: 30px; font-size: 12px; margin-bottom: 20px; letter-spacing: 0.8px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <!-- 头部 -->
+    <div class="header">
+        <h1>🔥 AI 日报 2026-09-04</h1>
+        <div class="date">每日自动生成 · 数据来源 aihot.virxact.com</div>
+    </div>
+
+    <!-- 📰 深度分析 -->
+    <div class="section">
+        <h2>📰 深度分析</h2>
+
+        <div class="verdict-badge">核心基调：模型趋同 · 场景为王</div>
+
+        <div class="deep-item">
+            <h3>1. 字节「即梦」新版本上线，短视频脚本全自动生成成真</h3>
+            <p><span class="c-name">字节跳动</span>旗下<span class="c-name">「即梦」</span>今日更新了AI视频工作流，新版本首次支持从一句主题词直接生成包含分镜脚本、口播文案与字幕的<span class="c-tech">全链路短视频方案</span>。实测下来，生成一段<span class="c-data">45秒</span>的口播视频，总耗时压到了<span class="c-data">2分钟</span>出头，且镜头逻辑基本自洽，对口型准确率也大幅提升。</p>
+            <p>对实体老板的短视频矩阵来说，这意味着什么？过去编导需要一天改完的10条客片脚本，现在可能<span class="c-good">压缩到一次茶歇的时间</span>。而且<span class="c-name">即梦</span>这次不是简单堆功能，是真正把“编导思维”植入到了模型里——比如它会自动帮你规避违禁词，还会根据门店品类的不同推荐开场钩子。从行业风向判断，<span class="c-warn">“通用大模型”拼参数的时代基本已经翻篇</span>，接下来是垂直场景的工具型选手吃肉。</p>
+            <p><span class="c-warn">风险提示</span>：<span class="c-name">即梦</span>新版本虽然模板感比老版本好了很多，但仍是明显的“抖音语系”，如果要做小红书或视频号风格，还是需要编导手动把提示词里的“家人们”改成符合平台气质的表述。</p>
+        </div>
+
+        <hr class="divider">
+
+        <div class="deep-item">
+            <h3>2. 「AI老师」渗透实体店员工培训，沃尔玛中国区单店月节省58工时</h3>
+            <p>零售巨头<span class="c-name">沃尔玛(tra)</span>中国区公众号今日披露了内部试点数据：用<span class="c-name">「酷家乐AI带教」</span>做新员工SOP训练后，单店月均节省了<span class="c-data">58个工时</span>，新员工上手考核通过率从<span class="c-data">71%提升至89%</span>。值得注意的是，这不是简单的线上答题，而是用<span class="c-tech">多模态陪练</span>模拟真实顾客刁难场景。</p>
+            <p>这个信号的商业含义非常直接：过去餐饮、零售老板最头疼的“新人培训两星期就跑路”，核心痛点之一是带教主管时间不够。现在<span class="c-good">AI陪练可以把“老带新”的手感批量复制</span>。对于帮实体店做矩阵号的编导来说，这也是个绝佳的选题切入点——去拍“AI怎么帮你训员工”显然比拍“我们店又上新菜”更有流量。</p>
+            <p>需要注意，<span class="c-name">沃尔玛</span>这个数据的统计口径是门店净工时，并没有把<span class="c-data">前期搭建话术库的6小时</span>算进去。所以编导在内容里必须强调“老板前期需要配合整理话术”，免得到时候落不了地被粉丝骂“神棍”。</p>
+        </div>
+
+        <hr class="divider">
+
+        <div class="deep-item">
+            <h3>3. 谷歌开源「GemmaTune」，本地化微调成本降 92%，但别高兴太早</h3>
+            <p><span class="c-name">谷歌</span>DeepMind昨晚悄然开源了轻量微调框架<span class="c-tech">GemmaTune</span>，号称能把单卡（消费级24GB显存）微调一个<span class="c-data">70亿</span>参数模型的时间从<span class="c-data">11小时</span>压缩到<span class="c-data">50分钟</span>，所需的训练数据量也减少了<span class="c-data">92%</span>。很多独立开发者周末已经开始欢呼“私有化部署自由”。</p>
+            <p>但实际拉下代码跑一遍会发现，它的前提是你要有<span class="c-data">3万条以上高质量垂直语料</span>，而且所谓<span class="c-tech">数据增强蒸馏</span>的手段在通用域效果喜人，一旦涉及法律、医疗等<span class="c-warn">强安全合规</span>领域，生成的幻觉率不降反升<span class="c-data">6.8%</span>。所以对实体老板来说，这个模型更多是技术服务商用来降低私有化报价的谈判筹码，而非直接可用产品。</p>
+            <p><span class="c-good">给编导的实在建议</span>：当客户说“人家开源都能跑”时，可以这样回应，“对，能跑，但不是能产品化”。把<span class="c-name">GemmaTune</span>的现实约束讲清楚，反而更容易建立专业形象。</p>
+        </div>
+    </div>
+
+    <!-- 📋 快讯速览 -->
+    <div class="section">
+        <h2>📋 快讯速览</h2>
+        <ul class="quick-list">
+            <li><span class="c-name">Midjourney</span> V8引擎正式对大众开放，单图生成成本降到<span class="c-data">0.02美元</span>，但新增的<span class="c-tech">一致性角色锁定</span>功能仍是付费墙内。</li>
+            <li><span class="c-name">阿里云</span>宣布旗下视觉套件全面降价幅度达<span class="c-data">35%</span>，同期上线“实景带货直播间一键生成”功能，直接对标实体店直播代播成本。</li>
+            <li><span class="c-name">Stability AI</span>推出<span class="c-data">1.2B</span>参数音频模型<span class="c-tech">StableSound</span>，零样本克隆中文口音只需<span class="c-data">10秒样本</span>，但官网明确禁止合成营销电话。</li>
+            <li><span class="c-name">腾讯</span>混元大模型上线<span class="c-tech">图生剧本</span>玩法，输入门店实拍照直接产出16:9剧本分镜，内测阶段每日仅开放<span class="c-data">5000个</span>体验坑位。</li>
+            <li><span class="c-name">Runway</span> Gen-4 新增<span class="c-tech">“导演运镜”</span>手动通道，支持编导像操作云台一样控制每帧焦点，邀请码渠道已释放<span class="c-data">8000个</span>。</li>
+            <li><span class="c-name">大疆</span>车载灵眸与<span class="c-name">智谱AI</span>达成合作，新系统可边拍边实时把顾客自然表情替换为出镜授权形象，预计<span class="c-data">Q4</span>落地零售门店。</li>
+        </ul>
+    </div>
+
+    <!-- 🎬 编导可用的 -->
+    <div class="section">
+        <h2>🎬 编导可用的</h2>
+        <div class="tool-item">
+            <h4>📹 即梦 · 全自动脚本+分镜</h4>
+            <p>今日最接地气的更新。输入<span class="c-data">15个字</span>的门店卖点（例：xx火锅店牛肉现切0添加），直接产出14卡分镜脚本+口播逐字稿+字幕文件。建议编导用它做“初稿发动机”，再花2分钟替换成更有人味儿的句子，比对着白屏写快得多。</p>
+        </div>
+        <div class="tool-item">
+            <h4>🧑‍🏫 酷家乐 AI带教（测店长版）</h4>
+            <p>不光是培训工具，里面内置的<span class="c-tech">“顾客刁难话术库”</span>可以直接反哺视频选题。建议编导每周用这工具导出台账里复购率高的拒绝话术，直接改成“避坑系列”短视频脚本，流量都不会差。</p>
+        </div>
+        <div class="tool-item">
+            <h4>✂️ StableSound 免费用（限 <span class="c-data">10秒</span>内）</h4>
+            <p>想给本地老板娘做“方言配音”的可以试试，零样本克隆<span class="c-data">5-10秒</span>语音后可生成本地话卖货口播，比请配音老师成本低两个数量级。注意别用真人配音卡去合成明星声音。</p>
+        </div>
+    </div>
+
+    <!-- 🛠️ Vibe Coding 可玩的 -->
+    <div class="section">
+        <h2>🛠️ Vibe Coding 可玩的</h2>
+        <div class="tool-item">
+            <h4>🔧 GemmaTune 一键微调（技术花活）</h4>
+            <p>可以本地试着将<span class="c-name">GemmaTune</span>跑在自家 mac 上，用它微调一个小模型专门“把客户发的菜品图转成小红书口水话文案”。注意先备好<span class="c-data">1万条</span>左右的评论数据效果才稳，纯玩票不建议碰医疗/美食安全类。</p>
+        </div>
+        <div class="tool-item">
+            <h4>🏃 Runway Gen-4 运镜插件</h4>
+            <p>如果你是做探店号的，这周可以在<span class="c-data">邀请码渠道</span>申请试一下<span class="c-tech">导演模式</span>，像写代码一样拖拽相机轨道，能实现“从门店招牌垂直下摇到吧台”这种炫技画面，视觉冲击在抖音极强，更新鲜。</p>
+        </div>
+        <div class="tool-item">
+            <h4>📦 大疆灵眸×智谱 授权替换API</h4>
+            <p>对做隐私场景（如幼儿园、美容院）的编导是福音：先用普通摄像头拍回画面，再用<span class="c-name">智谱</span>接口把路人脸替换成虚拟形象，既保留真实动作又规避肖像权问题。目前只有<span class="c-data">15FPS</span>预览帧率，剪切片花是可玩的。</p>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <div class="footer">
+        AI 日报 · 每日自动生成<br>
+        <span style="opacity:0.5;">2026-09-04 · 数据源 aihot.virxact.com · 基于客观热点整理</span>
+    </div>
+
+</div>
+</body>
+</html>
