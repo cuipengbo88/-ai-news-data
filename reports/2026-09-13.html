@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 2026-09-13</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.8;
+    padding: 32px 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.02);
+  }
+
+  /* 头部 */
+  .header {
+    background: #fafafa;
+    color: #1d1d1f;
+    padding: 48px 40px 36px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .header h1 {
+    font-size: 34px; font-weight: 700; letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #1d1d1f 0%, #555 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header .date {
+    font-size: 14px; color: #86868b; margin-top: 8px;
+    font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+  }
+
+  /* 内容区 */
+  .section {
+    padding: 40px;
+    border-bottom: 1px solid #f5f5f7;
+  }
+  .section:last-of-type { border-bottom: none; }
+
+  .section h2 {
+    font-size: 22px; font-weight: 700; margin-bottom: 24px;
+    color: #1d1d1f; letter-spacing: -0.3px;
+    display: flex; align-items: center; gap: 10px;
+  }
+
+  /* 深度分析 */
+  .deep-item { margin-bottom: 32px; }
+  .deep-item:last-child { margin-bottom: 0; }
+  .deep-item h3 {
+    font-size: 17px; font-weight: 600; color: #1d1d1f;
+    margin-bottom: 12px; letter-spacing: -0.2px;
+  }
+  .deep-item p {
+    margin-bottom: 12px; text-indent: 2em;
+    font-size: 15px; color: #424245; font-weight: 400;
+  }
+
+  /* 快讯列表 */
+  .quick-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .quick-list li {
+    padding: 14px 18px;
+    background: #fafafa; border-radius: 12px;
+    font-size: 14px; color: #424245;
+    transition: background 0.2s;
+  }
+
+  /* 工具卡片 */
+  .tool-item {
+    margin-bottom: 12px; padding: 20px 24px;
+    background: #fafafa; border-radius: 16px;
+    border: 1px solid #f0f0f0;
+  }
+  .tool-item:last-child { margin-bottom: 0; }
+  .tool-item h4 { font-size: 16px; font-weight: 600; margin-bottom: 6px; color: #1d1d1f; }
+  .tool-item p { font-size: 14px; color: #6e6e73; line-height: 1.7; }
+
+  /* 状态提示 */
+  .status-box {
+    background: #fff8f0;
+    border: 1px solid #ffe4c4;
+    border-radius: 16px;
+    padding: 24px 28px;
+  }
+  .status-box h3 {
+    font-size: 16px; font-weight: 700; color: #1d1d1f; margin-bottom: 10px;
+  }
+  .status-box p {
+    font-size: 14px; color: #6e6e73; line-height: 1.8; margin-bottom: 10px;
+  }
+  .status-box p:last-child { margin-bottom: 0; }
+
+  /* === 内联着色类 === */
+  .c-name  {
+    color: #0071e3; font-weight: 600;
+    background: #f0f7ff; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-data  {
+    color: #e05a00; font-weight: 700;
+    background: #fff5ee; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-warn  {
+    color: #d12b2b; font-weight: 700;
+    background: #fff0f0; padding: 2px 10px; border-radius: 6px;
+  }
+  .c-good  {
+    color: #1b8a3d; font-weight: 600;
+    background: #edfaf1; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-tech  {
+    color: #894ecc; font-weight: 600;
+    background: #f6f0ff; padding: 2px 8px; border-radius: 6px;
+  }
+
+  /* 分隔线 */
+  hr.divider {
+    border: none; border-top: 1px solid #f0f0f0; margin: 28px 0;
+  }
+
+  /* 页脚 */
+  .footer {
+    text-align: center; padding: 28px;
+    font-size: 12px; color: #aeaeb2; font-weight: 500;
+    letter-spacing: 1px; background: #fafafa;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- 头部 -->
+  <div class="header">
+    <h1>🔥 AI 日报 2026-09-13</h1>
+    <div class="date">每日自动生成 · 数据来源 aihot.virxact.com</div>
+  </div>
+
+  <!-- 数据状态 -->
+  <div class="section">
+    <h2>⚠️ 今日数据抓取失败</h2>
+    <div class="status-box">
+      <h3>数据源返回拦截，本期不输出推测内容</h3>
+      <p>今日抓取热点数据时，接口返回了 <span class="c-warn">blocked（错误码 567）</span>，请求 ID 为
+      <span class="c-tech">16062278245356684550</span>。这意味着我们<span class="c-warn">没有拿到任何可验证的原始新闻条目</span>。</p>
+      <p>按照本日报的一贯原则——<span class="c-warn">宁可少推，绝不编造</span>——今天不做深度分析、不列快讯、不推工具。任何"我猜今天大概发生了什么"的内容，对你的脚本选题和产品判断都是负资产：一旦基于假信息写了脚本、或者把假消息讲给实体老板客户听，损失的是你自己的专业信用。</p>
+      <p>建议处理方式：稍后重试数据源；或改用手动浏览几个常看的 AI 信息渠道（官方博客、开发者社区热榜）做人工选题。修复后可立即重新生成本期日报。</p>
+    </div>
+  </div>
+
+  <!-- 📰 深度分析 -->
+  <div class="section">
+    <h2>📰 深度分析</h2>
+    <div class="status-box">
+      <h3>本期空缺</h3>
+      <p>深度分析依赖真实新闻条目做事实锚点。今日无数据源，<span class="c-warn">暂不输出</span>，以免"有观点、无事实"造成误导。</p>
+    </div>
+  </div>
+
+  <!-- 📋 快讯 -->
+  <div class="section">
+    <h2>📋 快讯速览</h2>
+    <div class="status-box">
+      <h3>本期空缺</h3>
+      <p>快讯要求公司名与关键数字均为真实来源。今日<span class="c-warn">无有效数据</span>，不填充占位条目。</p>
+    </div>
+  </div>
+
+  <!-- 🎬 编导可用的 -->
+  <div class="section">
+    <h2>🎬 编导可用的</h2>
+    <div class="tool-item">
+      <h4>等数据恢复再选工具</h4>
+      <p>工具推荐必须基于当日真实发布/更新，否则很容易推一个"其实没更新、或者早就过时"的东西，客户一用就露馅。今日<span class="c-warn">暂不推荐具体工具</span>。</p>
+    </div>
+    <div class="tool-item">
+      <h4>今天可以做的备用动作</h4>
+      <p>与其硬凑日报，不如把时间花在：整理手头<span class="c-good">实体客户已跑出的爆款脚本结构</span>、复盘近 7 天数据表现（完播率、互动率）、把常用选题模板沉淀成可复用文档。这些不依赖外部新闻，反而是长期更有价值的积累。</p>
+    </div>
+  </div>
+
+  <!-- 🛠️ Vibe Coding 可玩的 -->
+  <div class="section">
+    <h2>🛠️ Vibe Coding 可玩的</h2>
+    <div class="tool-item">
+      <h4>本期空缺</h4>
+      <p>不推荐未经核实的工具或框架。今日<span class="c-warn">暂不输出</span>。</p>
+    </div>
+    <div class="tool-item">
+      <h4>顺手可做的小事</h4>
+      <p>既然数据源会偶发拦截，倒是个做产品原型的好机会：给自己写一个<span class="c-good">带重试 + 失败降级提示的日报抓取脚本</span>，用 <span class="c-tech">fetch 重试 + 状态码判断 + 本地缓存</span> 三件套，下次接口抽风时页面不会空着。这类"给内容生产者做的健壮性小工具"，本身就是个能自用、也能拿去做副业产品的方向。</p>
+    </div>
+  </div>
+
+  <div class="footer">AI 日报 · 每日自动生成</div>
+</div>
+</body>
+</html>
