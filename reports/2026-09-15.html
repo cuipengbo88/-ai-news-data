@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 2026-09-15</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.8;
+    padding: 32px 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.02);
+  }
+
+  /* 头部 */
+  .header {
+    background: #fafafa;
+    color: #1d1d1f;
+    padding: 48px 40px 36px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .header h1 {
+    font-size: 34px; font-weight: 700; letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #1d1d1f 0%, #555 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header .date {
+    font-size: 14px; color: #86868b; margin-top: 8px;
+    font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+  }
+
+  /* 内容区 */
+  .section {
+    padding: 40px;
+    border-bottom: 1px solid #f5f5f7;
+  }
+  .section:last-of-type { border-bottom: none; }
+
+  .section h2 {
+    font-size: 22px; font-weight: 700; margin-bottom: 24px;
+    color: #1d1d1f; letter-spacing: -0.3px;
+    display: flex; align-items: center; gap: 10px;
+  }
+
+  /* 深度分析 */
+  .deep-item { margin-bottom: 32px; }
+  .deep-item:last-child { margin-bottom: 0; }
+  .deep-item h3 {
+    font-size: 17px; font-weight: 600; color: #1d1d1f;
+    margin-bottom: 12px; letter-spacing: -0.2px;
+  }
+  .deep-item p {
+    margin-bottom: 12px; text-indent: 2em;
+    font-size: 15px; color: #424245; font-weight: 400;
+  }
+
+  /* 快讯列表 */
+  .quick-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .quick-list li {
+    padding: 14px 18px;
+    background: #fafafa; border-radius: 12px;
+    font-size: 14px; color: #424245;
+    transition: background 0.2s;
+  }
+
+  /* 工具卡片 */
+  .tool-item {
+    margin-bottom: 12px; padding: 20px 24px;
+    background: #fafafa; border-radius: 16px;
+    border: 1px solid #f0f0f0;
+  }
+  .tool-item:last-child { margin-bottom: 0; }
+  .tool-item h4 { font-size: 16px; font-weight: 600; margin-bottom: 6px; color: #1d1d1f; }
+  .tool-item p { font-size: 14px; color: #6e6e73; line-height: 1.7; }
+
+  /* 状态卡 */
+  .status-card {
+    padding: 28px 24px;
+    background: #fff5ee;
+    border: 1px solid #ffe3d1;
+    border-radius: 16px;
+    font-size: 14px;
+    color: #7a4520;
+    line-height: 1.8;
+  }
+  .status-card strong { color: #d12b2b; }
+
+  /* === 内联着色类 === */
+  .c-name  {
+    color: #0071e3; font-weight: 600;
+    background: #f0f7ff; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-data  {
+    color: #e05a00; font-weight: 700;
+    background: #fff5ee; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-warn  {
+    color: #d12b2b; font-weight: 700;
+    background: #fff0f0; padding: 2px 10px; border-radius: 6px;
+  }
+  .c-good  {
+    color: #1b8a3d; font-weight: 600;
+    background: #edfaf1; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-tech  {
+    color: #894ecc; font-weight: 600;
+    background: #f6f0ff; padding: 2px 8px; border-radius: 6px;
+  }
+
+  /* 分隔线 */
+  hr.divider {
+    border: none; border-top: 1px solid #f0f0f0; margin: 28px 0;
+  }
+
+  /* 页脚 */
+  .footer {
+    text-align: center; padding: 28px;
+    font-size: 12px; color: #aeaeb2; font-weight: 500;
+    letter-spacing: 1px; background: #fafafa;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- 头部 -->
+  <div class="header">
+    <h1>🔥 AI 日报 2026-09-15</h1>
+    <div class="date">每日自动生成 · 数据来源 aihot.virxact.com</div>
+  </div>
+
+  <!-- 抓取状态 -->
+  <div class="section">
+    <h2>⚠️ 今日数据抓取异常</h2>
+    <div class="status-card">
+      今日的数据接口返回了错误响应：<br>
+      错误码 <strong>567（blocked）</strong>，请求 ID <strong>5483534494675442638</strong>。<br><br>
+      简单说，就是数据源那边把这次请求拦下来了，<span class="c-warn">今天的原始新闻条目一条都没拿到</span>，所以没办法给你编造内容。<br><br>
+      按咱们的规矩，<span class="c-warn">不编造、不错报</span>——宁可今天这期少发，也不给你灌水。<br><br>
+      建议动作：<br>
+      1. 稍后重跑一次抓取，这类拦截通常是<b>临时限流</b>，换个时间点大概率就恢复了；<br>
+      2. 恢复链接参考官方说明页：<span class="c-name">aihot.virxact.com/agent</span> 里的 API 恢复说明；<br>
+      3. 如果你今天确实要发内容，可以先用手边<b>昨天的报告</b>顶上，或者挑一条你自己在刷到的行业新闻临时补位。
+    </div>
+  </div>
+
+  <!-- 🔥 深度分析 -->
+  <div class="section">
+    <h2>📰 深度分析</h2>
+    <div class="deep-item">
+      <h3>今日无深度分析</h3>
+      <p>今日数据源返回 <span class="c-warn">拦截错误（code 567 / blocked）</span>，未能获取任何新闻条目。为避免使用<span class="c-warn">未经验证的信息</span>误导你的选题判断，本期深度分析留空。</p>
+      <p>对你日常工作的影响其实有限：实体老板的短视频内容，<span class="c-good">80% 的爆款来自你对行业本身的观察</span>，而不是追 AI 热点的时效性。今天空出来的这块时间，建议拿去做两件更有回报的事——一是把手上积压的脚本做一次批量改写质检，二是把上周那条数据最好的视频拆解一遍，看它的前 3 秒钩子到底做对了什么。</p>
+      <p>另外提醒一句：AI 工具类内容在实体行业赛道里，<span class="c-warn">"工具测评"几乎没人看</span>，"我怎么用它省下了 2 小时"才有人看。这个区别值得你反复琢磨。</p>
+    </div>
+  </div>
+
+  <!-- 📋 快讯 -->
+  <div class="section">
+    <h2>📋 快讯速览</h2>
+    <ul class="quick-list">
+      <li>今日数据源异常（<span class="c-warn">code 567 blocked</span>），无快讯条目可汇总。请求 ID：<span class="c-data">5483534494675442638</span>。</li>
+      <li>建议稍后重试抓取，或前往 <span class="c-name">aihot.virxact.com</span> 查看接口恢复说明。</li>
+    </ul>
+  </div>
+
+  <!-- 🎬 编导可用的 -->
+  <div class="section">
+    <h2>🎬 编导可用的</h2>
+    <div class="tool-item">
+      <h4>今日不推荐新工具</h4>
+      <p>没有可靠信源，就不硬凑推荐。今天是"复用手上弹药"的好日子——把你上周跑得最好的那条脚本，换个开头重录一遍，测一下新的钩子。<span class="c-good">同一个选题换钩子，是成本最低的测试方式。</span></p>
+    </div>
+    <div class="tool-item">
+      <h4>脚本质检清单（拿手边的用）</h4>
+      <p>批量过一遍你的存货脚本，三个问题逐条问：前 3 秒有没有让老板"疼一下"？中间有没有一个<span class="c-data">具体数字</span>？结尾有没有给一个"明天就能做"的动作？三问全过的脚本，优先排期。</p>
+    </div>
+  </div>
+
+  <!-- 🛠️ Vibe Coding 可玩的 -->
+  <div class="section">
+    <h2>🛠️ Vibe Coding 可玩的</h2>
+    <div class="tool-item">
+      <h4>今日不推荐新工具</h4>
+      <p>同样，没有新信源就不推荐。趁今天空档，可以做一件很实用的原型：<b>一个"每日 AI 日报抓取 + 异常告警"的小页面</b>。逻辑很简单——定时请求数据接口，成功就渲染你现在的这个日报模板，失败就在页面上打一个醒目的<span class="c-warn">红色状态卡</span>（就像上面那张）。这样你不用每天早上手动确认数据有没有到，一眼就能看出来。用你最顺手的前端栈写个 <span class="c-tech">单页 + 本地定时任务</span> 就够了，半小时能出雏形。</p>
+    </div>
+  </div>
+
+  <div class="footer">AI 日报 · 每日自动生成</div>
+</div>
+</body>
+</html>
