@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 2026-09-26</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.8;
+    padding: 32px 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.02);
+  }
+
+  /* 头部 */
+  .header {
+    background: #fafafa;
+    color: #1d1d1f;
+    padding: 48px 40px 36px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .header h1 {
+    font-size: 34px; font-weight: 700; letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #1d1d1f 0%, #555 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header .date {
+    font-size: 14px; color: #86868b; margin-top: 8px;
+    font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+  }
+
+  /* 内容区 */
+  .section {
+    padding: 40px;
+    border-bottom: 1px solid #f5f5f7;
+  }
+  .section:last-of-type { border-bottom: none; }
+
+  .section h2 {
+    font-size: 22px; font-weight: 700; margin-bottom: 24px;
+    color: #1d1d1f; letter-spacing: -0.3px;
+    display: flex; align-items: center; gap: 10px;
+  }
+
+  /* 深度分析 */
+  .deep-item { margin-bottom: 32px; }
+  .deep-item:last-child { margin-bottom: 0; }
+  .deep-item h3 {
+    font-size: 17px; font-weight: 600; color: #1d1d1f;
+    margin-bottom: 12px; letter-spacing: -0.2px;
+  }
+  .deep-item p {
+    margin-bottom: 12px; text-indent: 2em;
+    font-size: 15px; color: #424245; font-weight: 400;
+  }
+
+  /* 快讯列表 */
+  .quick-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .quick-list li {
+    padding: 14px 18px;
+    background: #fafafa; border-radius: 12px;
+    font-size: 14px; color: #424245;
+    transition: background 0.2s;
+  }
+
+  /* 工具卡片 */
+  .tool-item {
+    margin-bottom: 12px; padding: 20px 24px;
+    background: #fafafa; border-radius: 16px;
+    border: 1px solid #f0f0f0;
+  }
+  .tool-item:last-child { margin-bottom: 0; }
+  .tool-item h4 { font-size: 16px; font-weight: 600; margin-bottom: 6px; color: #1d1d1f; }
+  .tool-item p { font-size: 14px; color: #6e6e73; line-height: 1.7; }
+
+  /* === 内联着色类 === */
+  .c-name  {
+    color: #0071e3; font-weight: 600;
+    background: #f0f7ff; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-data  {
+    color: #e05a00; font-weight: 700;
+    background: #fff5ee; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-warn  {
+    color: #d12b2b; font-weight: 700;
+    background: #fff0f0; padding: 2px 10px; border-radius: 6px;
+  }
+  .c-good  {
+    color: #1b8a3d; font-weight: 600;
+    background: #edfaf1; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-tech  {
+    color: #894ecc; font-weight: 600;
+    background: #f6f0ff; padding: 2px 8px; border-radius: 6px;
+  }
+
+  /* 异常提示块 */
+  .notice {
+    background: #fff8f0;
+    border: 1px solid #ffe0c2;
+    border-radius: 16px;
+    padding: 24px 26px;
+  }
+  .notice h3 {
+    font-size: 16px; font-weight: 700; color: #b34800;
+    margin-bottom: 10px;
+  }
+  .notice p {
+    font-size: 14px; color: #6e4a2a; margin-bottom: 10px;
+  }
+  .notice p:last-child { margin-bottom: 0; }
+  .notice code {
+    font-family: "SF Mono", Menlo, Consolas, monospace;
+    font-size: 12.5px;
+    background: #fff0e0;
+    padding: 2px 6px; border-radius: 5px;
+    color: #b34800;
+  }
+
+  /* 分隔线 */
+  hr.divider {
+    border: none; border-top: 1px solid #f0f0f0; margin: 28px 0;
+  }
+
+  /* 页脚 */
+  .footer {
+    text-align: center; padding: 28px;
+    font-size: 12px; color: #aeaeb2; font-weight: 500;
+    letter-spacing: 1px; background: #fafafa;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- 头部 -->
+  <div class="header">
+    <h1>🔥 AI 日报 2026-09-26</h1>
+    <div class="date">数据源异常 · 本期未取到内容</div>
+  </div>
+
+  <!-- ⚠️ 数据状态 -->
+  <div class="section">
+    <h2>⚠️ 今日数据源异常</h2>
+    <div class="notice">
+      <h3>本次抓取被数据源拦截，没能拿到 2026-09-26 的热点列表</h3>
+      <p>接口返回：<code>error: blocked</code> · <code>code: 567</code> · <code>requestId: 16311272568019729910</code>。</p>
+      <p>按数据源方给出的说明，这类拦截属于<span class="c-warn">访问被临时限制</span>，通常和请求频率、调用额度或风控策略有关，不是当天没有新闻。</p>
+      <p><span class="c-good">处理建议</span>：本期报告暂不生成深度分析、快讯和工具推荐——不编造、不补位。下期抓取恢复后会照常输出完整内容。</p>
+    </div>
+  </div>
+
+  <!-- 📰 深度分析（占位说明） -->
+  <div class="section">
+    <h2>📰 深度分析</h2>
+    <div class="deep-item">
+      <h3>本期空缺</h3>
+      <p>深度分析依赖当日真实新闻素材。在<span class="c-name">数据源</span>返回被拦截的情况下，任何"今日热点解读"都只能靠推测，
+      而<span class="c-warn">编造出来的趋势判断，比没有判断更危险</span>——尤其对做内容选题和产品决策的人来说，一条假信号可能带偏一整周的排期。</p>
+      <p>所以本期直接留空。<span class="c-good">等抓取恢复后，深度分析会正常补上 2-3 条</span>，每条保持 500-800 字，带你从"这事对实体老板意味着什么"的角度推演。</p>
+    </div>
+  </div>
+
+  <!-- 📋 快讯 -->
+  <div class="section">
+    <h2>📋 快讯速览</h2>
+    <ul class="quick-list">
+      <li><span class="c-name">数据源</span>：本期抓取返回 <span class="c-warn">blocked / 567</span>，<span class="c-data">0</span> 条快讯可确认，故不列出</li>
+      <li>恢复方式：等待<span class="c-name">aihot.virxact.com</span> 接口限制解除，下一期自动恢复常规推送</li>
+    </ul>
+  </div>
+
+  <!-- 🎬 编导可用的 -->
+  <div class="section">
+    <h2>🎬 编导可用的</h2>
+    <div class="tool-item">
+      <h4>今天没有新工具可推</h4>
+      <p>不硬凑。工具箱这件事，推一条用不上的，不如不推。<br>
+      如果你今天本来打算给实体老板客户拍"AI 又有什么新玩意"的选题，建议先缓一天，改拍<span class="c-good">存量内容的深耕</span>——比如把之前拍过的 AI 工具实测重新剪一条"用了 30 天后的真实结论"，这类复盘的完播和信任度通常比追热点更稳。</p>
+    </div>
+  </div>
+
+  <!-- 🛠️ Vibe Coding 可玩的 -->
+  <div class="section">
+    <h2>🛠️ Vibe Coding 可玩的</h2>
+    <div class="tool-item">
+      <h4>顺手修个自己的取数逻辑</h4>
+      <p>既然今天卡在数据源上，正好干点平时懒得干的事：给类似这种<span class="c-name">第三方数据接口</span>加一层兜底。用 AI 结对写个十几行的重试 + 缓存 + 失败降级逻辑，
+      例如请求失败时读上一次成功的结果、或写一封提醒给自己的通知。这类<span class="c-tech">容错处理</span>看起来很土，但你后面做任何依赖外部 API 的小工具，
+      早晚都会用到。<span class="c-good">今天这半小时，是给自己产品打的补丁。</span></p>
+    </div>
+  </div>
+
+  <div class="footer">AI 日报 · 每日自动生成 · 本期数据源异常，内容留空</div>
+</div>
+</body>
+</html>
