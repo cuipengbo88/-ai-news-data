@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 2026-10-17</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.8;
+    padding: 32px 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.02);
+  }
+
+  /* 头部 */
+  .header {
+    background: #fafafa;
+    color: #1d1d1f;
+    padding: 48px 40px 36px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .header h1 {
+    font-size: 34px; font-weight: 700; letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #1d1d1f 0%, #555 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header .date {
+    font-size: 14px; color: #86868b; margin-top: 8px;
+    font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+  }
+
+  /* 内容区 */
+  .section {
+    padding: 40px;
+    border-bottom: 1px solid #f5f5f7;
+  }
+  .section:last-of-type { border-bottom: none; }
+
+  .section h2 {
+    font-size: 22px; font-weight: 700; margin-bottom: 24px;
+    color: #1d1d1f; letter-spacing: -0.3px;
+    display: flex; align-items: center; gap: 10px;
+  }
+
+  /* 深度分析 */
+  .deep-item { margin-bottom: 32px; }
+  .deep-item:last-child { margin-bottom: 0; }
+  .deep-item h3 {
+    font-size: 17px; font-weight: 600; color: #1d1d1f;
+    margin-bottom: 12px; letter-spacing: -0.2px;
+  }
+  .deep-item p {
+    margin-bottom: 12px; text-indent: 2em;
+    font-size: 15px; color: #424245; font-weight: 400;
+  }
+
+  /* 快讯列表 */
+  .quick-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .quick-list li {
+    padding: 14px 18px;
+    background: #fafafa; border-radius: 12px;
+    font-size: 14px; color: #424245;
+    transition: background 0.2s;
+  }
+
+  /* 工具卡片 */
+  .tool-item {
+    margin-bottom: 12px; padding: 20px 24px;
+    background: #fafafa; border-radius: 16px;
+    border: 1px solid #f0f0f0;
+  }
+  .tool-item:last-child { margin-bottom: 0; }
+  .tool-item h4 { font-size: 16px; font-weight: 600; margin-bottom: 6px; color: #1d1d1f; }
+  .tool-item p { font-size: 14px; color: #6e6e73; line-height: 1.7; }
+
+  /* === 内联着色类 === */
+  .c-name  {
+    color: #0071e3; font-weight: 600;
+    background: #f0f7ff; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-data  {
+    color: #e05a00; font-weight: 700;
+    background: #fff5ee; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-warn  {
+    color: #d12b2b; font-weight: 700;
+    background: #fff0f0; padding: 2px 10px; border-radius: 6px;
+  }
+  .c-good  {
+    color: #1b8a3d; font-weight: 600;
+    background: #edfaf1; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-tech  {
+    color: #894ecc; font-weight: 600;
+    background: #f6f0ff; padding: 2px 8px; border-radius: 6px;
+  }
+
+  /* 状态提示块 */
+  .notice {
+    background: #fffaf0;
+    border: 1px solid #ffe6c2;
+    border-radius: 16px;
+    padding: 20px 24px;
+    font-size: 14px;
+    color: #6e6e73;
+    line-height: 1.75;
+  }
+  .notice strong { color: #d12b2b; font-weight: 700; }
+
+  /* 分隔线 */
+  hr.divider {
+    border: none; border-top: 1px solid #f0f0f0; margin: 28px 0;
+  }
+
+  /* 页脚 */
+  .footer {
+    text-align: center; padding: 28px;
+    font-size: 12px; color: #aeaeb2; font-weight: 500;
+    letter-spacing: 1px; background: #fafafa;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- 头部 -->
+  <div class="header">
+    <h1>🔥 AI 日报 2026-10-17</h1>
+    <div class="date">每日自动生成 · 数据来源 aihot.virxact.com</div>
+  </div>
+
+  <!-- 状态说明 -->
+  <div class="section">
+    <h2>⚠️ 今日数据抓取异常</h2>
+    <div class="notice">
+      今天的新闻源接口返回了拦截错误：<strong>error: blocked（code 567）</strong>，requestId 为 1122565066061948989。
+      按编辑原则，<span class="c-warn">不编造、不填充、不用旧闻冒充新闻</span>，所以本期不输出"深度分析 / 快讯速览"等含具体事实的板块。
+      下面保留两个常规栏目，给出的是<span class="c-good">不依赖当日新闻的工作方法</span>，可照常使用。
+      <br><br>
+      排查建议（给维护这份日报的人）：这类 <span class="c-tech">blocked / code 567</span> 通常是接口限流、鉴权过期或 UA/来源被风控所致。
+      可尝试：① 更换 API Key 或等待配额重置；② 检查请求头与来源域名；③ 参考接口文档
+      <span class="c-name">aihot.virxact.com</span> 的 recovery 说明重新接入。
+    </div>
+  </div>
+
+  <!-- 🎬 编导可用的 -->
+  <div class="section">
+    <h2>🎬 编导可用的</h2>
+    <div class="tool-item">
+      <h4>选题急救包：三个不依赖热点的高转化脚本方向</h4>
+      <p>没有当日热点时，实体店短视频最稳的还是"信任型选题"。方向一：<strong>成本拆解</strong>——把一件产品/服务的真实成本摊开讲，老板出镜说人话，天然制造<span class="c-good">专业感与信任</span>。方向二：<strong>避坑清单</strong>——"干这行 <span class="c-data">10 年</span>，最怕客户这样问"，用行业内行视角做知识差。方向三：<strong>前后对比</strong>——改造前后、效果前后、踩坑前后，画面即论证，完播率通常高于纯口播。这三类都不靠平台热点吃饭，可批量产出。</p>
+    </div>
+    <div class="tool-item">
+      <h4>脚本改写：把"AI 味"去掉的三个动作</h4>
+      <p>AI 生成的脚本常见病是<strong>排比太多、形容词太满、没有具体数字</strong>。改写时做三件事：① 每个卖点后塞一个<span class="c-data">具体数字</span>（时长、价格、人数、次数）；② 删掉所有"极致/匠心/颠覆"这类大词，换成老板的原话；③ 开头 <span class="c-data">3 秒</span>内必须出现冲突或提问，不要铺垫。改完念一遍，念着别扭的地方就是观众划走的地方。</p>
+    </div>
+    <div class="tool-item">
+      <h4>数据判断：三个真正该盯的指标</h4>
+      <p>别只看播放量。实体店编导优先看<span class="c-data">3 秒完播率</span>（判断开头）、<span class="c-data">平均播放时长</span>（判断节奏）、<span class="c-data">主页点击与私信/团购转化</span>（判断生意）。播放高但完播低＝标题党，需重写开头；完播高但转化低＝内容对但钩子弱，需在结尾加明确行动指令。<span class="c-warn">只有转化数据才是老板真正关心的钱。</span></p>
+    </div>
+  </div>
+
+  <!-- 🛠️ Vibe Coding 可玩的 -->
+  <div class="section">
+    <h2>🛠️ Vibe Coding 可玩的</h2>
+    <div class="tool-item">
+      <h4>给自己的日报做一个"降级兜底"页面</h4>
+      <p>今天这种接口挂掉的情况，正好是练手场景。让 AI 帮你写一个简单的判断逻辑：抓取成功就渲染新闻卡片，失败就渲染一个"今日无数据 + 排查指引"的静态页。核心就是 <span class="c-tech">try / catch</span> 加条件渲染，几行代码即可，<span class="c-good">再也不会出现空页面或假新闻</span>。</p>
+    </div>
+    <div class="tool-item">
+      <h4>做一个"脚本改写器"小工具</h4>
+      <p>把你常用的改写规则（去大词、加数字、3 秒冲突）写成一段提示词，做成一个单页工具：左边贴原文，右边出改写稿。用 <span class="c-tech">fetch</span> 调模型接口即可，不需要后端。这类"个人工作流小工具"最适合 vibe coding 起步，做完立刻能用在日常编导工作里。</p>
+    </div>
+    <div class="tool-item">
+      <h4>给抓取脚本加"重试 + 日志"</h4>
+      <p>遇到 <span class="c-warn">blocked / 567</span> 这类错误，最实用的改进是：失败自动重试 <span class="c-data">2～3</span> 次、每次间隔递增、把 <span class="c-tech">requestId</span> 和错误码写进日志文件。这样下次出问题，你一眼就能看出是限流还是鉴权问题，而不是对着一句"error"干瞪眼。</p>
+    </div>
+  </div>
+
+  <div class="footer">AI 日报 · 每日自动生成</div>
+</div>
+</body>
+</html>
