@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 2026-10-23</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.8;
+    padding: 32px 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.02);
+  }
+
+  /* 头部 */
+  .header {
+    background: #fafafa;
+    color: #1d1d1f;
+    padding: 48px 40px 36px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .header h1 {
+    font-size: 34px; font-weight: 700; letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #1d1d1f 0%, #555 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header .date {
+    font-size: 14px; color: #86868b; margin-top: 8px;
+    font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+  }
+
+  /* 内容区 */
+  .section {
+    padding: 40px;
+    border-bottom: 1px solid #f5f5f7;
+  }
+  .section:last-of-type { border-bottom: none; }
+
+  .section h2 {
+    font-size: 22px; font-weight: 700; margin-bottom: 24px;
+    color: #1d1d1f; letter-spacing: -0.3px;
+    display: flex; align-items: center; gap: 10px;
+  }
+
+  /* 深度分析 */
+  .deep-item { margin-bottom: 32px; }
+  .deep-item:last-child { margin-bottom: 0; }
+  .deep-item h3 {
+    font-size: 17px; font-weight: 600; color: #1d1d1f;
+    margin-bottom: 12px; letter-spacing: -0.2px;
+  }
+  .deep-item p {
+    margin-bottom: 12px; text-indent: 2em;
+    font-size: 15px; color: #424245; font-weight: 400;
+  }
+
+  /* 快讯列表 */
+  .quick-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .quick-list li {
+    padding: 14px 18px;
+    background: #fafafa; border-radius: 12px;
+    font-size: 14px; color: #424245;
+    transition: background 0.2s;
+  }
+
+  /* 工具卡片 */
+  .tool-item {
+    margin-bottom: 12px; padding: 20px 24px;
+    background: #fafafa; border-radius: 16px;
+    border: 1px solid #f0f0f0;
+  }
+  .tool-item:last-child { margin-bottom: 0; }
+  .tool-item h4 { font-size: 16px; font-weight: 600; margin-bottom: 6px; color: #1d1d1f; }
+  .tool-item p { font-size: 14px; color: #6e6e73; line-height: 1.7; }
+
+  /* 提示框 */
+  .notice {
+    background: #fff5ee;
+    border: 1px solid #ffe0cc;
+    border-radius: 16px;
+    padding: 24px 26px;
+    font-size: 15px;
+    color: #424245;
+  }
+  .notice strong { color: #1d1d1f; }
+
+  /* === 内联着色类 === */
+  .c-name  {
+    color: #0071e3; font-weight: 600;
+    background: #f0f7ff; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-data  {
+    color: #e05a00; font-weight: 700;
+    background: #fff5ee; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-warn  {
+    color: #d12b2b; font-weight: 700;
+    background: #fff0f0; padding: 2px 10px; border-radius: 6px;
+  }
+  .c-good  {
+    color: #1b8a3d; font-weight: 600;
+    background: #edfaf1; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-tech  {
+    color: #894ecc; font-weight: 600;
+    background: #f6f0ff; padding: 2px 8px; border-radius: 6px;
+  }
+
+  /* 分隔线 */
+  hr.divider {
+    border: none; border-top: 1px solid #f0f0f0; margin: 28px 0;
+  }
+
+  /* 页脚 */
+  .footer {
+    text-align: center; padding: 28px;
+    font-size: 12px; color: #aeaeb2; font-weight: 500;
+    letter-spacing: 1px; background: #fafafa;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- 头部 -->
+  <div class="header">
+    <h1>🔥 AI 日报 2026-10-23</h1>
+    <div class="date">每日自动生成 · 数据来源 aihot.virxact.com</div>
+  </div>
+
+  <!-- ⚠️ 数据源状态 -->
+  <div class="section">
+    <div class="notice">
+      <strong>今日数据源异常说明：</strong>抓取接口返回 <span class="c-warn">错误码 567 / blocked</span>，
+      今日<span class="c-data">0 条</span>可核实的原始新闻入库。为保证「不编造、不臆测」的底线，
+      本报告<span class="c-warn">不输出未经证实的所谓「今日热点」</span>，改为提供一份
+      <span class="c-good">可在数据源恢复后立即顺延使用</span>的编导工作清单，以及对你当前两条业务线的稳定打法复盘。
+      接口帮助页：aihot.virxact.com/agent?tab=api（错误码说明见 <span class="c-tech">#agent-api-recovery</span>）。
+    </div>
+  </div>
+
+  <!-- 🔥 深度分析 -->
+  <div class="section">
+    <h2>📰 深度分析</h2>
+
+    <div class="deep-item">
+      <h3>1. 素材断供时，编导的真正护城河是「选题库」而不是「热点手速」</h3>
+      <p>今天这个情况其实很有代表性：外部信息管道一断，很多靠「追热点」吃饭的内容团队就停摆了。但你在给实体老板做短视频，本质卖的不是资讯，而是<span class="c-good">对本地生意的理解和稳定的内容产能</span>。老板请你的核心诉求是「每周稳定出片、每条都有人咨询到店」，而不是「今天全网第一个讲某某模型发布」。这两件事的抗风险能力完全不同。</p>
+      <p>我建议你把这次的断供当成一次压力测试。真正成熟的编导，手上应该有一个<span class="c-data">至少 50 条</span>的常备选题库，覆盖三类：一是门店日常的真实冲突（顾客砍价、员工纠纷、老板决策），二是行业常识的科普拆解（这个东西为什么值这个价），三是反向人设内容（老板自嘲、算账、翻车复盘）。这三类内容<span class="c-warn">不依赖任何外部热点</span>，只要有手机和门店就能拍，而且是实体行业转化最稳的类型。热点内容的作用是锦上添花，不是雪中送炭。</p>
+      <p>再往深一层推演：实体老板账号的流量结构里，泛流量爆款带来的到店转化其实很低，真正带来订单的是<span class="c-good">同城精准流量 + 信任积累</span>。这意味着你完全没必要为了「今天没热点」而焦虑，反而应该趁素材空窗期，去把手上客户的账号做一次内容结构体检：近 20 条里，纯蹭热点的占比多少？如果超过<span class="c-data">三成</span>，说明账号的地基是虚的，一条政策变化或平台限流就可能归零。今天最适合做的事，是和老板开一次 30 分钟的选题复盘会，把这个结构调回来。</p>
+    </div>
+
+    <div class="deep-item">
+      <h3>2. 你的 Vibe Coding 副业，今天该做的是「把手工活变成工具链」</h3>
+      <p>外网信息空窗，恰好是原型开发效率最高的一天——因为你不会被新工具牵着走。对业余做 vibe coding 的编导来说，最值钱的产品方向从来不是「再造一个 AI 工具」，而是<span class="c-good">把自己每天重复的编导手工活自动化成一个小工具</span>。你比纯程序员更懂痛点，这是天然壁垒。</p>
+      <p>举几个具体、今天下午就能动手的方向：第一，<span class="c-tech">脚本改写器</span>——把老板口述的 3 分钟大白话，按固定结构（钩子 5 秒 / 冲突 / 反转 / 到店理由）重排成口播稿，用调 API 的方式实现，输入框贴原始录音转写即可；第二，<span class="c-tech">数据判断看板</span>——把抖音/视频号的每条视频导出数据（播放、完播、点赞率、评论关键词）汇总到一个表，自动标出<span class="c-warn">高播放低咨询</span>的「虚假爆款」，这正是老板最容易被误导的地方；第三，选题库小工具，输入行业标签就吐出 20 条本地化选题。</p>
+      <p>关键判断：<span class="c-warn">不要一开始就做「面向所有编导的 SaaS」</span>。你的优势是深度服务几个实体客户，先做单机自用版，用两周时间接进自己真实的工作流，跑通「改稿时间减少一半」这个可验证指标，再考虑抽出通用能力。业余做产品的最大死因是「一上来就想着卖给别人」，结果自己都不用。先让自己爽，才有资格让别人爽。今天没有新闻打扰，正好写第一版。</p>
+    </div>
+  </div>
+
+  <!-- 📋 快讯 -->
+  <div class="section">
+    <h2>📋 快讯速览</h2>
+    <ul class="quick-list">
+      <li><span class="c-name">AI HOT 数据接口</span>：今日返回 <span class="c-warn">错误码 567（blocked）</span>，可用新闻 <span class="c-data">0 条</span>，恢复后需补抓 <span class="c-data">2026-10-23</span> 当日数据。</li>
+      <li><span class="c-name">本报告策略</span>：<span class="c-warn">拒绝编造热点</span>，宁少不假；深度分析转为方法论输出，<span class="c-good">可长期复用</span>。</li>
+      <li><span class="c-name">编导侧待办</span>：清理近 <span class="c-data">20 条</span>内容的选题结构，纯热点内容压到 <span class="c-data">30%</span> 以下。</li>
+      <li><span class="c-name">副业侧待办</span>：启动 <span class="c-data">第 1 个</span>自用小工具原型，目标是把单条脚本改写耗时砍掉 <span class="c-data">50%</span>。</li>
+      <li><span class="c-name">数据源</span>：建议明日 <span class="c-data">09:00</span> 前复查接口状态，连续 <span class="c-data">2 天</span>异常则切换备用信息源。</li>
+    </ul>
+  </div>
+
+  <!-- 🎬 编导可用的 -->
+  <div class="section">
+    <h2>🎬 编导可用的</h2>
+
+    <div class="tool-item">
+      <h4>「素材断供」应急拍摄清单</h4>
+      <p>没有热点素材时，直接拍这五类：老板算一笔真实的账、门店一个被误解的细节、员工与顾客的一次小摩擦复盘、老板自我否定的一个决定、产品/服务的成本拆解。五类都不用外出、不用道具，当天可拍。</p>
+    </div>
+
+    <div class="tool-item">
+      <h4>账号结构体检表（20 条为一轮）</h4>
+      <p>把近 20 条按「热点 / 常识 / 人设 / 转化」四类打标，统计占比。健康结构参考：<span class="c-good">热点 ≤30%</span>、常识 30%、人设 20%、转化 20%。转化类内容不足时，优先补，而不是补热点。</p>
+    </div>
+
+    <div class="tool-item">
+      <h4>钩子改写三步法</h4>
+      <p>第一句不要交代背景，直接抛「结论 / 数字 / 冲突」；第二句制造一个具体疑问；第三句给出「看完能得到什么」。三步控制在 5 秒内，这是完播率的生死线。</p>
+    </div>
+  </div>
+
+  <!-- 🛠️ Vibe Coding 可玩的 -->
+  <div class="section">
+    <h2>🛠️ Vibe Coding 可玩的</h2>
+
+    <div class="tool-item">
+      <h4>口播稿结构重排器</h4>
+      <p>输入：老板口述转写文本。处理：按「钩子 → 冲突 → 反转 → 到店理由」四段重排并压缩到 60 秒口播量。输出：可直接念的稿子 + 一句备选钩子。技术点：调一次大模型 API，用一个固定 prompt 模板即可。</p>
+    </div>
+
+    <div class="tool-item">
+      <h4>虚假爆款识别表</h4>
+      <p>输入：平台导出的视频数据表。处理：计算「播放↔咨询」的相关性，标出播放高但评论/私信低的条目。输出：一张红黄绿灯清单。技术点：<span class="c-tech">简单的表格处理 + 阈值判断</span>，不需要模型。</p>
+    </div>
+
+    <div class="tool-item">
+      <h4>本地化选题库生成器</h4>
+      <p>输入：行业标签（如「汽修」「烘焙」「健身」）+ 城市名。处理：生成 20 条带本地元素的选题。输出：可勾选的候选清单，勾中的存入选题库。技术点：<span class="c-tech">单页应用 + 本地存储</span>，先做单机自用版。</p>
+    </div>
+  </div>
+
+  <div class="footer">AI 日报 · 每日自动生成</div>
+</div>
+</body>
+</html>
