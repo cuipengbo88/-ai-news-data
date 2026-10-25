@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 2026-10-25</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.8;
+    padding: 32px 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.02);
+  }
+
+  /* 头部 */
+  .header {
+    background: #fafafa;
+    color: #1d1d1f;
+    padding: 48px 40px 36px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .header h1 {
+    font-size: 34px; font-weight: 700; letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #1d1d1f 0%, #555 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header .date {
+    font-size: 14px; color: #86868b; margin-top: 8px;
+    font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+  }
+
+  /* 内容区 */
+  .section {
+    padding: 40px;
+    border-bottom: 1px solid #f5f5f7;
+  }
+  .section:last-of-type { border-bottom: none; }
+
+  .section h2 {
+    font-size: 22px; font-weight: 700; margin-bottom: 24px;
+    color: #1d1d1f; letter-spacing: -0.3px;
+    display: flex; align-items: center; gap: 10px;
+  }
+
+  /* 深度分析 */
+  .deep-item { margin-bottom: 32px; }
+  .deep-item:last-child { margin-bottom: 0; }
+  .deep-item h3 {
+    font-size: 17px; font-weight: 600; color: #1d1d1f;
+    margin-bottom: 12px; letter-spacing: -0.2px;
+  }
+  .deep-item p {
+    margin-bottom: 12px; text-indent: 2em;
+    font-size: 15px; color: #424245; font-weight: 400;
+  }
+
+  /* 快讯列表 */
+  .quick-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .quick-list li {
+    padding: 14px 18px;
+    background: #fafafa; border-radius: 12px;
+    font-size: 14px; color: #424245;
+    transition: background 0.2s;
+  }
+
+  /* 工具卡片 */
+  .tool-item {
+    margin-bottom: 12px; padding: 20px 24px;
+    background: #fafafa; border-radius: 16px;
+    border: 1px solid #f0f0f0;
+  }
+  .tool-item:last-child { margin-bottom: 0; }
+  .tool-item h4 { font-size: 16px; font-weight: 600; margin-bottom: 6px; color: #1d1d1f; }
+  .tool-item p { font-size: 14px; color: #6e6e73; line-height: 1.7; }
+
+  /* === 内联着色类 === */
+  .c-name  {
+    color: #0071e3; font-weight: 600;
+    background: #f0f7ff; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-data  {
+    color: #e05a00; font-weight: 700;
+    background: #fff5ee; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-warn  {
+    color: #d12b2b; font-weight: 700;
+    background: #fff0f0; padding: 2px 10px; border-radius: 6px;
+  }
+  .c-good  {
+    color: #1b8a3d; font-weight: 600;
+    background: #edfaf1; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-tech  {
+    color: #894ecc; font-weight: 600;
+    background: #f6f0ff; padding: 2px 8px; border-radius: 6px;
+  }
+
+  /* 分隔线 */
+  hr.divider {
+    border: none; border-top: 1px solid #f0f0f0; margin: 28px 0;
+  }
+
+  /* 页脚 */
+  .footer {
+    text-align: center; padding: 28px;
+    font-size: 12px; color: #aeaeb2; font-weight: 500;
+    letter-spacing: 1px; background: #fafafa;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- 头部 -->
+  <div class="header">
+    <h1>🔥 AI 日报 2026-10-25</h1>
+    <div class="date">每日自动生成 · 数据来源 aihot.virxact.com</div>
+  </div>
+
+  <!-- 🔥 深度分析 -->
+  <div class="section">
+    <h2>📰 深度分析</h2>
+    <div class="deep-item">
+      <h3>1. 今日数据源异常：没有新闻，也是一种信号</h3>
+      <p>今天这份报告要坦白一件事：抓取接口返回了<span class="c-warn">错误码 567（blocked）</span>，请求编号 <span class="c-data">14805209650073715178</span>，说明数据源在这一时段对自动抓取做了拦截，所以<span class="c-warn">今天没有任何一条可核实的 AI 热点</span>。按照"不编造"的原则，我不会给你凑三条假新闻充数——宁可少，不可假。对做短视频的你来说，这其实是一个值得顺手记下的产品观察：<span class="c-name">aihot.virxact.com</span> 这类聚合站走的是"免费公开接口 + 自动抓取"的路子，稳定性完全取决于上游心情。<span class="c-warn">你的选题库如果只挂在一个免费数据源上，就等于把当天的更新节奏交给了别人。</span></p>
+      <p>推演一下这件事的现实影响。假设你每天早九点要出 3 条实体店选题，流程是"看热点 → 套模板 → 改脚本"。今天接口一断，你的生产线就停了，而老板不会因为你"数据源挂了"就不催更。所以更稳的做法是<span class="c-good">做降级方案</span>：第一层用聚合接口，第二层用几个固定账号的 RSS 或官方博客，第三层用你自己过去 30 天攒下的<span class="c-data">选题素材池</span>（哪怕断网也能出 5 条）。三层都空的情况几乎不存在。<span class="c-name">实体行业</span>内容有个天然优势——你的选题本来就不依赖"今天 AI 圈出了啥"，餐饮、汽修、美容、教育这些赛道的痛点一年都不怎么变，<span class="c-good">热点只是锦上添花，不是命门</span>。</p>
+      <p>再说一层更实际的：接口被 block，最常见的原因是请求频率、UA 特征、或者对方换了鉴权方式。<span class="c-warn">如果你正在 vibe coding 里跑自动日报脚本，今天正好是检查代码健壮性的日子</span>——有没有做 <span class="c-tech">try/catch</span>、有没有失败重试、有没有把"今天没数据"渲染成一张体面的占位卡而不是白屏？很多原型在 demo 时惊艳，一遇异常就崩，就是因为压根没写失败分支。今天这份"空报告"本身就是一次真实压测：它证明你的日报系统在<span class="c-data">零数据输入</span>下仍然能输出一份对读者有用的内容，这比多三条快讯更能说明产品成型。<span class="c-good">把异常也当成产品体验的一部分来设计</span>，是我今天最想强调的一点。</p>
+    </div>
+
+    <div class="deep-item">
+      <h3>2. 空窗期的正确用法：把日报变成"存量盘点日"</h3>
+      <p>既然今天没有增量新闻，我们就把这一天当成<span class="c-good">存量复盘日</span>。对短视频编导而言，最贵的不是"知道新东西"，而是"手里的老东西用透了没有"。你过去一个月如果攒了 <span class="c-data">20 条</span>觉得不错但没拍的选题，今天正好挑 3 条重写——同一个选题，换一个<span class="c-name">实体老板视角</span>的开头，完播率能差出一倍。比如"AI 帮门店写文案"这个题，讲成"工具多牛"没人看，讲成"我这家店昨天用 AI 省了 2 小时"就有人停。<span class="c-warn">热点断供的日子，恰恰是检验你选题库里"可再生内容"占比的时候</span>。</p>
+      <p>从产品角度看，这也解释了为什么很多<span class="c-name">日报类小工具</span>活不过三个月：它们把全部价值押在"每天有新内容"上，一旦数据源波动或热点枯竭，用户第二天就流失。更抗打的形态是<span class="c-good">"日报 + 素材库 + 复盘"三件套</span>——日报负责抓新，素材库负责沉淀，复盘负责把沉淀变成可复用模板。<span class="c-tech">RAG</span> 式的思路在这里同样适用：把过往内容切块存起来，今天没新料就让它从旧料里给你重组三条新角度。你不需要真的接个大模型，一个按<span class="c-data">行业 / 痛点 / 开头句式</span>三列分类的表格，人工也能跑出七成效果。别小看这个，很多编导的瓶颈不是不会写，是<span class="c-warn">找不到"从哪下笔"的入口</span>，模板就是入口。</p>
+    </div>
+  </div>
+
+  <!-- 📋 快讯 -->
+  <div class="section">
+    <h2>📋 快讯速览</h2>
+    <ul class="quick-list">
+      <li><span class="c-name">数据源 aihot.virxact.com</span>：今日抓取返回 <span class="c-data">567 blocked</span>，无有效条目，<span class="c-warn">本日快讯为零</span></li>
+      <li><span class="c-name">请求追踪</span>：requestId <span class="c-data">14805209650073715178</span>，可用于向数据方反馈恢复</li>
+      <li><span class="c-name">本报告策略</span>：<span class="c-good">宁缺毋滥</span>，不外采、不编造，仅输出可落地的方法建议</li>
+      <li><span class="c-name">建议动作</span>：为日报脚本补上 <span class="c-tech">失败降级分支</span>，<span class="c-data">30 天</span>素材池作为兜底</li>
+    </ul>
+  </div>
+
+  <!-- 🎬 编导可用的 -->
+  <div class="section">
+    <h2>🎬 编导可用的</h2>
+    <div class="tool-item">
+      <h4>今日选题：拍一条"AI 断网一天，我的店照样开门"</h4>
+      <p>这是今天真实发生的事，天然带反差。开头直接说："今天所有 AI 新闻网站全挂了，我这家店该开的门还是开了。"然后讲你店里哪三件事从来不需要 AI——收银、备货、跟老客打招呼。落点不是贬低 AI，而是<span class="c-good">"工具会挂，生意不会"</span>，这种"反焦虑"内容在实体老板圈里传播很稳，容易被同行转发。</p>
+    </div>
+    <div class="tool-item">
+      <h4>脚本模板：把"没素材"变成"盘点体"</h4>
+      <p>固定三段式——① 抛出痛点（"你是不是也觉得每天不知道拍啥"）② 给方法（"我教你建一个 20 条的选题池"）③ 现场演示（打开表格，按行业/痛点/开头句式分类）。<span class="c-warn">盘点体最大的价值是可批量复制</span>，一个模板能套出 10 条视频，特别适合账号起量期。</p>
+    </div>
+    <div class="tool-item">
+      <h4>数据判断：别再只看播放量</h4>
+      <p>断更日正好回看后台。重点看<span class="c-data">完播率</span>和<span class="c-data">主页点击率</span>两个数：完播低是开头问题，主页点击低是结尾没给"再看一条"的理由。挑出完播最高的 3 条，把它们的开头句式抄下来做成<span class="c-good">"已验证开头库"</span>，下次直接套。这个方法不依赖任何 AI 工具，但比很多工具都管用。</p>
+    </div>
+  </div>
+
+  <!-- 🛠️ Vibe Coding 可玩的 -->
+  <div class="section">
+    <h2>🛠️ Vibe Coding 可玩的</h2>
+    <div class="tool-item">
+      <h4>给日报脚本加"体面的失败页"</h4>
+      <p>今天就是最好的练手题。让你的脚本在接口返回非 200 或空数组时，不报错、不白屏，而是渲染一张写着"今日数据源维护中，以下为存量推荐"的卡片。<span class="c-tech">try/catch + 兜底数据</span> 两行代码的事，但用户体验天差地别。做完你会发现，异常处理才是原型和产品之间的那道坎。</p>
+    </div>
+    <div class="tool-item">
+      <h4>做个本地"选题素材池"小应用</h4>
+      <p>纯前端就能做：输入框录入选题 → 存进 <span class="c-tech">localStorage</span> → 按行业和痛点标签筛选 → 一键随机抽 3 条"今天拍什么"。不用后端、不用数据库，一个 HTML 文件搞定。<span class="c-good">这类工具你自己每天用，做出来就有真实反馈</span>，比做个没人用的 demo 强得多。</p>
+    </div>
+    <div class="tool-item">
+      <h4>多源冗余抓取的小实验</h4>
+      <p>如果你确实想稳定拿到资讯，试着写 2–3 个数据源的抓取函数，用 <span class="c-tech">Promise.allSettled</span> 并发跑，哪个成功用哪个。今天这种单点被 block 的情况，多源方案基本不会全挂。<span class="c-warn">注意遵守各站点的抓取规则与频率限制</span>，别把实验做成骚扰。</p>
+    </div>
+  </div>
+
+  <div class="footer">AI 日报 · 每日自动生成</div>
+</div>
+</body>
+</html>
