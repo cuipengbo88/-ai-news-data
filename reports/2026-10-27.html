@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 2026-10-27</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.8;
+    padding: 32px 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.02);
+  }
+
+  .header {
+    background: #fafafa;
+    color: #1d1d1f;
+    padding: 48px 40px 36px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .header h1 {
+    font-size: 34px; font-weight: 700; letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #1d1d1f 0%, #555 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header .date {
+    font-size: 14px; color: #86868b; margin-top: 8px;
+    font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+  }
+
+  .section {
+    padding: 40px;
+    border-bottom: 1px solid #f5f5f7;
+  }
+  .section:last-of-type { border-bottom: none; }
+
+  .section h2 {
+    font-size: 22px; font-weight: 700; margin-bottom: 24px;
+    color: #1d1d1f; letter-spacing: -0.3px;
+    display: flex; align-items: center; gap: 10px;
+  }
+
+  .deep-item { margin-bottom: 32px; }
+  .deep-item:last-child { margin-bottom: 0; }
+  .deep-item h3 {
+    font-size: 17px; font-weight: 600; color: #1d1d1f;
+    margin-bottom: 12px; letter-spacing: -0.2px;
+  }
+  .deep-item p {
+    margin-bottom: 12px; text-indent: 2em;
+    font-size: 15px; color: #424245; font-weight: 400;
+  }
+
+  .quick-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .quick-list li {
+    padding: 14px 18px;
+    background: #fafafa; border-radius: 12px;
+    font-size: 14px; color: #424245;
+  }
+
+  .tool-item {
+    margin-bottom: 12px; padding: 20px 24px;
+    background: #fafafa; border-radius: 16px;
+    border: 1px solid #f0f0f0;
+  }
+  .tool-item:last-child { margin-bottom: 0; }
+  .tool-item h4 { font-size: 16px; font-weight: 600; margin-bottom: 6px; color: #1d1d1f; }
+  .tool-item p { font-size: 14px; color: #6e6e73; line-height: 1.7; }
+
+  .c-name  {
+    color: #0071e3; font-weight: 600;
+    background: #f0f7ff; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-data  {
+    color: #e05a00; font-weight: 700;
+    background: #fff5ee; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-warn  {
+    color: #d12b2b; font-weight: 700;
+    background: #fff0f0; padding: 2px 10px; border-radius: 6px;
+  }
+  .c-good  {
+    color: #1b8a3d; font-weight: 600;
+    background: #edfaf1; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-tech  {
+    color: #894ecc; font-weight: 600;
+    background: #f6f0ff; padding: 2px 8px; border-radius: 6px;
+  }
+
+  hr.divider {
+    border: none; border-top: 1px solid #f0f0f0; margin: 28px 0;
+  }
+
+  .footer {
+    text-align: center; padding: 28px;
+    font-size: 12px; color: #aeaeb2; font-weight: 500;
+    letter-spacing: 1px; background: #fafafa;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="header">
+    <h1>🔥 AI 日报 2026-10-27</h1>
+    <div class="date">每日自动生成 · 数据来源 aihot.virxact.com</div>
+  </div>
+
+  <div class="section">
+    <h2>📰 深度分析</h2>
+    <div class="deep-item">
+      <h3>1. 今日数据源拉取失败：一次值得写进流程笔记的「断源」事件</h3>
+      <p>今天这份日报的开头不是新闻，而是一条运维事实：抓取接口返回了 <span class="c-warn">blocked / code 567</span>，请求 ID 为 <span class="c-data">16396093333394662336</span>，同时给出了恢复说明地址。换句话说，<span class="c-name">aihot.virxact.com</span> 今天把我们的自动化读取挡在了门外，<span class="c-data">0</span> 条原始热点进入管道。作为主编，我不打算用「今天无大事」糊弄过去，因为这件事本身对你的日常工作有直接价值——你的脚本库、选题池、竞品监控，很可能也跑在类似的接口上。</p>
+      <p>先做判断：<span class="c-warn">567 属于访问层面被拦截，不是内容层面没更新</span>。这两件事的处理方式完全不同。如果是内容没更新，等一等就好；如果是访问被拦，往往是频率、鉴权、来源标识三者之一出了问题。很多做实体生意的老板会本能地说「那明天再抓呗」，但对编导来说，选题是有时效的——今天错过的行业热点，明天再拍就只剩一半流量红利。<span class="c-good">所以第一件该做的事，是把「单源依赖」改成「双源交叉」</span>：主源抓不到时自动降级到备用源或人工订阅摘要，保证每天至少有一条能进选题池的原材料。</p>
+      <p>第二层推演更实际：这类拦截通常有一个「恢复窗口」。文档里给了 agent 恢复入口，意味着它大概率是可以通过调整请求头、控制节奏、或者走官方授权通道解决的。对非技术的你来说，<span class="c-tech">不需要看懂协议，只需要知道三件事</span>：一是别在短时间内反复重试，越试越容易被拉黑；二是把恢复地址存进你的书签，出问题时十分钟内能自查；三是给抓取任务设一个「失败了要发微信通知我」的开关，而不是等到写日报时才发现今天啥也没有。</p>
+      <p>第三点，站在编导视角反过来说：<span class="c-good">这类「数据断流」本身就是好选题</span>。「我每天靠 AI 自动追热点，今天它被拦了」——这个开头比任何行业分析都更像人话，实体老板听得懂，评论区也容易起互动。你可以把它做成一条 30 秒的幕后视频，讲清楚你的信息管道怎么搭、万一断了怎么办，顺便证明你不是「AI 一键生成」派的搬运工，而是真在做事的人。<span class="c-warn">临时抓瞎的团队，客户也看得出来</span>，稳定交付本身就是差异化。</p>
+    </div>
+
+    <div class="deep-item">
+      <h3>2. 没有新闻的一天，怎么写出不糊弄的脚本</h3>
+      <p>上面那条是流程问题，这条讲内容问题。今天手上 <span class="c-data">0</span> 条新热点，但你的拍摄档期不会因此空转。事实上，<span class="c-warn">实体行业的内容里，「追热点」只该占三成，七成应该是常青内容</span>。很多编导把自己逼成新闻搬运工，一天没热点就慌，这是把主业做成了副业。今天正好可以拿来做一次小型复盘：把你过去一个月发过的内容分三类——追热点的、讲产品/服务细节的、讲老板本人故事的，看看哪类数据更好、哪类评论区更热。<span class="c-good">这个过程本身就是一期内容</span>，标题可以叫《我把 30 条视频的数据摊开看了一遍，发现最没用的是追热点那批》。</p>
+      <p>具体怎么落地。第一，拿数据说话：把每条视频的完播率、涨粉数、私信咨询数拉成一张表，<span class="c-tech">三个指标分开看，不要只看播放量</span>。播放量高但咨询少，说明你吸引的是看客不是客户；播放量低但私信多，反而说明内容精准，该多做。第二，把「解释成本」当成选题筛选器：一条视频如果前三秒需要观众知道某个专业名词才能看懂，那它大概率不适合你的受众；真正好用的选题是那种「老板看一眼就点头」的。<span class="c-data">把选题库压缩到 20 条以内、每条都能一句话说清</span>，比堆 200 条抽象的灵感有用得多。</p>
+      <p>第三点关于节奏。今天没料，与其硬凑一条低质量内容发出去，不如用这个空档把接下来一周的脚本提前写好。<span class="c-good">提前量是编导最重要的护城河</span>：手里有 5 条备播的稿子，遇到突发热点你才敢临时插队，遇到没料的日子你才不慌。我建议的最小配置是——3 条常青内容（产品细节、客户案例、老板视角）+ 2 条可替换的热点位。这样即便像今天这样断源，你的账号也不会断更。<span class="c-warn">断更一天，算法和观众都会记得</span>，补回来要花的力气远大于提前备稿。</p>
+      <p>最后补一句提醒：今天这份日报数据不全，我在下面的快讯和工具板块就不硬凑内容了。<span class="c-warn">宁可少推，不编造</span>——这是我对自己的约束，也建议你用在内容上。观众对「编出来的行业消息」越来越敏感，一次翻车比十条平庸内容伤害更大。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>📋 快讯速览</h2>
+    <ul class="quick-list">
+      <li><span class="c-name">aihot.virxact.com</span> 抓取接口返回 <span class="c-warn">blocked / code 567</span>，请求 ID <span class="c-data">16396093333394662336</span>，今日热点数据为 <span class="c-data">0</span> 条，需按官方恢复说明处理。</li>
+      <li>恢复入口已由数据源给出（agent API 恢复指引），建议存入书签，<span class="c-good">作为断源时的第一自查动作</span>。</li>
+      <li>流程建议：主源失败时自动降级到备用源，<span class="c-warn">避免单源依赖导致选题池空转</span>。</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🎬 编导可用的</h2>
+    <div class="tool-item">
+      <h4>选题库三指标复盘表</h4>
+      <p>把近 30 条视频拉成表，分「完播率 / 涨粉 / 私信咨询」三列看，不要只看播放量。落点是找出哪一类内容真正带来客户，然后加大这一类，而不是继续按播放量排行选题。</p>
+    </div>
+    <div class="tool-item">
+      <h4>备播脚本五条制</h4>
+      <p>常备 3 条常青内容（产品细节、客户案例、老板视角）+ 2 条可随时替换的热点位。今天这类断源日就是靠它兜底，<span class="c-warn">断更一天的代价远高于提前备稿</span>。</p>
+    </div>
+    <div class="tool-item">
+      <h4>「数据断流」幕后选题</h4>
+      <p>把信息管道怎么搭、断了怎么办拍成 30 秒幕后花絮。对实体老板受众极其友好，也顺手塑造「不是 AI 搬运工」的人设，评论区互动通常不错。</p>
+    </div>
+    <div class="tool-item">
+      <h4>解释成本筛选器</h4>
+      <p>选题入库前过一道：前三秒需要专业名词才能看懂的，直接砍。<span class="c-good">选题库控制在 20 条以内、每条一句话说清</span>，比堆 200 条抽象灵感更可执行。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🛠️ Vibe Coding 可玩的</h2>
+    <div class="tool-item">
+      <h4>抓取任务失败告警小脚本</h4>
+      <p>给任何定时抓取任务加一个判断：返回状态码非 200 或字段里出现 error，就推一条通知（微信 / 邮件 / 飞书都行）。十行逻辑，能省掉你「写日报时才发现今天没数据」的尴尬。</p>
+    </div>
+    <div class="tool-item">
+      <h4>双源降级调度器</h4>
+      <p>一个简单的主备切换：主接口失败时自动读取备用源或本地缓存的摘要文件。<span class="c-tech">不要做复杂重试</span>，被拦截时越重试越糟，直接降级反而稳。</p>
+    </div>
+    <div class="tool-item">
+      <h4>选题库本地小面板</h4>
+      <p>用最朴素的方式做一个本地页面：输入选题标题、标注类型（常青 / 热点）、记录一句话卖点，按类型筛选。给自己用，不需要登录、不需要数据库，一份 JSON 文件足够。</p>
+    </div>
+  </div>
+
+  <div class="footer">AI 日报 · 每日自动生成</div>
+</div>
+</body>
+</html>
