@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 2026-10-28</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.8;
+    padding: 32px 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.02);
+  }
+
+  /* 头部 */
+  .header {
+    background: #fafafa;
+    color: #1d1d1f;
+    padding: 48px 40px 36px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .header h1 {
+    font-size: 34px; font-weight: 700; letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #1d1d1f 0%, #555 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header .date {
+    font-size: 14px; color: #86868b; margin-top: 8px;
+    font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+  }
+
+  /* 内容区 */
+  .section {
+    padding: 40px;
+    border-bottom: 1px solid #f5f5f7;
+  }
+  .section:last-of-type { border-bottom: none; }
+
+  .section h2 {
+    font-size: 22px; font-weight: 700; margin-bottom: 24px;
+    color: #1d1d1f; letter-spacing: -0.3px;
+    display: flex; align-items: center; gap: 10px;
+  }
+
+  /* 深度分析 */
+  .deep-item { margin-bottom: 32px; }
+  .deep-item:last-child { margin-bottom: 0; }
+  .deep-item h3 {
+    font-size: 17px; font-weight: 600; color: #1d1d1f;
+    margin-bottom: 12px; letter-spacing: -0.2px;
+  }
+  .deep-item p {
+    margin-bottom: 12px; text-indent: 2em;
+    font-size: 15px; color: #424245; font-weight: 400;
+  }
+
+  /* 快讯列表 */
+  .quick-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .quick-list li {
+    padding: 14px 18px;
+    background: #fafafa; border-radius: 12px;
+    font-size: 14px; color: #424245;
+    transition: background 0.2s;
+  }
+
+  /* 工具卡片 */
+  .tool-item {
+    margin-bottom: 12px; padding: 20px 24px;
+    background: #fafafa; border-radius: 16px;
+    border: 1px solid #f0f0f0;
+  }
+  .tool-item:last-child { margin-bottom: 0; }
+  .tool-item h4 { font-size: 16px; font-weight: 600; margin-bottom: 6px; color: #1d1d1f; }
+  .tool-item p { font-size: 14px; color: #6e6e73; line-height: 1.7; }
+
+  /* === 内联着色类 === */
+  .c-name  {
+    color: #0071e3; font-weight: 600;
+    background: #f0f7ff; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-data  {
+    color: #e05a00; font-weight: 700;
+    background: #fff5ee; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-warn  {
+    color: #d12b2b; font-weight: 700;
+    background: #fff0f0; padding: 2px 10px; border-radius: 6px;
+  }
+  .c-good  {
+    color: #1b8a3d; font-weight: 600;
+    background: #edfaf1; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-tech  {
+    color: #894ecc; font-weight: 600;
+    background: #f6f0ff; padding: 2px 8px; border-radius: 6px;
+  }
+
+  /* 分隔线 */
+  hr.divider {
+    border: none; border-top: 1px solid #f0f0f0; margin: 28px 0;
+  }
+
+  /* 页脚 */
+  .footer {
+    text-align: center; padding: 28px;
+    font-size: 12px; color: #aeaeb2; font-weight: 500;
+    letter-spacing: 1px; background: #fafafa;
+  }
+
+  /* 数据异常提示条 */
+  .notice {
+    margin: 0 40px 0;
+    padding: 18px 22px;
+    background: #fffaf0;
+    border-left: 3px solid #e0a500;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #6e5a2a;
+    line-height: 1.75;
+  }
+  .notice strong { color: #b07d00; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- 头部 -->
+  <div class="header">
+    <h1>🔥 AI 日报 2026-10-28</h1>
+    <div class="date">每日自动生成 · 数据来源 aihot.virxact.com</div>
+  </div>
+
+  <!-- 数据异常提示 -->
+  <div class="notice">
+    <strong>⚠️ 今日数据抓取异常。</strong>数据源返回 <span class="c-warn">错误码 567（blocked）</span>，请求 ID <span class="c-data">668765919343639663</span>，本次未取到可核验的新闻条目。
+    <br>按"不编造技术、不虚构事实"的原则，本期<strong>不出深度分析、不出快讯</strong>，只保留两块和你的日常工作最相关的内容：一份<strong>空窗期的选题应急清单</strong>，和一份<strong>今天就能动手的产品侧备选</strong>。数据恢复后会自动补齐。
+  </div>
+
+  <!-- 🔥 深度分析 -->
+  <div class="section">
+    <h2>📰 深度分析</h2>
+    <div class="deep-item">
+      <h3>1. 新闻源断供的一天，编导该怎么过</h3>
+      <p>先说结论：<span class="c-warn">今天没有可核验的 AI 新闻，就不要硬写"今日 AI 大事"。</span>实体老板账号的观众对信息密度极其敏感——一条只有情绪没有事实的 AI 播报，完播率通常低于账号日常基线，反而会拉低主页整体的推荐权重。空窗期正确的做法不是"凑一条"，而是"换一条"。</p>
+      <p>我的建议是把今天的选题从"信息型"切换到"验证型"。信息型内容依赖外部事件，断供就停摆；验证型内容依赖你自己的实操，永远有素材。具体来说，挑一个你上周就在用的 AI 工具，做一条"<span class="c-tech">我用它干了 7 天，这三个环节它其实帮不上忙</span>"的短视频。这类反向验证内容的评论互动率，通常比正经播报高出一个量级，因为它给观众提供了"反驳空间"，而评论区吵架正是算法最喜欢的指标。</p>
+      <p>第二个可落地的动作：把过去 30 天里表现最好的 3 条 AI 相关视频拉出来，看它们的<span class="c-data">前 3 秒完播率</span>和<span class="c-data">平均播放时长</span>。如果前 3 秒完播普遍低于 <span class="c-data">45%</span>，说明你的开场是"资讯式"的（"今天 AI 圈又炸了"），这类开场在信息稀缺期尤其容易失效。今天正好有空，把它们改写成"问题式"开场——"老板让我用 AI 一周做 30 条视频，我卡在了第二步"。同一个选题，换开场，可能直接决定下一条的流量层级。</p>
+      <p>第三个动作，和你服务的实体老板有关。<span class="c-good">AI 新闻断更，恰恰是你和客户建立"顾问感"的窗口</span>。今天不要推新闻，推一条"这个工具我不建议你用"的避坑内容。实体老板对"推荐"的信任成本很高，对"劝退"的信任成本极低。一条劝退视频带来的私信咨询量，往往高于三条工具安利。这在内容策略上叫负向背书，转化路径更短。</p>
+      <p>最后提醒一点风险：<span class="c-warn">不要拿未经核实的"内部消息""小道消息"补版位。</span>AI 行业的信息反转极快，一条错误的参数或融资传闻，会让账号在专业观众眼里的可信度一次性归零，且很难修复。宁可今天只发一条日常，也不要发一条存疑的 AI 播报。</p>
+    </div>
+
+    <div class="deep-item">
+      <h3>2. 从"追热点"到"建资产"：编导的选题结构该调了</h3>
+      <p>新闻源一断，问题就暴露出来了：如果你的账号内容结构里，<span class="c-data">超过 60%</span> 依赖外部热点驱动，那么你的产能是被别人攥在手里的。这不是今天的偶发问题，是所有做 AI 内容编导的长期结构性问题。</p>
+      <p>我建议把内容池拆成三层，比例大致是 <span class="c-data">30% 热点型 + 50% 方法型 + 20% 人格型</span>。热点型负责拉新，方法型负责留人，人格型负责转化。今天的断供正好是一次压力测试：翻一翻你的历史作品，如果方法型内容占比不到三成，那你的账号其实一直很脆弱，只是之前没遇到断粮。</p>
+      <p>方法型内容怎么做才不枯燥？核心是<span class="c-tech">可复现的具体步骤</span>，而不是抽象的"方法论"。比如不要讲"如何用 AI 提升效率"，而是讲"我让 AI 写 10 条脚本，第 7 条开始就跑偏了，原因是提示词里少了一句话"。观众不需要你的框架图，他们需要的是"这个坑我也踩过"的确认感。这条内容的生产成本几乎为零，因为它来自你昨天的工作现场。</p>
+      <p>人格型内容是实体老板账号最容易忽略、但转化最强的部分。<span class="c-good">当同行都在播报新闻的时候，你讲一次自己判断失误的经历，就是差异化。</span>AI 行业里"我说对了"的内容已经过剩，"我判断错了、后来怎么补的"极其稀缺。后者带来的私信质量，通常远高于前者。</p>
+      <p>落到执行上，今天可以花一小时做一件事：建一个"<span class="c-tech">素材池</span>"文档，分三栏——踩过的坑、被客户问倒的问题、自己改变过的判断。每栏先塞 10 条，不追求完整，只追求具体。这个文档会成为你未来三个月最稳定的选题来源，而且它<strong>不依赖任何外部新闻源</strong>。数据源恢复后，它也不会失效。</p>
+    </div>
+  </div>
+
+  <!-- 📋 快讯 -->
+  <div class="section">
+    <h2>📋 快讯速览</h2>
+    <ul class="quick-list">
+      <li><span class="c-name">aihot.virxact.com</span> 数据接口返回 <span class="c-warn">错误码 567 blocked</span>，请求 ID <span class="c-data">668765919343639663</span>，本日新闻条目缺失</li>
+      <li>按照"不编造技术、不虚构事实"的原则，本期<span class="c-good">不输出未经核验的快讯</span>，避免误导选题方向</li>
+      <li>数据恢复后的补充说明见页脚，历史日报不受影响</li>
+    </ul>
+  </div>
+
+  <!-- 🎬 编导可用的 -->
+  <div class="section">
+    <h2>🎬 编导可用的</h2>
+    <div class="tool-item">
+      <h4>三条"零素材"应急选题（今天就能拍）</h4>
+      <p>①「我用 AI 做的第 1 版脚本，客户为什么一眼否掉」——拍你真实的修改前后对比，两版脚本并排念，观众自己就能看出差别；②「这个 AI 工具我用了三天就弃了」——反向推荐，评论互动天然拉高；③「实体店老板问我最多的一句话」——把私信里最高频的疑问做成一期，直接命中客户痛点。</p>
+    </div>
+    <div class="tool-item">
+      <h4>数据复盘：把空窗期变成体检日</h4>
+      <p>拉最近 30 天作品数据，只看两个数：前 3 秒完播率、平均播放时长。前 3 秒完播低于 45% 的开场方式，标记为"下次不用"。这个动作不需要任何新工具，后台数据就够，但它是你后续所有改写脚本动作的判断基准。</p>
+    </div>
+    <div class="tool-item">
+      <h4>建一个不依赖热点的素材池</h4>
+      <p>三栏结构：踩过的坑 / 被客户问倒的问题 / 自己改变过的判断。每栏先写 10 条，要求具体到"哪一天、哪个客户、哪句话"。这个文档是你的产能保险，新闻断不断供都不影响它。</p>
+    </div>
+  </div>
+
+  <!-- 🛠️ Vibe Coding 可玩的 -->
+  <div class="section">
+    <h2>🛠️ Vibe Coding 可玩的</h2>
+    <div class="tool-item">
+      <h4>给自己搭一个日报抓取容错页</h4>
+      <p>你每天要看的这份日报本身就是个产品原型。加一层判断：接口返回非 200 或带 error 字段时，页面顶部渲染一条醒目提示条，而不是空白或报错堆栈。这个模式在你给实体客户做任何数据看板时都通用——<strong>出错时的界面，比成功时的界面更能建立信任</strong>。实现成本极低，一次条件判断加一个样式类。</p>
+    </div>
+    <div class="tool-item">
+      <h4>选题池看板（本地版）</h4>
+      <p>把上面那个三栏素材池做成一个单页应用：左右三列卡片，支持拖动换列、点击标记"已拍"。用本地存储即可，不需要后端。这类工具的价值不在技术难度，而在你能不能真的每天打开它——所以第一版千万不要加登录、加云同步，先把"打开就能写"这件事做到极致。</p>
+    </div>
+    <div class="tool-item">
+      <h4>脚本改写对照工具</h4>
+      <p>做一个左右分栏的页面：左边贴原始脚本，右边贴改写版，按段落对齐，高亮差异部分。你自己审稿时用得上，给客户提案时也直观。技术上只需文本分段对比，不必做复杂的 diff 算法，按句号切分逐段对比就够用。</p>
+    </div>
+  </div>
+
+  <div class="footer">AI 日报 · 每日自动生成 · 今日数据源异常，仅保留应急内容</div>
+</div>
+</body>
+</html>
