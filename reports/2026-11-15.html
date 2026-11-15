@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 2026-11-15</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.8;
+    padding: 32px 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.02);
+  }
+
+  /* 头部 */
+  .header {
+    background: #fafafa;
+    color: #1d1d1f;
+    padding: 48px 40px 36px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .header h1 {
+    font-size: 34px; font-weight: 700; letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #1d1d1f 0%, #555 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header .date {
+    font-size: 14px; color: #86868b; margin-top: 8px;
+    font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+  }
+
+  /* 内容区 */
+  .section {
+    padding: 40px;
+    border-bottom: 1px solid #f5f5f7;
+  }
+  .section:last-of-type { border-bottom: none; }
+
+  .section h2 {
+    font-size: 22px; font-weight: 700; margin-bottom: 24px;
+    color: #1d1d1f; letter-spacing: -0.3px;
+    display: flex; align-items: center; gap: 10px;
+  }
+
+  /* 深度分析 */
+  .deep-item { margin-bottom: 32px; }
+  .deep-item:last-child { margin-bottom: 0; }
+  .deep-item h3 {
+    font-size: 17px; font-weight: 600; color: #1d1d1f;
+    margin-bottom: 12px; letter-spacing: -0.2px;
+  }
+  .deep-item p {
+    margin-bottom: 12px; text-indent: 2em;
+    font-size: 15px; color: #424245; font-weight: 400;
+  }
+
+  /* 快讯列表 */
+  .quick-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .quick-list li {
+    padding: 14px 18px;
+    background: #fafafa; border-radius: 12px;
+    font-size: 14px; color: #424245;
+    transition: background 0.2s;
+  }
+
+  /* 工具卡片 */
+  .tool-item {
+    margin-bottom: 12px; padding: 20px 24px;
+    background: #fafafa; border-radius: 16px;
+    border: 1px solid #f0f0f0;
+  }
+  .tool-item:last-child { margin-bottom: 0; }
+  .tool-item h4 { font-size: 16px; font-weight: 600; margin-bottom: 6px; color: #1d1d1f; }
+  .tool-item p { font-size: 14px; color: #6e6e73; line-height: 1.7; }
+
+  /* === 内联着色类 === */
+  .c-name  {
+    color: #0071e3; font-weight: 600;
+    background: #f0f7ff; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-data  {
+    color: #e05a00; font-weight: 700;
+    background: #fff5ee; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-warn  {
+    color: #d12b2b; font-weight: 700;
+    background: #fff0f0; padding: 2px 10px; border-radius: 6px;
+  }
+  .c-good  {
+    color: #1b8a3d; font-weight: 600;
+    background: #edfaf1; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-tech  {
+    color: #894ecc; font-weight: 600;
+    background: #f6f0ff; padding: 2px 8px; border-radius: 6px;
+  }
+
+  /* 分隔线 */
+  hr.divider {
+    border: none; border-top: 1px solid #f0f0f0; margin: 28px 0;
+  }
+
+  /* 页脚 */
+  .footer {
+    text-align: center; padding: 28px;
+    font-size: 12px; color: #aeaeb2; font-weight: 500;
+    letter-spacing: 1px; background: #fafafa;
+  }
+
+  /* 数据异常提示块 */
+  .notice {
+    margin-top: 20px; padding: 20px 24px;
+    background: #fff8f0; border: 1px solid #ffe0c2;
+    border-radius: 14px; font-size: 14px; color: #7a4a12;
+    line-height: 1.8;
+  }
+  .notice strong { color: #d12b2b; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- 头部 -->
+  <div class="header">
+    <h1>🔥 AI 日报 2026-11-15</h1>
+    <div class="date">每日自动生成 · 数据来源 aihot.virxact.com</div>
+  </div>
+
+  <!-- 🔥 深度分析 -->
+  <div class="section">
+    <h2>📰 深度分析</h2>
+
+    <div class="deep-item">
+      <h3>1. 今日数据源异常：接口被拦截，日报「降级运行」</h3>
+      <p>今天这份日报要先说一件比任何新闻都重要的事：抓取接口返回了错误。原始数据显示为
+      <span class="c-warn">{"error":"blocked","code":567}</span>，请求 ID
+      <span class="c-name">8222217681577233966</span>，并附带了接口恢复说明链接
+      <span class="c-tech">aihot.virxact.com/agent?tab=api#agent-api-recovery</span>。
+      换句话说，今天不是「没有新闻」，而是<span class="c-warn">新闻没取到</span>——这两件事在业务上完全是两回事，
+      我们不能把接口故障翻译成「今天 AI 圈风平浪静」，那是自欺欺人。</p>
+      <p>从技术侧做个简单推演：<span class="c-data">567</span> 这类非标准 HTTP 状态码，通常是网关或反爬层自定义的拒绝码，
+      搭配 <span class="c-tech">blocked</span> 字眼和「agent-api-recovery」的恢复文档地址，指向的是
+      <span class="c-warn">调用方被识别为自动化 Agent 并遭到限流/封禁</span>，而不是服务端宕机。
+      这类拦截一般有几个成因：请求频率超阈值、UA / 请求头指纹被判定为脚本、缺少鉴权 token、
+      或是免费额度当日耗尽。对读者来说，这决定了一件事——<span class="c-good">它是可恢复的，不是数据消失</span>。</p>
+      <p>为什么一个编导要在意接口日志？因为你业余做 vibe coding 原型，今天这个场景就是最好的教材：
+      任何依赖第三方数据的产品，<span class="c-warn">最先死的地方永远是数据入口，不是界面</span>。
+      你给实体老板做的那些「一键生成选题」「自动扒评论热词」的小工具，只要上游一被拦，
+      用户看到的就是白屏，而且他分不清是你产品烂还是数据源挂了。所以今天这份日报本身，
+      就是一次活生生的<span class="c-good">产品容错设计课</span>：接口挂了，页面照样能读，还要把原因讲清楚。</p>
+      <p>落到操作层面，给三条不掺水的建议。第一，<span class="c-name">数据管道</span>要加
+      <span class="c-tech">本地缓存 + 上次成功快照</span>，取不到就用昨天/上一次的数据顶上，并明确标注「数据日期」，
+      而不是空着。第二，<span class="c-name">错误态设计</span>要当正稿做：区分「无数据」和「取数失败」，
+      给出重试按钮和恢复时间预估，这比多做一个花哨图表值钱得多。第三，
+      <span class="c-name">自建兜底源</span>——做 AI 资讯类工具时，至少接 2 个上游、做字段归一，
+      一个被 block 另一个顶，可用性直接抬一档。今天这份报告「新闻很少但分析很足」，
+      本身就是<span class="c-good">降级模式该有的样子</span>：核心价值不依赖单一数据源存活。</p>
+      <p>最后给一句判断：<span class="c-warn">今天的快讯与工具板块内容受限，请以「已知稳定工具 + 方法论」为主要参考，不要当作今日最新情报使用</span>。
+      明天接口恢复后，日报会自动回到正常的信息密度。<span class="c-good">把故障日过成方法论日，比硬凑十条假热点有价值</span>。</p>
+    </div>
+
+    <div class="deep-item">
+      <h3>2. 给实体老板做内容，今天这堂课叫「数据不可靠时怎么交付」</h3>
+      <p>借今天的数据故障，聊一个对编导极其现实的话题：你手里给老板看的播放量、完播率、涨粉曲线，
+      有多少是「接口一挂就归零」的？很多编导的工作流是——打开平台后台、抄数字、写周报。
+      这套流程的脆弱性和今天这个 <span class="c-data">567</span> 完全同构：
+      <span class="c-warn">单点依赖 + 无缓存 + 无异常标注</span>，上游一变你就交不出东西。</p>
+      <p>更麻烦的是它在客户面前会变成信任问题。实体老板不像互联网团队，他分不清「平台改了规则」和「你偷懒没干活」，
+      一旦你说「今天数据拉不出来」，他心里第一反应是<span class="c-warn">你在找借口</span>。
+      所以正确做法不是解释技术，而是<span class="c-good">换交付物</span>：数据拿不到的那天，
+      交「内容资产盘点」——已发布选题清单、下阶段脚本排期、上条视频的评论区原话摘录，
+      这些不依赖任何接口，随手可做，且老板看了觉得你在推进。</p>
+      <p>推演到产品侧，这也是你做 vibe coding 原型时最该抄的思路：
+      <span class="c-name">老板端的产品</span>一定要有「无数据也能看」的视图。
+      比如你做的选题工具，接口挂了就展示「历史高分选题库」；数据面板挂了就展示「本周已发内容清单 + 人工备注」。
+      用户对<span class="c-good">「部分可用」的容忍度，远高于「整体白屏」</span>。
+      这是纯产品判断，不需要任何技术背景，恰恰是编导出身的你相对技术开发者更容易想到的一层。</p>
+      <p>再往深一层：今天这次拦截也提醒我们，<span class="c-name">AI 工具链正在普遍收紧对自动化调用的口子</span>。
+      过去两年大量小产品靠「免费薅接口」搭起来，现在这条路在变窄。对业余做原型的你，
+      这意味着一开始就要想清楚<span class="c-warn">成本与合规边界</span>：
+      能用官方 SDK 就别裸爬，能申请 key 就别伪造请求头，<span class="c-good">早期花十分钟接正规通道，能省掉后面一堆返工</span>。
+      你给实体老板做工具时也一样——告诉他能做什么、不能做什么，比承诺「什么都能自动抓」更能留住人。</p>
+      <p>结论收一下：今天没有热点，但有一个非常具体的教训——
+      <span class="c-warn">把「数据一定会挂」当成默认前提去设计流程和产品</span>，你的内容交付和小工具都会稳一个等级。
+      这不是技术活，是职业素养。等明天数据源恢复，这份日报会继续给你带回真实的热点与工具清单。</p>
+    </div>
+  </div>
+
+  <!-- 📋 快讯 -->
+  <div class="section">
+    <h2>📋 快讯速览</h2>
+    <ul class="quick-list">
+      <li><span class="c-name">aihot 数据源</span>：今日接口返回 <span class="c-warn">blocked（code 567）</span>，请求 ID <span class="c-data">8222217681577233966</span>，未取到任何新闻条目——今日快讯暂缺，不作编造。</li>
+      <li><span class="c-name">恢复指引</span>：官方在 <span class="c-tech">agent-api-recovery</span> 页面提供恢复说明，通常与调用频率、鉴权或指纹识别相关，建议按文档核对后再重试。</li>
+      <li><span class="c-name">日报机制</span>：本次以「<span class="c-good">降级模式</span>」输出，保留方法论板块，<span class="c-warn">今日请勿将本页当作最新行业情报使用</span>。</li>
+    </ul>
+    <div class="notice">
+      <strong>数据状态说明：</strong>本次抓取失败并非「今日无新闻」，而是上游接口拒绝了自动化访问。
+      为避免误导，本期不填充任何未经核实的「热点」内容；恢复后日报将回到常规信息密度。
+    </div>
+  </div>
+
+  <!-- 🎬 编导可用的 -->
+  <div class="section">
+    <h2>🎬 编导可用的</h2>
+    <div class="tool-item">
+      <h4>「无接口交付包」模板</h4>
+      <p>准备一份不依赖任何平台后台的固定交付物：已发选题清单、下月脚本排期、上条视频评论区原话摘录（手抄 10 条就够）。
+      数据拉不出来的日子直接发这个，老板看到的是进度，不是借口。这是今天最实用的一条。</p>
+    </div>
+    <div class="tool-item">
+      <h4>错误态话术库</h4>
+      <p>提前写好三句话：数据延迟怎么解释、平台改版怎么解释、下次什么时候给。别临场编，
+      临场编的版本大概率听起来像推责。<span class="c-good">把「不确定性」翻译成「确定的下一步」</span>，是编导向上的关键一课。</p>
+    </div>
+    <div class="tool-item">
+      <h4>选题双源法</h4>
+      <p>选题别只从一个平台扒。至少两个来源交叉：平台热榜 + 线下门店真实问答（老板和店员每天被问什么，就是最好的选题库）。
+      第二源永远不挂，还自带<span class="c-good">同行抄不走的在地感</span>。</p>
+    </div>
+    <div class="tool-item">
+      <h4>本地素材归档习惯</h4>
+      <p>爆款视频、评论区截图、客户原话，统一存本地并按行业/痛点打标签。
+      上游平台随时改规则、下架内容，<span class="c-warn">你唯一的资产是归档下来的原始素材</span>，不是平台上的链接。</p>
+    </div>
+  </div>
+
+  <!-- 🛠️ Vibe Coding 可玩的 -->
+  <div class="section">
+    <h2>🛠️ Vibe Coding 可玩的</h2>
+    <div class="tool-item">
+      <h4>给原型加一层「缓存 + 快照」</h4>
+      <p>最简单的实现：每次成功取数就写一份本地 JSON，失败时读上一次的并显示「数据日期：XX」。
+      今天这个 567 就是最好的测试用例，做完你的原型立刻从「玩具」变「能用」。</p>
+    </div>
+    <div class="tool-item">
+      <h4>错误态页面当正稿做</h4>
+      <p>别让接口挂了就是白屏。做三件套：一句人话解释（不是报错码）、一个重试按钮、一个「先用缓存数据」的入口。
+      这三样加起来不到半小时，但对实体老板用户的体验提升是断崖式的。</p>
+    </div>
+    <div class="tool-item">
+      <h4>双上游 + 字段归一</h4>
+      <p>接两个数据源，用同一套字段结构兜住，一个失败自动切换。
+      <span class="c-tech">fallback</span> 逻辑本身十几行代码，但它是你原型敢给客户试用的底气所在。</p>
+    </div>
+    <div class="tool-item">
+      <h4>走正规通道，别伪造请求头</h4>
+      <p>优先用官方 SDK 或申请 API key，尊重限频。<span class="c-warn">靠伪造指纹薅接口的产品活不长</span>，
+      而且一旦被封，早期所有用户数据都白搭。<span class="c-good">合规接入是最便宜的技术债规避</span>。</p>
+    </div>
+  </div>
+
+  <div class="footer">AI 日报 · 每日自动生成</div>
+</div>
+</body>
+</html>
