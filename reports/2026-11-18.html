@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 2026-11-18</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.8;
+    padding: 32px 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.02);
+  }
+
+  /* 头部 */
+  .header {
+    background: #fafafa;
+    color: #1d1d1f;
+    padding: 48px 40px 36px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .header h1 {
+    font-size: 34px; font-weight: 700; letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #1d1d1f 0%, #555 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header .date {
+    font-size: 14px; color: #86868b; margin-top: 8px;
+    font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+  }
+
+  /* 内容区 */
+  .section {
+    padding: 40px;
+    border-bottom: 1px solid #f5f5f7;
+  }
+  .section:last-of-type { border-bottom: none; }
+
+  .section h2 {
+    font-size: 22px; font-weight: 700; margin-bottom: 24px;
+    color: #1d1d1f; letter-spacing: -0.3px;
+    display: flex; align-items: center; gap: 10px;
+  }
+
+  /* 深度分析 */
+  .deep-item { margin-bottom: 32px; }
+  .deep-item:last-child { margin-bottom: 0; }
+  .deep-item h3 {
+    font-size: 17px; font-weight: 600; color: #1d1d1f;
+    margin-bottom: 12px; letter-spacing: -0.2px;
+  }
+  .deep-item p {
+    margin-bottom: 12px; text-indent: 2em;
+    font-size: 15px; color: #424245; font-weight: 400;
+  }
+
+  /* 快讯列表 */
+  .quick-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .quick-list li {
+    padding: 14px 18px;
+    background: #fafafa; border-radius: 12px;
+    font-size: 14px; color: #424245;
+    transition: background 0.2s;
+  }
+
+  /* 工具卡片 */
+  .tool-item {
+    margin-bottom: 12px; padding: 20px 24px;
+    background: #fafafa; border-radius: 16px;
+    border: 1px solid #f0f0f0;
+  }
+  .tool-item:last-child { margin-bottom: 0; }
+  .tool-item h4 { font-size: 16px; font-weight: 600; margin-bottom: 6px; color: #1d1d1f; }
+  .tool-item p { font-size: 14px; color: #6e6e73; line-height: 1.7; }
+
+  /* 提示卡 */
+  .notice {
+    padding: 28px 24px;
+    background: #fff8f0;
+    border: 1px solid #ffe4c7;
+    border-radius: 16px;
+    text-align: center;
+  }
+  .notice .big {
+    font-size: 17px; font-weight: 700; color: #b25000;
+    margin-bottom: 10px; letter-spacing: -0.2px;
+  }
+  .notice p {
+    font-size: 14px; color: #7a5a3a; margin-bottom: 10px;
+  }
+  .notice p:last-child { margin-bottom: 0; }
+
+  /* === 内联着色类 === */
+  .c-name  {
+    color: #0071e3; font-weight: 600;
+    background: #f0f7ff; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-data  {
+    color: #e05a00; font-weight: 700;
+    background: #fff5ee; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-warn  {
+    color: #d12b2b; font-weight: 700;
+    background: #fff0f0; padding: 2px 10px; border-radius: 6px;
+  }
+  .c-good  {
+    color: #1b8a3d; font-weight: 600;
+    background: #edfaf1; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-tech  {
+    color: #894ecc; font-weight: 600;
+    background: #f6f0ff; padding: 2px 8px; border-radius: 6px;
+  }
+
+  /* 分隔线 */
+  hr.divider {
+    border: none; border-top: 1px solid #f0f0f0; margin: 28px 0;
+  }
+
+  /* 页脚 */
+  .footer {
+    text-align: center; padding: 28px;
+    font-size: 12px; color: #aeaeb2; font-weight: 500;
+    letter-spacing: 1px; background: #fafafa;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- 头部 -->
+  <div class="header">
+    <h1>🔥 AI 日报 2026-11-18</h1>
+    <div class="date">每日自动生成 · 数据来源 aihot.virxact.com</div>
+  </div>
+
+  <!-- 🔥 深度分析 -->
+  <div class="section">
+    <h2>📰 深度分析</h2>
+    <div class="notice">
+      <div class="big">今日数据源拉取失败，深度分析暂缺</div>
+      <p>抓取接口返回：<span class="c-warn">错误码 567 (blocked)</span>，Request ID：<span class="c-data">11325976341433239782</span></p>
+      <p>按「不编造、不硬凑」原则，今天不输出未经核实的深度推演。修复后次日补齐。</p>
+      <p>排查入口：<span class="c-tech">aihot.virxact.com/agent?tab=api#agent-api-recovery</span></p>
+    </div>
+  </div>
+
+  <!-- 📋 快讯 -->
+  <div class="section">
+    <h2>📋 快讯速览</h2>
+    <ul class="quick-list">
+      <li>今日<span class="c-warn">无有效快讯</span>——原始数据源返回空/拦截，未抓取到任何可信条目，不做二次转述。</li>
+      <li>建议次日重点补看：<span class="c-name">OpenAI / Google / 字节 / 快手 / 阿里</span> 各家模型与视频工具的更新节奏。</li>
+    </ul>
+  </div>
+
+  <!-- 🎬 编导可用的 -->
+  <div class="section">
+    <h2>🎬 编导可用的</h2>
+    <div class="tool-item">
+      <h4>今天没有新工具，但有三件「不依赖新闻」的活可以干</h4>
+      <p>与其等新工具，不如把手上 3 条跑不动的脚本重新做一次「钩子测试」：同一产品，换 3 种开头（痛点型 / 结果前置型 / 反差型），每条只拍 15 秒口播，跑 <span class="c-data">48 小时</span>看<span class="c-data">前 3 秒完播率</span>。这个动作不需要任何新模型辅助，却能直接筛出能用的脚本骨架。</p>
+    </div>
+    <div class="tool-item">
+      <h4>给实体老板做内容，先把「素材库」盘一遍</h4>
+      <p>门店最值钱的不是文案，是真实素材：<span class="c-name">出货画面、客户反馈、老板亲自上手的镜头</span>。今天没新闻，正好花 1 小时让老板把手机相册里最近 <span class="c-data">30 天</span>的实拍素材全部倒出来，按「人 / 货 / 场」三类归档。下周无论什么工具更新，你的脚本都不会缺镜头。</p>
+    </div>
+    <div class="tool-item">
+      <h4>数据复盘表：用一张表代替玄学</h4>
+      <p>建一个最简单的表格，每条视频记录 <span class="c-data">5 个字段</span>：开头类型、时长、发布时间、前 3 秒完播、私信/到店转化。攒够 <span class="c-data">20 条</span>后规律自然浮现——这比追任何一条 AI 新闻都更能提升你的判断力。</p>
+    </div>
+  </div>
+
+  <!-- 🛠️ Vibe Coding 可玩的 -->
+  <div class="section">
+    <h2>🛠️ Vibe Coding 可玩的</h2>
+    <div class="tool-item">
+      <h4>练手项目：做一个「脚本钩子 A/B 记录器」</h4>
+      <p>一个纯前端小工具（本地存储即可，不用后端）：输入产品名 → 生成 3 个钩子版本 → 手动填回完播数据 → 自动按完播率排序。用 <span class="c-tech">React / Vue + localStorage</span> 半天能跑起来，正好是 vibe coding 的黄金难度：有真实用途、有数据结构、无外部依赖。</p>
+    </div>
+    <div class="tool-item">
+      <h4>练手项目：门店素材归档清单</h4>
+      <p>做一个勾选式清单页：人 / 货 / 场 三大类，每类若干子项，勾完显示「本周素材完整度 <span class="c-data">%</span>」。核心是练「状态管理 + 进度计算」，顺便产出一个能真的发给老板用的小工具。</p>
+    </div>
+    <div class="tool-item">
+      <h4>提醒：今天别碰需要联网 API 的练手项目</h4>
+      <p>数据源今天出问题，<span class="c-warn">不建议今天启动强依赖第三方接口的原型</span>，容易把时间花在排查别人的服务上而不是自己的产品上。纯本地、纯前端的项目今天优先级最高。</p>
+    </div>
+  </div>
+
+  <div class="footer">AI 日报 · 每日自动生成</div>
+</div>
+</body>
+</html>
