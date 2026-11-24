@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 2026-11-24</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.8;
+    padding: 32px 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.02);
+  }
+
+  /* 头部 */
+  .header {
+    background: #fafafa;
+    color: #1d1d1f;
+    padding: 48px 40px 36px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .header h1 {
+    font-size: 34px; font-weight: 700; letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #1d1d1f 0%, #555 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header .date {
+    font-size: 14px; color: #86868b; margin-top: 8px;
+    font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+  }
+
+  /* 内容区 */
+  .section {
+    padding: 40px;
+    border-bottom: 1px solid #f5f5f7;
+  }
+  .section:last-of-type { border-bottom: none; }
+
+  .section h2 {
+    font-size: 22px; font-weight: 700; margin-bottom: 24px;
+    color: #1d1d1f; letter-spacing: -0.3px;
+    display: flex; align-items: center; gap: 10px;
+  }
+
+  /* 深度分析 */
+  .deep-item { margin-bottom: 32px; }
+  .deep-item:last-child { margin-bottom: 0; }
+  .deep-item h3 {
+    font-size: 17px; font-weight: 600; color: #1d1d1f;
+    margin-bottom: 12px; letter-spacing: -0.2px;
+  }
+  .deep-item p {
+    margin-bottom: 12px; text-indent: 2em;
+    font-size: 15px; color: #424245; font-weight: 400;
+  }
+
+  /* 快讯列表 */
+  .quick-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .quick-list li {
+    padding: 14px 18px;
+    background: #fafafa; border-radius: 12px;
+    font-size: 14px; color: #424245;
+    transition: background 0.2s;
+  }
+
+  /* 工具卡片 */
+  .tool-item {
+    margin-bottom: 12px; padding: 20px 24px;
+    background: #fafafa; border-radius: 16px;
+    border: 1px solid #f0f0f0;
+  }
+  .tool-item:last-child { margin-bottom: 0; }
+  .tool-item h4 { font-size: 16px; font-weight: 600; margin-bottom: 6px; color: #1d1d1f; }
+  .tool-item p { font-size: 14px; color: #6e6e73; line-height: 1.7; }
+
+  /* === 内联着色类 === */
+  .c-name  {
+    color: #0071e3; font-weight: 600;
+    background: #f0f7ff; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-data  {
+    color: #e05a00; font-weight: 700;
+    background: #fff5ee; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-warn  {
+    color: #d12b2b; font-weight: 700;
+    background: #fff0f0; padding: 2px 10px; border-radius: 6px;
+  }
+  .c-good  {
+    color: #1b8a3d; font-weight: 600;
+    background: #edfaf1; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-tech  {
+    color: #894ecc; font-weight: 600;
+    background: #f6f0ff; padding: 2px 8px; border-radius: 6px;
+  }
+
+  /* 分隔线 */
+  hr.divider {
+    border: none; border-top: 1px solid #f0f0f0; margin: 28px 0;
+  }
+
+  /* 页脚 */
+  .footer {
+    text-align: center; padding: 28px;
+    font-size: 12px; color: #aeaeb2; font-weight: 500;
+    letter-spacing: 1px; background: #fafafa;
+  }
+
+  /* 异常提示 */
+  .notice {
+    background: #fff7ed;
+    border: 1px solid #ffd8a8;
+    border-radius: 16px;
+    padding: 22px 24px;
+    font-size: 14px;
+    color: #8a4b00;
+    line-height: 1.75;
+  }
+  .notice strong { color: #d9480f; }
+  .notice code {
+    font-family: "SF Mono", Menlo, monospace;
+    background: #fff1e2; padding: 1px 6px; border-radius: 5px;
+    font-size: 13px; color: #c2410c;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- 头部 -->
+  <div class="header">
+    <h1>🔥 AI 日报 2026-11-24</h1>
+    <div class="date">每日自动生成 · 数据来源 aihot.virxact.com</div>
+  </div>
+
+  <!-- ⚠️ 数据获取异常说明 -->
+  <div class="section">
+    <h2>⚠️ 今日数据源异常</h2>
+    <div class="notice">
+      今天这期日报没能抓取到新闻数据。数据源返回了拦截错误：<br><br>
+      <code>{"error":"blocked","code":567,"requestId":"17751786140454321041"}</code><br><br>
+      <span class="c-warn">说明：这是数据源端的访问拦截，不是你的账号问题，也不是网络问题。</span>
+      <strong>按规矩，不编造、不臆测、不用旧闻充数</strong>，所以今天的深度分析和快讯板块已留空。下面的两个实用板块，是长期有效、不依赖当日热点的方法论内容，照常保留给你。
+    </div>
+  </div>
+
+  <!-- 🔥 深度分析 -->
+  <div class="section">
+    <h2>📰 深度分析</h2>
+    <div class="deep-item">
+      <h3>今日无深度分析</h3>
+      <p>数据源受限，无法核实任何一条热点的真实性。与其给你三条半真半假、需要你自己再去验证的信息，不如留白——<span class="c-warn">编导工作里最贵的就是"信错一条消息"</span>，尤其是当你要拿它去说服实体老板改脚本的时候。</p>
+      <p>如果你今天确实需要素材，建议直接去几个一手渠道自己刷一遍：模型厂商的官方发布页、产品更新日志（Changelog）、以及你自己行业里的从业者群。<span class="c-good">人工扫一遍 20 分钟，往往比看二手聚合更准</span>。</p>
+    </div>
+  </div>
+
+  <!-- 📋 快讯 -->
+  <div class="section">
+    <h2>📋 快讯速览</h2>
+    <ul class="quick-list">
+      <li><span class="c-warn">今日快讯不可用</span>：数据源返回 <span class="c-data">code 567</span> 拦截，无有效条目。明日恢复后正常输出。</li>
+    </ul>
+  </div>
+
+  <!-- 🎬 编导可用的 -->
+  <div class="section">
+    <h2>🎬 编导可用的</h2>
+    <div class="tool-item">
+      <h4>用 AI 做"脚本版本对照表"，而不是重写</h4>
+      <p>给实体老板做短视频，最容易扯皮的不是创意，是"改了三版到底改了什么"。做法很简单：把原脚本和两版改稿丢给任意一个主力大模型，让它输出一张三列对照表——<span class="c-tech">原句 / 改句 / 改动理由</span>。你会发现老板一眼就能指出他真正在意的点，沟通成本直接砍一半。<span class="c-good">这比让 AI 直接出稿有用得多</span>。</p>
+    </div>
+    <div class="tool-item">
+      <h4>数据判断：先看"完播"再看"点赞"</h4>
+      <p>实体行业的短视频，点赞率往往是虚的（亲友团、本地群互赞）。真正判断内容好坏的顺序应该是：<span class="c-data">3 秒留存 → 完播率 → 评论内容质量</span>。让 AI 帮你把后台导出的评论做一轮归类（问价 / 问地址 / 纯捧场 / 抬杠），<span class="c-name">问价和问地址的占比</span>才是这条视频的商业价值。<span class="c-warn">把这条当铁律，别被点赞数骗</span>。</p>
+    </div>
+    <div class="tool-item">
+      <h4>文案：把"卖点"翻译成"场景句"</h4>
+      <p>实体老板说卖点永远是名词（"我们家食材新鲜"），但观众只对动词和场景有反应。用 AI 批量做翻译：给一句话卖点，让它输出 10 条"具体到某个时刻"的场景句。<span class="c-good">挑最像你目标客户日常的那条</span>，视频开头就用它。这是最省力的提效动作，且不依赖任何新工具。</p>
+    </div>
+  </div>
+
+  <!-- 🛠️ Vibe Coding 可玩的 -->
+  <div class="section">
+    <h2>🛠️ Vibe Coding 可玩的</h2>
+    <div class="tool-item">
+      <h4>给自己做一个"脚本查重小工具"</h4>
+      <p>你手上有几十上百条历史脚本，很容易越写越像，客户也会说"这条跟上次一样"。让 AI 给你写个单页小应用：粘贴新脚本 → 本地存储里对比历史 → 输出<span class="c-tech">相似度百分比</span> + 最像的那条的原文。<span class="c-data">纯前端、localStorage 存数据、不接后端</span>，一个下午能跑通，日常用起来比任何 SaaS 都顺手。</p>
+    </div>
+    <div class="tool-item">
+      <h4>做一个"需求澄清机器人"</h4>
+      <p>你接新客户时最耗时的环节是问清他的真实需求。用 vibe coding 方式搭个简单表单页：老板填行业 / 目标客群 / 主打产品，页面调用模型自动生成 <span class="c-data">8 个追问</span>，他答完你就有了一份准需求简报。<span class="c-good">好处是不用你重复问同样的问题</span>，而且追问质量会随着你调整提示词越来越准。</p>
+    </div>
+    <div class="tool-item">
+      <h4>提醒：原型阶段别碰用户系统和支付</h4>
+      <p>vibe coding 做原型很开心，但一旦涉及登录、支付、真实用户数据，<span class="c-warn">风险会立刻从"不好用"跳到"出事故"</span>。现阶段保持"单机 / 本地存储 / 无账号"的形态，验证完想法再谈工程化，这是最划算的路径。</p>
+    </div>
+  </div>
+
+  <div class="footer">AI 日报 · 每日自动生成</div>
+</div>
+</body>
+</html>
