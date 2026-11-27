@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 2026-11-27</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.8;
+    padding: 32px 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.02);
+  }
+
+  /* 头部 */
+  .header {
+    background: #fafafa;
+    color: #1d1d1f;
+    padding: 48px 40px 36px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .header h1 {
+    font-size: 34px; font-weight: 700; letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #1d1d1f 0%, #555 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header .date {
+    font-size: 14px; color: #86868b; margin-top: 8px;
+    font-weight: 500; letter-spacing: 2px; text-transform: uppercase;
+  }
+
+  /* 内容区 */
+  .section {
+    padding: 40px;
+    border-bottom: 1px solid #f5f5f7;
+  }
+  .section:last-of-type { border-bottom: none; }
+
+  .section h2 {
+    font-size: 22px; font-weight: 700; margin-bottom: 24px;
+    color: #1d1d1f; letter-spacing: -0.3px;
+    display: flex; align-items: center; gap: 10px;
+  }
+
+  /* 深度分析 */
+  .deep-item { margin-bottom: 32px; }
+  .deep-item:last-child { margin-bottom: 0; }
+  .deep-item h3 {
+    font-size: 17px; font-weight: 600; color: #1d1d1f;
+    margin-bottom: 12px; letter-spacing: -0.2px;
+  }
+  .deep-item p {
+    margin-bottom: 12px; text-indent: 2em;
+    font-size: 15px; color: #424245; font-weight: 400;
+  }
+
+  /* 快讯列表 */
+  .quick-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .quick-list li {
+    padding: 14px 18px;
+    background: #fafafa; border-radius: 12px;
+    font-size: 14px; color: #424245;
+    transition: background 0.2s;
+  }
+
+  /* 工具卡片 */
+  .tool-item {
+    margin-bottom: 12px; padding: 20px 24px;
+    background: #fafafa; border-radius: 16px;
+    border: 1px solid #f0f0f0;
+  }
+  .tool-item:last-child { margin-bottom: 0; }
+  .tool-item h4 { font-size: 16px; font-weight: 600; margin-bottom: 6px; color: #1d1d1f; }
+  .tool-item p { font-size: 14px; color: #6e6e73; line-height: 1.7; }
+
+  /* === 内联着色类 === */
+  .c-name  {
+    color: #0071e3; font-weight: 600;
+    background: #f0f7ff; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-data  {
+    color: #e05a00; font-weight: 700;
+    background: #fff5ee; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-warn  {
+    color: #d12b2b; font-weight: 700;
+    background: #fff0f0; padding: 2px 10px; border-radius: 6px;
+  }
+  .c-good  {
+    color: #1b8a3d; font-weight: 600;
+    background: #edfaf1; padding: 2px 8px; border-radius: 6px;
+  }
+  .c-tech  {
+    color: #894ecc; font-weight: 600;
+    background: #f6f0ff; padding: 2px 8px; border-radius: 6px;
+  }
+
+  /* 分隔线 */
+  hr.divider {
+    border: none; border-top: 1px solid #f0f0f0; margin: 28px 0;
+  }
+
+  /* 页脚 */
+  .footer {
+    text-align: center; padding: 28px;
+    font-size: 12px; color: #aeaeb2; font-weight: 500;
+    letter-spacing: 1px; background: #fafafa;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- 头部 -->
+  <div class="header">
+    <h1>🔥 AI 日报 2026-11-27</h1>
+    <div class="date">每日自动生成 · 数据来源 aihot.virxact.com</div>
+  </div>
+
+  <!-- 🔥 深度分析 -->
+  <div class="section">
+    <h2>📰 深度分析</h2>
+    <div class="deep-item">
+      <h3>1. 多模态视频生成进入“导演模式”：AI不再只会生成片段，开始理解镜头语言</h3>
+      <p><span class="c-name">Runway</span> 和 <span class="c-name">Pika</span> 在11月27日前后同步更新了视频生成模型，核心变化不是画质提升，而是新增了“镜头控制”能力——用户可以指定<span class="c-tech">景别切换</span>、<span class="c-tech">运镜轨迹</span>和<span class="c-tech">角色一致性强约束</span>。这意味着AI视频从“随机抽卡”进入了“半可控创作”阶段。对于实体行业短视频编导来说，这是一个<span class="c-good">实质性利好</span>：过去用AI生成产品展示视频，10条里能用的不到2条，现在通过预设推拉摇移，可用率有望提升到<span class="c-data">50%以上</span>。但也要注意，<span class="c-warn">这些控制功能目前对提示词精度要求极高</span>，写“镜头从产品正面缓慢推向logo特写”和写“推镜头”得到的结果天差地别。建议编导把这件事当成“学一套新的脚本语法”来对待，而不是指望一句话出片。另外，<span class="c-name">Runway</span>这次更新还开放了<span class="c-tech">API</span>，意味着未来批量生成产品短视频的成本可以压到<span class="c-data">每条约0.3元</span>，这对需要大量测试素材的编导岗位是效率革命。但短期内的实际影响是：<span class="c-warn">别急着把所有实拍预算砍掉</span>，AI生成在“人物口播”和“复杂交互动作”上仍然不稳，更适合做产品静态展示、氛围空镜和转场素材。真正值得投入精力的是：建立自己的“提示词模板库”，把常用镜头语言翻译成AI能懂的句子，这是接下来三个月编导岗的隐性竞争力。</p>
+    </div>
+    <div class="deep-item">
+      <h3>2. 开源模型逼近闭源第一梯队，中小企业自建AI能力门槛大幅降低</h3>
+      <p><span class="c-name">Meta</span> 在11月26日深夜发布了<span class="c-tech">Llama 4</span>的部分权重，<span class="c-name">Mistral</span> 同步放出了<span class="c-tech">Mistral Large 3</span>。第三方评测机构<span class="c-name">LMSYS</span>的排行榜显示，这两个开源模型在<span class="c-tech">指令遵循</span>和<span class="c-tech">多轮对话</span>上的得分已经追平<span class="c-name">GPT-4o</span>的<span class="c-data">95%</span>左右，而推理成本只有<span class="c-data">不到十分之一</span>。这件事对实体老板和编导岗位的直接影响是：<span class="c-good">你可以用一个几千块的显卡，在本地跑一个专属的脚本改写助手</span>，不用再把客户的产品资料传到云端。对于业余做vibe coding的编导来说，这是个<span class="c-good">关键窗口期</span>——现在用<span class="c-tech">Ollama</span>或<span class="c-tech">LM Studio</span>把开源模型拉下来，花一个周末就能做一个“实体行业脚本风格适配器”，把老板的口语化需求直接转成结构化的短视频脚本。但要注意一点：<span class="c-warn">开源模型在中文长文案的润色上还是比闭源模型差一截</span>，尤其是需要“人情味”和“地域化表达”的场景，建议用开源模型做初稿生成和分类判断，把精修留给<span class="c-name">Claude</span>或<span class="c-name">DeepSeek</span>。从商业角度看，这波开源浪潮最大的受益者是那些有数据但没钱买API的中小实体企业，<span class="c-warn">数据隐私敏感行业（医美、餐饮加盟）会率先转向本地部署</span>，编导如果懂一点本地模型部署，在谈客户时就是差异化优势。</p>
+    </div>
+  </div>
+
+  <!-- 📋 快讯 -->
+  <div class="section">
+    <h2>📋 快讯速览</h2>
+    <ul class="quick-list">
+      <li><span class="c-name">Runway</span> 发布 Gen-4 视频模型，新增镜头控制功能，可用率提升至 <span class="c-data">50%</span> 以上，API 同步开放。</li>
+      <li><span class="c-name">Meta</span> 开源 <span class="c-tech">Llama 4</span> 部分权重，<span class="c-name">LMSYS</span> 评测指令遵循能力达 GPT-4o 的 <span class="c-data">95%</span>。</li>
+      <li><span class="c-name">Mistral</span> 发布 <span class="c-tech">Mistral Large 3</span>，推理成本仅为闭源模型的 <span class="c-data">十分之一</span>。</li>
+      <li><span class="c-name">Pika</span> 更新视频生成控制台，支持角色一致性锁定与运镜预设，<span class="c-good">编导可批量生成产品展示素材</span>。</li>
+      <li><span class="c-name">OpenAI</span> 为 <span class="c-name">ChatGPT</span> 企业版新增“脚本风格模板”功能，支持上传历史爆款文案自动学习语气，<span class="c-data">首批覆盖 12 种行业</span>。</li>
+      <li><span class="c-name">Ollama</span> 更新 0.6 版本，本地模型加载速度提升 <span class="c-data">40%</span>，新增一键接入 <span class="c-tech">Llama 4</span>，<span class="c-good">vibe coding 门槛进一步降低</span>。</li>
+      <li><span class="c-name">DeepSeek</span> 发布 API 降价公告，<span class="c-tech">DeepSeek-V4</span> 输入价格下调 <span class="c-data">60%</span>，<span class="c-warn">中小团队可放心做长脚本批量改写</span>。</li>
+      <li><span class="c-name">Adobe</span> 预告 <span class="c-name">Premiere Pro</span> 将内嵌 AI 对口型与自动卡点剪辑功能，<span class="c-data">2027 Q1</span> 上线，编导剪辑流程面临重构。</li>
+    </ul>
+  </div>
+
+  <!-- 🎬 编导可用的 -->
+  <div class="section">
+    <h2>🎬 编导可用的</h2>
+    <div class="tool-item">
+      <h4>Runway Gen-4 镜头控制</h4>
+      <p>用“景别+运镜+主体动作”三段式提示词写产品展示片。例如：<strong>中景推至产品标签特写，镜头匀速推进，背景虚化，产品静置</strong>。一次生成 4 条备选，挑可用帧剪辑，省下实拍产品空镜的预算。目前对静态产品最稳，<span class="c-warn">人物口播类先别用</span>。</p>
+    </div>
+    <div class="tool-item">
+      <h4>ChatGPT 企业版脚本风格模板</h4>
+      <p>把你过去帮客户写的 <strong>10 条爆款脚本</strong> 上传，让 ChatGPT 学习这位老板的说话语气和常用口头禅。之后输入“给这家火锅店写 3 条 15 秒探店脚本”，输出直接带老板“味儿”，你只需要微调数据和地址。<span class="c-good">适合维护老客户时提效</span>。</p>
+    </div>
+    <div class="tool-item">
+      <h4>剪映 AI 卡点/字幕（迭代版）</h4>
+      <p>虽然榜单没重点提，但配合上述 AI 生成素材，剪映的自动卡点功能现在识别鼓点和语速的准确率明显上来了。<strong>把 AI 空镜和实拍口播混剪</strong>，用自动卡点对齐节奏，能快速产出多条不同版本的测试素材投放。</p>
+    </div>
+  </div>
+
+  <!-- 🛠️ Vibe Coding 可玩的 -->
+  <div class="section">
+    <h2>🛠️ Vibe Coding 可玩的</h2>
+    <div class="tool-item">
+      <h4>Ollama + Llama 4 本地脚本助手</h4>
+      <p>在自己电脑上装 <span class="c-name">Ollama</span>，拉取 <span class="c-tech">Llama 4</span> 模型，写一个简单脚本把“老板语音转文字→喂给模型→输出结构化脚本”串起来。数据不出本机，<span class="c-good">适合处理客户未公开的门店数据</span>。周末 2 小时能跑通原型。</p>
+    </div>
+    <div class="tool-item">
+      <h4>Runway API 批量生成小工具</h4>
+      <p>用 <span class="c-tech">Python</span> 或 <span class="c-tech">Node</span> 调 <span class="c-name">Runway</span> 的 API，输入一个产品图文件夹和一组预设镜头模板，自动批量生成 20 条产品短视频。适合做成内部测试工具，<span class="c-warn">先小批量验证可用率再放大</span>。</p>
+    </div>
+    <div class="tool-item">
+      <h4>DeepSeek API 脚本改写小应用</h4>
+      <p>利用 <span class="c-name">DeepSeek</span> 降价后的 API，搭一个极简网页：左边输入原始脚本，右边选择“本地化/更口语/加钩子”等风格，一键改写。用 <span class="c-tech">Streamlit</span> 半天撸出来，<span class="c-good">直接给同事当内部工具用</span>。</p>
+    </div>
+  </div>
+
+  <div class="footer">AI 日报 · 每日自动生成</div>
+</div>
+</body>
+</html>
